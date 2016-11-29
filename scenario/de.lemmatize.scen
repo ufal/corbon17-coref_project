@@ -1,0 +1,5 @@
+Util::SetGlobal language=de
+W2A::DE::Tokenize
+W2A::DE::LemmatizeMate
+# UDPipe for DE does not produce lemmas
+#W2A::UDPipe parse=0 model_alias=de
