@@ -17,7 +17,7 @@ ALITRAIN_IN_DIR=$(ALITRAIN_DIR)/00.in
 ALITRAIN_SPLIT_DIR=$(ALITRAIN_DIR)/01.split
 ALITRAIN_FOR_GIZA_DIR=$(ALITRAIN_DIR)/02.for_giza
 ALITRAIN_IN_DATA_en_ru:=$(addprefix data/align_train/en_ru/00.in/,MultiUN.en-ru.txt.gz OpenSubtitles2016.en-ru.txt.gz TED2013.en-ru.txt.gz Wikipedia.en-ru.txt.gz)
-ALITRAIN_IN_DATA_en_de:=$(addprefix data/align_train/en_de/00.in/,DGT.de-en.txt.gz EUbookshop.de-en.txt.gz Europarl.de-en.txt.gz MultiUN.de-en.txt.gz News-Commentary11.de-en.txt.gz OpenSubtitles2016.de-en.txt.gz Wikipedia.de-en.txt.gz)
+ALITRAIN_IN_DATA_en_de:=$(addprefix data/align_train/en_de/00.in/,DGT.de-en.txt.gz EUbookshop.de-en.txt.gz Europarl.de-en.txt.gz MultiUN.de-en.txt.gz OpenSubtitles2016.de-en.txt.gz Wikipedia.de-en.txt.gz)
 
 merge_all : $(ALITRAIN_IN_DIR)/all.$(LPAIR).txt.gz
 $(ALITRAIN_IN_DIR)/all.$(LPAIR).txt.gz : $(ALITRAIN_IN_DATA_$(LPAIR))
@@ -29,18 +29,32 @@ $(ALITRAIN_IN_DIR)/all.$(LPAIR).filtered.txt.gz : $(ALITRAIN_IN_DIR)/all.$(LPAIR
 
 data_split : $(ALITRAIN_IN_DIR)/all.$(LPAIR).filtered.txt.gz
 	mkdir -p $(ALITRAIN_SPLIT_DIR)/all.$(LPAIR)
-	zcat $< | split -d -a 7 -l 2000 - $(ALITRAIN_SPLIT_DIR)/all.$(LPAIR)/src_
+	zcat $< | split -d -a 7 --additional-suffix .txt -l 2000 - $(ALITRAIN_SPLIT_DIR)/all.$(LPAIR)/src_
 
-for_giza : $(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR).for_giza.gz
-$(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR).for_giza.gz :
+for_giza_ru : $(ALITRAIN_FOR_GIZA_DIR)/all.en_ru.for_giza.gz
+$(ALITRAIN_FOR_GIZA_DIR)/all.en_ru.for_giza.gz :
 	mkdir -p $(dir $@)
-	treex -p --jobs=200 --priority=0 --workdir='$(ALITRAIN_TMP)/02.for_giza.runs/{NNN}-run-{XXXX}' \
-		Read::SentencesTSV from='!$(ALITRAIN_SPLIT_DIR)/all.$(LPAIR)/src_* $(OFFICIAL_TRAIN_DATA_DIR)/*.txt' langs=$(L1),$(L2) selector=src \
+	treex -p --jobs=200 --priority=0 --queue 'ms-all.q@*' --workdir='$(ALITRAIN_TMP)/02.for_giza.runs/{NNN}-run-{XXXX}' \
+		Read::SentencesTSV from='!$(ALITRAIN_SPLIT_DIR)/all.en_ru/src_* $(OFFICIAL_TRAIN_DATA_DIR)/*.txt' langs=en,ru selector=src \
 		Util::SetGlobal selector=src \
-		scenario/$(L1).lemmatize.scen \
-		scenario/$(L2).lemmatize.scen \
-		Write::LemmatizedBitexts selector=src language=$(L1) to_language=$(L2) to_selector=src \
+		scenario/en.lemmatize.scen \
+		scenario/ru.lemmatize.scen \
+		Write::LemmatizedBitexts selector=src language=en to_language=ru to_selector=src \
 	| gzip -c > $@
+
+for_giza_de : $(ALITRAIN_FOR_GIZA_DIR)/all.en_de.for_giza.gz
+$(ALITRAIN_FOR_GIZA_DIR)/after_treex/done :
+	mkdir -p $(dir $@)
+	mkdir -p $(ALITRAIN_TMP)/02.for_giza.treex_runs
+	treex -p --jobs=200 --priority=0 --queue 'ms-all.q@*' --workdir='$(ALITRAIN_TMP)/02.for_giza.treex_runs/{NNN}-run-{XXXX}' \
+		Read::SentencesTSV from='!$(ALITRAIN_SPLIT_DIR)/all.en_de/src_* $(OFFICIAL_TRAIN_DATA_DIR)/*.txt' skip_finished='{^.*/([^/]*\.txt)$$}{$(dir $@)$$1}' langs=en,de selector=src \
+		Util::SetGlobal selector=src \
+		scenario/en.lemmatize.scen \
+		scenario/de.lemmatize.scen \
+		Write::LemmatizedBitexts selector=src language=en to_language=de to_selector=src substitute='{^.*/([^/]*\.txt)$$}{$(dir $@)/$$1.txt}' && \
+	touch $@
+
+$(ALITRAIN_FOR_GIZA_DIR)/all.en_de.for_giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/after_treex/done
 
 #W2A::RU::Tokenize
 #W2A::CS::Tokenize
@@ -52,10 +66,11 @@ $(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR).for_giza.gz :
 
 ALITRAIN_GIZA_DIR=$(ALITRAIN_DIR)/03.giza
 
-#		--continue-dir=$(ALITRAIN_TMP)/03.giza.tempdir/gizawrapO6KJ
+# --continue-dir=$(ALITRAIN_TMP)/03.giza.tempdir/gizawrapMA3g
 
 giza : $(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz
-$(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR).for_giza.filtered.gz
+#$(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR).for_giza.filtered.gz
+$(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.sample_066.$(LPAIR).for_giza.gz
 	mkdir -p $(dir $@)
 	bin/gizawrapper.pl \
 		--tempdir=$(ALITRAIN_TMP)/03.giza.tempdir \
