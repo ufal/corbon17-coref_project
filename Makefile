@@ -47,14 +47,28 @@ $(ALITRAIN_FOR_GIZA_DIR)/after_treex/done :
 	mkdir -p $(dir $@)
 	mkdir -p $(ALITRAIN_TMP)/02.for_giza.treex_runs
 	treex -p --jobs=200 --priority=0 --queue 'ms-all.q@*' --workdir='$(ALITRAIN_TMP)/02.for_giza.treex_runs/{NNN}-run-{XXXX}' \
-		Read::SentencesTSV from='!$(ALITRAIN_SPLIT_DIR)/all.en_de/src_* $(OFFICIAL_TRAIN_DATA_DIR)/*.txt' skip_finished='{^.*/([^/]*\.txt)$$}{$(dir $@)$$1}' langs=en,de selector=src \
+		Read::SentencesTSV from='!$(ALITRAIN_SPLIT_DIR)/all.en_de/*.txt $(OFFICIAL_TRAIN_DATA_DIR)/*.txt' skip_finished='{^.*/([^/]+)$$}{$(dir $@)$$1}' langs=en,de selector=src \
 		Util::SetGlobal selector=src \
 		scenario/en.lemmatize.scen \
 		scenario/de.lemmatize.scen \
-		Write::LemmatizedBitexts selector=src language=en to_language=de to_selector=src substitute='{^.*/([^/]*\.txt)$$}{$(dir $@)/$$1.txt}' && \
+		Write::LemmatizedBitexts selector=src language=en to_language=de to_selector=src substitute='{^.*/([^/]+)$$}{$(dir $@)$$1.txt}' && \
 	touch $@
+$(ALITRAIN_FOR_GIZA_DIR)/after_mate/done : $(ALITRAIN_FOR_GIZA_DIR)/after_treex/done
+	scripts/german_analysis_on_cluster.sh $(dir $<) $(dir $@) && \
+	touch $@
+$(ALITRAIN_FOR_GIZA_DIR)/all.en_de.for_giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/after_mate/done
+	find $(dir $<) -name 'src_*.txt' | sort | xargs cat | gzip -c > $@
+	find $(dir $<) -name '[0-9]*.txt' | sort | xargs cat | gzip -c >> $@
 
-$(ALITRAIN_FOR_GIZA_DIR)/all.en_de.for_giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/after_treex/done
+# prepare a sample of the data
+sample_033 : $(ALITRAIN_FOR_GIZA_DIR)/all.sample_033.$(LPAIR).for_giza.gz
+$(ALITRAIN_FOR_GIZA_DIR)/all.sample_%.$(LPAIR).for_giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR).for_giza.gz
+	mkdir -p $(ALITRAIN_TMP)/02.for_giza.sample
+	zcat $< | grep "^[^	]*\/src_[0-9]\+" | gzip -c > $(ALITRAIN_TMP)/02.for_giza.sample/alitrain.gz
+	zcat $< | grep -v "^[^	]*\/src_[0-9]\+" | gzip -c > $(ALITRAIN_TMP)/02.for_giza.sample/official.gz
+	zcat $(ALITRAIN_TMP)/02.for_giza.sample/alitrain.gz | perl -e 'srand(1986); while (<>) { print $$_ if (rand(100) < $*); }' | gzip -c > $(ALITRAIN_TMP)/02.for_giza.sample/alitrain.sample_$*.gz
+	zcat $(ALITRAIN_TMP)/02.for_giza.sample/alitrain.sample_$*.gz $(ALITRAIN_TMP)/02.for_giza.sample/official.gz | gzip -c > $@
+
 
 #W2A::RU::Tokenize
 #W2A::CS::Tokenize
@@ -69,8 +83,8 @@ ALITRAIN_GIZA_DIR=$(ALITRAIN_DIR)/03.giza
 # --continue-dir=$(ALITRAIN_TMP)/03.giza.tempdir/gizawrapMA3g
 
 giza : $(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz
-#$(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR).for_giza.filtered.gz
-$(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.sample_066.$(LPAIR).for_giza.gz
+#$(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.sample_033.$(LPAIR).for_giza.gz
+$(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR).for_giza.gz
 	mkdir -p $(dir $@)
 	bin/gizawrapper.pl \
 		--tempdir=$(ALITRAIN_TMP)/03.giza.tempdir \
