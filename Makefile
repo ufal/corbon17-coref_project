@@ -85,9 +85,10 @@ ALITRAIN_GIZA_DIR=$(ALITRAIN_DIR)/03.giza
 
 # --continue-dir=$(ALITRAIN_TMP)/03.giza.tempdir/gizawrapMA3g
 
-giza : $(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz
-#$(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.sample_033.$(LPAIR).for_giza.gz
-$(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR).for_giza.gz
+#giza : $(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz
+#$(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR).for_giza.gz
+giza : $(ALITRAIN_GIZA_DIR)/all.sample_033.$(LPAIR).giza.gz
+$(ALITRAIN_GIZA_DIR)/all.sample_033.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.sample_033.$(LPAIR).for_giza.gz
 	mkdir -p $(dir $@)
 	bin/gizawrapper.pl \
 		--tempdir=$(ALITRAIN_TMP)/03.giza.tempdir \
@@ -102,21 +103,6 @@ $(ALITRAIN_GIZA_DIR)/all.$(LPAIR).giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.$(LPAIR
 #============================ OLD STUFF TO BE REMOVED OR ADJUSTED FOLLOWS ===================================
 #vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 
-
-############################################### STAGE 3 ######################################################
-############################## IMPORT RUSSIAN TRANSLATIONS TO PCEDT_19 #######################################
-##############################################################################################################
-
-PCEDT_19_LIST=/home/mnovak/projects/align_coref/data/train_19_00-49.orig.list
-
-pcerdt_19 : out/pcerdt_19/full.list
-out/pcerdt_19/full.list : $(PCEDT_19_LIST) data/pcedt_19/all.ru.untok.txt
-	mkdir -p $(dir $@) 
-	treex -Ssrc -Lru \
-		Read::Treex from='@$(word 1,$^)' \
-		Import::Sentences from='$(word 2,$^)' \
-		Write::Treex storable=1 path='$(dir $@)'
-	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
 
 ############################################### STAGE 4 ######################################################
 ############## PREPARE RU-CS WORD ALIGNMENT FOR PCEDT_19 TO BE IMPORTED INTO PCEDT_19  #######################
