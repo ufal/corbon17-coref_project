@@ -56,9 +56,12 @@ $(ALITRAIN_FOR_GIZA_DIR)/after_treex/done :
 $(ALITRAIN_FOR_GIZA_DIR)/after_mate/done : $(ALITRAIN_FOR_GIZA_DIR)/after_treex/done
 	scripts/german_analysis_on_cluster.sh $(dir $<) $(dir $@) && \
 	touch $@
-$(ALITRAIN_FOR_GIZA_DIR)/all.en_de.for_giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/after_mate/done
+$(ALITRAIN_FOR_GIZA_DIR)/all.en_de.for_giza.with_empty.gz : $(ALITRAIN_FOR_GIZA_DIR)/after_mate/done
 	find $(dir $<) -name 'src_*.txt' | sort | xargs cat | gzip -c > $@
 	find $(dir $<) -name '[0-9]*.txt' | sort | xargs cat | gzip -c >> $@
+$(ALITRAIN_FOR_GIZA_DIR)/all.en_de.for_giza.gz : $(ALITRAIN_FOR_GIZA_DIR)/all.en_de.for_giza.with_empty.gz
+	zcat $< | perl -ne 'chomp $$_; my ($$id, $$s1, $$s2) = split /\t/, $$_; print "$$_\n" if (defined $$s1 && defined $$s2 && ($$s1 !~ /^\s*$$/) && ($$s2 !~ /^\s*$$/));' | \
+		gzip -c > $@
 
 # prepare a sample of the data
 sample_033 : $(ALITRAIN_FOR_GIZA_DIR)/all.sample_033.$(LPAIR).for_giza.gz
