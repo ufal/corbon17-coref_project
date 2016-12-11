@@ -1,0 +1,79 @@
+BIANALYSIS_DIR=data/bitext_analysis/$(LPAIR)
+BIANALYSIS_TMP=tmp/bitext_analysis/$(LPAIR)
+
+############################################### STAGE 1 ##################################################
+########################## ANALYSE TRAINING DATA BITEXT TO MORPHO LEVEL ##################################
+##########################################################################################################
+
+BIANALYSIS_MORPHO_DIR=$(BIANALYSIS_DIR)/01.morpho
+
+morpho_bitext_ru : $(BIANALYSIS_MORPHO_DIR)/done
+$(BIANALYSIS_MORPHO_DIR)/done :
+	mkdir -p $(dir $@)
+	mkdir -p $(BIANALYSIS_TMP)/01.morpho.runs
+	treex -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/01.morpho.runs/{NNN}-run-{XXXX}' \
+		Read::SentencesTSV from='!$(OFFICIAL_TRAIN_DATA_DIR)/*.txt' langs=en,ru selector=src \
+		Util::SetGlobal selector=src \
+		scenario/en.lemmatize.scen \
+		scenario/ru.lemmatize.scen \
+		Write::Treex storable=1 substitute='{^.*/([^/]+)$$}{$(dir $@)$$1}' && \
+	touch $@
+
+############################################### STAGE 2 ##################################################
+####################### PREPARE ALIGNMENT FILES FOR IMPORT TO THE BITEXT  ################################
+##########################################################################################################
+
+BIANALYSIS_ALIGN_DIR=$(BIANALYSIS_DIR)/02.align
+
+#GIZA_TRAIN_TAIL_ru=188761
+#GIZA_TRAIN_TAIL_de=221844
+
+giza_bitext_ru : $(BIANALYSIS_ALIGN_DIR)/train.train.sample_033.$(LPAIR).giza.gz
+#giza_bitext_ru : $(BIANALYSIS_ALIGN_DIR)/train.sample_033.$(LPAIR).giza.gz
+#$(BIANALYSIS_ALIGN_DIR)/train.sample_033.$(LPAIR).giza.gz : $(ALITRAIN_GIZA_DIR)/all.sample_033.$(LPAIR).giza.gz $(BIANALYSIS_MORPHO_DIR)/done
+$(BIANALYSIS_ALIGN_DIR)/train.train.$(LPAIR).giza.gz : $(ALITRAIN_GIZA_DIR)/train.$(LPAIR).giza.gz $(BIANALYSIS_MORPHO_DIR)/done
+	mkdir -p $(dir $@)
+	mkdir -p $(BIANALYSIS_TMP)/02.align.giza.runs
+	treex -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/02.align.giza.runs/{NNN}-run-{XXXX}' \
+		Read::Treex from='!$(dir $(word 2,$^))/*.streex' \
+		Util::Eval bundle='print $$bundle->get_document->full_filename . ".streex-" . $$bundle->id . "\n";' \
+	> $(dir $@)/train.$(LPAIR).bundle.ids
+	sentnum=`cat $(dir $@)/train.$(LPAIR).bundle.ids | wc -l`; \
+	zcat $(word 1,$^) | tail -n $$sentnum | cut -f1 --complement | cut -f1,2,6,7 | paste $(dir $@)/train.$(LPAIR).bundle.ids - | gzip -c > $@
+
+############################################### STAGE 3 ##################################################
+########################## IMPORT WORD ALIGNMENT TO THE ANALYZED BITEXT ##################################
+##########################################################################################################
+
+BIANALYSIS_MORPHOALIGN_DIR=$(BIANALYSIS_DIR)/03.morphoalign
+
+morphoalign_bitext : $(BIANALYSIS_MORPHOALIGN_DIR)/done
+#$(BIANALYSIS_MORPHOALIGN_DIR)/done : $(BIANALYSIS_MORPHO_DIR)/done $(BIANALYSIS_ALIGN_DIR)/train.sample_033.$(LPAIR).giza.gz
+$(BIANALYSIS_MORPHOALIGN_DIR)/done : $(BIANALYSIS_MORPHO_DIR)/done $(BIANALYSIS_ALIGN_DIR)/train.train.$(LPAIR).giza.gz
+	mkdir -p $(dir $@)
+	mkdir -p $(BIANALYSIS_TMP)/03.morphoalign.runs
+	treex -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/03.morphoalign.runs/{NNN}-run-{XXXX}' \
+		Read::Treex from='!$(dir $(word 1,$^))/*.streex' \
+		Align::A::InsertAlignmentFromFile from='$(word 2,$^)' \
+			inputcols=gdfa_int_therescore_backscore \
+			selector=src language=$(L1) to_selector=src to_language=$(L2) \
+		Write::Treex storable=1 path='$(dir $@)' && \
+	touch $@
+
+############################################### STAGE 4 ##################################################
+############### IMPORT TRANING COREFERENCE TO THE ENGLISH SIDE OF THE ANALYZED BITEXT ####################
+##########################################################################################################
+
+BIANALYSIS_COREF_IMPORT_DIR=$(BIANALYSIS_DIR)/04.coref_imported
+OFFICIAL_TRAIN_COREF_DIR=data/official/data/train/$(L1)-$(L2)/$(L1)
+OFFICIAL_TRAIN_COREF_FILE_PATT=$(OFFICIAL_TRAIN_COREF_DIR)/$(L1)_<BASE>.txt-0.pred_conll
+
+coref_import_bitext : $(BIANALYSIS_COREF_IMPORT_DIR)/done
+$(BIANALYSIS_COREF_IMPORT_DIR)/done : $(BIANALYSIS_MORPHOALIGN_DIR)/done
+	mkdir -p $(dir $@)
+	mkdir -p $(BIANALYSIS_TMP)/04.coref_imported.runs
+	treex -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/04.coref_imported.runs/{NNN}-run-{XXXX}' \
+		Read::Treex from='!$(dir $(word 1,$^))/*.streex' \
+		Coref::Load::SemEval2010 language=$(L1) selector=src from_pattern='$(OFFICIAL_TRAIN_COREF_FILE_PATT)' \
+		Write::Treex storable=1 path='$(dir $@)' && \
+	touch $@
