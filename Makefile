@@ -1,5 +1,7 @@
 SHELL=/bin/bash
 
+TREEX=PERL5LIB=$$PERL5LIB:$$PWD/lib treex
+
 L1=en
 L2=ru
 LPAIR=$(L1)_$(L2)
