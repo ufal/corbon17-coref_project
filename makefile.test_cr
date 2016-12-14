@@ -1,0 +1,19 @@
+TEST_DATA=data/official/data/sample_annotation/text0$(L2).conll
+
+TESTCR_DIR=data/test_cr/$(L2)
+TESTCR_TMP=tmp/test_cr/$(L2)
+
+############################################### STAGE 1 ##################################################
+################################# LOAD TEST DATA AND TEXTO ANALYSE IT ####################################
+##########################################################################################################
+
+TESTCR_TECTO_DIR=$(TESTCR_DIR)/01.tecto
+
+tecto_test_ru : $(TESTCR_TECTO_DIR)/done
+$(TESTCR_TECTO_DIR)/done :
+	mkdir -p $(dir $@)
+	$(TREEX) -Lru -Ssrc \
+		Read::CoNLLTokens from='!$(TEST_DATA)' \
+		Scen::Analysis::RU tokenized=1 \
+		Write::Treex storable=1 path='$(dir $@)' && \
+	touch $@

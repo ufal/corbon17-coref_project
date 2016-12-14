@@ -10,6 +10,7 @@ OFFICIAL_TRAIN_DATA_DIR=data/official/data/raw/$(L1)-$(L2)/$(L1)-$(L2)
 
 include makefile.align_train
 include makefile.bitext_analysis
+include makefile.test_cr
 
 #============================ OLD STUFF TO BE REMOVED OR ADJUSTED FOLLOWS ===================================
 #vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
