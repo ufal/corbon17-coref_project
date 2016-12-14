@@ -16,7 +16,7 @@ for infile in $inputdir/*.txt; do
                 sleep 300
             fi
         fi
-        qsubmit --jobname='de_analysis' --mem="10g" --logdir="log/" \
+        qsubmit --jobname='de_analysis' --mem="10g" --logdir="log/de_analysis" \
             "scripts/german_analysis.sh $infile $outputdir"
         i=$((i++))
         if [ $i -gt 500 ]; then
