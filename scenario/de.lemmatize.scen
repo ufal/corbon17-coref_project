@@ -1,5 +1,7 @@
 Util::SetGlobal language=de
-W2A::DE::Tokenize
+#W2A::DE::Tokenize
+# if processing only the training data, which is pretokenized
+W2A::TokenizeOnWhitespace
 Util::Eval anode='$.set_lemma($.form)'
 # Lemmatization must be done outside Treex
 

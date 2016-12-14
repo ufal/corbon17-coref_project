@@ -1,5 +1,7 @@
 Util::SetGlobal language=en
-W2A::EN::Tokenize
+#W2A::EN::Tokenize
+# if processing only the training data, which is pretokenized
+W2A::TokenizeOnWhitespace
 W2A::EN::NormalizeForms
 W2A::EN::FixTokenization
 W2A::EN::TagMorphoDiTa
