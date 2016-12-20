@@ -14,6 +14,38 @@ $(TESTCR_TECTO_DIR)/done :
 	mkdir -p $(dir $@)
 	$(TREEX) -Lru -Ssrc \
 		Read::CoNLLTokens from='!$(TEST_DATA)' \
-		Scen::Analysis::RU tokenized=1 \
+		Scen::Analysis::RU tokenized=1 default_functor='???' \
 		Write::Treex storable=1 path='$(dir $@)' && \
 	touch $@
+
+############################################### STAGE 2 ##################################################
+########################### RESOLVE COREFERENCE ON THE TEST DATA AND EVALUATE ############################
+##########################################################################################################
+
+RUNS_DIR=$(TESTCR_DIR)/02.coref_resolved
+
+DATE := $(shell date +%Y-%m-%d_%H-%M-%S)
+LAST_TRY := $(shell ls -d -t $(RUNS_DIR)/[0-9]* 2>/dev/null | head -n 1)
+NEW_NUM  := $(shell perl -e '$$m=0; for(<$(RUNS_DIR)/*>){/\/(\d+)_/ and $$1 > $$m and $$m=$$1;} printf "%03d", $$m+1;')
+NEW_TRY  := $(RUNS_DIR)/$(NEW_NUM)_$(DATE)
+
+resolve_test_ru : $(TESTCR_TECTO_DIR)/done
+	mkdir -p $(NEW_TRY)/resolve
+	echo "$(D)" > $(NEW_TRY)/description
+	$(TREEX) -Lru -Ssrc \
+		Read::Treex from='!$(dir $<)/*.streex' \
+		Coref::RU::PersPron::Resolve \
+		Coref::MarkMentionsForScorer layer=a only_heads=0 \
+		Write::SemEval2010 layer=a path='$(NEW_TRY)/resolve' \
+		Write::Treex storable=1 path='$(NEW_TRY)/resolve'
+
+SCORER=/net/work/people/mnovak/tools/x86_64/coref_scorer/v8.01/scorer.pl
+
+eval_test_ru :
+	mkdir -p $(NEW_TRY)/eval
+	ls $(TEST_DATA) | sort | xargs cat | sed 's/(__); __/text0$(L2)/' > $(NEW_TRY)/eval/all.key.conll
+	find $(NEW_TRY)/resolve/ -name '*.conll' | sort | xargs cat | cut --complement -f18 > $(NEW_TRY)/eval/all.response.conll
+	$(SCORER) all $(NEW_TRY)/eval/all.key.conll $(NEW_TRY)/eval/all.response.conll > $(NEW_TRY)/eval/score.txt
+	fscore_avg=`cat $(NEW_TRY)/eval/score.txt | grep Coreference | head -n4 | cut -f3 | cut -f2 -d' ' | cut -f1 -d'%' | awk '{ total += $$1; count++ } END { print total/count }'`; \
+	desc=`cat $(NEW_TRY)/description`; \
+	echo -e "$(DATE)\t$$fscore_avg\t$(NEW_TRY)\t$$desc" >> results.ru.txt
