@@ -1,14 +1,17 @@
 BIANALYSIS_DIR=data/bitext_analysis/$(LPAIR)
+BIANALYSIS_RU_DIR=data/bitext_analysis/en_ru
+BIANALYSIS_DE_DIR=data/bitext_analysis/en_de
 BIANALYSIS_TMP=tmp/bitext_analysis/$(LPAIR)
 
 ############################################### STAGE 1 ##################################################
 ########################## ANALYSE TRAINING DATA BITEXT TO MORPHO LEVEL ##################################
 ##########################################################################################################
 
-BIANALYSIS_MORPHO_DIR=$(BIANALYSIS_DIR)/01.morpho
+BIANALYSIS_MORPHO_RU_DIR=$(BIANALYSIS_RU_DIR)/01.morpho
+BIANALYSIS_MORPHO_DE_DIR=$(BIANALYSIS_DE_DIR)/01.morpho
 
-morpho_bitext_ru : $(BIANALYSIS_MORPHO_DIR)/done
-$(BIANALYSIS_MORPHO_DIR)/done :
+morpho_bitext_ru : $(BIANALYSIS_MORPHO_RU_DIR)/done
+$(BIANALYSIS_MORPHO_RU_DIR)/done :
 	mkdir -p $(dir $@)
 	mkdir -p $(BIANALYSIS_TMP)/01.morpho.runs
 	treex -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/01.morpho.runs/{NNN}-run-{XXXX}' \
@@ -19,22 +22,14 @@ $(BIANALYSIS_MORPHO_DIR)/done :
 		Write::Treex storable=1 substitute='{^.*/([^/]+)$$}{$(dir $@)$$1}' && \
 	touch $@
 
-#morpho_bitext_de : $(BIANALYSIS_MORPHO_DIR)/done
-#$(BIANALYSIS_MORPHO_DIR)/done :
-#	mkdir -p $(dir $@)
-#	mkdir -p $(BIANALYSIS_TMP)/01.morpho.runs
-#	treex -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/02.for_giza.treex_runs/{NNN}-run-{XXXX}' \
-#		Read::SentencesTSV from='!$(OFFICIAL_TRAIN_DATA_DIR)/*.txt' skip_finished='{^.*/([^/]+)$$}{$(dir $@)$$1}' langs=en,de selector=src \
-#		Util::SetGlobal selector=src \
-#		scenario/en.lemmatize.scen \
-#		scenario/de.lemmatize.scen \
-#		Write::LemmatizedBitexts selector=src language=en to_language=de to_selector=src substitute='{^.*/([^/]+)$$}{$(dir $@)$$1.txt}' && \
-#	touch $@
-##$(ALITRAIN_FOR_GIZA_DIR)/after_mate/done : $(ALITRAIN_FOR_GIZA_DIR)/after_treex/done
-#$(ALITRAIN_FOR_GIZA_DIR)/after_mate.train/done : $(ALITRAIN_FOR_GIZA_DIR)/after_treex.train/done
-#	mkdir -p $(dir $@)
-#	scripts/german_analysis_on_cluster.sh $(dir $<) $(dir $@) && \
-#	touch $@
+morpho_bitext_de : $(BIANALYSIS_MORPHO_DE_DIR)/done
+$(BIANALYSIS_MORPHO_DE_DIR)/done :
+	mkdir -p $(dir $@)
+	scripts/german_analysis_on_cluster.sh $(OFFICIAL_TRAIN_DATA_DIR) $(dir $@) parse
+	treex -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/01.morpho.runs/{NNN}-run-{XXXX}' \
+		Read::CoNLL2009 use_p_attribs=1 from='!$(dir $@)/*.txt' \
+		Write::Treex storable=1 path='$(dir $@)' && \
+	touch $@
 
 ############################################### STAGE 2 ##################################################
 ####################### PREPARE ALIGNMENT FILES FOR IMPORT TO THE BITEXT  ################################
@@ -123,7 +118,7 @@ $(BIANALYSIS_TECTO_DIR)/done : $(BIANALYSIS_COREF_PROJECT_DIR)/done
 	mkdir -p $(BIANALYSIS_TMP)/06.tecto.runs
 	$(TREEX) -L$(L2) -Ssrc -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/06.tecto.runs/{NNN}-run-{XXXX}' \
 		Read::Treex from='!$(dir $<)/*.streex' \
-		Scen::Analysis::RU tokenized=1 \
+		Scen::Analysis::RU tokenized=1 default_functor='???' \
 		Coref::Project::MentionsFromAtoTlayer \
 		Write::Treex storable=1 path='$(dir $@)' && \
 	touch $@
