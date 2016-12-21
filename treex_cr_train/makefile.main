@@ -1,10 +1,11 @@
+SHELL=/bin/bash
 #LANGUAGE_UC:=$(shell perl -e 'print uc("$(LANGUAGE)")')
 
 TREEX=PERL5LIB=$$PERL5LIB:$$PWD/../../../lib treex
 
 LRC=1
 ifeq ($(LRC),1)
-LRC_FLAG=-p --jobs 300 --queue 'troja-all.q@*' --priority=0 --workdir=tmp/treex_runs/{NNN}-run.{XXXX}
+LRC_FLAG=-p --jobs 100 --queue 'troja-all.q@*' --priority=0 --workdir=tmp/treex_runs/{NNN}-run.{XXXX}
 endif
 
 
@@ -16,13 +17,15 @@ train.$(DATA_NAME).table.gz : DATA=$(TRAIN_DATA)
 dev.$(DATA_NAME).table.gz : DATA=$(DEV_DATA)
 #eval.$(DATA_NAME).table.gz : DATA=$(EVAL_DATA)
 $(ALL_DATA_TABLES) :
-	mkdir -p tmp/train_tables
+	dataname="$@"; \
+	dataset=$${dataname%.$(DATA_NAME).table.gz}; \
+	mkdir -p tmp/train_tables/$$dataset; \
 	$(TREEX) $(LRC_FLAG) -L$(LANGUAGE) -Ssrc \
 		Read::Treex from=@$(DATA) \
 		Util::Eval tnode='delete $$tnode->wild->{filter_types};' \
 		Coref::ProjectCorefEntities to_language=$(LANGUAGE) to_selector=src $(PROJECT_PARAMS) \
-		$(COREF_PRINTER) path=tmp/train_tables language=$(LANGUAGE)
-	find tmp/train_tables -name '*' | sort | xargs cat | gzip -c > $@
+		$(COREF_PRINTER) path=tmp/train_tables/$$dataset language=$(LANGUAGE); \
+	find tmp/train_tables/$$dataset -name '*' | sort | xargs cat | gzip -c > $@
 
 
 #DATA_LIST=TRAIN_DATA DEV_DATA EVAL_DATA
