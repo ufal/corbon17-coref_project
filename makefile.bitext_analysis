@@ -7,6 +7,7 @@ BIANALYSIS_TMP=tmp/bitext_analysis/$(LPAIR)
 ########################## ANALYSE TRAINING DATA BITEXT TO MORPHO LEVEL ##################################
 ##########################################################################################################
 
+BIANALYSIS_MORPHO_DIR=$(BIANALYSIS_DIR)/01.morpho
 BIANALYSIS_MORPHO_RU_DIR=$(BIANALYSIS_RU_DIR)/01.morpho
 BIANALYSIS_MORPHO_DE_DIR=$(BIANALYSIS_DE_DIR)/01.morpho
 
@@ -120,5 +121,21 @@ $(BIANALYSIS_TECTO_DIR)/done : $(BIANALYSIS_COREF_PROJECT_DIR)/done
 		Read::Treex from='!$(dir $<)/*.streex' \
 		Scen::Analysis::RU tokenized=1 default_functor='???' \
 		Coref::Project::MentionsFromAtoTlayer \
+		Write::Treex storable=1 path='$(dir $@)' && \
+	touch $@
+
+############################################### STAGE 6b ##################################################
+#### ADD NAMED ENTITIES TO THE ANALYSED TEXT - FROM NOW ON IT SHOULD BE DONE IN THE PREVIOUS STAGE  #######
+###########################################################################################################
+
+BIANALYSIS_NE_DIR=$(BIANALYSIS_DIR)/06b.ne
+
+ne_bitext : $(BIANALYSIS_NE_DIR)/done
+$(BIANALYSIS_NE_DIR)/done : $(BIANALYSIS_TECTO_DIR)/done
+	mkdir -p $(dir $@)
+	mkdir -p $(BIANALYSIS_TMP)/06b.ne.runs
+	$(TREEX) -L$(L2) -Ssrc -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/06b.ne.runs/{NNN}-run-{XXXX}' \
+		Read::Treex from='!$(dir $<)/*.streex' \
+		A2N::RU::NameTag \
 		Write::Treex storable=1 path='$(dir $@)' && \
 	touch $@
