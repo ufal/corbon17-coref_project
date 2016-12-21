@@ -62,13 +62,16 @@ NAMETAG_FINALLR=0.001
 NAMETAG_L2=0.5
 NAMETAG_HIDDEN=10
 
-train_ner : $(NER_TRAIN_DIR)/ru.ner.model
-$(NER_TRAIN_DIR)/ru.ner.model : $(NER_TRAIN_DIR)/train.txt $(NER_TRAIN_DIR)/dev.txt $(NER_TRAIN_DIR)/nametag.feats
-	$(NAMETAG) generic external \
+#train_ner : $(NER_TRAIN_DIR)/ru.ner.model
+train_ner : $(NER_TRAIN_DIR)/ru.ner.forms_only.model
+$(NER_TRAIN_DIR)/ru.ner.forms_only.model : $(NER_TRAIN_DIR)/train.txt $(NER_TRAIN_DIR)/dev.txt $(NER_TRAIN_DIR)/nametag.feats
+	cat $(word 1,$^) | perl -ne 'chomp $$_; if ($$_ =~ /^\s*$$/) { print $$_."\n"; } else { my @cols = split /\s+/, $$_; print $$cols[0]."\t".$$cols[3]."\n"; }' > $(word 1,$^).forms_only
+	cat $(word 2,$^) | perl -ne 'chomp $$_; if ($$_ =~ /^\s*$$/) { print $$_."\n"; } else { my @cols = split /\s+/, $$_; print $$cols[0]."\t".$$cols[3]."\n"; }' > $(word 2,$^).forms_only
+	$(NAMETAG) generic trivial \
 		$(word 3,$^) \
 		2 $(NAMETAG_ITER) \
 		$(NAMETAG_MISSWEIGHT) \
 		$(NAMETAG_INITLR) $(NAMETAG_FINALLR) \
 		$(NAMETAG_L2) $(NAMETAG_HIDDEN) \
-		$(word 2,$^) \
-		< $(word 1,$^) > $@
+		$(word 2,$^).forms_only \
+		< $(word 1,$^).forms_only > $@
