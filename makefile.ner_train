@@ -1,18 +1,21 @@
 NER_TRAIN_DIR=data/ner_train/$(L2)
+NER_TRAIN_RU_DIR=data/ner_train/ru
+NER_TRAIN_DE_DIR=data/ner_train/de
 NER_TRAIN_TMP=tmp/ner_train/$(L2)
+
+OFFICIAL_NER_RU_DATA=data/ner_train/ru/Collection5
+OFFICIAL_NER_DE_DATA=data/ner_train/de/GermEval2014_complete_data
 
 ############################################### STAGE 1 ######################################################
 ########### SMART WAY OF IMPORTING NER INFO INTO THE UNTOKENIZED TEXT TO AVOID PROBLEMS IN TOKENIZATION ######
 ##############################################################################################################
 
-OFFICIAL_NER_DATA=data/ner_train/ru/Collection5
-
-NER_TRAIN_IMPORT_DIR=$(NER_TRAIN_DIR)/01.import
+NER_TRAIN_IMPORT_DIR=$(NER_TRAIN_RU_DIR)/01.import
 
 import_ner : $(NER_TRAIN_IMPORT_DIR)/done
 $(NER_TRAIN_IMPORT_DIR)/done :
 	mkdir -p $(dir $@)
-	for txt in $(OFFICIAL_NER_DATA)/*.txt; do \
+	for txt in $(OFFICIAL_NER_RU_DATA)/*.txt; do \
 		ann=$${txt%.txt}.ann; \
 		base=`basename $$txt`; \
 		echo "Processing $$txt" >&2; \
@@ -24,7 +27,7 @@ $(NER_TRAIN_IMPORT_DIR)/done :
 ################### SEGMENT< TOKENIZE, LEMMATIZE, POS TAG RUSSIAN TEXTS AND PRINT NER DATA ###################
 ##############################################################################################################
 
-NER_TRAIN_EXPORT_DIR=$(NER_TRAIN_DIR)/02.export
+NER_TRAIN_EXPORT_DIR=$(NER_TRAIN_RU_DIR)/02.export
 
 export_ner : $(NER_TRAIN_EXPORT_DIR)/done
 $(NER_TRAIN_EXPORT_DIR)/done : $(NER_TRAIN_IMPORT_DIR)/done
@@ -39,14 +42,14 @@ $(NER_TRAIN_EXPORT_DIR)/done : $(NER_TRAIN_IMPORT_DIR)/done
 		Write::ForNER path=$(dir $@) && \
 	touch $@
 
-all_data_ner : $(NER_TRAIN_DIR)/all.txt
-$(NER_TRAIN_DIR)/all.txt : $(NER_TRAIN_EXPORT_DIR)/done
+all_data_ner : $(NER_TRAIN_RU_DIR)/all.txt
+$(NER_TRAIN_RU_DIR)/all.txt : $(NER_TRAIN_EXPORT_DIR)/done
 	find $(dir $<) -name '*.txt' | sort | xargs cat > $@
-train_data_ner : $(NER_TRAIN_DIR)/train.txt
-$(NER_TRAIN_DIR)/train.txt : $(NER_TRAIN_EXPORT_DIR)/done
+train_data_ner : $(NER_TRAIN_RU_DIR)/train.txt
+$(NER_TRAIN_RU_DIR)/train.txt : $(NER_TRAIN_EXPORT_DIR)/done
 	find $(dir $<) -name '*.txt' | sort | head -n 900 | xargs cat > $@
-dev_data_ner : $(NER_TRAIN_DIR)/dev.txt
-$(NER_TRAIN_DIR)/dev.txt : $(NER_TRAIN_EXPORT_DIR)/done
+dev_data_ner : $(NER_TRAIN_RU_DIR)/dev.txt
+$(NER_TRAIN_RU_DIR)/dev.txt : $(NER_TRAIN_EXPORT_DIR)/done
 	find $(dir $<) -name '*.txt' | sort | tail -n 100 | xargs cat > $@
 
 ############################################### STAGE 3 ######################################################
@@ -61,17 +64,21 @@ NAMETAG_INITLR=0.1
 NAMETAG_FINALLR=0.001
 NAMETAG_L2=0.5
 NAMETAG_HIDDEN=10
+	
+$(NER_TRAIN_RU_DIR)/%.txt.forms_only : $(NER_TRAIN_RU_DIR)/%.txt
+	cat $< | perl -ne 'chomp $$_; if ($$_ =~ /^\s*$$/) { print $$_."\n"; } else { my @cols = split /\s+/, $$_; print $$cols[0]."\t".$$cols[3]."\n"; }' > $@
+$(NER_TRAIN_DE_DIR)/%.txt.forms_only : $(OFFICIAL_NER_DE_DATA)/NER-de-%.tsv
+	cat $< | grep -v "^#" | cut -f2,3 > $@
 
 #train_ner : $(NER_TRAIN_DIR)/ru.ner.model
-train_ner : $(NER_TRAIN_DIR)/ru.ner.forms_only.model
-$(NER_TRAIN_DIR)/ru.ner.forms_only.model : $(NER_TRAIN_DIR)/train.txt $(NER_TRAIN_DIR)/dev.txt $(NER_TRAIN_DIR)/nametag.feats
-	cat $(word 1,$^) | perl -ne 'chomp $$_; if ($$_ =~ /^\s*$$/) { print $$_."\n"; } else { my @cols = split /\s+/, $$_; print $$cols[0]."\t".$$cols[3]."\n"; }' > $(word 1,$^).forms_only
-	cat $(word 2,$^) | perl -ne 'chomp $$_; if ($$_ =~ /^\s*$$/) { print $$_."\n"; } else { my @cols = split /\s+/, $$_; print $$cols[0]."\t".$$cols[3]."\n"; }' > $(word 2,$^).forms_only
+train_ner : $(NER_TRAIN_DIR)/$(L2).ner.forms_only.model
+$(NER_TRAIN_DIR)/$(L2).ner.forms_only.model : $(NER_TRAIN_DIR)/train.txt.forms_only $(NER_TRAIN_DIR)/dev.txt.forms_only $(NER_TRAIN_DIR)/nametag.feats
 	$(NAMETAG) generic trivial \
 		$(word 3,$^) \
 		2 $(NAMETAG_ITER) \
 		$(NAMETAG_MISSWEIGHT) \
 		$(NAMETAG_INITLR) $(NAMETAG_FINALLR) \
 		$(NAMETAG_L2) $(NAMETAG_HIDDEN) \
-		$(word 2,$^).forms_only \
-		< $(word 1,$^).forms_only > $@
+		$(word 2,$^) \
+		< $(word 1,$^) > $@
+
