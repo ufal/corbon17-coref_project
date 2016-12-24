@@ -1,4 +1,4 @@
-package Treex::Tool::Coreference::Features::RU::AllMonolingual;
+package Treex::Tool::Coreference::Features::RU_DE::AllMonolingual;
 
 use Moose;
 use Treex::Core::Common;
@@ -65,7 +65,7 @@ __END__
 
 =head1 NAME 
 
-Treex::Tool::Coreference::RU::PronCorefFeatures
+Treex::Tool::Coreference::RU_DE::PronCorefFeatures
 
 =head1 DESCRIPTION
 

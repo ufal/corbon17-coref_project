@@ -1,11 +1,11 @@
-package Treex::Tool::Coreference::Features::RU::Noun;
+package Treex::Tool::Coreference::Features::RU_DE::Noun;
 
 use Moose;
 use Treex::Core::Common;
 use List::MoreUtils qw/uniq/;
 use Text::Levenshtein qw(distance);
 
-extends 'Treex::Tool::Coreference::Features::RU::AllMonolingual';
+extends 'Treex::Tool::Coreference::Features::RU_DE::AllMonolingual';
 
 my $UNDEF_VALUE = "undef";
 my $b_true = 1;
@@ -83,7 +83,7 @@ __END__
 
 =head1 NAME 
 
-Treex::Tool::Coreference::RU::PronCorefFeatures
+Treex::Tool::Coreference::RU_DE::PronCorefFeatures
 
 =head1 DESCRIPTION
 
