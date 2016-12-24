@@ -3,7 +3,7 @@ use Moose::Role;
 use Treex::Core::Common;
 
 use Treex::Tool::Coreference::AnteCandsGetter;
-use Treex::Tool::Coreference::Features::RU::AllMonolingual;
+use Treex::Tool::Coreference::Features::RU_DE::AllMonolingual;
 
 with 'Treex::Block::Coref::SupervisedBase' => {
     -excludes => [ '_build_feature_extractor', '_build_ante_cands_selector' ],
@@ -22,7 +22,7 @@ sub _build_node_types {
 
 sub _build_feature_extractor {
     my ($self) = @_;
-    my $fe = Treex::Tool::Coreference::Features::RU::AllMonolingual->new();
+    my $fe = Treex::Tool::Coreference::Features::RU_DE::AllMonolingual->new();
     return $fe;
 }
 
