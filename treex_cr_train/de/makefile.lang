@@ -1,0 +1,10 @@
+LANGUAGE=de
+
+################## monolingual #####################
+
+DATA_NAME=official
+
+# original W2A
+TRAIN_DATA=../../../data/bitext_analysis/en_de/06.tecto/train.list
+DEV_DATA=../../../data/bitext_analysis/en_de/06.tecto/dev.list
+EVAL_DATA=../../../data/bitext_analysis/en_de/06.tecto/eval.list
