@@ -23,12 +23,17 @@ $(BIANALYSIS_MORPHO_RU_DIR)/done :
 		Write::Treex storable=1 substitute='{^.*/([^/]+)$$}{$(dir $@)$$1}' && \
 	touch $@
 
+OFFICIAL_TRAIN_DATA_EN_ONLY_PATT=data/official/data/raw/en-de/en/en_<BASE>.txt
+
 morpho_bitext_de : $(BIANALYSIS_MORPHO_DE_DIR)/done
 $(BIANALYSIS_MORPHO_DE_DIR)/done :
 	mkdir -p $(dir $@)
 	scripts/german_analysis_on_cluster.sh $(OFFICIAL_TRAIN_DATA_DIR) $(dir $@) parse
-	treex -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/01.morpho.runs/{NNN}-run-{XXXX}' \
-		Read::CoNLL2009 use_p_attribs=1 from='!$(dir $@)/*.txt' \
+	mkdir -p $(BIANALYSIS_TMP)/01.morpho.runs
+	$(TREEX) -Ssrc -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/01.morpho.runs/{NNN}-run-{XXXX}' \
+		Read::CoNLL2009 language=$(L2) use_p_attribs=1 doc_reset_sent_id=1 from='!$(dir $@)/*.txt' \
+		Load::Sentences language=$(L1) from_pattern='$(OFFICIAL_TRAIN_DATA_EN_ONLY_PATT)' \
+		scenario/en.lemmatize.scen \
 		Write::Treex storable=1 path='$(dir $@)' && \
 	touch $@
 
@@ -41,7 +46,10 @@ BIANALYSIS_ALIGN_DIR=$(BIANALYSIS_DIR)/02.align
 #GIZA_TRAIN_TAIL_ru=188761
 #GIZA_TRAIN_TAIL_de=221844
 
-giza_bitext_ru : $(BIANALYSIS_ALIGN_DIR)/train.train.sample_033.$(LPAIR).giza.gz
+# ORIGINAL, BUT DOES NOT WORK FOR GERMAN - BUNDLES AND ALIGNS ARE OSRTED IN A DIFFERENT WAY
+#zcat $(word 1,$^) | tail -n $$sentnum | cut -f1 --complement | cut -f1,2,6,7 | paste $(dir $@)/train.$(LPAIR).bundle.ids - | gzip -c > $@
+giza_bitext : $(BIANALYSIS_ALIGN_DIR)/train.train.$(LPAIR).giza.gz
+#giza_bitext_ru : $(BIANALYSIS_ALIGN_DIR)/train.train.sample_033.$(LPAIR).giza.gz
 #giza_bitext_ru : $(BIANALYSIS_ALIGN_DIR)/train.sample_033.$(LPAIR).giza.gz
 #$(BIANALYSIS_ALIGN_DIR)/train.sample_033.$(LPAIR).giza.gz : $(ALITRAIN_GIZA_DIR)/all.sample_033.$(LPAIR).giza.gz $(BIANALYSIS_MORPHO_DIR)/done
 $(BIANALYSIS_ALIGN_DIR)/train.train.$(LPAIR).giza.gz : $(ALITRAIN_GIZA_DIR)/train.$(LPAIR).giza.gz $(BIANALYSIS_MORPHO_DIR)/done
@@ -52,13 +60,15 @@ $(BIANALYSIS_ALIGN_DIR)/train.train.$(LPAIR).giza.gz : $(ALITRAIN_GIZA_DIR)/trai
 		Util::Eval bundle='print $$bundle->get_document->full_filename . ".streex-" . $$bundle->id . "\n";' \
 	> $(dir $@)/train.$(LPAIR).bundle.ids
 	sentnum=`cat $(dir $@)/train.$(LPAIR).bundle.ids | wc -l`; \
-	zcat $(word 1,$^) | tail -n $$sentnum | cut -f1 --complement | cut -f1,2,6,7 | paste $(dir $@)/train.$(LPAIR).bundle.ids - | gzip -c > $@
+	zcat $(word 1,$^) | tail -n $$sentnum | scripts/rename_giza_import_ids.pl $(dir $@)/train.$(LPAIR).bundle.ids | gzip -c > $@
 
 ############################################### STAGE 3 ##################################################
 ########################## IMPORT WORD ALIGNMENT TO THE ANALYZED BITEXT ##################################
 ##########################################################################################################
 
 BIANALYSIS_MORPHOALIGN_DIR=$(BIANALYSIS_DIR)/03.morphoalign
+
+# !!!POZOR!!! pre nemcinu asi nebude fungovat kvoli rozne zoradenym vstupnym suborom. Hackol som to zatial rucne.
 
 morphoalign_bitext : $(BIANALYSIS_MORPHOALIGN_DIR)/done
 #$(BIANALYSIS_MORPHOALIGN_DIR)/done : $(BIANALYSIS_MORPHO_DIR)/done $(BIANALYSIS_ALIGN_DIR)/train.sample_033.$(LPAIR).giza.gz
@@ -112,14 +122,31 @@ $(BIANALYSIS_COREF_PROJECT_DIR)/done : $(BIANALYSIS_COREF_IMPORT_DIR)/done
 ##########################################################################################################
 
 BIANALYSIS_TECTO_DIR=$(BIANALYSIS_DIR)/06.tecto
+BIANALYSIS_TECTO_RU_DIR=$(BIANALYSIS_RU_DIR)/06.tecto
+BIANALYSIS_TECTO_DE_DIR=$(BIANALYSIS_DE_DIR)/06.tecto
 
-tecto_bitext : $(BIANALYSIS_TECTO_DIR)/done
-$(BIANALYSIS_TECTO_DIR)/done : $(BIANALYSIS_COREF_PROJECT_DIR)/done
+tecto_bitext_ru : $(BIANALYSIS_TECTO_RU_DIR)/done
+$(BIANALYSIS_TECTO_RU_DIR)/done : $(BIANALYSIS_COREF_PROJECT_DIR)/done
 	mkdir -p $(dir $@)
 	mkdir -p $(BIANALYSIS_TMP)/06.tecto.runs
 	$(TREEX) -L$(L2) -Ssrc -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/06.tecto.runs/{NNN}-run-{XXXX}' \
 		Read::Treex from='!$(dir $<)/*.streex' \
-		Scen::Analysis::RU tokenized=1 default_functor='???' \
+		Scen::Analysis::RU default_functor='???' \
+		Coref::Project::MentionsFromAtoTlayer \
+		Write::Treex storable=1 path='$(dir $@)' && \
+	touch $@
+
+tecto_bitext_de : $(BIANALYSIS_TECTO_DE_DIR)/done
+$(BIANALYSIS_TECTO_DE_DIR)/done : $(BIANALYSIS_COREF_PROJECT_DIR)/done
+	mkdir -p $(dir $@)
+	mkdir -p $(BIANALYSIS_TMP)/06.tecto.runs
+	$(TREEX) -L$(L2) -Ssrc -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/06.tecto.runs/{NNN}-run-{XXXX}' \
+		Read::Treex from='!$(dir $<)/*.streex' \
+		Util::Eval anode='my $$nf = join "|", map {ucfirst $$_} split /\|/, $$anode->conll_feat; $$anode->set_tag($$anode->conll_pos." ".$$nf)' \
+		A2A::ConvertTags input_driver=de::conll2009 \
+		HamleDT::DE::Harmonize \
+		Util::Eval anode='$$anode->set_afun($$anode->deprel)' \
+		Scen::Analysis::DE default_functor='???' \
 		Coref::Project::MentionsFromAtoTlayer \
 		Write::Treex storable=1 path='$(dir $@)' && \
 	touch $@
