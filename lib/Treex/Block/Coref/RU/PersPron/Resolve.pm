@@ -10,7 +10,8 @@ with 'Treex::Block::Coref::RU::PersPron::Base';
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 has '+model_path' => (
-    default => '/home/mnovak/projects/coref_projection/treex_cr_train/ru/perspron/tmp/ml/001_run_2016-12-18_15-35-37_8076.first_attempt_to_train_RU_model_for_persprons/006.6d08f24520.featset/002.22ec1.mlmethod/model/train.official.table.gz.vw.ranking.model',
+    #default => '/home/mnovak/projects/coref_projection/treex_cr_train/ru/perspron/tmp/ml/001_run_2016-12-18_15-35-37_8076.first_attempt_to_train_RU_model_for_persprons/006.6d08f24520.featset/002.22ec1.mlmethod/model/train.official.table.gz.vw.ranking.model',
+    default => '/home/mnovak/projects/coref_projection/treex_cr_train/ru/perspron/tmp/ml/003_run_2016-12-27_13-16-03_4350.new_perspron_feats/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
 );
 
 override '_build_ranker' => sub {

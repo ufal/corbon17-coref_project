@@ -10,7 +10,7 @@ with 'Treex::Block::Coref::DE::Noun::Base';
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 has '+model_path' => (
-    default => '/home/mnovak/projects/coref_projection/treex_cr_train/ru/noun/tmp/ml/002_run_2016-12-19_21-58-15_9694.first_model_of_ru_nouns/002.e5ce78c10f.featset/002.4e1ae.mlmethod/model/train.official.table.gz.vw.ranking.model',
+    default => '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/001_run_2016-12-25_17-55-36_28581.first_run_DE_noun/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
 );
 
 override '_build_ranker' => sub {
