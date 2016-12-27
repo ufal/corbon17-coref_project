@@ -67,7 +67,7 @@ sub _build_annotation {
                 $wordstr =~ s/-LRB-/(/g;
                 $wordstr =~ s/-RRB-/)/g;
                 $wordstr =~ s/''/``/g;
-                $wordstr = $tokenizer->tokenize_sentence($wordstr);
+                #$wordstr = $tokenizer->tokenize_sentence($wordstr);
                 my @words = split /\s/, $wordstr;
 
                 # if a CoNLL token in split into several tokens, put the starts of mentions to the first token,
@@ -108,7 +108,7 @@ sub _process_sentence {
     for (my $i = 0; $i < @anodes; $i++) {
         my $eq = 0;
 
-        my $w_size = 10;
+        my $w_size = 4;
         my ($iws, $jws) = ($i, $j);
         my $iwe = $i + $w_size;
         my $jwe = $j + $w_size;
@@ -133,11 +133,14 @@ sub _process_sentence {
             }
             my @coref_starts = map {@{$_->[1]}} @conll_sent[$jws .. $j-1];
             my @coref_ends = map {@{$_->[2]}} @conll_sent[$jws .. $j-1];
-            for (my $k = $iws; $k < $i; $k++) {
-                set_coref_mention_wilds($anodes[$k], \@coref_starts, \@coref_ends);
-            }
+            $anodes[$iws]->wild->{coref_mention_start} = \@coref_starts if (@coref_starts);
+            $anodes[$i-1]->wild->{coref_mention_end} = \@coref_ends if (@coref_ends);
+            #for (my $k = $iws; $k < $i; $k++) {
+            #    set_coref_mention_wilds($anodes[$k], \@coref_starts, \@coref_ends);
+            #}
             if ($i < @anodes && $j < @conll_sent) {
-                set_coref_mention_wilds($anodes[$i], $conll_sent[$j]->[1], $conll_sent[$j]->[2]);
+                $anodes[$i]->wild->{coref_mention_start} = $conll_sent[$j]->[1] if (@{$conll_sent[$j]->[1]});
+                $anodes[$i]->wild->{coref_mention_end} = $conll_sent[$j]->[2] if (@{$conll_sent[$j]->[2]});
             }
         }
         else {
@@ -152,15 +155,11 @@ sub _process_sentence {
     _make_entities_well_formed(\@anodes);
 }
 
-sub set_coref_mention_wilds {
-    my ($anode, $coref_starts, $coref_ends) = @_;
-    $anode->wild->{coref_mention_start} = $coref_starts if (@$coref_starts);
-    $anode->wild->{coref_mention_end} = $coref_ends if (@$coref_ends);
-}
-
 sub _make_entities_well_formed {
     my ($anodes) = @_;
+    #log_info "ADJUST CLOSING";
     _adjust_closing_brackets($anodes);
+    #log_info "ADJUST CLOSING REVERSED";
     _adjust_closing_brackets($anodes, 1);
 }
 
@@ -179,6 +178,7 @@ sub _adjust_closing_brackets {
         #log_info "END_ENTS: ".(np $end_ents);
         if (defined $start_ents) {
             push @stack, $start_ents;
+            #log_info "Pushing starts for ".$anode->id.": ".join " ", @$start_ents;
         }
         if (defined $end_ents) {
             # remembering also the frequency, because of the nested mentions of the same entity (10|(10...10)...10)
@@ -200,6 +200,7 @@ sub _adjust_closing_brackets {
                 #print STDERR "TOP, NEW_TOP:\n";
                 #p @$top;
                 #p @new_top;
+            #log_info "Ends reordered ".join " ", @ordered_end_ents;
                 log_fatal "Not context-free for anode: ".$anode->get_address if (scalar(@$top) == scalar(@new_top) && scalar(@new_top) > 0);
                 push @stack,  [ @new_top ] if (@new_top);
             }
