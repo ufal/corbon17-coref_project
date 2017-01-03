@@ -4,6 +4,10 @@
 /bin
 /log
 
+# results on a development data sample
+/results.ru.txt
+/results.de.txt
+
 # auxiliary scripts for long-lasting word alignment
 /subskript.sh
 /skript.sh
