@@ -25,7 +25,9 @@ $(TESTCR_TECTO_RU_DIR)/done :
 tecto_test_de : $(TESTCR_TECTO_DE_DIR)/done
 $(TESTCR_TECTO_DE_DIR)/done :
 	mkdir -p $(dir $@)
-	scripts/german_parse.sh $(TEST_DATA) $(dir $@) 1
+	for i in $(TEST_DATA); do \
+		scripts/german_parse.sh $$i $(dir $@) 1; \
+	done
 	$(TREEX) -Ssrc \
 		Read::CoNLL2009 language=$(L2) use_p_attribs=1 doc_reset_sent_id=1 from='!$(dir $@)/*.conll' \
 		Util::Eval anode='my $$nf = join "|", map {ucfirst $$_} split /\|/, $$anode->conll_feat; $$anode->set_tag($$anode->conll_pos." ".$$nf)' \
@@ -54,6 +56,8 @@ resolve_test : $(TESTCR_TECTO_DIR)/done
 	echo "$(D)" > $(NEW_TRY)/description
 	$(TREEX) -L$(L2) -Ssrc \
 		Read::Treex from='!$(dir $<)/*.streex' \
+		Coref::$(UC_L2)::RelPron::Resolve \
+		Coref::$(UC_L2)::DemonPron::Resolve \
 		Coref::$(UC_L2)::PersPron::Resolve \
 		Coref::$(UC_L2)::Noun::Resolve \
 		Coref::MarkMentionsForScorer layer=a only_heads=0 \
