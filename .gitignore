@@ -3,3 +3,7 @@
 /tools
 /bin
 /log
+
+# auxiliary scripts for long-lasting word alignment
+/subskript.sh
+/skript.sh
