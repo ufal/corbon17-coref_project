@@ -77,6 +77,6 @@ eval_test :
 	ls $(TEST_DATA) | sort | xargs cat | sed 's/(__); __/text0$(L2)/' > $(NEW_TRY)/eval/all.key.conll
 	find $(NEW_TRY)/resolve/ -name '*.conll' | sort | xargs cat | cut --complement -f18 > $(NEW_TRY)/eval/all.response.conll
 	$(SCORER) all $(NEW_TRY)/eval/all.key.conll $(NEW_TRY)/eval/all.response.conll > $(NEW_TRY)/eval/score.txt
-	fscore_avg=`cat $(NEW_TRY)/eval/score.txt | grep Coreference | head -n4 | cut -f3 | cut -f2 -d' ' | cut -f1 -d'%' | awk '{ total += $$1; count++ } END { print total/count }'`; \
+	fscore_avg=`cat $(NEW_TRY)/eval/score.txt | grep Coreference | head -n4 | sed '3d' | cut -f3 | cut -f2 -d' ' | cut -f1 -d'%' | awk '{ total += $$1; count++ } END { print total/count }'`; \
 	desc=`cat $(NEW_TRY)/description`; \
 	echo -e "$(DATE)\t$$fscore_avg\t$(NEW_TRY)\t$$desc" >> results.$(L2).txt
