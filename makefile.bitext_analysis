@@ -179,6 +179,8 @@ BIANALYSIS_ADD_RULEBASED_DE_DIR=$(BIANALYSIS_DE_DIR)/07.add_rulebased
 $(BIANALYSIS_ADD_RULEBASED_RU_DIR)/done : $(BIANALYSIS_NE_DIR)/done
 $(BIANALYSIS_ADD_RULEBASED_DE_DIR)/done : $(BIANALYSIS_TECTO_DE_DIR)/done
 
+# Util::Eval removes anodes with an empty word form - this is caused by multiple consecutive spaces in a 
+# tokenized input texts and the tokenization method that splits words on every whitespace
 add_rulebased_bitext : $(BIANALYSIS_ADD_RULEBASED_DIR)/done
 $(BIANALYSIS_ADD_RULEBASED_DIR)/done :
 	mkdir -p $(dir $@)
