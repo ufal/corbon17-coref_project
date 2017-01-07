@@ -166,3 +166,28 @@ $(BIANALYSIS_NE_DIR)/done : $(BIANALYSIS_TECTO_DIR)/done
 		A2N::RU::NameTag \
 		Write::Treex storable=1 path='$(dir $@)' && \
 	touch $@
+
+############################################### STAGE 7 ##################################################
+################## ANALYSE ENGLISH UP TO THE T-LAYER, ADD RULE-BASED RELPRON COREFERENCE #################
+################### AND PROJECT IT TO TARGET T-LAYER OVER NEWLY ESTABLISHED T-ALIGNMENT  #################
+##########################################################################################################
+
+BIANALYSIS_ADD_RULEBASED_DIR=$(BIANALYSIS_DIR)/07.add_rulebased
+BIANALYSIS_ADD_RULEBASED_RU_DIR=$(BIANALYSIS_RU_DIR)/07.add_rulebased
+BIANALYSIS_ADD_RULEBASED_DE_DIR=$(BIANALYSIS_DE_DIR)/07.add_rulebased
+
+$(BIANALYSIS_ADD_RULEBASED_RU_DIR)/done : $(BIANALYSIS_NE_DIR)/done
+$(BIANALYSIS_ADD_RULEBASED_DE_DIR)/done : $(BIANALYSIS_TECTO_DE_DIR)/done
+
+add_rulebased_bitext : $(BIANALYSIS_ADD_RULEBASED_DIR)/done
+$(BIANALYSIS_ADD_RULEBASED_DIR)/done :
+	mkdir -p $(dir $@)
+	mkdir -p $(BIANALYSIS_TMP)/07.add_rulebased.runs
+	$(TREEX) -Len -Ssrc -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/07.add_rulebased.runs/{NNN}-run-{XXXX}' \
+		Read::Treex from='!$(dir $<)/*.streex' \
+		Util::Eval anode='$$anode->remove() if (!defined $$anode->form || $$anode->form =~ /^\s*$$/);' \
+		Scen::Analysis::EN tokenizer=none tagger=none coref=none \
+		Align::T::CopyAlignmentFromAlayer to_language=$(L2) to_selector=src \
+		Coref::ProjectLinks to_language=$(L2) to_selector=src \
+		Write::Treex storable=1 path='$(dir $@)' && \
+	touch $@

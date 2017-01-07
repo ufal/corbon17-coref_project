@@ -10,7 +10,10 @@ with 'Treex::Block::Coref::RU::RelPron::Base';
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 has '+model_path' => (
-    default => '/home/mnovak/projects/coref_projection/treex_cr_train/ru/relpron/tmp/ml/001_run_2016-12-28_00-19-46_27180.russian_relprons/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
+    # no rulebased CR for EN -> almost no relpron coreference
+    #default => '/home/mnovak/projects/coref_projection/treex_cr_train/ru/relpron/tmp/ml/001_run_2016-12-28_00-19-46_27180.russian_relprons/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
+    # rulebased CR for EN
+    default => '/home/mnovak/projects/coref_projection/treex_cr_train/ru/relpron/tmp/ml/002_run_2017-01-06_18-22-08_32556.projected_EN_rulebased_relprons/003.ad7ca.mlmethod/model/train.official.table.gz.vw.ranking.model',
 );
 
 override '_build_ranker' => sub {
