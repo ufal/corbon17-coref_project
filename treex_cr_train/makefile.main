@@ -32,7 +32,9 @@ $(ALL_DATA_TABLES) :
 DATA_LIST=TRAIN_DATA DEV_DATA
 TEST_DATA_LIST=DEV_DATA
 
+ifeq ($(ML_METHOD_LIST),)
 ML_METHOD_LIST=../../ml_method.conf
+endif
 
         #EVAL_DATA=eval.$(DATA_NAME).table.gz 
 train_test : $(ALL_DATA_TABLES)
