@@ -5,7 +5,7 @@ TREEX=PERL5LIB=$$PERL5LIB:$$PWD/../../../lib treex
 
 LRC=1
 ifeq ($(LRC),1)
-LRC_FLAG=-p --jobs 100 --queue 'troja-all.q@*' --priority=0 --workdir=tmp/treex_runs/{NNN}-run.{XXXX}
+LRC_FLAG=-p --jobs 100 --mem 10G --queue 'troja-all.q@*' --priority=0 --workdir=tmp/treex_runs/{NNN}-run.{XXXX}
 endif
 
 
