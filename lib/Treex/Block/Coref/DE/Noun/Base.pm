@@ -11,8 +11,8 @@ with 'Treex::Block::Coref::SupervisedBase' => {
 };
 
 sub _build_node_types {
-    return 'noun.only.definite';
-#    return 'noun.only';
+    #return 'noun.only.non_indefinite';
+    return 'noun.only';
 }
 
 #sub _build_feature_extractor {

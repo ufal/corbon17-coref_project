@@ -5,6 +5,7 @@ use Treex::Core::Common;
 use List::MoreUtils qw/uniq/;
 use Text::Levenshtein qw(distance);
 use Treex::Tool::Python::RunFunc;
+use Treex::Tool::Coreference::NodeFilter::Noun;
 
 extends 'Treex::Tool::Coreference::Features::RU_DE::AllMonolingual';
 
@@ -49,6 +50,7 @@ augment '_unary_features' => sub {
     my ($self, $node, $type) = @_;
     
     my $feats = {};
+    $self->morpho_unary_feats($feats, $node, $type);
     $self->wordeq_unary_feats($feats, $node, $type);
     $self->ne_unary_feats($feats, $node, $type);
 
@@ -60,6 +62,7 @@ override '_binary_features' => sub {
     my ($self, $set_feats, $anaph, $cand, $candord) = @_;
     my $feats = super();
     
+    $self->morpho_binary_feats($feats, $set_feats, $anaph, $cand, $candord);
     $self->wordeq_binary_feats($feats, $set_feats, $anaph, $cand, $candord);
     $self->word2vec_binary_feats($feats, $set_feats, $anaph, $cand, $candord);
     $self->ne_binary_feats($feats, $set_feats, $anaph, $cand, $candord);
@@ -71,6 +74,23 @@ override '_add_global_features' => sub {
     super();
     $self->word2vec_global_feats($cands_feats, $anaph_feats, $cands, $anaph);
 };
+
+############################### MORPHO FEATURES #########################################
+
+sub morpho_unary_feats {
+    my ($self, $feats, $node, $type) = @_;
+    my $anode = $node->get_lex_anode;
+    if (defined $anode) {
+        $feats->{def} = Treex::Tool::Coreference::NodeFilter::Noun::is_indefinite($anode) ? "indef" :
+                        (Treex::Tool::Coreference::NodeFilter::Noun::is_definite($anode) ? "def" : 0);
+    }
+}
+
+sub morpho_binary_feats {
+    my ($self, $feats, $set_feats, $anaph, $cand, $candord) = @_;
+    $feats->{agree_def} = $self->_agree_feats($set_feats->{"c^cand_def"}, $set_feats->{"a^anaph_def"});
+    $feats->{join_def} = $self->_join_feats($set_feats->{"c^cand_def"}, $set_feats->{"a^anaph_def"});
+}
 
 ################## WORD EQUALITY AND SIMILARITY FEATURES ####################################
 
