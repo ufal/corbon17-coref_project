@@ -4,12 +4,43 @@ use Moose;
 use Treex::Core::Common;
 use List::MoreUtils qw/uniq/;
 use Text::Levenshtein qw(distance);
+use Treex::Tool::Python::RunFunc;
 
 extends 'Treex::Tool::Coreference::Features::RU_DE::AllMonolingual';
 
 my $UNDEF_VALUE = "undef";
 my $b_true = 1;
 my $b_false = 0;
+
+has 'word2vec_model' => ( is => 'ro', isa => 'Str', predicate => 'has_word2vec_model' );
+has '_word2vec_python' => ( is => 'ro', isa => 'Maybe[Treex::Tool::Python::RunFunc]', builder => '_build_word2vec_python', lazy => 1 );
+
+sub BUILD {
+    my ($self) = @_;
+    $self->_word2vec_python;
+}
+
+my $PYTHON_INIT = <<INIT;
+import gensim
+model = gensim.models.Word2Vec.load_word2vec_format("%s", binary=True)
+print "OK"
+INIT
+
+sub _build_word2vec_python {
+    my ($self) = @_;
+    if ($self->has_word2vec_model) {
+        my $cmd = sprintf $PYTHON_INIT, $self->word2vec_model;
+        my $python = Treex::Tool::Python::RunFunc->new();
+        my $out = $python->command($cmd);
+        if ($out eq "OK") {
+            return $python;
+        }
+        else {
+            log_warn "The word2vec model cannot be loaded from: ".$self->word2vec_model."\nPython output: $out";
+        }
+    }
+    return undef;
+}
 
 
 ########################## MAIN METHODS ####################################
@@ -30,10 +61,16 @@ override '_binary_features' => sub {
     my $feats = super();
     
     $self->wordeq_binary_feats($feats, $set_feats, $anaph, $cand, $candord);
+    $self->word2vec_binary_feats($feats, $set_feats, $anaph, $cand, $candord);
     $self->ne_binary_feats($feats, $set_feats, $anaph, $cand, $candord);
     return $feats;
 };
 
+override '_add_global_features' => sub {
+    my ($self, $cands_feats, $anaph_feats, $cands, $anaph) = @_;
+    super();
+    $self->word2vec_global_feats($cands_feats, $anaph_feats, $cands, $anaph);
+};
 
 ################## WORD EQUALITY AND SIMILARITY FEATURES ####################################
 
@@ -47,10 +84,67 @@ sub wordeq_binary_feats {
     $feats->{agree_lemma} = $self->_agree_feats($set_feats->{"c^cand_lemma"}, $set_feats->{"a^anaph_lemma"});
     $feats->{join_lemma} = $self->_join_feats($set_feats->{"c^cand_lemma"}, $set_feats->{"a^anaph_lemma"});
     $feats->{dist_lemma} = distance($set_feats->{"c^cand_lemma"}, $set_feats->{"a^anaph_lemma"});
-    
+
+    $feats->{agree_lemma_def} = $feats->{agree_lemma} . "_" . $feats->{join_def};
+    $feats->{join_lemma_def} = $feats->{join_lemma} . "_" . $feats->{join_def};
+
     $feats->{agree_full_np_set} = $self->_agree_feats($set_feats->{"c^cand_full_np_set"}, $set_feats->{"a^anaph_full_np_set"});
     $feats->{join_full_np_set} = $self->_join_feats($set_feats->{"c^cand_full_np_set"}, $set_feats->{"a^anaph_full_np_set"});
     $feats->{dist_full_np_set} = distance($set_feats->{"c^cand_full_np_set"}, $set_feats->{"a^anaph_full_np_set"});
+}
+
+my $SIM_PYTHON_CMD = <<CMD;
+try:
+    print model.similarity('%s', '%s')
+except KeyError:
+    print "undef"
+CMD
+
+sub word2vec_binary_feats {
+    my ($self, $feats, $set_feats, $anaph, $cand, $candord) = @_;
+
+    my $cmd = "model.similarity('%s', '%s')\n";
+
+    $cmd = sprintf $SIM_PYTHON_CMD, 
+        _prepare_str_for_word2vec($set_feats->{"c^cand_lemma"}),
+        _prepare_str_for_word2vec($set_feats->{"a^anaph_lemma"});
+    my $python = $self->_word2vec_python;
+    if (defined $python) {
+        my $score = $self->_word2vec_python->command($cmd);
+        $score = $self->_categorize( $score, [ map {$_ * 0.05} 0 .. 19 ] ) if ($score ne "undef");
+        $feats->{word2vec_sim} = $score;
+    }
+}
+
+sub _prepare_str_for_word2vec {
+    my ($str) = @_;
+
+    # escape \ and '
+    $str =~ s/\\/\\\\/g;
+    $str =~ s/'/\\'/g;
+
+    # transform umlauts
+    $str =~ s/ä/ae/g;
+    $str =~ s/ö/oe/g;
+    $str =~ s/ü/ue/g;
+    $str =~ s/Ä/Ae/g;
+    $str =~ s/Ö/Oe/g;
+    $str =~ s/Ü/Ue/g;
+    $str =~ s/ß/ss/g;
+
+    return $str;
+}
+
+sub word2vec_global_feats {
+    my ($self, $cands_feats, $anaph_feats, $cands, $anaph) = @_;
+    my @word2vec_sims = map {$_->{word2vec_sim}} @$cands_feats;
+    my @def_idxs = grep {$word2vec_sims[$_] ne "undef"} 0 .. $#word2vec_sims;
+    my @order = sort {$word2vec_sims[$b] <=> $word2vec_sims[$a]} @def_idxs;
+    my $i = 1;
+    foreach my $ord (@order) {
+        $cands_feats->[$ord]->{rank_word2vec_sim} = $self->_categorize( $i, [ 1, 2, 3, 5, 10 ]);
+        $i++;
+    }
 }
 
 ######################### NAMED ENTITY FEATURES ###############################################

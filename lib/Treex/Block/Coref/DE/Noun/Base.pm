@@ -23,7 +23,7 @@ sub _build_node_types {
 sub _build_feature_extractor {
     my ($self) = @_;
     #my $fe = Treex::Tool::Coreference::Features::RU_DE::AllMonolingual->new();
-    my $fe = Treex::Tool::Coreference::Features::RU_DE::Noun->new();
+    my $fe = Treex::Tool::Coreference::Features::RU_DE::Noun->new({word2vec_model => "/home/mnovak/projects/coref_projection/data/word_vectors/german.word2vec.model"});
     return $fe;
 }
 
