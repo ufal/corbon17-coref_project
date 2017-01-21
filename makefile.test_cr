@@ -31,6 +31,7 @@ $(TESTCR_TECTO_DE_DIR)/done :
 	$(TREEX) -Ssrc \
 		Read::CoNLL2009 language=$(L2) use_p_attribs=1 doc_reset_sent_id=1 from='!$(dir $@)/*.conll' \
 		Util::Eval anode='my $$nf = join "|", map {ucfirst $$_} split /\|/, $$anode->conll_feat; $$anode->set_tag($$anode->conll_pos." ".$$nf)' \
+		Util::Eval anode='if ($$anode->conll_deprel eq "--") { if ($$anode->get_parent == $$anode->get_root) { $$anode->set_conll_deprel("ROOT")} elsif ($$anode->conll_pos =~ /^\$$[.,(]/) { $$anode->set_conll_deprel("PUNC")}}' \
 		A2A::ConvertTags input_driver=de::conll2009 \
 		HamleDT::DE::Harmonize \
 		Util::Eval anode='$$anode->set_afun($$anode->deprel)' \
