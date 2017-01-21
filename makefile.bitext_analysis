@@ -131,7 +131,7 @@ $(BIANALYSIS_TECTO_RU_DIR)/done : $(BIANALYSIS_COREF_PROJECT_DIR)/done
 	mkdir -p $(BIANALYSIS_TMP)/06.tecto.runs
 	$(TREEX) -L$(L2) -Ssrc -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/06.tecto.runs/{NNN}-run-{XXXX}' \
 		Read::Treex from='!$(dir $<)/*.streex' \
-		Scen::Analysis::RU default_functor='???' \
+		Scen::Analysis::RU tokenized=1 default_functor='???' \
 		Coref::Project::MentionsFromAtoTlayer \
 		Write::Treex storable=1 path='$(dir $@)' && \
 	touch $@
@@ -158,17 +158,17 @@ $(BIANALYSIS_TECTO_DE_DIR)/done : $(BIANALYSIS_COREF_PROJECT_DIR)/done
 #### ADD NAMED ENTITIES TO THE ANALYSED TEXT - FROM NOW ON IT SHOULD BE DONE IN THE PREVIOUS STAGE  #######
 ###########################################################################################################
 
-BIANALYSIS_NE_DIR=$(BIANALYSIS_DIR)/06b.ne
-
-ne_bitext : $(BIANALYSIS_NE_DIR)/done
-$(BIANALYSIS_NE_DIR)/done : $(BIANALYSIS_TECTO_DIR)/done
-	mkdir -p $(dir $@)
-	mkdir -p $(BIANALYSIS_TMP)/06b.ne.runs
-	$(TREEX) -L$(L2) -Ssrc -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/06b.ne.runs/{NNN}-run-{XXXX}' \
-		Read::Treex from='!$(dir $<)/*.streex' \
-		A2N::RU::NameTag \
-		Write::Treex storable=1 path='$(dir $@)' && \
-	touch $@
+#BIANALYSIS_NE_DIR=$(BIANALYSIS_DIR)/06b.ne
+#
+#ne_bitext : $(BIANALYSIS_NE_DIR)/done
+#$(BIANALYSIS_NE_DIR)/done : $(BIANALYSIS_TECTO_DIR)/done
+#	mkdir -p $(dir $@)
+#	mkdir -p $(BIANALYSIS_TMP)/06b.ne.runs
+#	$(TREEX) -L$(L2) -Ssrc -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/06b.ne.runs/{NNN}-run-{XXXX}' \
+#		Read::Treex from='!$(dir $<)/*.streex' \
+#		A2N::RU::NameTag \
+#		Write::Treex storable=1 path='$(dir $@)' && \
+#	touch $@
 
 ############################################### STAGE 7 ##################################################
 ################## ANALYSE ENGLISH UP TO THE T-LAYER, ADD RULE-BASED RELPRON COREFERENCE #################
@@ -179,7 +179,7 @@ BIANALYSIS_ADD_RULEBASED_DIR=$(BIANALYSIS_DIR)/07.add_rulebased
 BIANALYSIS_ADD_RULEBASED_RU_DIR=$(BIANALYSIS_RU_DIR)/07.add_rulebased
 BIANALYSIS_ADD_RULEBASED_DE_DIR=$(BIANALYSIS_DE_DIR)/07.add_rulebased
 
-$(BIANALYSIS_ADD_RULEBASED_RU_DIR)/done : $(BIANALYSIS_NE_DIR)/done
+$(BIANALYSIS_ADD_RULEBASED_RU_DIR)/done : $(BIANALYSIS_TECTO_RU_DIR)/done
 $(BIANALYSIS_ADD_RULEBASED_DE_DIR)/done : $(BIANALYSIS_TECTO_DE_DIR)/done
 
 # Util::Eval removes anodes with an empty word form - this is caused by multiple consecutive spaces in a 
