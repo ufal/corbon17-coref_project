@@ -70,7 +70,7 @@ sub project_mention_to_tlayer {
     return if (!defined $s_anode || !defined $e_anode);
     my @anodes_between = $s_anode->get_nodes_between($e_anode);
     my @t_head_cands = grep {defined $_} map {$_->get_referencing_nodes('a/lex.rf')} ($s_anode, @anodes_between, $e_anode);
-    my @t_head_nouns = grep {Treex::Tool::Coreference::NodeFilter::matches($_, ['noun'])} @t_head_cands;
+    my @t_head_nouns = grep {Treex::Tool::Coreference::NodeFilter::matches($_, ['all_anaph_corbon17'])} @t_head_cands;
     my @t_head_depth_sorted = sort {$a->get_depth <=> $b->get_depth} @t_head_nouns;
     return if (!@t_head_depth_sorted);
     return $t_head_depth_sorted[0];
