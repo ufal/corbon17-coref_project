@@ -9,9 +9,12 @@ with 'Treex::Block::Coref::DE::RelPron::Base';
 #use Treex::Tool::Coreference::ProbDistrRanker;
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
-has '+model_path' => (
-    default => '/home/mnovak/projects/coref_projection/treex_cr_train/de/relpron/tmp/ml/001_run_2016-12-27_22-26-50_12290.german_model_for_relprons/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
-);
+override 'build_model_path' => sub {
+    #default => '/home/mnovak/projects/coref_projection/treex_cr_train/de/relpron/tmp/ml/001_run_2016-12-27_22-26-50_12290.german_model_for_relprons/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
+    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/relpron/tmp/ml/003_run_2017-01-12_00-42-08_11341.after_HamleDT_conversion_fixes/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    print STDERR "MODEL_PATH: $path\n";
+    return $path;
+};
 
 override '_build_ranker' => sub {
     my ($self) = @_;

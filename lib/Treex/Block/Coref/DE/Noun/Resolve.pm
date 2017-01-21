@@ -9,12 +9,14 @@ with 'Treex::Block::Coref::DE::Noun::Base';
 #use Treex::Tool::Coreference::ProbDistrRanker;
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
-has '+model_path' => (
+override 'build_model_path' => sub {
     # all NPs as anaphor candidates
-    default => '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/001_run_2016-12-25_17-55-36_28581.first_run_DE_noun/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
+    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/004_run_2017-01-19_00-32-19_27857.run_on_all_DE_nouns-better_tecto-w2v/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    print STDERR "MODEL_PATH: $path\n";
+    return $path;
     # non-indefinite NPs as anaphor candidates
-    #default => '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/003_run_2017-01-03_17-40-10_13275.run_on_DE_non-indefinite_nouns/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
-);
+    #return '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/003_run_2017-01-03_17-40-10_13275.run_on_DE_non-indefinite_nouns/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
+};
 
 override '_build_ranker' => sub {
     my ($self) = @_;

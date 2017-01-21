@@ -9,9 +9,11 @@ with 'Treex::Block::Coref::DE::PersPron::Base';
 #use Treex::Tool::Coreference::ProbDistrRanker;
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
-has '+model_path' => (
-    default => '/home/mnovak/projects/coref_projection/treex_cr_train/de/perspron/tmp/ml/001_run_2016-12-25_18-04-06_30095.first_run_DE_perspron/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
-);
+override 'build_model_path' => sub {
+    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/perspron/tmp/ml/001_run_2016-12-25_18-04-06_30095.first_run_DE_perspron/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    print STDERR "MODEL_PATH: $path\n";
+    return $path;
+};
 
 override '_build_ranker' => sub {
     my ($self) = @_;
