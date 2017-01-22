@@ -157,7 +157,7 @@ sub _prepare_str_for_word2vec {
 
 sub word2vec_global_feats {
     my ($self, $cands_feats, $anaph_feats, $cands, $anaph) = @_;
-    my @word2vec_sims = map {$_->{word2vec_sim}} @$cands_feats;
+    my @word2vec_sims = grep {defined $_} map {$_->{word2vec_sim}} @$cands_feats;
     my @def_idxs = grep {$word2vec_sims[$_] ne "undef"} 0 .. $#word2vec_sims;
     my @order = sort {$word2vec_sims[$b] <=> $word2vec_sims[$a]} @def_idxs;
     my $i = 1;
