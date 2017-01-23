@@ -10,7 +10,6 @@ with 'Treex::Block::Coref::RU::DemonPron::Base';
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 override 'build_model_path' => sub {
-has '+model_path' => (
     my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/demonpron/tmp/ml/002_run_2017-01-23_00-25-02_22456.models_retrained_after_bugfix_in_a2t_mention_projection/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
     print STDERR "MODEL_PATH: $path\n";
     return $path;

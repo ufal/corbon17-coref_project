@@ -10,7 +10,6 @@ with 'Treex::Block::Coref::RU::Noun::Base';
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 override 'build_model_path' => sub {
-has '+model_path' => (
     #default => '/home/mnovak/projects/coref_projection/treex_cr_train/ru/noun/tmp/ml/002_run_2016-12-19_21-58-15_9694.first_model_of_ru_nouns/002.e5ce78c10f.featset/002.4e1ae.mlmethod/model/train.official.table.gz.vw.ranking.model',
     my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/noun/tmp/ml/006_run_2017-01-22_19-48-21_30370.models_retrained_after_bugfix_in_a2t_mention_projection/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
     print STDERR "MODEL_PATH: $path\n";
