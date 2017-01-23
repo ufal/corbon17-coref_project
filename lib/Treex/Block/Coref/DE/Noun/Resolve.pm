@@ -11,7 +11,7 @@ use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 override 'build_model_path' => sub {
     # all NPs as anaphor candidates
-    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/004_run_2017-01-19_00-32-19_27857.run_on_all_DE_nouns-better_tecto-w2v/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/009_run_2017-01-22_00-08-33_5992.models_retrained_after_bugfix_in_a2t_mention_projection/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
     print STDERR "MODEL_PATH: $path\n";
     return $path;
     # non-indefinite NPs as anaphor candidates
