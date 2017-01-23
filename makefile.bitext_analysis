@@ -185,7 +185,7 @@ $(BIANALYSIS_ADD_RULEBASED_DE_DIR)/done : $(BIANALYSIS_TECTO_DE_DIR)/done
 # Util::Eval removes anodes with an empty word form - this is caused by multiple consecutive spaces in a 
 # tokenized input texts and the tokenization method that splits words on every whitespace
 add_rulebased_bitext : $(BIANALYSIS_ADD_RULEBASED_DIR)/done
-$(BIANALYSIS_ADD_RULEBASED_DIR)/done :
+$(BIANALYSIS_ADD_RULEBASED_DIR)/done : $(BIANALYSIS_TECTO_DIR)/done
 	mkdir -p $(dir $@)
 	mkdir -p $(BIANALYSIS_TMP)/07.add_rulebased.runs
 	$(TREEX) -Len -Ssrc -p --jobs=100 --priority=0 --queue 'troja-all.q@*' --workdir='$(BIANALYSIS_TMP)/07.add_rulebased.runs/{NNN}-run-{XXXX}' \
