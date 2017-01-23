@@ -28,7 +28,7 @@ $(TESTCR_TECTO_DE_DIR)/done :
 	for i in $(TEST_DATA); do \
 		scripts/german_parse.sh $$i $(dir $@) 1; \
 	done
-	$(TREEX) -Ssrc \
+	$(TREEX) -Lde -Ssrc \
 		Read::CoNLL2009 language=$(L2) use_p_attribs=1 doc_reset_sent_id=1 from='!$(dir $@)/*.conll' \
 		Util::Eval anode='my $$nf = join "|", map {ucfirst $$_} split /\|/, $$anode->conll_feat; $$anode->set_tag($$anode->conll_pos." ".$$nf)' \
 		Util::Eval anode='if ($$anode->conll_deprel eq "--") { if ($$anode->get_parent == $$anode->get_root) { $$anode->set_conll_deprel("ROOT")} elsif ($$anode->conll_pos =~ /^\$$[.,(]/) { $$anode->set_conll_deprel("PUNC")}}' \
@@ -58,12 +58,17 @@ ifeq ($(DEV),0)
 INPUT_PATTERN=*_$(L2)
 endif
 
+ifeq ($(L2),ru)
+REFL_POSS_PRON_BLOCK=Coref::RU::ReflPossPron::Resolve
+endif
+
 resolve_test : $(TESTCR_TECTO_DIR)/done
 	mkdir -p $(NEW_TRY)/resolve
 	echo "$(D)" > $(NEW_TRY)/description
 	$(TREEX) -L$(L2) -Ssrc \
 		Read::Treex from='!$(dir $<)/$(INPUT_PATTERN).streex' \
 		Coref::$(UC_L2)::RelPron::Resolve \
+		$(REFL_POSS_PRON_BLOCK) \
 		Coref::$(UC_L2)::DemonPron::Resolve \
 		Coref::$(UC_L2)::PersPron::Resolve \
 		Coref::$(UC_L2)::Noun::Resolve \
