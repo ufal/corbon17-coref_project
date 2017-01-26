@@ -148,6 +148,7 @@ $(BIANALYSIS_TECTO_DE_DIR)/done : $(BIANALYSIS_COREF_PROJECT_DIR)/done
 		Util::Eval anode='if ($$anode->conll_deprel eq "--") { if ($$anode->get_parent == $$anode->get_root) { $$anode->set_conll_deprel("ROOT")} elsif ($$anode->conll_pos =~ /^\$$[.,(]/) { $$anode->set_conll_deprel("PUNC")}}' \
 		A2A::ConvertTags input_driver=de::conll2009 \
 		HamleDT::DE::Harmonize \
+		W2A::DE::FixPronouns \
 		Util::Eval anode='$$anode->set_afun($$anode->deprel)' \
 		Scen::Analysis::DE default_functor='???' \
 		Coref::Project::MentionsFromAtoTlayer \
