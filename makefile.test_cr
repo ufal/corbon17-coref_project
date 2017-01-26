@@ -1,4 +1,15 @@
+# DEV=1 : dev-official
+# DEV=2 : small-dev-ours
+# DEV=0 : eval-test
+DEV=1
+# there is no data for (DEV=2 && L2=de)
+
 TEST_DATA=data/official/data/sample_annotation/text0$(L2).conll
+ifeq ($(DEV),0)
+TEST_DATA=data/official/data/test/$(L2)/*.conll
+else ifeq ($(DEV),2)
+TEST_DATA=/home/mnovak/projects/gacr2016/News-Commentary11/corbon17-train-data/txt_to_conll/$(L2)/*.conll
+endif
 
 TESTCR_DIR=data/test_cr/$(L2)
 TESTCR_DE_DIR=data/test_cr/de
@@ -13,8 +24,8 @@ TESTCR_TECTO_DIR=$(TESTCR_DIR)/01.tecto
 TESTCR_TECTO_DE_DIR=$(TESTCR_DE_DIR)/01.tecto
 TESTCR_TECTO_RU_DIR=$(TESTCR_RU_DIR)/01.tecto
 
-tecto_test_ru : $(TESTCR_TECTO_RU_DIR)/done
-$(TESTCR_TECTO_RU_DIR)/done :
+tecto_test_ru : $(TESTCR_TECTO_RU_DIR)/done.$(DEV)
+$(TESTCR_TECTO_RU_DIR)/done.$(DEV) :
 	mkdir -p $(dir $@)
 	$(TREEX) -Lru -Ssrc \
 		Read::CoNLLTokens from='!$(TEST_DATA)' \
@@ -22,8 +33,8 @@ $(TESTCR_TECTO_RU_DIR)/done :
 		Write::Treex storable=1 path='$(dir $@)' && \
 	touch $@
 
-tecto_test_de : $(TESTCR_TECTO_DE_DIR)/done
-$(TESTCR_TECTO_DE_DIR)/done :
+tecto_test_de : $(TESTCR_TECTO_DE_DIR)/done.$(DEV)
+$(TESTCR_TECTO_DE_DIR)/done.$(DEV) :
 	mkdir -p $(dir $@)
 	for i in $(TEST_DATA); do \
 		scripts/german_parse.sh $$i $(dir $@) 1; \
@@ -56,13 +67,15 @@ INPUT_PATTERN=text0$(L2)
 DEV=1
 ifeq ($(DEV),0)
 INPUT_PATTERN=*_$(L2)
+else ifeq ($(DEV),2)
+INPUT_PATTERN=0{1,2,3,4,5}
 endif
 
 ifeq ($(L2),ru)
 REFL_POSS_PRON_BLOCK=Coref::RU::ReflPossPron::Resolve
 endif
 
-resolve_test : $(TESTCR_TECTO_DIR)/done
+resolve_test : $(TESTCR_TECTO_DIR)/done.$(DEV)
 	mkdir -p $(NEW_TRY)/resolve
 	echo "$(D)" > $(NEW_TRY)/description
 	$(TREEX) -L$(L2) -Ssrc \
