@@ -10,8 +10,8 @@ with 'Treex::Block::Coref::DE::RelPron::Base';
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 override 'build_model_path' => sub {
-    #default => '/home/mnovak/projects/coref_projection/treex_cr_train/de/relpron/tmp/ml/001_run_2016-12-27_22-26-50_12290.german_model_for_relprons/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
-    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/relpron/tmp/ml/005_run_2017-01-21_18-00-15_2513.models_retrained_after_bugfix_in_a2t_mention_projection/003.ad7ca.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    #my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/relpron/tmp/ml/005_run_2017-01-21_18-00-15_2513.models_retrained_after_bugfix_in_a2t_mention_projection/003.ad7ca.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/relpron/tmp/ml/006_run_2017-01-25_22-22-15_6065.models_retrained_on_big_train_set/003.ad7ca.mlmethod/model/big_train.official.table.gz.vw.ranking.model';
     print STDERR "MODEL_PATH: $path\n";
     return $path;
 };
