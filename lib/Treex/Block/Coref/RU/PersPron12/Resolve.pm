@@ -1,8 +1,8 @@
-package Treex::Block::Coref::RU::PersPron::Resolve;
+package Treex::Block::Coref::RU::PersPron12::Resolve;
 use Moose;
 use Treex::Core::Common;
 extends 'Treex::Block::Coref::Resolve';
-with 'Treex::Block::Coref::RU::PersPron::Base';
+with 'Treex::Block::Coref::RU::PersPron12::Base';
 
 #use Treex::Tool::Coreference::PerceptronRanker;
 #use Treex::Tool::Coreference::RuleBasedRanker;
@@ -37,7 +37,7 @@ __END__
 
 =head1 NAME 
 
-Treex::Block::Coref::RU::PersPron::Resolve
+Treex::Block::Coref::RU::PersPron12::Resolve
 
 =head1 DESCRIPTION
 

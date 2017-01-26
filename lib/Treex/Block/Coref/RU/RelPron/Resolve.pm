@@ -10,10 +10,8 @@ with 'Treex::Block::Coref::RU::RelPron::Base';
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 override 'build_model_path' => sub {
-    # no rulebased CR for EN -> almost no relpron coreference
-    #default => '/home/mnovak/projects/coref_projection/treex_cr_train/ru/relpron/tmp/ml/001_run_2016-12-28_00-19-46_27180.russian_relprons/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model',
-    # rulebased CR for EN
     my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/relpron/tmp/ml/003_run_2017-01-21_15-24-24_5271.models_retrained_after_bugfix_in_a2t_mention_projection/002.a9a17.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    #my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/relpron/tmp/ml/004_run_2017-01-23_17-41-21_7497.models_retrained_on_big_train_set/002.a9a17.mlmethod/model/big_train.official.table.gz.vw.ranking.model';
     print STDERR "MODEL_PATH: $path\n";
     return $path;
 };
