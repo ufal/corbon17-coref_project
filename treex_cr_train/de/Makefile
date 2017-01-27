@@ -1,4 +1,4 @@
-NODETYPES=demonpron relpron perspron noun
+NODETYPES=demonpron relpron reflpron perspron perspron12 noun
 
 #################################################
 ########## MONOLINGUAL VERSION ##################
