@@ -11,8 +11,12 @@ use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 override 'build_model_path' => sub {
     # all NPs as anaphor candidates
+    # BEST TRAIN
     #my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/009_run_2017-01-22_00-08-33_5992.models_retrained_after_bugfix_in_a2t_mention_projection/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
-    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/010_run_2017-01-26_05-41-08_30982.models_retrained_on_big_train_set/001.8ba2e.mlmethod/model/big_train.official.table.gz.vw.ranking.model';
+    # BIG TRAIN
+    #my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/010_run_2017-01-26_05-41-08_30982.models_retrained_on_big_train_set/001.8ba2e.mlmethod/model/big_train.official.table.gz.vw.ranking.model';
+    # TRAIN AFTER PRONFIX
+    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/de/noun/tmp/ml/011_run_2017-01-27_00-16-58_26763.after_pronfix.train/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
     print STDERR "MODEL_PATH: $path\n";
     return $path;
     # non-indefinite NPs as anaphor candidates

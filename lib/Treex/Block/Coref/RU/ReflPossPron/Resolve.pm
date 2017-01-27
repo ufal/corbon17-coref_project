@@ -10,8 +10,12 @@ with 'Treex::Block::Coref::RU::ReflPossPron::Base';
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 override 'build_model_path' => sub {
-    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/reflpron.poss/tmp/ml/001_run_2017-01-21_15-24-34_5522.models_retrained_after_bugfix_in_a2t_mention_projection/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    # BEST TRAIN
+    #my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/reflpron.poss/tmp/ml/001_run_2017-01-21_15-24-34_5522.models_retrained_after_bugfix_in_a2t_mention_projection/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    # BIG TRAIN
     #my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/reflpron.poss/tmp/ml/002_run_2017-01-23_17-41-00_7138.models_retrained_on_big_train_set/001.8ba2e.mlmethod/model/big_train.official.table.gz.vw.ranking.model';
+    # TRAIN AFTER PRONFIX
+    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/reflpron.poss/tmp/ml/003_run_2017-01-26_18-16-25_22101.after_pronfix.train/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
     print STDERR "MODEL_PATH: $path\n";
     return $path;
 };

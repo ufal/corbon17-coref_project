@@ -10,8 +10,8 @@ with 'Treex::Block::Coref::RU::PersPron12::Base';
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 override 'build_model_path' => sub {
-    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/perspron/tmp/ml/004_run_2017-01-21_15-24-44_5713.models_retrained_after_bugfix_in_a2t_mention_projection/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
-    #my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/perspron/tmp/ml/005_run_2017-01-23_17-42-31_8633.models_retrained_on_big_train_set/001.8ba2e.mlmethod/model/big_train.official.table.gz.vw.ranking.model';
+    # TRAIN AFTER PRONFIX
+    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/perspron12/tmp/ml/001_run_2017-01-26_18-19-12_855.after_pronfix.train/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
     print STDERR "MODEL_PATH: $path\n";
     return $path;
 };
