@@ -5,6 +5,6 @@ LANGUAGE=ru
 DATA_NAME=official
 
 # original W2A
-TRAIN_DATA=../../../data/bitext_analysis/en_ru/07.add_rulebased/train.list
+TRAIN_DATA=../../../data/bitext_analysis/en_ru/07.add_rulebased/train-small_dev.list
 DEV_DATA=../../../data/bitext_analysis/en_ru/07.add_rulebased/dev.list
 EVAL_DATA=../../../data/bitext_analysis/en_ru/07.add_rulebased/eval.list
