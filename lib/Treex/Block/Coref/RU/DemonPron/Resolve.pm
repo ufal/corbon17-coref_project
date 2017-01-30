@@ -10,12 +10,15 @@ with 'Treex::Block::Coref::RU::DemonPron::Base';
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 override 'build_model_path' => sub {
+    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/demonpron/tmp/ml/';
     # BEST TRAIN
     #my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/demonpron/tmp/ml/002_run_2017-01-23_00-25-02_22456.models_retrained_after_bugfix_in_a2t_mention_projection/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
     # BIG TRAIN
     #my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/demonpron/tmp/ml/003_run_2017-01-23_17-40-42_6604.models_retrained_on_big_train_set/001.8ba2e.mlmethod/model/big_train.official.table.gz.vw.ranking.model';
     # TRAIN AFTER PRONFIX
-    my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/demonpron/tmp/ml/004_run_2017-01-26_18-04-31_2385.after_pronfix.train/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    #my $path = '/home/mnovak/projects/coref_projection/treex_cr_train/ru/demonpron/tmp/ml/004_run_2017-01-26_18-04-31_2385.after_pronfix.train/001.8ba2e.mlmethod/model/train.official.table.gz.vw.ranking.model';
+    # TRAIN-SMALL_DEV AFTER PRONFIX
+    $path .= '005_run_2017-01-28_01-30-01_9011.on_train-small_dev/001.8ba2e.mlmethod/model/train-small_dev.official.table.gz.vw.ranking.model';
     print STDERR "MODEL_PATH: $path\n";
     return $path;
 };
