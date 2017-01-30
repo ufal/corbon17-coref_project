@@ -76,18 +76,20 @@ ifeq ($(L2),ru)
 REFL_POSS_PRON_BLOCK=Coref::RU::ReflPossPron::Resolve
 endif
 
+RESOLVE_BLOCKS=Coref::$(UC_L2)::RelPron::Resolve \
+        	   $(REFL_POSS_PRON_BLOCK) \
+		       Coref::$(UC_L2)::ReflPron::Resolve \
+        	   Coref::$(UC_L2)::DemonPron::Resolve \
+		       Coref::$(UC_L2)::PersPron12::Resolve \
+			   Coref::$(UC_L2)::PersPron::Resolve \
+			   Coref::$(UC_L2)::Noun::Resolve
+
 resolve_test : $(TESTCR_TECTO_DIR)/done.$(DEV)
 	mkdir -p $(NEW_TRY)/resolve
 	echo "$(D)" > $(NEW_TRY)/description
 	$(TREEX) -p --mem=15G -L$(L2) -Ssrc \
 		Read::Treex from='!$(dir $<)/$(INPUT_PATTERN).streex' \
-		Coref::$(UC_L2)::RelPron::Resolve \
-		$(REFL_POSS_PRON_BLOCK) \
-		Coref::$(UC_L2)::ReflPron::Resolve \
-		Coref::$(UC_L2)::DemonPron::Resolve \
-		Coref::$(UC_L2)::PersPron12::Resolve \
-		Coref::$(UC_L2)::PersPron::Resolve \
-		Coref::$(UC_L2)::Noun::Resolve \
+		$(RESOLVE_BLOCKS) \
 		Coref::MarkMentionsForScorer layer=a only_heads=0 \
 		Write::SemEval2010 layer=a path='$(NEW_TRY)/resolve' \
 		Write::Treex storable=1 path='$(NEW_TRY)/resolve'
@@ -102,3 +104,15 @@ eval_test :
 	fscore_avg=`cat $(NEW_TRY)/eval/score.txt | grep Coreference | head -n4 | sed '3d' | cut -f3 | cut -f2 -d' ' | cut -f1 -d'%' | awk '{ total += $$1; count++ } END { print total/count }'`; \
 	desc=`cat $(NEW_TRY)/description`; \
 	echo -e "$(DATE)\t$$fscore_avg\t$(NEW_TRY)\t$$desc" >> results.$(L2).txt
+
+############################################### ANALYSIS #################################################
+################ MODEL ABLATION - RUN THE EVALUATION EVERYTIME WITH ONE RESOLVER LEFT OUT ################
+##########################################################################################################
+
+model_ablation :
+	resolve_num=`echo "$(RESOLVE_BLOCKS)" | wc -w`; \
+	for i in `seq 1 $$resolve_num`; do \
+		new_resolve_blocks=`echo "$(RESOLVE_BLOCKS)" | cut -f$$i -d' ' --complement`; \
+		removed_block=`echo "$(RESOLVE_BLOCKS)" | cut -f$$i -d' '`; \
+		make resolve_test eval_test L2=$(L2) DEV=$(DEV) D="DEV=$(DEV): $$removed_block left out" RESOLVE_BLOCKS="$$new_resolve_blocks"; \
+	done
