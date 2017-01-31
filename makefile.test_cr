@@ -112,7 +112,7 @@ eval_test :
 model_ablation :
 	resolve_num=`echo "$(RESOLVE_BLOCKS)" | wc -w`; \
 	for i in `seq 1 $$resolve_num`; do \
-		new_resolve_blocks=`echo "$(RESOLVE_BLOCKS)" | cut -f$$i -d' ' --complement`; \
-		removed_block=`echo "$(RESOLVE_BLOCKS)" | cut -f$$i -d' '`; \
+		new_resolve_blocks=`echo "$(RESOLVE_BLOCKS)" | sed 's/ \+/ /g' | cut -f$$i -d' ' --complement`; \
+		removed_block=`echo "$(RESOLVE_BLOCKS)" | sed 's/ \+/ /g' | cut -f$$i -d' '`; \
 		make resolve_test eval_test L2=$(L2) DEV=$(DEV) D="DEV=$(DEV): $$removed_block left out" RESOLVE_BLOCKS="$$new_resolve_blocks"; \
 	done
