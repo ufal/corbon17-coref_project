@@ -1,1082 +1,1082 @@
 #begin document 007_de
-1	Europas	europa	_	NNNS2----------	_	_	_	5	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s1-n1
-2	nach	nach	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s1-n2
-3	Rassen	rasse	_	NNFP3----------	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n3
-4	geteiltes	geteilt	_	AANS4----1-----	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n4
-5	Haus	haus	_	NNNS4----------	_	_	_	0	_	ExD	_	_	_	_	_	_	a_tree-de_src-s1-n5
-6	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s1-n6
+1	Europas	europa	_	NNNS2----------	_	_	_	5	_	Atr	_	_	_	_	_	(1)
+2	nach	nach	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+3	Rassen	rasse	_	NNFP3----------	_	_	_	2	_	Atr	_	_	_	_	_	_
+4	geteiltes	geteilt	_	AANS4----1-----	_	_	_	5	_	Atr	_	_	_	_	_	_
+5	Haus	haus	_	NNNS4----------	_	_	_	0	_	ExD	_	_	_	_	_	_
+6	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Ein	ein	_	PZNS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s2-n7
-2	gemeinsames	gemeinsam	_	AANS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n8
-3	Merkmal	merkmal	_	NNNS1----------	_	_	_	9	_	Sb	_	_	_	_	_	_	a_tree-de_src-s2-n9
-4	aller	aller	_	PZFP2----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n10
-5	extremen	extrem	_	AAFP2----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n11
-6	Rechten	rechte	_	NNFP2----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n12
-7	in	in	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s2-n13
-8	Europa	europa	_	NNNS3----------	_	_	_	7	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s2-n14
-9	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s2-n15
-10	ihr	ihr	_	PSYS1-X3-------	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n16
-11	Rassismus	rassismus	_	NNYS1----------	_	_	_	9	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s2-n17
-12	und	und	_	J^-------------	_	_	_	11	_	Coord	_	_	_	_	_	_	a_tree-de_src-s2-n18
-13	die	der	_	PZFS1----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s2-n19
-14	Tatsache	tatsache	_	NNFS1----------	_	_	_	12	_	NR	_	_	_	_	_	_	a_tree-de_src-s2-n20
-15	,	--	_	Z:-------------	_	_	_	16	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s2-n21
-16	daß	daß	_	J,-------------	_	_	_	14	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s2-n22
-17	sie	sie	_	PPFS1--3-------	_	_	_	23	_	Sb	_	_	_	_	_	_	a_tree-de_src-s2-n23
-18	das	der	_	PZNS4----------	_	_	_	19	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s2-n24
-19	Einwanderungsproblem	einwanderungsproblem	_	NNNS4----------	_	_	_	23	_	Obj	_	_	_	_	_	_	a_tree-de_src-s2-n25
-20	als	als	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s2-n26
-21	politischen	politisch	_	AAYS4----1-----	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n27
-22	Hebel	hebel	_	NNYS4----------	_	_	_	20	_	Adv	_	_	_	_	_	_	a_tree-de_src-s2-n28
-23	benutzen	benutzen	_	VB-P---3P------	_	_	_	16	_	Obj	_	_	_	_	_	_	a_tree-de_src-s2-n29
-24	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s2-n30
+1	Ein	ein	_	PZNS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+2	gemeinsames	gemeinsam	_	AANS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Merkmal	merkmal	_	NNNS1----------	_	_	_	9	_	Sb	_	_	_	_	_	_
+4	aller	aller	_	PZFP2----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+5	extremen	extrem	_	AAFP2----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	Rechten	rechte	_	NNFP2----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+7	in	in	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+8	Europa	europa	_	NNNS3----------	_	_	_	7	_	Atr	_	_	_	_	_	(1)
+9	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+10	ihr	ihr	_	PSYS1-X3-------	_	_	_	11	_	Atr	_	_	_	_	_	_
+11	Rassismus	rassismus	_	NNYS1----------	_	_	_	9	_	Pnom	_	_	_	_	_	_
+12	und	und	_	J^-------------	_	_	_	11	_	Coord	_	_	_	_	_	_
+13	die	der	_	PZFS1----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+14	Tatsache	tatsache	_	NNFS1----------	_	_	_	12	_	NR	_	_	_	_	_	_
+15	,	--	_	Z:-------------	_	_	_	16	_	AuxX	_	_	_	_	_	_
+16	daß	daß	_	J,-------------	_	_	_	14	_	AuxC	_	_	_	_	_	_
+17	sie	sie	_	PPFS1--3-------	_	_	_	23	_	Sb	_	_	_	_	_	_
+18	das	der	_	PZNS4----------	_	_	_	19	_	AuxA	_	_	_	_	_	_
+19	Einwanderungsproblem	einwanderungsproblem	_	NNNS4----------	_	_	_	23	_	Obj	_	_	_	_	_	_
+20	als	als	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_
+21	politischen	politisch	_	AAYS4----1-----	_	_	_	22	_	Atr	_	_	_	_	_	_
+22	Hebel	hebel	_	NNYS4----------	_	_	_	20	_	Adv	_	_	_	_	_	_
+23	benutzen	benutzen	_	VB-P---3P------	_	_	_	16	_	Obj	_	_	_	_	_	_
+24	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Der	der	_	PZYS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n31
-2	Lega	lega	_	NNXXX----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n32
-3	Nord	nord	_	NNYS1----------	_	_	_	0	_	ExD	_	_	_	_	_	_	a_tree-de_src-s3-n33
-4	in	in	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n34
-5	Italien	italien	_	NNNS3----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n35
-6	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s3-n36
-7	der	der	_	PJYS1----------	_	_	_	9	_	Sb	_	_	_	_	_	_	a_tree-de_src-s3-n37
-8	Vlaams	vlaams	_	NNXS2----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n38
-9	Block	block	_	NNYS1----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n39
-10	in	in	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n40
-11	den	der	_	PZXP3----------	_	_	_	12	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n41
-12	Niederlanden	nierderlande	_	NNXP3----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n42
-13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s3-n43
-14	die	der	_	PZYP1----------	_	_	_	15	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n44
-15	Anhänger	anhänger	_	NNYP1----------	_	_	_	24	_	Sb	_	_	_	_	_	_	a_tree-de_src-s3-n45
-16	von	von	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n46
-17	Le	le	_	NNYS1----------	_	_	_	18	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n47
-18	Pens	pen	_	NNYS2----------	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n48
-19	Nationaler	national	_	AOXX-----1-----	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n49
-20	Front	front	_	NNYS3----------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n50
-21	in	in	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n51
-22	Frankreich	frankreich	_	NNNS3----------	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n52
-23	,	--	_	Z:-------------	_	_	_	22	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s3-n53
-24	sind	sein	_	VB-P---3P------	_	_	_	9	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n54
-25	Beispiele	beispiel	_	NNNP1----------	_	_	_	24	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s3-n55
-26	für	für	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n56
-27	Parteien	partei	_	NNFP4----------	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n57
-28	oder	oder	_	J^-------------	_	_	_	27	_	Coord	_	_	_	_	_	_	a_tree-de_src-s3-n58
-29	Bewegungen	bewegung	_	NNFP4----------	_	_	_	28	_	NR	_	_	_	_	_	_	a_tree-de_src-s3-n59
-30	,	--	_	Z:-------------	_	_	_	29	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s3-n60
-31	die	der	_	PJFP1----------	_	_	_	42	_	Sb	_	_	_	_	_	_	a_tree-de_src-s3-n61
-32	sich	sich	_	P6-P4--3-------	_	_	_	41	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n62
-33	um	um	_	RR--X----------	_	_	_	41	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n63
-34	das	der	_	PZNS4----------	_	_	_	36	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n64
-35	gemeinsame	gemeinsam	_	AANS4----1-----	_	_	_	36	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n65
-36	Thema	thema	_	NNNS4----------	_	_	_	33	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n66
-37	:	--	_	Z:-------------	_	_	_	36	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s3-n67
-38	Ablehnung	ablehnung	_	NNFS1----------	_	_	_	36	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n68
-39	der	der	_	PZFS2----------	_	_	_	40	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n69
-40	Zuwanderung	zuwanderung	_	NNFS2----------	_	_	_	38	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n70
-41	gebildet	bilden	_	VpXX---XX------	_	_	_	42	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n71
-42	haben	haben	_	VB-P---3P------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n72
-43	und	und	_	J^-------------	_	_	_	42	_	Coord	_	_	_	_	_	_	a_tree-de_src-s3-n73
-44	um	um	_	RR--X----------	_	_	_	43	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n74
-45	Forderung	forderung	_	NNFS4----------	_	_	_	44	_	NR	_	_	_	_	_	_	a_tree-de_src-s3-n75
-46	nach	nach	_	RR--X----------	_	_	_	45	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n76
-47	einer	ein	_	PZFS3----------	_	_	_	49	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n77
-48	vereinfachten	vereinfacht	_	AAFS3----1-----	_	_	_	49	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n78
-49	Politik	politik	_	NNFS3----------	_	_	_	46	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n79
-50	,	--	_	Z:-------------	_	_	_	51	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s3-n80
-51	um	um	_	J,-------------	_	_	_	49	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s3-n81
-52	sie	sie	_	PPFP4--3-------	_	_	_	54	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n82
-53	zu	zu	_	TT-------------	_	_	_	54	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s3-n83
-54	regeln	regeln	_	Vf-------------	_	_	_	51	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n84
-55	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s3-n85
+1	Der	der	_	PZYS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+2	Lega	lega	_	NNXXX----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Nord	nord	_	NNYS1----------	_	_	_	0	_	ExD	_	_	_	_	_	_
+4	in	in	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+5	Italien	italien	_	NNNS3----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+6	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_
+7	der	der	_	PJYS1----------	_	_	_	9	_	Sb	_	_	_	_	_	_
+8	Vlaams	vlaams	_	NNXS2----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Block	block	_	NNYS1----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+10	in	in	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_
+11	den	der	_	PZXP3----------	_	_	_	12	_	AuxA	_	_	_	_	_	_
+12	Niederlanden	nierderlande	_	NNXP3----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_
+14	die	der	_	PZYP1----------	_	_	_	15	_	AuxA	_	_	_	_	_	_
+15	Anhänger	anhänger	_	NNYP1----------	_	_	_	24	_	Sb	_	_	_	_	_	_
+16	von	von	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+17	Le	le	_	NNYS1----------	_	_	_	18	_	Atr	_	_	_	_	_	_
+18	Pens	pen	_	NNYS2----------	_	_	_	20	_	Atr	_	_	_	_	_	_
+19	Nationaler	national	_	AOXX-----1-----	_	_	_	20	_	Atr	_	_	_	_	_	_
+20	Front	front	_	NNYS3----------	_	_	_	16	_	Atr	_	_	_	_	_	_
+21	in	in	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_
+22	Frankreich	frankreich	_	NNNS3----------	_	_	_	21	_	Atr	_	_	_	_	_	_
+23	,	--	_	Z:-------------	_	_	_	22	_	AuxX	_	_	_	_	_	_
+24	sind	sein	_	VB-P---3P------	_	_	_	9	_	Obj	_	_	_	_	_	_
+25	Beispiele	beispiel	_	NNNP1----------	_	_	_	24	_	Pnom	_	_	_	_	_	_
+26	für	für	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_
+27	Parteien	partei	_	NNFP4----------	_	_	_	26	_	Atr	_	_	_	_	_	_
+28	oder	oder	_	J^-------------	_	_	_	27	_	Coord	_	_	_	_	_	_
+29	Bewegungen	bewegung	_	NNFP4----------	_	_	_	28	_	NR	_	_	_	_	_	_
+30	,	--	_	Z:-------------	_	_	_	29	_	AuxX	_	_	_	_	_	_
+31	die	der	_	PJFP1----------	_	_	_	42	_	Sb	_	_	_	_	_	_
+32	sich	sich	_	P6-P4--3-------	_	_	_	41	_	Obj	_	_	_	_	_	_
+33	um	um	_	RR--X----------	_	_	_	41	_	AuxP	_	_	_	_	_	_
+34	das	der	_	PZNS4----------	_	_	_	36	_	AuxA	_	_	_	_	_	_
+35	gemeinsame	gemeinsam	_	AANS4----1-----	_	_	_	36	_	Atr	_	_	_	_	_	_
+36	Thema	thema	_	NNNS4----------	_	_	_	33	_	Obj	_	_	_	_	_	_
+37	:	--	_	Z:-------------	_	_	_	36	_	AuxG	_	_	_	_	_	_
+38	Ablehnung	ablehnung	_	NNFS1----------	_	_	_	36	_	Atr	_	_	_	_	_	_
+39	der	der	_	PZFS2----------	_	_	_	40	_	AuxA	_	_	_	_	_	_
+40	Zuwanderung	zuwanderung	_	NNFS2----------	_	_	_	38	_	Atr	_	_	_	_	_	_
+41	gebildet	bilden	_	VpXX---XX------	_	_	_	42	_	Obj	_	_	_	_	_	_
+42	haben	haben	_	VB-P---3P------	_	_	_	25	_	Atr	_	_	_	_	_	_
+43	und	und	_	J^-------------	_	_	_	42	_	Coord	_	_	_	_	_	_
+44	um	um	_	RR--X----------	_	_	_	43	_	AuxP	_	_	_	_	_	_
+45	Forderung	forderung	_	NNFS4----------	_	_	_	44	_	NR	_	_	_	_	_	_
+46	nach	nach	_	RR--X----------	_	_	_	45	_	AuxP	_	_	_	_	_	_
+47	einer	ein	_	PZFS3----------	_	_	_	49	_	AuxA	_	_	_	_	_	_
+48	vereinfachten	vereinfacht	_	AAFS3----1-----	_	_	_	49	_	Atr	_	_	_	_	_	_
+49	Politik	politik	_	NNFS3----------	_	_	_	46	_	Atr	_	_	_	_	_	_
+50	,	--	_	Z:-------------	_	_	_	51	_	AuxX	_	_	_	_	_	_
+51	um	um	_	J,-------------	_	_	_	49	_	AuxC	_	_	_	_	_	_
+52	sie	sie	_	PPFP4--3-------	_	_	_	54	_	Obj	_	_	_	_	_	_
+53	zu	zu	_	TT-------------	_	_	_	54	_	AuxV	_	_	_	_	_	_
+54	regeln	regeln	_	Vf-------------	_	_	_	51	_	Atr	_	_	_	_	_	_
+55	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Während	während	_	J,-------------	_	_	_	32	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s4-n86
-2	Individuen	individuum	_	NNNP1----------	_	_	_	10	_	Sb	_	_	_	_	_	_	a_tree-de_src-s4-n87
-3	wie	wie	_	J^-------------	_	_	_	5	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s4-n88
-4	Jörg	jörg	_	NNYS1----------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n89
-5	Haidar	haidar	_	NNYS1----------	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n90
-6	und	und	_	J^-------------	_	_	_	5	_	Coord	_	_	_	_	_	_	a_tree-de_src-s4-n91
-7	Jean-Marie	jean-marie	_	NNYS1----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n92
-8	Le	le	_	NNXXX----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n93
-9	Pen	pen	_	NNYS1----------	_	_	_	6	_	NR	_	_	_	_	_	_	a_tree-de_src-s4-n94
-10	kommen	kommen	_	VB-P---3P------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n95
-11	und	und	_	J^-------------	_	_	_	12	_	Coord	_	_	_	_	_	_	a_tree-de_src-s4-n96
-12	(	--	_	Z:-------------	_	_	_	10	_	Coord	_	_	_	_	_	_	a_tree-de_src-s4-n97
-13	leider	leider	_	Db-------------	_	_	_	16	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n98
-14	nicht	nicht	_	TT--------N----	_	_	_	16	_	Neg	_	_	_	_	_	_	a_tree-de_src-s4-n99
-15	zu	zu	_	TT-------------	_	_	_	16	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n100
-16	bald	bald	_	Db-------------	_	_	_	20	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n101
-17	)	--	_	Z:-------------	_	_	_	16	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s4-n102
-18	wieder	wieder	_	Db-------------	_	_	_	19	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n103
-19	gehen	gehen	_	Vf-------------	_	_	_	20	_	Obj	_	_	_	_	_	_	a_tree-de_src-s4-n104
-20	mögen	mögen	_	VB-P---3P------	_	_	_	12	_	Coord	_	_	_	_	_	_	a_tree-de_src-s4-n105
-21	,	--	_	Z:-------------	_	_	_	20	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s4-n106
-22	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s4-n107
-23	die	der	_	PZFS1----------	_	_	_	24	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s4-n108
-24	Rassenfrage	rassenfrage	_	NNFS1----------	_	_	_	22	_	Sb	_	_	_	_	_	_	a_tree-de_src-s4-n109
-25	aus	aus	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s4-n110
-26	der	der	_	PZFS3----------	_	_	_	28	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s4-n111
-27	europäischer	europäisch	_	AAFS3----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n112
-28	Politik	politik	_	NNFS3----------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n113
-29	nicht	nicht	_	TT--------N----	_	_	_	32	_	Neg	_	_	_	_	_	_	a_tree-de_src-s4-n114
-30	so	so	_	Db-------------	_	_	_	31	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n115
-31	bald	bald	_	Db-------------	_	_	_	32	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n116
-32	verschwinden	verschwinden	_	Vf-------------	_	_	_	22	_	Obj	_	_	_	_	_	_	a_tree-de_src-s4-n117
-33	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s4-n118
+1	Während	während	_	J,-------------	_	_	_	32	_	AuxC	_	_	_	_	_	_
+2	Individuen	individuum	_	NNNP1----------	_	_	_	10	_	Sb	_	_	_	_	_	_
+3	wie	wie	_	J^-------------	_	_	_	5	_	AuxC	_	_	_	_	_	_
+4	Jörg	jörg	_	NNYS1----------	_	_	_	5	_	Atr	_	_	_	_	_	_
+5	Haidar	haidar	_	NNYS1----------	_	_	_	2	_	Atr	_	_	_	_	_	_
+6	und	und	_	J^-------------	_	_	_	5	_	Coord	_	_	_	_	_	_
+7	Jean-Marie	jean-marie	_	NNYS1----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+8	Le	le	_	NNXXX----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Pen	pen	_	NNYS1----------	_	_	_	6	_	NR	_	_	_	_	_	_
+10	kommen	kommen	_	VB-P---3P------	_	_	_	1	_	Adv	_	_	_	_	_	_
+11	und	und	_	J^-------------	_	_	_	12	_	Coord	_	_	_	_	_	_
+12	(	--	_	Z:-------------	_	_	_	10	_	Coord	_	_	_	_	_	_
+13	leider	leider	_	Db-------------	_	_	_	16	_	Adv	_	_	_	_	_	_
+14	nicht	nicht	_	TT--------N----	_	_	_	16	_	Neg	_	_	_	_	_	_
+15	zu	zu	_	TT-------------	_	_	_	16	_	Adv	_	_	_	_	_	_
+16	bald	bald	_	Db-------------	_	_	_	20	_	Adv	_	_	_	_	_	_
+17	)	--	_	Z:-------------	_	_	_	16	_	AuxG	_	_	_	_	_	_
+18	wieder	wieder	_	Db-------------	_	_	_	19	_	Adv	_	_	_	_	_	_
+19	gehen	gehen	_	Vf-------------	_	_	_	20	_	Obj	_	_	_	_	_	_
+20	mögen	mögen	_	VB-P---3P------	_	_	_	12	_	Coord	_	_	_	_	_	_
+21	,	--	_	Z:-------------	_	_	_	20	_	AuxX	_	_	_	_	_	_
+22	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+23	die	der	_	PZFS1----------	_	_	_	24	_	AuxA	_	_	_	_	_	_
+24	Rassenfrage	rassenfrage	_	NNFS1----------	_	_	_	22	_	Sb	_	_	_	_	_	_
+25	aus	aus	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+26	der	der	_	PZFS3----------	_	_	_	28	_	AuxA	_	_	_	_	_	_
+27	europäischer	europäisch	_	AAFS3----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_
+28	Politik	politik	_	NNFS3----------	_	_	_	25	_	Atr	_	_	_	_	_	_
+29	nicht	nicht	_	TT--------N----	_	_	_	32	_	Neg	_	_	_	_	_	_
+30	so	so	_	Db-------------	_	_	_	31	_	Adv	_	_	_	_	_	_
+31	bald	bald	_	Db-------------	_	_	_	32	_	Adv	_	_	_	_	_	_
+32	verschwinden	verschwinden	_	Vf-------------	_	_	_	22	_	Obj	_	_	_	_	_	_
+33	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Eine	ein	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s5-n119
-2	alternde	alternd	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n120
-3	einheimische	einheimisch	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n121
-4	Bevölkerung	bevölkerung	_	NNFS1----------	_	_	_	9	_	Sb	_	_	_	_	_	_	a_tree-de_src-s5-n122
-5	und	und	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_	a_tree-de_src-s5-n123
-6	immer	immer	_	Db-------------	_	_	_	7	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s5-n124
-7	offenere	offen	_	AAFP4----2-----	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n125
-8	Grenzen	grenze	_	NNFP4----------	_	_	_	5	_	NR	_	_	_	_	_	_	a_tree-de_src-s5-n126
-9	vermehren	vermehren	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s5-n127
-10	die	der	_	PZFS4----------	_	_	_	12	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s5-n128
-11	rassistische	rassistisch	_	AAFS4----1-----	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n129
-12	Zersplitterung	zersplitterung	_	NNFS4----------	_	_	_	9	_	Obj	_	_	_	_	_	_	a_tree-de_src-s5-n130
-13	in	in	_	RR--X----------	_	_	_	12	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s5-n131
-14	den	der	_	PZNP3----------	_	_	_	16	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s5-n132
-15	europäischen	europäisch	_	AANP3----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n133
-16	Ländern	land	_	NNNP3----------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n134
-17	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s5-n135
+1	Eine	ein	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+2	alternde	alternd	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+3	einheimische	einheimisch	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Bevölkerung	bevölkerung	_	NNFS1----------	_	_	_	9	_	Sb	_	_	_	_	_	_
+5	und	und	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_
+6	immer	immer	_	Db-------------	_	_	_	7	_	AuxZ	_	_	_	_	_	_
+7	offenere	offen	_	AAFP4----2-----	_	_	_	8	_	Atr	_	_	_	_	_	_
+8	Grenzen	grenze	_	NNFP4----------	_	_	_	5	_	NR	_	_	_	_	_	_
+9	vermehren	vermehren	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+10	die	der	_	PZFS4----------	_	_	_	12	_	AuxA	_	_	_	_	_	_
+11	rassistische	rassistisch	_	AAFS4----1-----	_	_	_	12	_	Atr	_	_	_	_	_	_
+12	Zersplitterung	zersplitterung	_	NNFS4----------	_	_	_	9	_	Obj	_	_	_	_	_	_
+13	in	in	_	RR--X----------	_	_	_	12	_	AuxP	_	_	_	_	_	_
+14	den	der	_	PZNP3----------	_	_	_	16	_	AuxA	_	_	_	_	_	_
+15	europäischen	europäisch	_	AANP3----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_
+16	Ländern	land	_	NNNP3----------	_	_	_	13	_	Atr	_	_	_	_	_	_
+17	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZFP1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n136
-2	großen	groß	_	AAFP1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n137
-3	Parteien	partei	_	NNFP1----------	_	_	_	10	_	Sb	_	_	_	_	_	_	a_tree-de_src-s6-n138
-4	der	der	_	PZFS2----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n139
-5	rechten	rechter	_	AAFS2----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n140
-6	und	und	_	J^-------------	_	_	_	5	_	Coord	_	_	_	_	_	_	a_tree-de_src-s6-n141
-7	der	der	_	PZFS2----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n142
-8	linken	linker	_	AAFS2----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n143
-9	Mitte	mitte	_	NNFS2----------	_	_	_	6	_	NR	_	_	_	_	_	_	a_tree-de_src-s6-n144
-10	haben	haben	_	VB-P---3P------	_	_	_	0	_	Coord	_	_	_	_	_	_	a_tree-de_src-s6-n145
-11	sich	sich	_	P6-P4--3-------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n146
-12	dem	der	_	PZNS3----------	_	_	_	13	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n147
-13	Problem	problem	_	NNNS3----------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n148
-14	gestellt	stellen	_	VpXX---XX------	_	_	_	10	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n149
-15	,	--	_	Z:-------------	_	_	_	14	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s6-n150
-16	in	in	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s6-n151
-17	dem	der	_	PJNS3----------	_	_	_	16	_	Adv	_	_	_	_	_	_	a_tree-de_src-s6-n152
-18	sie	sie	_	PPFS1--3-------	_	_	_	30	_	Sb	_	_	_	_	_	_	a_tree-de_src-s6-n153
-19	den	der	_	PZYS4----------	_	_	_	20	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n154
-20	Kopf	kopf	_	NNYS4----------	_	_	_	24	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n155
-21	in	in	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s6-n156
-22	den	der	_	PZYS4----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n157
-23	Sand	sand	_	NNYS4----------	_	_	_	21	_	Adv	_	_	_	_	_	_	a_tree-de_src-s6-n158
-24	gesteckt	stecken	_	VpXX---XX------	_	_	_	30	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n159
-25	und	und	_	J^-------------	_	_	_	24	_	Coord	_	_	_	_	_	_	a_tree-de_src-s6-n160
-26	allen	aller	_	PZFP3----------	_	_	_	27	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n161
-27	Aussichten	aussicht	_	NNFP3----------	_	_	_	29	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n162
-28	zuwider	zuwider	_	ACXX-----1-----	_	_	_	29	_	Adv	_	_	_	_	_	_	a_tree-de_src-s6-n163
-29	gehofft	hoffen	_	VpXX---XX------	_	_	_	25	_	NR	_	_	_	_	_	_	a_tree-de_src-s6-n164
-30	haben	haben	_	VB-P---3P------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n165
-31	,	--	_	Z:-------------	_	_	_	30	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s6-n166
-32	es	es	_	PPNS1--3-------	_	_	_	33	_	Sb	_	_	_	_	_	_	a_tree-de_src-s6-n167
-33	möge	mögen	_	VB-S---3P------	_	_	_	10	_	NR	_	_	_	_	_	_	a_tree-de_src-s6-n168
-34	bald	bald	_	Db-------------	_	_	_	33	_	Adv	_	_	_	_	_	_	a_tree-de_src-s6-n169
-35	verschwinden	verschwinden	_	Vf-------------	_	_	_	33	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n170
-36	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s6-n171
+1	Die	der	_	PZFP1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+2	großen	groß	_	AAFP1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Parteien	partei	_	NNFP1----------	_	_	_	10	_	Sb	_	_	_	_	_	_
+4	der	der	_	PZFS2----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+5	rechten	rechter	_	AAFS2----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+6	und	und	_	J^-------------	_	_	_	5	_	Coord	_	_	_	_	_	_
+7	der	der	_	PZFS2----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+8	linken	linker	_	AAFS2----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Mitte	mitte	_	NNFS2----------	_	_	_	6	_	NR	_	_	_	_	_	_
+10	haben	haben	_	VB-P---3P------	_	_	_	0	_	Coord	_	_	_	_	_	_
+11	sich	sich	_	P6-P4--3-------	_	_	_	14	_	Obj	_	_	_	_	_	_
+12	dem	der	_	PZNS3----------	_	_	_	13	_	AuxA	_	_	_	_	_	_
+13	Problem	problem	_	NNNS3----------	_	_	_	14	_	Obj	_	_	_	_	_	_
+14	gestellt	stellen	_	VpXX---XX------	_	_	_	10	_	Obj	_	_	_	_	_	_
+15	,	--	_	Z:-------------	_	_	_	14	_	AuxX	_	_	_	_	_	_
+16	in	in	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+17	dem	der	_	PJNS3----------	_	_	_	16	_	Adv	_	_	_	_	_	_
+18	sie	sie	_	PPFS1--3-------	_	_	_	30	_	Sb	_	_	_	_	_	_
+19	den	der	_	PZYS4----------	_	_	_	20	_	AuxA	_	_	_	_	_	_
+20	Kopf	kopf	_	NNYS4----------	_	_	_	24	_	Obj	_	_	_	_	_	_
+21	in	in	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+22	den	der	_	PZYS4----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+23	Sand	sand	_	NNYS4----------	_	_	_	21	_	Adv	_	_	_	_	_	_
+24	gesteckt	stecken	_	VpXX---XX------	_	_	_	30	_	Obj	_	_	_	_	_	_
+25	und	und	_	J^-------------	_	_	_	24	_	Coord	_	_	_	_	_	_
+26	allen	aller	_	PZFP3----------	_	_	_	27	_	Atr	_	_	_	_	_	_
+27	Aussichten	aussicht	_	NNFP3----------	_	_	_	29	_	Obj	_	_	_	_	_	_
+28	zuwider	zuwider	_	ACXX-----1-----	_	_	_	29	_	Adv	_	_	_	_	_	_
+29	gehofft	hoffen	_	VpXX---XX------	_	_	_	25	_	NR	_	_	_	_	_	_
+30	haben	haben	_	VB-P---3P------	_	_	_	13	_	Atr	_	_	_	_	_	_
+31	,	--	_	Z:-------------	_	_	_	30	_	AuxX	_	_	_	_	_	_
+32	es	es	_	PPNS1--3-------	_	_	_	33	_	Sb	_	_	_	_	_	_
+33	möge	mögen	_	VB-S---3P------	_	_	_	10	_	NR	_	_	_	_	_	_
+34	bald	bald	_	Db-------------	_	_	_	33	_	Adv	_	_	_	_	_	_
+35	verschwinden	verschwinden	_	Vf-------------	_	_	_	33	_	Obj	_	_	_	_	_	_
+36	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Das	der	_	PDNS4----------	_	_	_	15	_	Obj	_	_	_	_	_	_	a_tree-de_src-s7-n172
-2	aber	aber	_	Db-------------	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s7-n173
-3	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s7-n174
-4	es	es	_	PPNS1--3-------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s7-n175
-5	nicht	nicht	_	TT--------N----	_	_	_	15	_	Neg	_	_	_	_	_	_	a_tree-de_src-s7-n176
-6	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s7-n177
-7	wie	wie	_	P4XXX----------	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s7-n178
-8	die	der	_	PZFS1----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n179
-9	Geschichte	geschichte	_	NNFS1----------	_	_	_	15	_	Sb	_	_	_	_	_	_	a_tree-de_src-s7-n180
-10	des	der	_	PZYS2----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n181
-11	Rassismus	rassismus	_	NNYS2----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n182
-12	in	in	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s7-n183
-13	Amerika	amerika	_	NNNS3----------	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n184
-14	deutlich	deutlich	_	ACXX-----1-----	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s7-n185
-15	zeigt	zeigen	_	VB-S---3P------	_	_	_	3	_	Obj	_	_	_	_	_	_	a_tree-de_src-s7-n186
-16	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s7-n187
+1	Das	der	_	PDNS4----------	_	_	_	15	_	Obj	_	_	_	_	_	_
+2	aber	aber	_	Db-------------	_	_	_	15	_	Adv	_	_	_	_	_	_
+3	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	es	es	_	PPNS1--3-------	_	_	_	3	_	Sb	_	_	_	_	_	_
+5	nicht	nicht	_	TT--------N----	_	_	_	15	_	Neg	_	_	_	_	_	_
+6	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_
+7	wie	wie	_	P4XXX----------	_	_	_	15	_	Adv	_	_	_	_	_	_
+8	die	der	_	PZFS1----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Geschichte	geschichte	_	NNFS1----------	_	_	_	15	_	Sb	_	_	_	_	_	_
+10	des	der	_	PZYS2----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+11	Rassismus	rassismus	_	NNYS2----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+12	in	in	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_
+13	Amerika	amerika	_	NNNS3----------	_	_	_	12	_	Atr	_	_	_	_	_	_
+14	deutlich	deutlich	_	ACXX-----1-----	_	_	_	15	_	Adv	_	_	_	_	_	_
+15	zeigt	zeigen	_	VB-S---3P------	_	_	_	3	_	Obj	_	_	_	_	_	_
+16	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZFP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n188
-2	Beziehungen	beziehung	_	NNFP1----------	_	_	_	6	_	Sb	_	_	_	_	_	_	a_tree-de_src-s8-n189
-3	zwischen	zwischen	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s8-n190
-4	den	der	_	PZFP3----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n191
-5	Rassen	rasse	_	NNFP3----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n192
-6	standen	stehen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s8-n193
-7	in	in	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s8-n194
-8	den	der	_	PZXP3----------	_	_	_	9	_	AuxA	_	_	_	_	_	(2	a_tree-de_src-s8-n195
-9	USA	usa	_	NNXP3----------	_	_	_	7	_	Adv	_	_	_	_	_	2)	a_tree-de_src-s8-n196
-10	über	über	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s8-n197
-11	Jahrzehnte	jahrzehnt	_	NNYP4----------	_	_	_	10	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n198
-12	-	--	_	Z:-------------	_	_	_	11	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s8-n199
-13	und	und	_	J^-------------	_	_	_	6	_	Coord	_	_	_	_	_	_	a_tree-de_src-s8-n200
-14	tun	tun	_	VB-P---3P------	_	_	_	13	_	NR	_	_	_	_	_	_	a_tree-de_src-s8-n201
-15	das	der	_	PDNS4----------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n202
-16	noch	noch	_	Db-------------	_	_	_	17	_	Adv	_	_	_	_	_	_	a_tree-de_src-s8-n203
-17	heute	heute	_	Db-------------	_	_	_	14	_	Adv	_	_	_	_	_	_	a_tree-de_src-s8-n204
-18	-	--	_	Z:-------------	_	_	_	17	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s8-n205
-19	im	in	_	PZNS3----------	_	_	_	14	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s8-n206
-20	Zentrum	zentrum	_	NNNS3----------	_	_	_	19	_	Adv	_	_	_	_	_	_	a_tree-de_src-s8-n207
-21	der	der	_	PZFS2----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n208
-22	politischen	politisch	_	AAFS2----1-----	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n209
-23	Debatte	debatte	_	NNFS2----------	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n210
-24	.	--	_	Z:-------------	_	_	_	23	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s8-n211
-25	Das	der	_	PDNS1----------	_	_	_	26	_	Sb	_	_	_	_	_	_	a_tree-de_src-s8-n212
-26	ging	gehen	_	VB-S---3R------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n213
-27	so	so	_	Db-------------	_	_	_	28	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s8-n214
-28	weit	weit	_	ACXX-----1-----	_	_	_	26	_	Adv	_	_	_	_	_	_	a_tree-de_src-s8-n215
-29	,	--	_	Z:-------------	_	_	_	30	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s8-n216
-30	daß	daß	_	J,-------------	_	_	_	27	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s8-n217
-31	Rassentrennung	rassentrennung	_	NNFS1----------	_	_	_	37	_	Sb	_	_	_	_	_	_	a_tree-de_src-s8-n218
-32	genauso	genauso	_	Db-------------	_	_	_	33	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s8-n219
-33	wichtig	wichtig	_	ACXX-----1-----	_	_	_	37	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s8-n220
-34	wie	wie	_	J^-------------	_	_	_	36	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s8-n221
-35	das	der	_	PZNS1----------	_	_	_	36	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n222
-36	Einkommen	einkommen	_	NNNS1----------	_	_	_	32	_	Adv	_	_	_	_	_	_	a_tree-de_src-s8-n223
-37	wurde	werden	_	VB-S---3R------	_	_	_	30	_	Adv	_	_	_	_	_	_	a_tree-de_src-s8-n224
-38	,	--	_	Z:-------------	_	_	_	37	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s8-n225
-39	-	--	_	Z:-------------	_	_	_	38	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s8-n226
-40	wenn	wenn	_	J,-------------	_	_	_	36	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s8-n227
-41	nicht	nicht	_	TT--------N----	_	_	_	52	_	Neg	_	_	_	_	_	_	a_tree-de_src-s8-n228
-42	sogar	sogar	_	Db-------------	_	_	_	52	_	Adv	_	_	_	_	_	_	a_tree-de_src-s8-n229
-43	noch	noch	_	Db-------------	_	_	_	44	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s8-n230
-44	wichtiger	wichtig	_	ACXX-----2-----	_	_	_	52	_	Adv	_	_	_	_	_	_	a_tree-de_src-s8-n231
-45	-	--	_	Z:-------------	_	_	_	44	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s8-n232
-46	um	um	_	RR--X----------	_	_	_	52	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s8-n233
-47	politische	politisch	_	AAFP4----1-----	_	_	_	48	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n234
-48	Zuneigungen	zuneigung	_	NNFP4----------	_	_	_	46	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n235
-49	und	und	_	J^-------------	_	_	_	48	_	Coord	_	_	_	_	_	_	a_tree-de_src-s8-n236
-50	Einstellungen	einstellung	_	NNFP4----------	_	_	_	49	_	NR	_	_	_	_	_	_	a_tree-de_src-s8-n237
-51	zu	zu	_	TT-------------	_	_	_	52	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s8-n238
-52	bestimmen	bestimmen	_	Vf-------------	_	_	_	40	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n239
-53	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s8-n240
+1	Die	der	_	PZFP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_
+2	Beziehungen	beziehung	_	NNFP1----------	_	_	_	6	_	Sb	_	_	_	_	_	_
+3	zwischen	zwischen	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_
+4	den	der	_	PZFP3----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+5	Rassen	rasse	_	NNFP3----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+6	standen	stehen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+7	in	in	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+8	den	der	_	PZXP3----------	_	_	_	9	_	AuxA	_	_	_	_	_	(2
+9	USA	usa	_	NNXP3----------	_	_	_	7	_	Adv	_	_	_	_	_	2)
+10	über	über	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+11	Jahrzehnte	jahrzehnt	_	NNYP4----------	_	_	_	10	_	Obj	_	_	_	_	_	_
+12	-	--	_	Z:-------------	_	_	_	11	_	AuxG	_	_	_	_	_	_
+13	und	und	_	J^-------------	_	_	_	6	_	Coord	_	_	_	_	_	_
+14	tun	tun	_	VB-P---3P------	_	_	_	13	_	NR	_	_	_	_	_	_
+15	das	der	_	PDNS4----------	_	_	_	14	_	Obj	_	_	_	_	_	_
+16	noch	noch	_	Db-------------	_	_	_	17	_	Adv	_	_	_	_	_	_
+17	heute	heute	_	Db-------------	_	_	_	14	_	Adv	_	_	_	_	_	_
+18	-	--	_	Z:-------------	_	_	_	17	_	AuxG	_	_	_	_	_	_
+19	im	in	_	PZNS3----------	_	_	_	14	_	AuxP	_	_	_	_	_	_
+20	Zentrum	zentrum	_	NNNS3----------	_	_	_	19	_	Adv	_	_	_	_	_	_
+21	der	der	_	PZFS2----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+22	politischen	politisch	_	AAFS2----1-----	_	_	_	23	_	Atr	_	_	_	_	_	_
+23	Debatte	debatte	_	NNFS2----------	_	_	_	20	_	Atr	_	_	_	_	_	_
+24	.	--	_	Z:-------------	_	_	_	23	_	AuxG	_	_	_	_	_	_
+25	Das	der	_	PDNS1----------	_	_	_	26	_	Sb	_	_	_	_	_	_
+26	ging	gehen	_	VB-S---3R------	_	_	_	14	_	Obj	_	_	_	_	_	_
+27	so	so	_	Db-------------	_	_	_	28	_	AuxZ	_	_	_	_	_	_
+28	weit	weit	_	ACXX-----1-----	_	_	_	26	_	Adv	_	_	_	_	_	_
+29	,	--	_	Z:-------------	_	_	_	30	_	AuxX	_	_	_	_	_	_
+30	daß	daß	_	J,-------------	_	_	_	27	_	AuxC	_	_	_	_	_	_
+31	Rassentrennung	rassentrennung	_	NNFS1----------	_	_	_	37	_	Sb	_	_	_	_	_	_
+32	genauso	genauso	_	Db-------------	_	_	_	33	_	AuxZ	_	_	_	_	_	_
+33	wichtig	wichtig	_	ACXX-----1-----	_	_	_	37	_	Pnom	_	_	_	_	_	_
+34	wie	wie	_	J^-------------	_	_	_	36	_	AuxC	_	_	_	_	_	_
+35	das	der	_	PZNS1----------	_	_	_	36	_	AuxA	_	_	_	_	_	_
+36	Einkommen	einkommen	_	NNNS1----------	_	_	_	32	_	Adv	_	_	_	_	_	_
+37	wurde	werden	_	VB-S---3R------	_	_	_	30	_	Adv	_	_	_	_	_	_
+38	,	--	_	Z:-------------	_	_	_	37	_	AuxX	_	_	_	_	_	_
+39	-	--	_	Z:-------------	_	_	_	38	_	AuxG	_	_	_	_	_	_
+40	wenn	wenn	_	J,-------------	_	_	_	36	_	AuxC	_	_	_	_	_	_
+41	nicht	nicht	_	TT--------N----	_	_	_	52	_	Neg	_	_	_	_	_	_
+42	sogar	sogar	_	Db-------------	_	_	_	52	_	Adv	_	_	_	_	_	_
+43	noch	noch	_	Db-------------	_	_	_	44	_	AuxZ	_	_	_	_	_	_
+44	wichtiger	wichtig	_	ACXX-----2-----	_	_	_	52	_	Adv	_	_	_	_	_	_
+45	-	--	_	Z:-------------	_	_	_	44	_	AuxG	_	_	_	_	_	_
+46	um	um	_	RR--X----------	_	_	_	52	_	AuxP	_	_	_	_	_	_
+47	politische	politisch	_	AAFP4----1-----	_	_	_	48	_	Atr	_	_	_	_	_	_
+48	Zuneigungen	zuneigung	_	NNFP4----------	_	_	_	46	_	Obj	_	_	_	_	_	_
+49	und	und	_	J^-------------	_	_	_	48	_	Coord	_	_	_	_	_	_
+50	Einstellungen	einstellung	_	NNFP4----------	_	_	_	49	_	NR	_	_	_	_	_	_
+51	zu	zu	_	TT-------------	_	_	_	52	_	AuxV	_	_	_	_	_	_
+52	bestimmen	bestimmen	_	Vf-------------	_	_	_	40	_	Obj	_	_	_	_	_	_
+53	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Der	der	_	PZYS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s9-n241
-2	erste	erster	_	AAYS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n242
-3	Schritt	schritt	_	NNYS1----------	_	_	_	10	_	Sb	_	_	_	_	_	_	a_tree-de_src-s9-n243
-4	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s9-n244
-5	um	um	_	J,-------------	_	_	_	10	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s9-n245
-6	mit	mit	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s9-n246
-7	der	der	_	PZFS3----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s9-n247
-8	Rassenfrage	rassenfrage	_	NNFS3----------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s9-n248
-9	umzugehen	umgehen	_	Vf-------------	_	_	_	5	_	Obj	_	_	_	_	_	_	a_tree-de_src-s9-n249
-10	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s9-n250
-11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s9-n251
-12	Ursache	ursache	_	NNFS1----------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s9-n252
-13	und	und	_	J^-------------	_	_	_	12	_	Coord	_	_	_	_	_	_	a_tree-de_src-s9-n253
-14	Folgen	folge	_	NNFP1----------	_	_	_	13	_	NR	_	_	_	_	_	_	a_tree-de_src-s9-n254
-15	rassistischer	rassistisch	_	AAFP2----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n255
-16	Feindseligkeiten	feindseligkeit	_	NNFP2----------	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n256
-17	zu	zu	_	TT-------------	_	_	_	18	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s9-n257
-18	verstehen	verstehen	_	Vf-------------	_	_	_	19	_	Obj	_	_	_	_	_	_	a_tree-de_src-s9-n258
-19	,	--	_	Z:-------------	_	_	_	3	_	Coord	_	_	_	_	_	_	a_tree-de_src-s9-n259
-20	auch	auch	_	Db-------------	_	_	_	21	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n260
-21	dann	dann	_	Db-------------	_	_	_	19	_	Obj	_	_	_	_	_	_	a_tree-de_src-s9-n261
-22	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s9-n262
-23	wenn	wenn	_	J,-------------	_	_	_	21	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s9-n263
-24	das	der	_	PDNS1----------	_	_	_	25	_	Sb	_	_	_	_	_	_	a_tree-de_src-s9-n264
-25	bedeutet	bedeuten	_	VB-S---3P------	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n265
-26	,	--	_	Z:-------------	_	_	_	25	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s9-n266
-27	unangenehme	unangenehm	_	AAFP4----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n267
-28	Tatsachen	tatsache	_	NNFP4----------	_	_	_	29	_	Obj	_	_	_	_	_	_	a_tree-de_src-s9-n268
-29	aufzudecken	aufdecken	_	Vf-------------	_	_	_	25	_	Obj	_	_	_	_	_	_	a_tree-de_src-s9-n269
-30	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s9-n270
+1	Der	der	_	PZYS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+2	erste	erster	_	AAYS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Schritt	schritt	_	NNYS1----------	_	_	_	10	_	Sb	_	_	_	_	_	_
+4	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_
+5	um	um	_	J,-------------	_	_	_	10	_	AuxC	_	_	_	_	_	_
+6	mit	mit	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_
+7	der	der	_	PZFS3----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+8	Rassenfrage	rassenfrage	_	NNFS3----------	_	_	_	6	_	Obj	_	_	_	_	_	_
+9	umzugehen	umgehen	_	Vf-------------	_	_	_	5	_	Obj	_	_	_	_	_	_
+10	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_
+12	Ursache	ursache	_	NNFS1----------	_	_	_	18	_	Obj	_	_	_	_	_	_
+13	und	und	_	J^-------------	_	_	_	12	_	Coord	_	_	_	_	_	_
+14	Folgen	folge	_	NNFP1----------	_	_	_	13	_	NR	_	_	_	_	_	_
+15	rassistischer	rassistisch	_	AAFP2----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_
+16	Feindseligkeiten	feindseligkeit	_	NNFP2----------	_	_	_	14	_	Atr	_	_	_	_	_	_
+17	zu	zu	_	TT-------------	_	_	_	18	_	AuxV	_	_	_	_	_	_
+18	verstehen	verstehen	_	Vf-------------	_	_	_	19	_	Obj	_	_	_	_	_	_
+19	,	--	_	Z:-------------	_	_	_	3	_	Coord	_	_	_	_	_	_
+20	auch	auch	_	Db-------------	_	_	_	21	_	Adv	_	_	_	_	_	_
+21	dann	dann	_	Db-------------	_	_	_	19	_	Obj	_	_	_	_	_	_
+22	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_
+23	wenn	wenn	_	J,-------------	_	_	_	21	_	AuxC	_	_	_	_	_	_
+24	das	der	_	PDNS1----------	_	_	_	25	_	Sb	_	_	_	_	_	_
+25	bedeutet	bedeuten	_	VB-S---3P------	_	_	_	23	_	Atr	_	_	_	_	_	_
+26	,	--	_	Z:-------------	_	_	_	25	_	AuxX	_	_	_	_	_	_
+27	unangenehme	unangenehm	_	AAFP4----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_
+28	Tatsachen	tatsache	_	NNFP4----------	_	_	_	29	_	Obj	_	_	_	_	_	_
+29	aufzudecken	aufdecken	_	Vf-------------	_	_	_	25	_	Obj	_	_	_	_	_	_
+30	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Genau	genau	_	ACXX-----1-----	_	_	_	2	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s10-n271
-2	das	der	_	PDNS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s10-n272
-3	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s10-n273
-4	in	in	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s10-n274
-5	den	der	_	PZXP3----------	_	_	_	6	_	AuxA	_	_	_	_	_	(2	a_tree-de_src-s10-n275
-6	USA	usa	_	NNXP3----------	_	_	_	4	_	Adv	_	_	_	_	_	2)	a_tree-de_src-s10-n276
-7	eine	ein	_	PZFS4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s10-n277
-8	große	groß	_	AAFS4----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s10-n278
-9	Anzahl	anzahl	_	NNFS4----------	_	_	_	20	_	Obj	_	_	_	_	_	_	a_tree-de_src-s10-n279
-10	an	an	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s10-n280
-11	Forschungsvorhaben	forschungsvorhaben	_	NNNP4----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s10-n281
-12	in	in	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s10-n282
-13	Wirtschaft	wirtschaft	_	NNFS3----------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s10-n283
-14	,	--	_	Z:-------------	_	_	_	16	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s10-n284
-15	Soziologie	soziologie	_	NNFS3----------	_	_	_	16	_	NR	_	_	_	_	_	_	a_tree-de_src-s10-n285
-16	,	--	_	Z:-------------	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s10-n286
-17	Psychologie	psychologie	_	NNFS3----------	_	_	_	16	_	NR	_	_	_	_	_	_	a_tree-de_src-s10-n287
-18	und	und	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_	a_tree-de_src-s10-n288
-19	Politikwissenschaft	politikwissenschaft	_	NNFS3----------	_	_	_	18	_	NR	_	_	_	_	_	_	a_tree-de_src-s10-n289
-20	geleistet	leisten	_	VpXX---XX------	_	_	_	3	_	Obj	_	_	_	_	_	_	a_tree-de_src-s10-n290
-21	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s10-n291
+1	Genau	genau	_	ACXX-----1-----	_	_	_	2	_	AuxZ	_	_	_	_	_	_
+2	das	der	_	PDNS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+3	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	in	in	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_
+5	den	der	_	PZXP3----------	_	_	_	6	_	AuxA	_	_	_	_	_	(2
+6	USA	usa	_	NNXP3----------	_	_	_	4	_	Adv	_	_	_	_	_	2)
+7	eine	ein	_	PZFS4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+8	große	groß	_	AAFS4----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Anzahl	anzahl	_	NNFS4----------	_	_	_	20	_	Obj	_	_	_	_	_	_
+10	an	an	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_
+11	Forschungsvorhaben	forschungsvorhaben	_	NNNP4----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+12	in	in	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_
+13	Wirtschaft	wirtschaft	_	NNFS3----------	_	_	_	16	_	Atr	_	_	_	_	_	_
+14	,	--	_	Z:-------------	_	_	_	16	_	AuxX	_	_	_	_	_	_
+15	Soziologie	soziologie	_	NNFS3----------	_	_	_	16	_	NR	_	_	_	_	_	_
+16	,	--	_	Z:-------------	_	_	_	12	_	Atr	_	_	_	_	_	_
+17	Psychologie	psychologie	_	NNFS3----------	_	_	_	16	_	NR	_	_	_	_	_	_
+18	und	und	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_
+19	Politikwissenschaft	politikwissenschaft	_	NNFS3----------	_	_	_	18	_	NR	_	_	_	_	_	_
+20	geleistet	leisten	_	VpXX---XX------	_	_	_	3	_	Obj	_	_	_	_	_	_
+21	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Diese	dieser	_	PDFP1----------	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n292
-2	Forschungen	forschung	_	NNFP1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s11-n293
-3	zeigten	zeigen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s11-n294
-4	,	--	_	Z:-------------	_	_	_	3	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s11-n295
-5	daß	daß	_	J,-------------	_	_	_	12	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s11-n296
-6	Menschen	mensch	_	NNYP1----------	_	_	_	12	_	Sb	_	_	_	_	_	(3	a_tree-de_src-s11-n297
-7	unterschiedlicher	unterschiedlich	_	AAFS2----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n298
-8	Rasse	rasse	_	NNFS2----------	_	_	_	6	_	Atr	_	_	_	_	_	3)	a_tree-de_src-s11-n299
-9	einander	einander	_	P6-XX----------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n300
-10	deutlich	deutlich	_	ACXX-----1-----	_	_	_	11	_	Adv	_	_	_	_	_	_	a_tree-de_src-s11-n301
-11	weniger	weniger	_	Db-------------	_	_	_	12	_	Adv	_	_	_	_	_	_	a_tree-de_src-s11-n302
-12	vertrauen	vertrauen	_	VB-X---XX------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n303
-13	.	--	_	Z:-------------	_	_	_	3	_	Coord	_	_	_	_	_	_	a_tree-de_src-s11-n304
-14	Die	der	_	PZXP1----------	_	_	_	15	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s11-n305
-15	Weißen	weiße	_	NNXP1----------	_	_	_	16	_	Sb	_	_	_	_	_	_	a_tree-de_src-s11-n306
-16	sind	sein	_	VB-P---3P------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n307
-17	weniger	weniger	_	Db-------------	_	_	_	18	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s11-n308
-18	bereit	bereit	_	ACXX-----1-----	_	_	_	16	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s11-n309
-19	,	--	_	Z:-------------	_	_	_	18	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s11-n310
-20	Sozialausgaben	sozialausgabe	_	NNFP4----------	_	_	_	22	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n311
-21	zu	zu	_	TT-------------	_	_	_	22	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s11-n312
-22	unterstützen	unterstützen	_	Vf-------------	_	_	_	17	_	Adv	_	_	_	_	_	_	a_tree-de_src-s11-n313
-23	,	--	_	Z:-------------	_	_	_	22	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s11-n314
-24	weil	weil	_	J,-------------	_	_	_	26	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s11-n315
-25	sie	sie	_	PPXP1--3-------	_	_	_	26	_	Sb	_	_	_	_	_	(3)	a_tree-de_src-s11-n316
-26	glauben	glauben	_	VB-P---3P------	_	_	_	27	_	Adv	_	_	_	_	_	_	a_tree-de_src-s11-n317
-27	,	--	_	Z:-------------	_	_	_	16	_	Coord	_	_	_	_	_	_	a_tree-de_src-s11-n318
-28	damit	damit	_	PDXXX----------	_	_	_	31	_	Adv	_	_	_	_	_	_	a_tree-de_src-s11-n319
-29	Minderheiten	minderheit	_	NNFP4----------	_	_	_	31	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n320
-30	zu	zu	_	TT-------------	_	_	_	31	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s11-n321
-31	begünstigen	begünstigen	_	Vf-------------	_	_	_	26	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n322
-32	.	--	_	Z:-------------	_	_	_	31	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s11-n323
-33	Stärker	stark	_	NNXXX----2-----	_	_	_	36	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n324
-34	rassistisch	rassistisch	_	ACXX-----1-----	_	_	_	35	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s11-n325
-35	gespaltene	gespalten	_	AAFP4----1-----	_	_	_	36	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n326
-36	Gesellschaften	gesellschaft	_	NNFP1----------	_	_	_	37	_	Sb	_	_	_	_	_	_	a_tree-de_src-s11-n327
-37	haben	haben	_	VB-P---3P------	_	_	_	27	_	Adv	_	_	_	_	_	_	a_tree-de_src-s11-n328
-38	weniger	weniger	_	PZXXX----------	_	_	_	40	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n329
-39	tüchtige	tüchtig	_	AAFP1----1-----	_	_	_	40	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n330
-40	Regierungen	regierung	_	NNFP1----------	_	_	_	37	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n331
-41	,	--	_	Z:-------------	_	_	_	40	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s11-n332
-42	mehr	mehr	_	PZXXX----------	_	_	_	43	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n333
-43	Korruption	korruption	_	NNFS4----------	_	_	_	40	_	Coord	_	_	_	_	_	_	a_tree-de_src-s11-n334
-44	und	und	_	J^-------------	_	_	_	43	_	Coord	_	_	_	_	_	_	a_tree-de_src-s11-n335
-45	Vetternwirtschaft	vetternwirtschaft	_	NNFS1----------	_	_	_	44	_	NR	_	_	_	_	_	_	a_tree-de_src-s11-n336
-46	,	--	_	Z:-------------	_	_	_	45	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s11-n337
-47	mehr	mehr	_	PZXXX----------	_	_	_	48	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n338
-48	Kriminalität	kriminalität	_	NNFS4----------	_	_	_	43	_	NR	_	_	_	_	_	_	a_tree-de_src-s11-n339
-49	und	und	_	J^-------------	_	_	_	48	_	Coord	_	_	_	_	_	_	a_tree-de_src-s11-n340
-50	weniger	weniger	_	PZXXX----------	_	_	_	52	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n341
-51	öffentliche	öffentlich	_	AAYP4----1-----	_	_	_	52	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n342
-52	Vorteile	vorteil	_	NNYP4----------	_	_	_	49	_	NR	_	_	_	_	_	_	a_tree-de_src-s11-n343
-53	pro	pro	_	RR--X----------	_	_	_	52	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s11-n344
-54	Dollar	dollar	_	NNYXX----------	_	_	_	53	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n345
-55	Steueraufkommen	steueraufkommen	_	NNYP4----------	_	_	_	54	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n346
-56	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s11-n347
+1	Diese	dieser	_	PDFP1----------	_	_	_	2	_	Atr	_	_	_	_	_	_
+2	Forschungen	forschung	_	NNFP1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+3	zeigten	zeigen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	,	--	_	Z:-------------	_	_	_	3	_	AuxX	_	_	_	_	_	_
+5	daß	daß	_	J,-------------	_	_	_	12	_	AuxC	_	_	_	_	_	_
+6	Menschen	mensch	_	NNYP1----------	_	_	_	12	_	Sb	_	_	_	_	_	(3
+7	unterschiedlicher	unterschiedlich	_	AAFS2----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_
+8	Rasse	rasse	_	NNFS2----------	_	_	_	6	_	Atr	_	_	_	_	_	3)
+9	einander	einander	_	P6-XX----------	_	_	_	12	_	Obj	_	_	_	_	_	_
+10	deutlich	deutlich	_	ACXX-----1-----	_	_	_	11	_	Adv	_	_	_	_	_	_
+11	weniger	weniger	_	Db-------------	_	_	_	12	_	Adv	_	_	_	_	_	_
+12	vertrauen	vertrauen	_	VB-X---XX------	_	_	_	13	_	Obj	_	_	_	_	_	_
+13	.	--	_	Z:-------------	_	_	_	3	_	Coord	_	_	_	_	_	_
+14	Die	der	_	PZXP1----------	_	_	_	15	_	AuxA	_	_	_	_	_	_
+15	Weißen	weiße	_	NNXP1----------	_	_	_	16	_	Sb	_	_	_	_	_	_
+16	sind	sein	_	VB-P---3P------	_	_	_	13	_	Obj	_	_	_	_	_	_
+17	weniger	weniger	_	Db-------------	_	_	_	18	_	AuxZ	_	_	_	_	_	_
+18	bereit	bereit	_	ACXX-----1-----	_	_	_	16	_	Pnom	_	_	_	_	_	_
+19	,	--	_	Z:-------------	_	_	_	18	_	AuxX	_	_	_	_	_	_
+20	Sozialausgaben	sozialausgabe	_	NNFP4----------	_	_	_	22	_	Obj	_	_	_	_	_	_
+21	zu	zu	_	TT-------------	_	_	_	22	_	AuxV	_	_	_	_	_	_
+22	unterstützen	unterstützen	_	Vf-------------	_	_	_	17	_	Adv	_	_	_	_	_	_
+23	,	--	_	Z:-------------	_	_	_	22	_	AuxX	_	_	_	_	_	_
+24	weil	weil	_	J,-------------	_	_	_	26	_	AuxC	_	_	_	_	_	_
+25	sie	sie	_	PPXP1--3-------	_	_	_	26	_	Sb	_	_	_	_	_	(3)
+26	glauben	glauben	_	VB-P---3P------	_	_	_	27	_	Adv	_	_	_	_	_	_
+27	,	--	_	Z:-------------	_	_	_	16	_	Coord	_	_	_	_	_	_
+28	damit	damit	_	PDXXX----------	_	_	_	31	_	Adv	_	_	_	_	_	_
+29	Minderheiten	minderheit	_	NNFP4----------	_	_	_	31	_	Obj	_	_	_	_	_	_
+30	zu	zu	_	TT-------------	_	_	_	31	_	AuxV	_	_	_	_	_	_
+31	begünstigen	begünstigen	_	Vf-------------	_	_	_	26	_	Obj	_	_	_	_	_	_
+32	.	--	_	Z:-------------	_	_	_	31	_	AuxG	_	_	_	_	_	_
+33	Stärker	stark	_	NNXXX----2-----	_	_	_	36	_	Atr	_	_	_	_	_	_
+34	rassistisch	rassistisch	_	ACXX-----1-----	_	_	_	35	_	AuxZ	_	_	_	_	_	_
+35	gespaltene	gespalten	_	AAFP4----1-----	_	_	_	36	_	Atr	_	_	_	_	_	_
+36	Gesellschaften	gesellschaft	_	NNFP1----------	_	_	_	37	_	Sb	_	_	_	_	_	_
+37	haben	haben	_	VB-P---3P------	_	_	_	27	_	Adv	_	_	_	_	_	_
+38	weniger	weniger	_	PZXXX----------	_	_	_	40	_	Atr	_	_	_	_	_	_
+39	tüchtige	tüchtig	_	AAFP1----1-----	_	_	_	40	_	Atr	_	_	_	_	_	_
+40	Regierungen	regierung	_	NNFP1----------	_	_	_	37	_	Obj	_	_	_	_	_	_
+41	,	--	_	Z:-------------	_	_	_	40	_	AuxX	_	_	_	_	_	_
+42	mehr	mehr	_	PZXXX----------	_	_	_	43	_	Atr	_	_	_	_	_	_
+43	Korruption	korruption	_	NNFS4----------	_	_	_	40	_	Coord	_	_	_	_	_	_
+44	und	und	_	J^-------------	_	_	_	43	_	Coord	_	_	_	_	_	_
+45	Vetternwirtschaft	vetternwirtschaft	_	NNFS1----------	_	_	_	44	_	NR	_	_	_	_	_	_
+46	,	--	_	Z:-------------	_	_	_	45	_	AuxX	_	_	_	_	_	_
+47	mehr	mehr	_	PZXXX----------	_	_	_	48	_	Atr	_	_	_	_	_	_
+48	Kriminalität	kriminalität	_	NNFS4----------	_	_	_	43	_	NR	_	_	_	_	_	_
+49	und	und	_	J^-------------	_	_	_	48	_	Coord	_	_	_	_	_	_
+50	weniger	weniger	_	PZXXX----------	_	_	_	52	_	Atr	_	_	_	_	_	_
+51	öffentliche	öffentlich	_	AAYP4----1-----	_	_	_	52	_	Atr	_	_	_	_	_	_
+52	Vorteile	vorteil	_	NNYP4----------	_	_	_	49	_	NR	_	_	_	_	_	_
+53	pro	pro	_	RR--X----------	_	_	_	52	_	AuxP	_	_	_	_	_	_
+54	Dollar	dollar	_	NNYXX----------	_	_	_	53	_	Atr	_	_	_	_	_	_
+55	Steueraufkommen	steueraufkommen	_	NNYP4----------	_	_	_	54	_	Atr	_	_	_	_	_	_
+56	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Das	der	_	PDNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s12-n348
-2	bedeutet	bedeuten	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s12-n349
-3	nicht	nicht	_	TT--------N----	_	_	_	2	_	Neg	_	_	_	_	_	_	a_tree-de_src-s12-n350
-4	,	--	_	Z:-------------	_	_	_	3	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s12-n351
-5	die	der	_	PZFS1----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s12-n352
-6	Antwort	antwort	_	NNFS1----------	_	_	_	7	_	Sb	_	_	_	_	_	_	a_tree-de_src-s12-n353
-7	müsse	müssen	_	VB-S---3P------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n354
-8	lauten	lauten	_	Vf-------------	_	_	_	7	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n355
-9	,	--	_	Z:-------------	_	_	_	8	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s12-n356
-10	die	der	_	PZFS4----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s12-n357
-11	Andersartigkeit	andersartigkeit	_	NNFS4----------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n358
-12	zu	zu	_	TT-------------	_	_	_	13	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s12-n359
-13	beseitigen	beseitigen	_	Vf-------------	_	_	_	8	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n360
-14	und	und	_	J^-------------	_	_	_	13	_	Coord	_	_	_	_	_	_	a_tree-de_src-s12-n361
-15	rassisch	rassisch	_	ACXX-----1-----	_	_	_	19	_	Adv	_	_	_	_	_	_	a_tree-de_src-s12-n362
-16	gleichartige	gleichartig	_	AAFP4----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n363
-17	Gemeinden	gemeinde	_	NNFP4----------	_	_	_	19	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n364
-18	zu	zu	_	TT-------------	_	_	_	19	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s12-n365
-19	schaffen	schaffen	_	Vf-------------	_	_	_	14	_	NR	_	_	_	_	_	_	a_tree-de_src-s12-n366
-20	.	--	_	Z:-------------	_	_	_	19	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s12-n367
-21	Doch	doch	_	J^-------------	_	_	_	7	_	Coord	_	_	_	_	_	_	a_tree-de_src-s12-n368
-22	muß	müssen	_	VB-S---3P------	_	_	_	21	_	NR	_	_	_	_	_	_	a_tree-de_src-s12-n369
-23	man	man	_	PZ-S1----------	_	_	_	22	_	Sb	_	_	_	_	_	_	a_tree-de_src-s12-n370
-24	die	der	_	PZFP4----------	_	_	_	25	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s12-n371
-25	Realitäten	realität	_	NNFP4----------	_	_	_	29	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n372
-26	hinter	hinter	_	RR--X----------	_	_	_	29	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s12-n373
-27	dieser	dieser	_	PDFS3----------	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n374
-28	Frage	frage	_	NNFS3----------	_	_	_	26	_	Adv	_	_	_	_	_	_	a_tree-de_src-s12-n375
-29	anerkennen	anerkennen	_	Vf-------------	_	_	_	22	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n376
-30	,	--	_	Z:-------------	_	_	_	31	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s12-n377
-31	um	um	_	J,-------------	_	_	_	22	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s12-n378
-32	eine	ein	_	PZFS4----------	_	_	_	35	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s12-n379
-33	solide	solide	_	AAFS4----------	_	_	_	35	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n380
-34	öffentlichen	öffentlich	_	AAFS2----1-----	_	_	_	35	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n381
-35	Politik	politik	_	NNFS2----------	_	_	_	41	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n382
-36	in	in	_	RR--X----------	_	_	_	41	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s12-n383
-37	Bezug	bezug	_	NNYS3----------	_	_	_	36	_	Adv	_	_	_	_	_	_	a_tree-de_src-s12-n384
-38	auf	auf	_	RR--X----------	_	_	_	37	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s12-n385
-39	die	der	_	PZFP4----------	_	_	_	40	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s12-n386
-40	Rassenbeziehungen	rassenbeziehung	_	NNFP4----------	_	_	_	38	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n387
-41	entwerfen	entwerfen	_	Vf-------------	_	_	_	43	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n388
-42	zu	zu	_	TT-------------	_	_	_	43	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s12-n389
-43	können	können	_	Vf-------------	_	_	_	31	_	Adv	_	_	_	_	_	_	a_tree-de_src-s12-n390
-44	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s12-n391
+1	Das	der	_	PDNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+2	bedeutet	bedeuten	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	nicht	nicht	_	TT--------N----	_	_	_	2	_	Neg	_	_	_	_	_	_
+4	,	--	_	Z:-------------	_	_	_	3	_	AuxX	_	_	_	_	_	_
+5	die	der	_	PZFS1----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+6	Antwort	antwort	_	NNFS1----------	_	_	_	7	_	Sb	_	_	_	_	_	_
+7	müsse	müssen	_	VB-S---3P------	_	_	_	2	_	Obj	_	_	_	_	_	_
+8	lauten	lauten	_	Vf-------------	_	_	_	7	_	Obj	_	_	_	_	_	_
+9	,	--	_	Z:-------------	_	_	_	8	_	AuxX	_	_	_	_	_	_
+10	die	der	_	PZFS4----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+11	Andersartigkeit	andersartigkeit	_	NNFS4----------	_	_	_	13	_	Obj	_	_	_	_	_	_
+12	zu	zu	_	TT-------------	_	_	_	13	_	AuxV	_	_	_	_	_	_
+13	beseitigen	beseitigen	_	Vf-------------	_	_	_	8	_	Obj	_	_	_	_	_	_
+14	und	und	_	J^-------------	_	_	_	13	_	Coord	_	_	_	_	_	_
+15	rassisch	rassisch	_	ACXX-----1-----	_	_	_	19	_	Adv	_	_	_	_	_	_
+16	gleichartige	gleichartig	_	AAFP4----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_
+17	Gemeinden	gemeinde	_	NNFP4----------	_	_	_	19	_	Obj	_	_	_	_	_	_
+18	zu	zu	_	TT-------------	_	_	_	19	_	AuxV	_	_	_	_	_	_
+19	schaffen	schaffen	_	Vf-------------	_	_	_	14	_	NR	_	_	_	_	_	_
+20	.	--	_	Z:-------------	_	_	_	19	_	AuxG	_	_	_	_	_	_
+21	Doch	doch	_	J^-------------	_	_	_	7	_	Coord	_	_	_	_	_	_
+22	muß	müssen	_	VB-S---3P------	_	_	_	21	_	NR	_	_	_	_	_	_
+23	man	man	_	PZ-S1----------	_	_	_	22	_	Sb	_	_	_	_	_	_
+24	die	der	_	PZFP4----------	_	_	_	25	_	AuxA	_	_	_	_	_	_
+25	Realitäten	realität	_	NNFP4----------	_	_	_	29	_	Obj	_	_	_	_	_	_
+26	hinter	hinter	_	RR--X----------	_	_	_	29	_	AuxP	_	_	_	_	_	_
+27	dieser	dieser	_	PDFS3----------	_	_	_	28	_	Atr	_	_	_	_	_	_
+28	Frage	frage	_	NNFS3----------	_	_	_	26	_	Adv	_	_	_	_	_	_
+29	anerkennen	anerkennen	_	Vf-------------	_	_	_	22	_	Obj	_	_	_	_	_	_
+30	,	--	_	Z:-------------	_	_	_	31	_	AuxX	_	_	_	_	_	_
+31	um	um	_	J,-------------	_	_	_	22	_	AuxC	_	_	_	_	_	_
+32	eine	ein	_	PZFS4----------	_	_	_	35	_	AuxA	_	_	_	_	_	_
+33	solide	solide	_	AAFS4----------	_	_	_	35	_	Atr	_	_	_	_	_	_
+34	öffentlichen	öffentlich	_	AAFS2----1-----	_	_	_	35	_	Atr	_	_	_	_	_	_
+35	Politik	politik	_	NNFS2----------	_	_	_	41	_	Obj	_	_	_	_	_	_
+36	in	in	_	RR--X----------	_	_	_	41	_	AuxP	_	_	_	_	_	_
+37	Bezug	bezug	_	NNYS3----------	_	_	_	36	_	Adv	_	_	_	_	_	_
+38	auf	auf	_	RR--X----------	_	_	_	37	_	AuxP	_	_	_	_	_	_
+39	die	der	_	PZFP4----------	_	_	_	40	_	AuxA	_	_	_	_	_	_
+40	Rassenbeziehungen	rassenbeziehung	_	NNFP4----------	_	_	_	38	_	Obj	_	_	_	_	_	_
+41	entwerfen	entwerfen	_	Vf-------------	_	_	_	43	_	Obj	_	_	_	_	_	_
+42	zu	zu	_	TT-------------	_	_	_	43	_	AuxV	_	_	_	_	_	_
+43	können	können	_	Vf-------------	_	_	_	31	_	Adv	_	_	_	_	_	_
+44	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Natürlich	natürlich	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s13-n392
-2	besteht	bestehen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s13-n393
-3	unter	unter	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s13-n394
-4	Amerikanern	amerikaner	_	NNYP3----------	_	_	_	3	_	Adv	_	_	_	_	_	_	a_tree-de_src-s13-n395
-5	keine	kein	_	PZFS1----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n396
-6	Einigkeit	einigkeit	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s13-n397
-7	darüber	darüber	_	PDXXX----------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s13-n398
-8	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s13-n399
-9	wie	wie	_	P4XXX----------	_	_	_	12	_	Adv	_	_	_	_	_	_	a_tree-de_src-s13-n400
-10	das	der	_	PDNS1----------	_	_	_	13	_	Sb	_	_	_	_	_	_	a_tree-de_src-s13-n401
-11	zu	zu	_	TT-------------	_	_	_	12	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s13-n402
-12	tun	tun	_	Vf-------------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s13-n403
-13	sei	sein	_	VB-S---3P------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n404
-14	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s13-n405
+1	Natürlich	natürlich	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_
+2	besteht	bestehen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	unter	unter	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_
+4	Amerikanern	amerikaner	_	NNYP3----------	_	_	_	3	_	Adv	_	_	_	_	_	_
+5	keine	kein	_	PZFS1----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	Einigkeit	einigkeit	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+7	darüber	darüber	_	PDXXX----------	_	_	_	2	_	Obj	_	_	_	_	_	_
+8	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_
+9	wie	wie	_	P4XXX----------	_	_	_	12	_	Adv	_	_	_	_	_	_
+10	das	der	_	PDNS1----------	_	_	_	13	_	Sb	_	_	_	_	_	_
+11	zu	zu	_	TT-------------	_	_	_	12	_	AuxV	_	_	_	_	_	_
+12	tun	tun	_	Vf-------------	_	_	_	13	_	Obj	_	_	_	_	_	_
+13	sei	sein	_	VB-S---3P------	_	_	_	7	_	Atr	_	_	_	_	_	_
+14	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Einige	einiger	_	NNXP1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s14-n406
-2	bejahen	bejah	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s14-n407
-3	Aktionsprogramme	aktionsprogramm	_	NNNP4----------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s14-n408
-4	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s14-n409
-5	um	um	_	J,-------------	_	_	_	2	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s14-n410
-6	Minderheiten	minderheit	_	NNFP4----------	_	_	_	22	_	Obj	_	_	_	_	_	_	a_tree-de_src-s14-n411
-7	bei	bei	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s14-n412
-8	der	der	_	PZFS3----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s14-n413
-9	Zuteilung	zuteilung	_	NNFS3----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n414
-10	von	von	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s14-n415
-11	Arbeitsplätzen	arbeitsplatz	_	NNYP3----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n416
-12	,	--	_	Z:-------------	_	_	_	11	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s14-n417
-13	dem	der	_	PZYS3----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s14-n418
-14	Zugang	zugang	_	NNYS3----------	_	_	_	9	_	NR	_	_	_	_	_	_	a_tree-de_src-s14-n419
-15	zu	zu	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s14-n420
-16	den	der	_	PZFP3----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s14-n421
-17	Fachhochschulen	fachhochschule	_	NNFP3----------	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n422
-18	und	und	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_	a_tree-de_src-s14-n423
-19	öffentlichen	öffentlich	_	AAYP3----1-----	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n424
-20	Aufträgen	auftrag	_	NNYP3----------	_	_	_	18	_	NR	_	_	_	_	_	_	a_tree-de_src-s14-n425
-21	zu	zu	_	TT-------------	_	_	_	22	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s14-n426
-22	bevorzugen	bevorzugen	_	Vf-------------	_	_	_	5	_	Adv	_	_	_	_	_	_	a_tree-de_src-s14-n427
-23	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s14-n428
+1	Einige	einiger	_	NNXP1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+2	bejahen	bejah	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	Aktionsprogramme	aktionsprogramm	_	NNNP4----------	_	_	_	2	_	Obj	_	_	_	_	_	_
+4	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_
+5	um	um	_	J,-------------	_	_	_	2	_	AuxC	_	_	_	_	_	_
+6	Minderheiten	minderheit	_	NNFP4----------	_	_	_	22	_	Obj	_	_	_	_	_	_
+7	bei	bei	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+8	der	der	_	PZFS3----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Zuteilung	zuteilung	_	NNFS3----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+10	von	von	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_
+11	Arbeitsplätzen	arbeitsplatz	_	NNYP3----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+12	,	--	_	Z:-------------	_	_	_	11	_	AuxX	_	_	_	_	_	_
+13	dem	der	_	PZYS3----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+14	Zugang	zugang	_	NNYS3----------	_	_	_	9	_	NR	_	_	_	_	_	_
+15	zu	zu	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_
+16	den	der	_	PZFP3----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+17	Fachhochschulen	fachhochschule	_	NNFP3----------	_	_	_	15	_	Atr	_	_	_	_	_	_
+18	und	und	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_
+19	öffentlichen	öffentlich	_	AAYP3----1-----	_	_	_	20	_	Atr	_	_	_	_	_	_
+20	Aufträgen	auftrag	_	NNYP3----------	_	_	_	18	_	NR	_	_	_	_	_	_
+21	zu	zu	_	TT-------------	_	_	_	22	_	AuxV	_	_	_	_	_	_
+22	bevorzugen	bevorzugen	_	Vf-------------	_	_	_	5	_	Adv	_	_	_	_	_	_
+23	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Diese	dieser	_	PDFP1----------	_	_	_	2	_	Atr	_	_	_	_	_	(4	a_tree-de_src-s15-n429
-2	Maßnahmen	maßnahme	_	NNFP1----------	_	_	_	3	_	Sb	_	_	_	_	_	4)	a_tree-de_src-s15-n430
-3	werden	werden	_	VB-P---3P------	_	_	_	0	_	Coord	_	_	_	_	_	_	a_tree-de_src-s15-n431
-4	als	als	_	RR--X----------	_	_	_	12	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n432
-5	eine	ein	_	PZFS4----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s15-n433
-6	Art	art	_	NNFS4----------	_	_	_	4	_	Adv	_	_	_	_	_	_	a_tree-de_src-s15-n434
-7	Wiedergutmachung	wiedergutmachung	_	NNFS4----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n435
-8	für	für	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n436
-9	früher	früh	_	ACXX-----2-----	_	_	_	10	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s15-n437
-10	begangenes	begangen	_	AANS4----1-----	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n438
-11	Unrecht	unrecht	_	NNNS4----------	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n439
-12	angesehen	ansehen	_	VpXX---XX------	_	_	_	3	_	Obj	_	_	_	_	_	_	a_tree-de_src-s15-n440
-13	.	--	_	Z:-------------	_	_	_	12	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s15-n441
-14	Sie	sie	_	PPXP1--3-------	_	_	_	15	_	Sb	_	_	_	_	_	(4)	a_tree-de_src-s15-n442
-15	sollen	sollen	_	VB-P---3P------	_	_	_	3	_	NR	_	_	_	_	_	_	a_tree-de_src-s15-n443
-16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s15-n444
-17	was	was	_	PJNS1----------	_	_	_	20	_	Sb	_	_	_	_	_	_	a_tree-de_src-s15-n445
-18	noch	noch	_	Db-------------	_	_	_	20	_	Adv	_	_	_	_	_	_	a_tree-de_src-s15-n446
-19	wichtiger	wichtig	_	ACXX-----2-----	_	_	_	20	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s15-n447
-20	ist	sein	_	VB-S---3P------	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s15-n448
-21	,	--	_	Z:-------------	_	_	_	20	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s15-n449
-22	Rollenmuster	rollenmuster	_	NNXS1----------	_	_	_	23	_	Obj	_	_	_	_	_	_	a_tree-de_src-s15-n450
-23	prägen	prägen	_	Vf-------------	_	_	_	24	_	Obj	_	_	_	_	_	_	a_tree-de_src-s15-n451
-24	helfen	helfen	_	Vf-------------	_	_	_	15	_	Obj	_	_	_	_	_	_	a_tree-de_src-s15-n452
-25	,	--	_	Z:-------------	_	_	_	26	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s15-n453
-26	um	um	_	J,-------------	_	_	_	23	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s15-n454
-27	übrig	übrig	_	ACXX-----1-----	_	_	_	28	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s15-n455
-28	gebliebene	geblieben	_	AANS4----1-----	_	_	_	32	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n456
-29	und	und	_	J^-------------	_	_	_	28	_	Coord	_	_	_	_	_	_	a_tree-de_src-s15-n457
-30	vielleicht	vielleicht	_	Db-------------	_	_	_	31	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s15-n458
-31	unwillkürliche	unwillkürlich	_	AAFP4----1-----	_	_	_	29	_	NR	_	_	_	_	_	_	a_tree-de_src-s15-n459
-32	Diskriminierungen	diskriminierung	_	NNFP4----------	_	_	_	34	_	Obj	_	_	_	_	_	_	a_tree-de_src-s15-n460
-33	zu	zu	_	TT-------------	_	_	_	34	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s15-n461
-34	überwinden	überwinden	_	Vf-------------	_	_	_	26	_	Adv	_	_	_	_	_	_	a_tree-de_src-s15-n462
-35	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s15-n463
+1	Diese	dieser	_	PDFP1----------	_	_	_	2	_	Atr	_	_	_	_	_	(4
+2	Maßnahmen	maßnahme	_	NNFP1----------	_	_	_	3	_	Sb	_	_	_	_	_	4)
+3	werden	werden	_	VB-P---3P------	_	_	_	0	_	Coord	_	_	_	_	_	_
+4	als	als	_	RR--X----------	_	_	_	12	_	AuxP	_	_	_	_	_	_
+5	eine	ein	_	PZFS4----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+6	Art	art	_	NNFS4----------	_	_	_	4	_	Adv	_	_	_	_	_	_
+7	Wiedergutmachung	wiedergutmachung	_	NNFS4----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+8	für	für	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_
+9	früher	früh	_	ACXX-----2-----	_	_	_	10	_	AuxZ	_	_	_	_	_	_
+10	begangenes	begangen	_	AANS4----1-----	_	_	_	11	_	Atr	_	_	_	_	_	_
+11	Unrecht	unrecht	_	NNNS4----------	_	_	_	8	_	Atr	_	_	_	_	_	_
+12	angesehen	ansehen	_	VpXX---XX------	_	_	_	3	_	Obj	_	_	_	_	_	_
+13	.	--	_	Z:-------------	_	_	_	12	_	AuxG	_	_	_	_	_	_
+14	Sie	sie	_	PPXP1--3-------	_	_	_	15	_	Sb	_	_	_	_	_	(4)
+15	sollen	sollen	_	VB-P---3P------	_	_	_	3	_	NR	_	_	_	_	_	_
+16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_
+17	was	was	_	PJNS1----------	_	_	_	20	_	Sb	_	_	_	_	_	_
+18	noch	noch	_	Db-------------	_	_	_	20	_	Adv	_	_	_	_	_	_
+19	wichtiger	wichtig	_	ACXX-----2-----	_	_	_	20	_	Pnom	_	_	_	_	_	_
+20	ist	sein	_	VB-S---3P------	_	_	_	15	_	Adv	_	_	_	_	_	_
+21	,	--	_	Z:-------------	_	_	_	20	_	AuxX	_	_	_	_	_	_
+22	Rollenmuster	rollenmuster	_	NNXS1----------	_	_	_	23	_	Obj	_	_	_	_	_	_
+23	prägen	prägen	_	Vf-------------	_	_	_	24	_	Obj	_	_	_	_	_	_
+24	helfen	helfen	_	Vf-------------	_	_	_	15	_	Obj	_	_	_	_	_	_
+25	,	--	_	Z:-------------	_	_	_	26	_	AuxX	_	_	_	_	_	_
+26	um	um	_	J,-------------	_	_	_	23	_	AuxC	_	_	_	_	_	_
+27	übrig	übrig	_	ACXX-----1-----	_	_	_	28	_	AuxZ	_	_	_	_	_	_
+28	gebliebene	geblieben	_	AANS4----1-----	_	_	_	32	_	Atr	_	_	_	_	_	_
+29	und	und	_	J^-------------	_	_	_	28	_	Coord	_	_	_	_	_	_
+30	vielleicht	vielleicht	_	Db-------------	_	_	_	31	_	AuxZ	_	_	_	_	_	_
+31	unwillkürliche	unwillkürlich	_	AAFP4----1-----	_	_	_	29	_	NR	_	_	_	_	_	_
+32	Diskriminierungen	diskriminierung	_	NNFP4----------	_	_	_	34	_	Obj	_	_	_	_	_	_
+33	zu	zu	_	TT-------------	_	_	_	34	_	AuxV	_	_	_	_	_	_
+34	überwinden	überwinden	_	Vf-------------	_	_	_	26	_	Adv	_	_	_	_	_	_
+35	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Andere	anderer	_	PZXP1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s16-n464
-2	lehnen	lehnen	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s16-n465
-3	solche	solcher	_	PZFS4----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n466
-4	Aktion	aktion	_	NNFS4----------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n467
-5	ab	ab	_	TT-------------	_	_	_	2	_	AuxT	_	_	_	_	_	_	a_tree-de_src-s16-n468
-6	und	und	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_	a_tree-de_src-s16-n469
-7	behaupten	behaupten	_	VB-P---3P------	_	_	_	6	_	NR	_	_	_	_	_	_	a_tree-de_src-s16-n470
-8	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s16-n471
-9	daß	daß	_	J,-------------	_	_	_	7	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s16-n472
-10	es	es	_	PPNS1--3-------	_	_	_	27	_	Sb	_	_	_	_	_	_	a_tree-de_src-s16-n473
-11	nur	nur	_	Db-------------	_	_	_	12	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s16-n474
-12	einer	ein	_	PZFS3----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s16-n475
-13	nicht	nicht	_	TT--------N----	_	_	_	16	_	Neg	_	_	_	_	_	_	a_tree-de_src-s16-n476
-14	auf	auf	_	RR--X----------	_	_	_	16	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s16-n477
-15	Rassenunterschiede	rassenunterschied	_	NNYP4----------	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n478
-16	achtenden	achtend	_	AAFS2----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n479
-17	Politik	politik	_	NNFS2----------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n480
-18	in	in	_	RR--X----------	_	_	_	27	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s16-n481
-19	Verbindung	verbindung	_	NNFS3----------	_	_	_	18	_	Adv	_	_	_	_	_	_	a_tree-de_src-s16-n482
-20	mit	mit	_	RR--X----------	_	_	_	19	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s16-n483
-21	einem	ein	_	PZYS3----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s16-n484
-22	freien	frei	_	AAYS3----1-----	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n485
-23	Markt	markt	_	NNYS3----------	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n486
-24	und	und	_	J^-------------	_	_	_	23	_	Coord	_	_	_	_	_	_	a_tree-de_src-s16-n487
-25	familienfreundlichen	familienfreundlich	_	AAYP3----1-----	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n488
-26	Werten	wert	_	NNYP3----------	_	_	_	24	_	NR	_	_	_	_	_	_	a_tree-de_src-s16-n489
-27	bedürfe	bedürfen	_	VB-S---3P------	_	_	_	9	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n490
-28	,	--	_	Z:-------------	_	_	_	29	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s16-n491
-29	um	um	_	J,-------------	_	_	_	27	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s16-n492
-30	für	für	_	RR--X----------	_	_	_	35	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s16-n493
-31	die	der	_	PZFP4----------	_	_	_	32	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s16-n494
-32	Minderheiten	minderheit	_	NNFP4----------	_	_	_	30	_	Adv	_	_	_	_	_	_	a_tree-de_src-s16-n495
-33	Arbeitsplätze	arbeitsplatz	_	NNYP4----------	_	_	_	35	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n496
-34	zu	zu	_	TT-------------	_	_	_	35	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s16-n497
-35	schaffen	schaffen	_	Vf-------------	_	_	_	29	_	Adv	_	_	_	_	_	_	a_tree-de_src-s16-n498
-36	und	und	_	J^-------------	_	_	_	35	_	Coord	_	_	_	_	_	_	a_tree-de_src-s16-n499
-37	zu	zu	_	TT-------------	_	_	_	38	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s16-n500
-38	helfen	helfen	_	Vf-------------	_	_	_	36	_	NR	_	_	_	_	_	_	a_tree-de_src-s16-n501
-39	,	--	_	Z:-------------	_	_	_	38	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s16-n502
-40	daß	daß	_	J,-------------	_	_	_	45	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n503
-41	die	der	_	PZFP1----------	_	_	_	42	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s16-n504
-42	Familien	familie	_	NNFP1----------	_	_	_	45	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n505
-43	der	der	_	PZXP2----------	_	_	_	44	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s16-n506
-44	Farbigen	farbige	_	NNXP2----------	_	_	_	42	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n507
-45	zusammenbleiben	zusammenbleiben	_	Vf-------------	_	_	_	38	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n508
-46	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s16-n509
+1	Andere	anderer	_	PZXP1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+2	lehnen	lehnen	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	solche	solcher	_	PZFS4----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Aktion	aktion	_	NNFS4----------	_	_	_	2	_	Obj	_	_	_	_	_	_
+5	ab	ab	_	TT-------------	_	_	_	2	_	AuxT	_	_	_	_	_	_
+6	und	und	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_
+7	behaupten	behaupten	_	VB-P---3P------	_	_	_	6	_	NR	_	_	_	_	_	_
+8	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_
+9	daß	daß	_	J,-------------	_	_	_	7	_	AuxC	_	_	_	_	_	_
+10	es	es	_	PPNS1--3-------	_	_	_	27	_	Sb	_	_	_	_	_	_
+11	nur	nur	_	Db-------------	_	_	_	12	_	AuxZ	_	_	_	_	_	_
+12	einer	ein	_	PZFS3----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+13	nicht	nicht	_	TT--------N----	_	_	_	16	_	Neg	_	_	_	_	_	_
+14	auf	auf	_	RR--X----------	_	_	_	16	_	AuxP	_	_	_	_	_	_
+15	Rassenunterschiede	rassenunterschied	_	NNYP4----------	_	_	_	14	_	Atr	_	_	_	_	_	_
+16	achtenden	achtend	_	AAFS2----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_
+17	Politik	politik	_	NNFS2----------	_	_	_	27	_	Obj	_	_	_	_	_	_
+18	in	in	_	RR--X----------	_	_	_	27	_	AuxP	_	_	_	_	_	_
+19	Verbindung	verbindung	_	NNFS3----------	_	_	_	18	_	Adv	_	_	_	_	_	_
+20	mit	mit	_	RR--X----------	_	_	_	19	_	AuxP	_	_	_	_	_	_
+21	einem	ein	_	PZYS3----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+22	freien	frei	_	AAYS3----1-----	_	_	_	23	_	Atr	_	_	_	_	_	_
+23	Markt	markt	_	NNYS3----------	_	_	_	20	_	Atr	_	_	_	_	_	_
+24	und	und	_	J^-------------	_	_	_	23	_	Coord	_	_	_	_	_	_
+25	familienfreundlichen	familienfreundlich	_	AAYP3----1-----	_	_	_	26	_	Atr	_	_	_	_	_	_
+26	Werten	wert	_	NNYP3----------	_	_	_	24	_	NR	_	_	_	_	_	_
+27	bedürfe	bedürfen	_	VB-S---3P------	_	_	_	9	_	Obj	_	_	_	_	_	_
+28	,	--	_	Z:-------------	_	_	_	29	_	AuxX	_	_	_	_	_	_
+29	um	um	_	J,-------------	_	_	_	27	_	AuxC	_	_	_	_	_	_
+30	für	für	_	RR--X----------	_	_	_	35	_	AuxP	_	_	_	_	_	_
+31	die	der	_	PZFP4----------	_	_	_	32	_	AuxA	_	_	_	_	_	_
+32	Minderheiten	minderheit	_	NNFP4----------	_	_	_	30	_	Adv	_	_	_	_	_	_
+33	Arbeitsplätze	arbeitsplatz	_	NNYP4----------	_	_	_	35	_	Obj	_	_	_	_	_	_
+34	zu	zu	_	TT-------------	_	_	_	35	_	AuxV	_	_	_	_	_	_
+35	schaffen	schaffen	_	Vf-------------	_	_	_	29	_	Adv	_	_	_	_	_	_
+36	und	und	_	J^-------------	_	_	_	35	_	Coord	_	_	_	_	_	_
+37	zu	zu	_	TT-------------	_	_	_	38	_	AuxV	_	_	_	_	_	_
+38	helfen	helfen	_	Vf-------------	_	_	_	36	_	NR	_	_	_	_	_	_
+39	,	--	_	Z:-------------	_	_	_	38	_	AuxX	_	_	_	_	_	_
+40	daß	daß	_	J,-------------	_	_	_	45	_	Obj	_	_	_	_	_	_
+41	die	der	_	PZFP1----------	_	_	_	42	_	AuxA	_	_	_	_	_	_
+42	Familien	familie	_	NNFP1----------	_	_	_	45	_	Obj	_	_	_	_	_	_
+43	der	der	_	PZXP2----------	_	_	_	44	_	AuxA	_	_	_	_	_	_
+44	Farbigen	farbige	_	NNXP2----------	_	_	_	42	_	Atr	_	_	_	_	_	_
+45	zusammenbleiben	zusammenbleiben	_	Vf-------------	_	_	_	38	_	Obj	_	_	_	_	_	_
+46	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Letzteres	letzterer	_	NNNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s17-n510
-2	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s17-n511
-3	für	für	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n512
-4	jede	jeder	_	PZFS4----------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n513
-5	Politik	politik	_	NNFS4----------	_	_	_	3	_	Adv	_	_	_	_	_	_	a_tree-de_src-s17-n514
-6	entscheidend	entscheidend	_	ACXX-----1-----	_	_	_	2	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s17-n515
-7	.	--	_	Z:-------------	_	_	_	6	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s17-n516
-8	Denn	denn	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_	a_tree-de_src-s17-n517
-9	eine	einer	_	PZFS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_	a_tree-de_src-s17-n518
-10	der	der	_	PZFP2----------	_	_	_	12	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n519
-11	wichtigsten	wichtig	_	AAFP2----3-----	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n520
-12	Ursachen	ursache	_	NNFP2----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n521
-13	für	für	_	RR--X----------	_	_	_	12	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n522
-14	die	der	_	PZFS4----------	_	_	_	15	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n523
-15	Armut	armut	_	NNFS4----------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n524
-16	in	in	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n525
-17	den	der	_	PZXP3----------	_	_	_	18	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n526
-18	USA	usa	_	NNXP3----------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n527
-19	ist	sein	_	VB-S---3P------	_	_	_	8	_	NR	_	_	_	_	_	_	a_tree-de_src-s17-n528
-20	die	der	_	PZFS1----------	_	_	_	22	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n529
-21	große	groß	_	AAFS1----1-----	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n530
-22	Verbreitung	verbreitung	_	NNFS1----------	_	_	_	19	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s17-n531
-23	von	von	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n532
-24	Haushalte	haushalt	_	NNFS3----------	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n533
-25	mit	mit	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n534
-26	allein	allein	_	Db-------------	_	_	_	27	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s17-n535
-27	erziehenden	erziehend	_	AAYP3----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n536
-28	Eltern	eltern	_	NNXP3----------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n537
-29	(	--	_	Z:-------------	_	_	_	28	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s17-n538
-30	sprich	sprich	_	Dg-------1-----	_	_	_	31	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s17-n539
-31	Müttern	mutter	_	NNFP1----------	_	_	_	22	_	ExD	_	_	_	_	_	_	a_tree-de_src-s17-n540
-32	)	--	_	Z:-------------	_	_	_	31	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s17-n541
-33	unter	unter	_	RR--X----------	_	_	_	31	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n542
-34	den	der	_	PZXP3----------	_	_	_	35	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n543
-35	Farbigen	farbig	_	NNXP3----------	_	_	_	33	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n544
-36	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s17-n545
+1	Letzteres	letzterer	_	NNNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+2	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	für	für	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_
+4	jede	jeder	_	PZFS4----------	_	_	_	5	_	Atr	_	_	_	_	_	_
+5	Politik	politik	_	NNFS4----------	_	_	_	3	_	Adv	_	_	_	_	_	_
+6	entscheidend	entscheidend	_	ACXX-----1-----	_	_	_	2	_	Pnom	_	_	_	_	_	_
+7	.	--	_	Z:-------------	_	_	_	6	_	AuxG	_	_	_	_	_	_
+8	Denn	denn	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_
+9	eine	einer	_	PZFS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_
+10	der	der	_	PZFP2----------	_	_	_	12	_	AuxA	_	_	_	_	_	_
+11	wichtigsten	wichtig	_	AAFP2----3-----	_	_	_	12	_	Atr	_	_	_	_	_	_
+12	Ursachen	ursache	_	NNFP2----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+13	für	für	_	RR--X----------	_	_	_	12	_	AuxP	_	_	_	_	_	_
+14	die	der	_	PZFS4----------	_	_	_	15	_	AuxA	_	_	_	_	_	_
+15	Armut	armut	_	NNFS4----------	_	_	_	13	_	Atr	_	_	_	_	_	_
+16	in	in	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+17	den	der	_	PZXP3----------	_	_	_	18	_	AuxA	_	_	_	_	_	_
+18	USA	usa	_	NNXP3----------	_	_	_	16	_	Atr	_	_	_	_	_	_
+19	ist	sein	_	VB-S---3P------	_	_	_	8	_	NR	_	_	_	_	_	_
+20	die	der	_	PZFS1----------	_	_	_	22	_	AuxA	_	_	_	_	_	_
+21	große	groß	_	AAFS1----1-----	_	_	_	22	_	Atr	_	_	_	_	_	_
+22	Verbreitung	verbreitung	_	NNFS1----------	_	_	_	19	_	Pnom	_	_	_	_	_	_
+23	von	von	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+24	Haushalte	haushalt	_	NNFS3----------	_	_	_	23	_	Atr	_	_	_	_	_	_
+25	mit	mit	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+26	allein	allein	_	Db-------------	_	_	_	27	_	AuxZ	_	_	_	_	_	_
+27	erziehenden	erziehend	_	AAYP3----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_
+28	Eltern	eltern	_	NNXP3----------	_	_	_	25	_	Atr	_	_	_	_	_	_
+29	(	--	_	Z:-------------	_	_	_	28	_	AuxG	_	_	_	_	_	_
+30	sprich	sprich	_	Dg-------1-----	_	_	_	31	_	AuxZ	_	_	_	_	_	_
+31	Müttern	mutter	_	NNFP1----------	_	_	_	22	_	ExD	_	_	_	_	_	_
+32	)	--	_	Z:-------------	_	_	_	31	_	AuxG	_	_	_	_	_	_
+33	unter	unter	_	RR--X----------	_	_	_	31	_	AuxP	_	_	_	_	_	_
+34	den	der	_	PZXP3----------	_	_	_	35	_	AuxA	_	_	_	_	_	_
+35	Farbigen	farbig	_	NNXP3----------	_	_	_	33	_	Atr	_	_	_	_	_	_
+36	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Ungeachtet	ungeachtet	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s18-n546
-2	der	der	_	PZFS3----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s18-n547
-3	richtigen	richtig	_	AAFS3----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n548
-4	Antwort	antwort	_	NNFS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s18-n549
-5	,	--	_	Z:-------------	_	_	_	4	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s18-n550
-6	handelt	handeln	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s18-n551
-7	es	es	_	PPNS1--3-------	_	_	_	6	_	Sb	_	_	_	_	_	_	a_tree-de_src-s18-n552
-8	sich	sich	_	P6-S4--3-------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n553
-9	bei	bei	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s18-n554
-10	der	der	_	PZFS3----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s18-n555
-11	Frage	frage	_	NNFS3----------	_	_	_	9	_	Adv	_	_	_	_	_	_	a_tree-de_src-s18-n556
-12	,	--	_	Z:-------------	_	_	_	11	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s18-n557
-13	wie	wie	_	P4XXX----------	_	_	_	18	_	Adv	_	_	_	_	_	_	a_tree-de_src-s18-n558
-14	man	man	_	PZ-S1----------	_	_	_	18	_	Sb	_	_	_	_	_	_	a_tree-de_src-s18-n559
-15	mit	mit	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s18-n560
-16	den	der	_	PZFP3----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s18-n561
-17	Rassen	rasse	_	NNFP3----------	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s18-n562
-18	umgeht	umgehen	_	VB-S---3P------	_	_	_	11	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n563
-19	,	--	_	Z:-------------	_	_	_	18	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s18-n564
-20	um	um	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s18-n565
-21	eine	ein	_	PZFS4----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s18-n566
-22	herausragende	herausragend	_	AAFS4----1-----	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n567
-23	Aufgabe	aufgabe	_	NNFS4----------	_	_	_	20	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n568
-24	in	in	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s18-n569
-25	der	der	_	PZFS3----------	_	_	_	26	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s18-n570
-26	US-Politik	us-politik	_	NNFS3----------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n571
-27	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s18-n572
+1	Ungeachtet	ungeachtet	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+2	der	der	_	PZFS3----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+3	richtigen	richtig	_	AAFS3----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Antwort	antwort	_	NNFS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+5	,	--	_	Z:-------------	_	_	_	4	_	AuxX	_	_	_	_	_	_
+6	handelt	handeln	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+7	es	es	_	PPNS1--3-------	_	_	_	6	_	Sb	_	_	_	_	_	_
+8	sich	sich	_	P6-S4--3-------	_	_	_	6	_	Obj	_	_	_	_	_	_
+9	bei	bei	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+10	der	der	_	PZFS3----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+11	Frage	frage	_	NNFS3----------	_	_	_	9	_	Adv	_	_	_	_	_	_
+12	,	--	_	Z:-------------	_	_	_	11	_	AuxX	_	_	_	_	_	_
+13	wie	wie	_	P4XXX----------	_	_	_	18	_	Adv	_	_	_	_	_	_
+14	man	man	_	PZ-S1----------	_	_	_	18	_	Sb	_	_	_	_	_	_
+15	mit	mit	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_
+16	den	der	_	PZFP3----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+17	Rassen	rasse	_	NNFP3----------	_	_	_	15	_	Adv	_	_	_	_	_	_
+18	umgeht	umgehen	_	VB-S---3P------	_	_	_	11	_	Obj	_	_	_	_	_	_
+19	,	--	_	Z:-------------	_	_	_	18	_	AuxX	_	_	_	_	_	_
+20	um	um	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_
+21	eine	ein	_	PZFS4----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+22	herausragende	herausragend	_	AAFS4----1-----	_	_	_	23	_	Atr	_	_	_	_	_	_
+23	Aufgabe	aufgabe	_	NNFS4----------	_	_	_	20	_	Obj	_	_	_	_	_	_
+24	in	in	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_
+25	der	der	_	PZFS3----------	_	_	_	26	_	AuxA	_	_	_	_	_	_
+26	US-Politik	us-politik	_	NNFS3----------	_	_	_	24	_	Atr	_	_	_	_	_	_
+27	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Natürlich	natürlich	_	Db-------------	_	_	_	14	_	Adv	_	_	_	_	_	_	a_tree-de_src-s19-n573
-2	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s19-n574
-3	Minderheiten	minderheit	_	NNFP1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s19-n575
-4	Fortschritte	fortschritt	_	NNYP4----------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s19-n576
-5	in	in	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s19-n577
-6	Richtung	richtung	_	NNFS4----------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n578
-7	auf	auf	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s19-n579
-8	mehr	mehr	_	PZXXX----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n580
-9	Integration	integration	_	NNFS4----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n581
-10	und	und	_	J^-------------	_	_	_	9	_	Coord	_	_	_	_	_	_	a_tree-de_src-s19-n582
-11	bessere	gut	_	AAFP4----2-----	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n583
-12	wirtschaftliche	wirtschaftlich	_	AAYP4----1-----	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n584
-13	Erfolge	erfolg	_	NNYP4----------	_	_	_	10	_	NR	_	_	_	_	_	_	a_tree-de_src-s19-n585
-14	gemacht	machen	_	VpXX---XX------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s19-n586
-15	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s19-n587
+1	Natürlich	natürlich	_	Db-------------	_	_	_	14	_	Adv	_	_	_	_	_	_
+2	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	Minderheiten	minderheit	_	NNFP1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+4	Fortschritte	fortschritt	_	NNYP4----------	_	_	_	14	_	Obj	_	_	_	_	_	_
+5	in	in	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+6	Richtung	richtung	_	NNFS4----------	_	_	_	5	_	Atr	_	_	_	_	_	_
+7	auf	auf	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+8	mehr	mehr	_	PZXXX----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Integration	integration	_	NNFS4----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+10	und	und	_	J^-------------	_	_	_	9	_	Coord	_	_	_	_	_	_
+11	bessere	gut	_	AAFP4----2-----	_	_	_	13	_	Atr	_	_	_	_	_	_
+12	wirtschaftliche	wirtschaftlich	_	AAYP4----1-----	_	_	_	13	_	Atr	_	_	_	_	_	_
+13	Erfolge	erfolg	_	NNYP4----------	_	_	_	10	_	NR	_	_	_	_	_	_
+14	gemacht	machen	_	VpXX---XX------	_	_	_	2	_	Obj	_	_	_	_	_	_
+15	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	In	in	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n588
-2	den	der	_	PZNP3----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n589
-3	1950er	1950er	_	AOXX-----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n590
-4	Jahren	jahr	_	NNNP3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n591
-5	durften	dürfen	_	VB-P---3R------	_	_	_	0	_	Coord	_	_	_	_	_	_	a_tree-de_src-s20-n592
-6	Farbige	farbige	_	NNXP1----------	_	_	_	5	_	Sb	_	_	_	_	_	_	a_tree-de_src-s20-n593
-7	nicht	nicht	_	TT--------N----	_	_	_	5	_	Neg	_	_	_	_	_	_	a_tree-de_src-s20-n594
-8	einmal	einmal	_	Db-------------	_	_	_	7	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n595
-9	vorne	vorne	_	Db-------------	_	_	_	13	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n596
-10	im	in	_	PZYS3----------	_	_	_	13	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n597
-11	Bus	bus	_	NNYS3----------	_	_	_	10	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n598
-12	Platz	platz	_	NNYS4----------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s20-n599
-13	nehmen	nehmen	_	Vf-------------	_	_	_	5	_	Obj	_	_	_	_	_	_	a_tree-de_src-s20-n600
-14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s20-n601
-15	heute	heute	_	Db-------------	_	_	_	16	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n602
-16	sind	sein	_	VB-P---3P------	_	_	_	5	_	NR	_	_	_	_	_	_	a_tree-de_src-s20-n603
-17	zwei	zwei	_	Cn-XX----------	_	_	_	16	_	Sb	_	_	_	_	_	_	a_tree-de_src-s20-n604
-18	der	der	_	PZYP2----------	_	_	_	20	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n605
-19	wichtigsten	wichtig	_	AAYP2----3-----	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n606
-20	Mitspieler	mitspieler	_	NNYP2----------	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n607
-21	in	in	_	RR--X----------	_	_	_	16	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n608
-22	der	der	_	PZFS3----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n609
-23	US	us	_	NNFS3----------	_	_	_	21	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n610
-24	Außenpolitik	außenpolitik	_	NNFS1----------	_	_	_	16	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s20-n611
-25	Farbige	farbige	_	NNFS1----------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n612
-26	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s20-n613
+1	In	in	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_
+2	den	der	_	PZNP3----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+3	1950er	1950er	_	AOXX-----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Jahren	jahr	_	NNNP3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+5	durften	dürfen	_	VB-P---3R------	_	_	_	0	_	Coord	_	_	_	_	_	_
+6	Farbige	farbige	_	NNXP1----------	_	_	_	5	_	Sb	_	_	_	_	_	_
+7	nicht	nicht	_	TT--------N----	_	_	_	5	_	Neg	_	_	_	_	_	_
+8	einmal	einmal	_	Db-------------	_	_	_	7	_	Adv	_	_	_	_	_	_
+9	vorne	vorne	_	Db-------------	_	_	_	13	_	Adv	_	_	_	_	_	_
+10	im	in	_	PZYS3----------	_	_	_	13	_	AuxP	_	_	_	_	_	_
+11	Bus	bus	_	NNYS3----------	_	_	_	10	_	Adv	_	_	_	_	_	_
+12	Platz	platz	_	NNYS4----------	_	_	_	13	_	Obj	_	_	_	_	_	_
+13	nehmen	nehmen	_	Vf-------------	_	_	_	5	_	Obj	_	_	_	_	_	_
+14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_
+15	heute	heute	_	Db-------------	_	_	_	16	_	Adv	_	_	_	_	_	_
+16	sind	sein	_	VB-P---3P------	_	_	_	5	_	NR	_	_	_	_	_	_
+17	zwei	zwei	_	Cn-XX----------	_	_	_	16	_	Sb	_	_	_	_	_	_
+18	der	der	_	PZYP2----------	_	_	_	20	_	AuxA	_	_	_	_	_	_
+19	wichtigsten	wichtig	_	AAYP2----3-----	_	_	_	20	_	Atr	_	_	_	_	_	_
+20	Mitspieler	mitspieler	_	NNYP2----------	_	_	_	17	_	Atr	_	_	_	_	_	_
+21	in	in	_	RR--X----------	_	_	_	16	_	AuxP	_	_	_	_	_	_
+22	der	der	_	PZFS3----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+23	US	us	_	NNFS3----------	_	_	_	21	_	Adv	_	_	_	_	_	_
+24	Außenpolitik	außenpolitik	_	NNFS1----------	_	_	_	16	_	Pnom	_	_	_	_	_	_
+25	Farbige	farbige	_	NNFS1----------	_	_	_	24	_	Atr	_	_	_	_	_	_
+26	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Trotzdem	trotzdem	_	PDXXX----------	_	_	_	4	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s21-n614
-2	kann	können	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s21-n615
-3	man	man	_	PZ-S1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s21-n616
-4	sicher	sicher	_	ACXX-----1-----	_	_	_	5	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s21-n617
-5	sein	sein	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s21-n618
-6	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s21-n619
-7	daß	daß	_	J,-------------	_	_	_	2	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s21-n620
-8	rechtsgerichtete	rechtsgerichtet	_	AAYP1----1-----	_	_	_	9	_	Atr	_	_	_	_	_	(5	a_tree-de_src-s21-n621
-9	Politiker	politiker	_	NNYP1----------	_	_	_	22	_	Sb	_	_	_	_	_	5)	a_tree-de_src-s21-n622
-10	in	in	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s21-n623
-11	Amerika	amerika	_	NNNS3----------	_	_	_	10	_	Adv	_	_	_	_	_	(6)	a_tree-de_src-s21-n624
-12	weiterhin	weiterhin	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s21-n625
-13	auf	auf	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s21-n626
-14	die	der	_	PZFS4----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s21-n627
-15	,,	,,	_	NNXXX----------	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n628
-16	,,Rassen-Karte	,,rassen-karte	_	NNFS4----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n629
-17	"	--	_	NNXXX----------	_	_	_	13	_	Adv	_	_	_	_	_	_	a_tree-de_src-s21-n630
-18	als	als	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s21-n631
-19	einem	ein	_	PZYS3----------	_	_	_	21	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s21-n632
-20	taktischen	taktisch	_	AANS3----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n633
-21	Mittel	mittel	_	NNNS3----------	_	_	_	18	_	Adv	_	_	_	_	_	_	a_tree-de_src-s21-n634
-22	setzen	setzen	_	Vf-------------	_	_	_	7	_	Sb	_	_	_	_	_	_	a_tree-de_src-s21-n635
-23	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s21-n636
+1	Trotzdem	trotzdem	_	PDXXX----------	_	_	_	4	_	AuxZ	_	_	_	_	_	_
+2	kann	können	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	man	man	_	PZ-S1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+4	sicher	sicher	_	ACXX-----1-----	_	_	_	5	_	Pnom	_	_	_	_	_	_
+5	sein	sein	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_
+6	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_
+7	daß	daß	_	J,-------------	_	_	_	2	_	AuxC	_	_	_	_	_	_
+8	rechtsgerichtete	rechtsgerichtet	_	AAYP1----1-----	_	_	_	9	_	Atr	_	_	_	_	_	(5
+9	Politiker	politiker	_	NNYP1----------	_	_	_	22	_	Sb	_	_	_	_	_	5)
+10	in	in	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+11	Amerika	amerika	_	NNNS3----------	_	_	_	10	_	Adv	_	_	_	_	_	(6)
+12	weiterhin	weiterhin	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_
+13	auf	auf	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+14	die	der	_	PZFS4----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+15	,,	,,	_	NNXXX----------	_	_	_	17	_	Atr	_	_	_	_	_	_
+16	,,Rassen-Karte	,,rassen-karte	_	NNFS4----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_
+17	"	--	_	NNXXX----------	_	_	_	13	_	Adv	_	_	_	_	_	_
+18	als	als	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+19	einem	ein	_	PZYS3----------	_	_	_	21	_	AuxA	_	_	_	_	_	_
+20	taktischen	taktisch	_	AANS3----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_
+21	Mittel	mittel	_	NNNS3----------	_	_	_	18	_	Adv	_	_	_	_	_	_
+22	setzen	setzen	_	Vf-------------	_	_	_	7	_	Sb	_	_	_	_	_	_
+23	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Nehmen	nehmen	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s22-n637
-2	Sie	sie	_	PPXP1--3-------	_	_	_	1	_	Sb	_	_	_	_	_	(5)	a_tree-de_src-s22-n638
-3	den	der	_	PZYS4----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s22-n639
-4	Fall	fall	_	NNYS4----------	_	_	_	1	_	Obj	_	_	_	_	_	_	a_tree-de_src-s22-n640
-5	von	von	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s22-n641
-6	Patrick	patrick	_	NNYS1----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n642
-7	Buchanan	buchanan	_	NNYS3----------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n643
-8	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s22-n644
-9	dem	der	_	PZYS3----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s22-n645
-10	früheren	früh	_	AAYS3----2-----	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n646
-11	Assistent	assistent	_	NNYS3----------	_	_	_	7	_	Apposition	_	_	_	_	_	_	a_tree-de_src-s22-n647
-12	von	von	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s22-n648
-13	Nixon	nixon	_	NNNS3----------	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n649
-14	und	und	_	J^-------------	_	_	_	13	_	Coord	_	_	_	_	_	_	a_tree-de_src-s22-n650
-15	Reagan	reagan	_	NNNS3----------	_	_	_	14	_	NR	_	_	_	_	_	_	a_tree-de_src-s22-n651
-16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s22-n652
-17	der	der	_	PJYS1----------	_	_	_	25	_	Sb	_	_	_	_	_	_	a_tree-de_src-s22-n653
-18	bei	bei	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s22-n654
-19	den	der	_	PZFP3----------	_	_	_	21	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s22-n655
-20	letzten	letzter	_	AAFP3----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n656
-21	Wahlen	wahl	_	NNFP3----------	_	_	_	18	_	Adv	_	_	_	_	_	_	a_tree-de_src-s22-n657
-22	als	als	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s22-n658
-23	unabhängiger	unabhängig	_	AAYS1----1-----	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n659
-24	Präsidentschaftskandidat	präsidentschaftskandidat	_	NNYS1----------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s22-n660
-25	auftrat	auftreten	_	VB-S---3R------	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n661
-26	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s22-n662
+1	Nehmen	nehmen	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+2	Sie	sie	_	PPXP1--3-------	_	_	_	1	_	Sb	_	_	_	_	_	(5)
+3	den	der	_	PZYS4----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+4	Fall	fall	_	NNYS4----------	_	_	_	1	_	Obj	_	_	_	_	_	_
+5	von	von	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+6	Patrick	patrick	_	NNYS1----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+7	Buchanan	buchanan	_	NNYS3----------	_	_	_	5	_	Atr	_	_	_	_	_	_
+8	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_
+9	dem	der	_	PZYS3----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+10	früheren	früh	_	AAYS3----2-----	_	_	_	11	_	Atr	_	_	_	_	_	_
+11	Assistent	assistent	_	NNYS3----------	_	_	_	7	_	Apposition	_	_	_	_	_	_
+12	von	von	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_
+13	Nixon	nixon	_	NNNS3----------	_	_	_	12	_	Atr	_	_	_	_	_	_
+14	und	und	_	J^-------------	_	_	_	13	_	Coord	_	_	_	_	_	_
+15	Reagan	reagan	_	NNNS3----------	_	_	_	14	_	NR	_	_	_	_	_	_
+16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_
+17	der	der	_	PJYS1----------	_	_	_	25	_	Sb	_	_	_	_	_	_
+18	bei	bei	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_
+19	den	der	_	PZFP3----------	_	_	_	21	_	AuxA	_	_	_	_	_	_
+20	letzten	letzter	_	AAFP3----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_
+21	Wahlen	wahl	_	NNFP3----------	_	_	_	18	_	Adv	_	_	_	_	_	_
+22	als	als	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_
+23	unabhängiger	unabhängig	_	AAYS1----1-----	_	_	_	24	_	Atr	_	_	_	_	_	_
+24	Präsidentschaftskandidat	präsidentschaftskandidat	_	NNYS1----------	_	_	_	22	_	Adv	_	_	_	_	_	_
+25	auftrat	auftreten	_	VB-S---3R------	_	_	_	11	_	Atr	_	_	_	_	_	_
+26	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Er	er	_	PPYS1--3-------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s23-n663
-2	veröffentlichte	veröffentlichen	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s23-n664
-3	kürzlich	kürzlich	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s23-n665
-4	ein	ein	_	PZNS4----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s23-n666
-5	erfolgreiches	erfolgreich	_	AANS4----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s23-n667
-6	Buch	buch	_	NNNS4----------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n668
-7	mit	mit	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s23-n669
-8	dem	der	_	PZYS3----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s23-n670
-9	Titel	titel	_	NNYS3----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s23-n671
-10	:	--	_	Z:-------------	_	_	_	9	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s23-n672
-11	"	--	_	Z:-------------	_	_	_	10	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s23-n673
-12	Der	der	_	PZYS1----------	_	_	_	13	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s23-n674
-13	Tod	tod	_	NNYS1----------	_	_	_	31	_	Sb	_	_	_	_	_	_	a_tree-de_src-s23-n675
-14	des	der	_	PZYS2----------	_	_	_	15	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s23-n676
-15	Westens	westen	_	NNYS2----------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s23-n677
-16	:	--	_	Z:-------------	_	_	_	15	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s23-n678
-17	Wie	wie	_	P4XXX----------	_	_	_	30	_	Adv	_	_	_	_	_	_	a_tree-de_src-s23-n679
-18	aussterbende	aussterbend	_	AAFP1----1-----	_	_	_	19	_	Atr	_	_	_	_	_	_	a_tree-de_src-s23-n680
-19	Bevölkerungsschichten	bevölkerungsschicht	_	NNFP1----------	_	_	_	30	_	Sb	_	_	_	_	_	_	a_tree-de_src-s23-n681
-20	und	und	_	J^-------------	_	_	_	19	_	Coord	_	_	_	_	_	_	a_tree-de_src-s23-n682
-21	die	der	_	PZFS1----------	_	_	_	22	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s23-n683
-22	Invasion	invasion	_	NNFS1----------	_	_	_	20	_	NR	_	_	_	_	_	_	a_tree-de_src-s23-n684
-23	von	von	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s23-n685
-24	Immigranten	immigrant	_	NNYP3----------	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s23-n686
-25	unser	unser	_	PSNS4-X1-------	_	_	_	26	_	Atr	_	_	_	_	_	(7)	a_tree-de_src-s23-n687
-26	Land	land	_	NNNS4----------	_	_	_	30	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n688
-27	und	und	_	J^-------------	_	_	_	26	_	Coord	_	_	_	_	_	_	a_tree-de_src-s23-n689
-28	unsere	unser	_	PSFS1-X1-------	_	_	_	29	_	Atr	_	_	_	_	_	(7)	a_tree-de_src-s23-n690
-29	Zivilisation	zivilisation	_	NNFS1----------	_	_	_	27	_	NR	_	_	_	_	_	_	a_tree-de_src-s23-n691
-30	gefährden	gefährden	_	Vf-------------	_	_	_	31	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n692
-31	"	--	_	VB-X---XX------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s23-n693
-32	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s23-n694
+1	Er	er	_	PPYS1--3-------	_	_	_	2	_	Sb	_	_	_	_	_	_
+2	veröffentlichte	veröffentlichen	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	kürzlich	kürzlich	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_
+4	ein	ein	_	PZNS4----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+5	erfolgreiches	erfolgreich	_	AANS4----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	Buch	buch	_	NNNS4----------	_	_	_	2	_	Obj	_	_	_	_	_	_
+7	mit	mit	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+8	dem	der	_	PZYS3----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Titel	titel	_	NNYS3----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+10	:	--	_	Z:-------------	_	_	_	9	_	AuxG	_	_	_	_	_	_
+11	"	--	_	Z:-------------	_	_	_	10	_	AuxG	_	_	_	_	_	_
+12	Der	der	_	PZYS1----------	_	_	_	13	_	AuxA	_	_	_	_	_	_
+13	Tod	tod	_	NNYS1----------	_	_	_	31	_	Sb	_	_	_	_	_	_
+14	des	der	_	PZYS2----------	_	_	_	15	_	AuxA	_	_	_	_	_	_
+15	Westens	westen	_	NNYS2----------	_	_	_	13	_	Atr	_	_	_	_	_	_
+16	:	--	_	Z:-------------	_	_	_	15	_	AuxG	_	_	_	_	_	_
+17	Wie	wie	_	P4XXX----------	_	_	_	30	_	Adv	_	_	_	_	_	_
+18	aussterbende	aussterbend	_	AAFP1----1-----	_	_	_	19	_	Atr	_	_	_	_	_	_
+19	Bevölkerungsschichten	bevölkerungsschicht	_	NNFP1----------	_	_	_	30	_	Sb	_	_	_	_	_	_
+20	und	und	_	J^-------------	_	_	_	19	_	Coord	_	_	_	_	_	_
+21	die	der	_	PZFS1----------	_	_	_	22	_	AuxA	_	_	_	_	_	_
+22	Invasion	invasion	_	NNFS1----------	_	_	_	20	_	NR	_	_	_	_	_	_
+23	von	von	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+24	Immigranten	immigrant	_	NNYP3----------	_	_	_	23	_	Atr	_	_	_	_	_	_
+25	unser	unser	_	PSNS4-X1-------	_	_	_	26	_	Atr	_	_	_	_	_	(7)
+26	Land	land	_	NNNS4----------	_	_	_	30	_	Obj	_	_	_	_	_	_
+27	und	und	_	J^-------------	_	_	_	26	_	Coord	_	_	_	_	_	_
+28	unsere	unser	_	PSFS1-X1-------	_	_	_	29	_	Atr	_	_	_	_	_	(7)
+29	Zivilisation	zivilisation	_	NNFS1----------	_	_	_	27	_	NR	_	_	_	_	_	_
+30	gefährden	gefährden	_	Vf-------------	_	_	_	31	_	Obj	_	_	_	_	_	_
+31	"	--	_	VB-X---XX------	_	_	_	6	_	Atr	_	_	_	_	_	_
+32	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Aber	aber	_	J^-------------	_	_	_	7	_	Coord	_	_	_	_	_	_	a_tree-de_src-s24-n695
-2	für	für	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s24-n696
-3	jedes	jeder	_	PZNS4----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n697
-4	Buch	buch	_	NNNS4----------	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s24-n698
-5	wie	wie	_	J^-------------	_	_	_	6	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s24-n699
-6	dieses	dieser	_	PDNS4----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n700
-7	gibt	geben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s24-n701
-8	es	es	_	PPNS1--3-------	_	_	_	7	_	Sb	_	_	_	_	_	_	a_tree-de_src-s24-n702
-9	zehn	zehn	_	Cn-XX----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n703
-10	andere	anderer	_	PZXP4----------	_	_	_	7	_	Obj	_	_	_	_	_	_	a_tree-de_src-s24-n704
-11	mit	mit	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s24-n705
-12	einer	ein	_	PZFS3----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s24-n706
-13	ernsthaften	ernsthaft	_	AAFS3----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n707
-14	Analyse	analyse	_	NNFS3----------	_	_	_	11	_	Adv	_	_	_	_	_	_	a_tree-de_src-s24-n708
-15	der	der	_	PZFS2----------	_	_	_	16	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s24-n709
-16	Rassenfrage	rassenfrage	_	NNFS2----------	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n710
-17	in	in	_	RR--X----------	_	_	_	16	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s24-n711
-18	Amerika	amerika	_	NNNS3----------	_	_	_	17	_	Atr	_	_	_	_	_	(6)	a_tree-de_src-s24-n712
-19	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s24-n713
+1	Aber	aber	_	J^-------------	_	_	_	7	_	Coord	_	_	_	_	_	_
+2	für	für	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_
+3	jedes	jeder	_	PZNS4----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Buch	buch	_	NNNS4----------	_	_	_	2	_	Adv	_	_	_	_	_	_
+5	wie	wie	_	J^-------------	_	_	_	6	_	AuxC	_	_	_	_	_	_
+6	dieses	dieser	_	PDNS4----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+7	gibt	geben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+8	es	es	_	PPNS1--3-------	_	_	_	7	_	Sb	_	_	_	_	_	_
+9	zehn	zehn	_	Cn-XX----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+10	andere	anderer	_	PZXP4----------	_	_	_	7	_	Obj	_	_	_	_	_	_
+11	mit	mit	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_
+12	einer	ein	_	PZFS3----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+13	ernsthaften	ernsthaft	_	AAFS3----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_
+14	Analyse	analyse	_	NNFS3----------	_	_	_	11	_	Adv	_	_	_	_	_	_
+15	der	der	_	PZFS2----------	_	_	_	16	_	AuxA	_	_	_	_	_	_
+16	Rassenfrage	rassenfrage	_	NNFS2----------	_	_	_	14	_	Atr	_	_	_	_	_	_
+17	in	in	_	RR--X----------	_	_	_	16	_	AuxP	_	_	_	_	_	_
+18	Amerika	amerika	_	NNNS3----------	_	_	_	17	_	Atr	_	_	_	_	_	(6)
+19	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Politische	politisch	_	AAFP1----1-----	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s25-n714
-2	Analysen	analyse	_	NNFP1----------	_	_	_	8	_	Sb	_	_	_	_	_	_	a_tree-de_src-s25-n715
-3	und	und	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_	a_tree-de_src-s25-n716
-4	Debatten	debatte	_	NNFP1----------	_	_	_	3	_	NR	_	_	_	_	_	_	a_tree-de_src-s25-n717
-5	über	über	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s25-n718
-6	die	der	_	PZFP4----------	_	_	_	7	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s25-n719
-7	Rassenbeziehungen	rassenbeziehung	_	NNFP4----------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s25-n720
-8	hinken	hinken	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s25-n721
-9	in	in	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s25-n722
-10	Europa	europa	_	NNNS3----------	_	_	_	9	_	Adv	_	_	_	_	_	(8)	a_tree-de_src-s25-n723
-11	schrecklich	schrecklich	_	ACXX-----1-----	_	_	_	8	_	Adv	_	_	_	_	_	_	a_tree-de_src-s25-n724
-12	hinter	hinter	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s25-n725
-13	her	her	_	Db-------------	_	_	_	12	_	Adv	_	_	_	_	_	_	a_tree-de_src-s25-n726
-14	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s25-n727
+1	Politische	politisch	_	AAFP1----1-----	_	_	_	2	_	Atr	_	_	_	_	_	_
+2	Analysen	analyse	_	NNFP1----------	_	_	_	8	_	Sb	_	_	_	_	_	_
+3	und	und	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_
+4	Debatten	debatte	_	NNFP1----------	_	_	_	3	_	NR	_	_	_	_	_	_
+5	über	über	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_
+6	die	der	_	PZFP4----------	_	_	_	7	_	AuxA	_	_	_	_	_	_
+7	Rassenbeziehungen	rassenbeziehung	_	NNFP4----------	_	_	_	5	_	Atr	_	_	_	_	_	_
+8	hinken	hinken	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+9	in	in	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_
+10	Europa	europa	_	NNNS3----------	_	_	_	9	_	Adv	_	_	_	_	_	(8)
+11	schrecklich	schrecklich	_	ACXX-----1-----	_	_	_	8	_	Adv	_	_	_	_	_	_
+12	hinter	hinter	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_
+13	her	her	_	Db-------------	_	_	_	12	_	Adv	_	_	_	_	_	_
+14	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Meistens	meistens	_	Db-------------	_	_	_	19	_	Adv	_	_	_	_	_	_	a_tree-de_src-s26-n728
-2	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s26-n729
-3	die	der	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s26-n730
-4	Frage	frage	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s26-n731
-5	auch	auch	_	Db-------------	_	_	_	7	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s26-n732
-6	zu	zu	_	TT-------------	_	_	_	7	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s26-n733
-7	eng	eng	_	ACXX-----1-----	_	_	_	19	_	Adv	_	_	_	_	_	_	a_tree-de_src-s26-n734
-8	in	in	_	RR--X----------	_	_	_	19	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s26-n735
-9	bezug	bezug	_	NNYS3----------	_	_	_	8	_	Adv	_	_	_	_	_	_	a_tree-de_src-s26-n736
-10	auf	auf	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s26-n737
-11	Zuwanderungsquoten	zuwanderungsquote	_	NNFP4----------	_	_	_	10	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n738
-12	und	und	_	J^-------------	_	_	_	11	_	Coord	_	_	_	_	_	_	a_tree-de_src-s26-n739
-13	Grenzregelungen	grenzregelung	_	NNFP4----------	_	_	_	12	_	NR	_	_	_	_	_	(9)	a_tree-de_src-s26-n740
-14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s26-n741
-15	die	der	_	PJFP4----------	_	_	_	17	_	Sb	_	_	_	_	_	_	a_tree-de_src-s26-n742
-16	diese	dieser	_	PDFP4----------	_	_	_	17	_	Obj	_	_	_	_	_	(9)	a_tree-de_src-s26-n743
-17	beschränken	beschränken	_	VB-P---3P------	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n744
-18	,	--	_	Z:-------------	_	_	_	17	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s26-n745
-19	behandelt	behandeln	_	VpXX---XX------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n746
-20	und	und	_	J^-------------	_	_	_	19	_	Coord	_	_	_	_	_	_	a_tree-de_src-s26-n747
-21	nicht	nicht	_	TT--------N----	_	_	_	22	_	Neg	_	_	_	_	_	_	a_tree-de_src-s26-n748
-22	im	in	_	PZYS3----------	_	_	_	20	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s26-n749
-23	Hinblick	hinblick	_	NNYS3----------	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n750
-24	auf	auf	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s26-n751
-25	die	der	_	PZNP4----------	_	_	_	29	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s26-n752
-26	damit	damit	_	PDXXX----------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n753
-27	verbundenen	verbunden	_	AANP4----1-----	_	_	_	29	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n754
-28	sozialen	sozial	_	AANP4----1-----	_	_	_	29	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n755
-29	Probleme	problem	_	NNNP4----------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n756
-30	und	und	_	J^-------------	_	_	_	29	_	Coord	_	_	_	_	_	_	a_tree-de_src-s26-n757
-31	die	der	_	PZFP4----------	_	_	_	32	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s26-n758
-32	Chancen	chance	_	NNFP4----------	_	_	_	30	_	NR	_	_	_	_	_	_	a_tree-de_src-s26-n759
-33	,	--	_	Z:-------------	_	_	_	32	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s26-n760
-34	die	der	_	PJFP1----------	_	_	_	42	_	Sb	_	_	_	_	_	_	a_tree-de_src-s26-n761
-35	sich	sich	_	P6-P4--3-------	_	_	_	42	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n762
-36	aus	aus	_	RR--X----------	_	_	_	42	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s26-n763
-37	einem	ein	_	PZNS3----------	_	_	_	41	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s26-n764
-38	zunehmend	zunehmend	_	ACXX-----1-----	_	_	_	39	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s26-n765
-39	rassisch	rassisch	_	ACXX-----1-----	_	_	_	40	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s26-n766
-40	gemischten	gemischt	_	AANS3----1-----	_	_	_	41	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n767
-41	Europa	europa	_	NNNS3----------	_	_	_	36	_	Adv	_	_	_	_	_	_	a_tree-de_src-s26-n768
-42	ergeben	ergeben	_	VB-P---3P------	_	_	_	32	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n769
-43	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s26-n770
+1	Meistens	meistens	_	Db-------------	_	_	_	19	_	Adv	_	_	_	_	_	_
+2	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	die	der	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+4	Frage	frage	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+5	auch	auch	_	Db-------------	_	_	_	7	_	AuxZ	_	_	_	_	_	_
+6	zu	zu	_	TT-------------	_	_	_	7	_	AuxZ	_	_	_	_	_	_
+7	eng	eng	_	ACXX-----1-----	_	_	_	19	_	Adv	_	_	_	_	_	_
+8	in	in	_	RR--X----------	_	_	_	19	_	AuxP	_	_	_	_	_	_
+9	bezug	bezug	_	NNYS3----------	_	_	_	8	_	Adv	_	_	_	_	_	_
+10	auf	auf	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_
+11	Zuwanderungsquoten	zuwanderungsquote	_	NNFP4----------	_	_	_	10	_	Obj	_	_	_	_	_	_
+12	und	und	_	J^-------------	_	_	_	11	_	Coord	_	_	_	_	_	_
+13	Grenzregelungen	grenzregelung	_	NNFP4----------	_	_	_	12	_	NR	_	_	_	_	_	(9)
+14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_
+15	die	der	_	PJFP4----------	_	_	_	17	_	Sb	_	_	_	_	_	_
+16	diese	dieser	_	PDFP4----------	_	_	_	17	_	Obj	_	_	_	_	_	(9)
+17	beschränken	beschränken	_	VB-P---3P------	_	_	_	11	_	Atr	_	_	_	_	_	_
+18	,	--	_	Z:-------------	_	_	_	17	_	AuxX	_	_	_	_	_	_
+19	behandelt	behandeln	_	VpXX---XX------	_	_	_	2	_	Obj	_	_	_	_	_	_
+20	und	und	_	J^-------------	_	_	_	19	_	Coord	_	_	_	_	_	_
+21	nicht	nicht	_	TT--------N----	_	_	_	22	_	Neg	_	_	_	_	_	_
+22	im	in	_	PZYS3----------	_	_	_	20	_	AuxP	_	_	_	_	_	_
+23	Hinblick	hinblick	_	NNYS3----------	_	_	_	22	_	Atr	_	_	_	_	_	_
+24	auf	auf	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_
+25	die	der	_	PZNP4----------	_	_	_	29	_	AuxA	_	_	_	_	_	_
+26	damit	damit	_	PDXXX----------	_	_	_	27	_	Obj	_	_	_	_	_	_
+27	verbundenen	verbunden	_	AANP4----1-----	_	_	_	29	_	Atr	_	_	_	_	_	_
+28	sozialen	sozial	_	AANP4----1-----	_	_	_	29	_	Atr	_	_	_	_	_	_
+29	Probleme	problem	_	NNNP4----------	_	_	_	24	_	Atr	_	_	_	_	_	_
+30	und	und	_	J^-------------	_	_	_	29	_	Coord	_	_	_	_	_	_
+31	die	der	_	PZFP4----------	_	_	_	32	_	AuxA	_	_	_	_	_	_
+32	Chancen	chance	_	NNFP4----------	_	_	_	30	_	NR	_	_	_	_	_	_
+33	,	--	_	Z:-------------	_	_	_	32	_	AuxX	_	_	_	_	_	_
+34	die	der	_	PJFP1----------	_	_	_	42	_	Sb	_	_	_	_	_	_
+35	sich	sich	_	P6-P4--3-------	_	_	_	42	_	Obj	_	_	_	_	_	_
+36	aus	aus	_	RR--X----------	_	_	_	42	_	AuxP	_	_	_	_	_	_
+37	einem	ein	_	PZNS3----------	_	_	_	41	_	AuxA	_	_	_	_	_	_
+38	zunehmend	zunehmend	_	ACXX-----1-----	_	_	_	39	_	AuxZ	_	_	_	_	_	_
+39	rassisch	rassisch	_	ACXX-----1-----	_	_	_	40	_	AuxZ	_	_	_	_	_	_
+40	gemischten	gemischt	_	AANS3----1-----	_	_	_	41	_	Atr	_	_	_	_	_	_
+41	Europa	europa	_	NNNS3----------	_	_	_	36	_	Adv	_	_	_	_	_	_
+42	ergeben	ergeben	_	VB-P---3P------	_	_	_	32	_	Atr	_	_	_	_	_	_
+43	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Natürlich	natürlich	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s27-n771
-2	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s27-n772
-3	eine	ein	_	PZFS1----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s27-n773
-4	klare	klar	_	AAFS1----1-----	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s27-n774
-5	Einwanderungspolitik	einwanderungspolitik	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s27-n775
-6	nötig	nötig	_	ACXX-----1-----	_	_	_	2	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s27-n776
-7	,	--	_	Z:-------------	_	_	_	8	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s27-n777
-8	um	um	_	J,-------------	_	_	_	2	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s27-n778
-9	die	der	_	PZFS4----------	_	_	_	10	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s27-n779
-10	Anhäufung	anhäufung	_	NNFS4----------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s27-n780
-11	illegaler	illegal	_	AAYP2----1-----	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s27-n781
-12	Einwanderer	einwanderer	_	NNYP2----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s27-n782
-13	zu	zu	_	TT-------------	_	_	_	14	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s27-n783
-14	vermeiden	vermeiden	_	Vf-------------	_	_	_	8	_	Adv	_	_	_	_	_	_	a_tree-de_src-s27-n784
-15	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s27-n785
+1	Natürlich	natürlich	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_
+2	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	eine	ein	_	PZFS1----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+4	klare	klar	_	AAFS1----1-----	_	_	_	5	_	Atr	_	_	_	_	_	_
+5	Einwanderungspolitik	einwanderungspolitik	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+6	nötig	nötig	_	ACXX-----1-----	_	_	_	2	_	Pnom	_	_	_	_	_	_
+7	,	--	_	Z:-------------	_	_	_	8	_	AuxX	_	_	_	_	_	_
+8	um	um	_	J,-------------	_	_	_	2	_	AuxC	_	_	_	_	_	_
+9	die	der	_	PZFS4----------	_	_	_	10	_	AuxA	_	_	_	_	_	_
+10	Anhäufung	anhäufung	_	NNFS4----------	_	_	_	14	_	Obj	_	_	_	_	_	_
+11	illegaler	illegal	_	AAYP2----1-----	_	_	_	12	_	Atr	_	_	_	_	_	_
+12	Einwanderer	einwanderer	_	NNYP2----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+13	zu	zu	_	TT-------------	_	_	_	14	_	AuxV	_	_	_	_	_	_
+14	vermeiden	vermeiden	_	Vf-------------	_	_	_	8	_	Adv	_	_	_	_	_	_
+15	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Aber	aber	_	J^-------------	_	_	_	3	_	Coord	_	_	_	_	_	_	a_tree-de_src-s28-n786
-2	das	der	_	PDNS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s28-n787
-3	kann	können	_	VB-S---3P------	_	_	_	0	_	Coord	_	_	_	_	_	_	a_tree-de_src-s28-n788
-4	nicht	nicht	_	TT--------N----	_	_	_	3	_	Neg	_	_	_	_	_	_	a_tree-de_src-s28-n789
-5	alles	alle	_	PZNS1----------	_	_	_	6	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s28-n790
-6	sein	sein	_	Vf-------------	_	_	_	3	_	Obj	_	_	_	_	_	_	a_tree-de_src-s28-n791
-7	.	--	_	Z:-------------	_	_	_	6	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s28-n792
-8	Kontrollen	kontrolle	_	NNFP1----------	_	_	_	14	_	Sb	_	_	_	_	_	_	a_tree-de_src-s28-n793
-9	an	an	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s28-n794
-10	der	der	_	PZFS3----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s28-n795
-11	Grenze	grenze	_	NNFS3----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s28-n796
-12	zu	zu	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s28-n797
-13	Mexiko	mexiko	_	NNNS3----------	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s28-n798
-14	sind	sein	_	VB-P---3P------	_	_	_	3	_	NR	_	_	_	_	_	_	a_tree-de_src-s28-n799
-15	nicht	nicht	_	TT--------N----	_	_	_	16	_	Neg	_	_	_	_	_	_	a_tree-de_src-s28-n800
-16	alles	alle	_	PZNS1----------	_	_	_	14	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s28-n801
-17	,	--	_	Z:-------------	_	_	_	16	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s28-n802
-18	was	was	_	PJNS1----------	_	_	_	28	_	Sb	_	_	_	_	_	_	a_tree-de_src-s28-n803
-19	die	der	_	PZFS4----------	_	_	_	21	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s28-n804
-20	amerikanische	amerikanisch	_	AAFS4----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s28-n805
-21	Politik	politik	_	NNFS4----------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s28-n806
-22	zur	zu	_	PZFS3----------	_	_	_	27	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s28-n807
-23	Rassenfrage	rassenfrage	_	NNFS3----------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s28-n808
-24	im	in	_	PZNS3----------	_	_	_	23	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s28-n809
-25	Lande	land	_	NNNS3----------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s28-n810
-26	zu	zu	_	TT-------------	_	_	_	27	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s28-n811
-27	sagen	sagen	_	Vf-------------	_	_	_	28	_	Obj	_	_	_	_	_	_	a_tree-de_src-s28-n812
-28	hat	haben	_	VB-S---3P------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s28-n813
-29	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s28-n814
+1	Aber	aber	_	J^-------------	_	_	_	3	_	Coord	_	_	_	_	_	_
+2	das	der	_	PDNS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+3	kann	können	_	VB-S---3P------	_	_	_	0	_	Coord	_	_	_	_	_	_
+4	nicht	nicht	_	TT--------N----	_	_	_	3	_	Neg	_	_	_	_	_	_
+5	alles	alle	_	PZNS1----------	_	_	_	6	_	Pnom	_	_	_	_	_	_
+6	sein	sein	_	Vf-------------	_	_	_	3	_	Obj	_	_	_	_	_	_
+7	.	--	_	Z:-------------	_	_	_	6	_	AuxG	_	_	_	_	_	_
+8	Kontrollen	kontrolle	_	NNFP1----------	_	_	_	14	_	Sb	_	_	_	_	_	_
+9	an	an	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_
+10	der	der	_	PZFS3----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+11	Grenze	grenze	_	NNFS3----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+12	zu	zu	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_
+13	Mexiko	mexiko	_	NNNS3----------	_	_	_	12	_	Atr	_	_	_	_	_	_
+14	sind	sein	_	VB-P---3P------	_	_	_	3	_	NR	_	_	_	_	_	_
+15	nicht	nicht	_	TT--------N----	_	_	_	16	_	Neg	_	_	_	_	_	_
+16	alles	alle	_	PZNS1----------	_	_	_	14	_	Pnom	_	_	_	_	_	_
+17	,	--	_	Z:-------------	_	_	_	16	_	AuxX	_	_	_	_	_	_
+18	was	was	_	PJNS1----------	_	_	_	28	_	Sb	_	_	_	_	_	_
+19	die	der	_	PZFS4----------	_	_	_	21	_	AuxA	_	_	_	_	_	_
+20	amerikanische	amerikanisch	_	AAFS4----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_
+21	Politik	politik	_	NNFS4----------	_	_	_	27	_	Obj	_	_	_	_	_	_
+22	zur	zu	_	PZFS3----------	_	_	_	27	_	AuxP	_	_	_	_	_	_
+23	Rassenfrage	rassenfrage	_	NNFS3----------	_	_	_	22	_	Adv	_	_	_	_	_	_
+24	im	in	_	PZNS3----------	_	_	_	23	_	AuxP	_	_	_	_	_	_
+25	Lande	land	_	NNNS3----------	_	_	_	24	_	Atr	_	_	_	_	_	_
+26	zu	zu	_	TT-------------	_	_	_	27	_	AuxV	_	_	_	_	_	_
+27	sagen	sagen	_	Vf-------------	_	_	_	28	_	Obj	_	_	_	_	_	_
+28	hat	haben	_	VB-S---3P------	_	_	_	16	_	Atr	_	_	_	_	_	_
+29	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Europa	europa	_	NNNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	(8)	a_tree-de_src-s29-n815
-2	ist	sein	_	VB-S---3P------	_	_	_	24	_	Coord	_	_	_	_	_	_	a_tree-de_src-s29-n816
-3	reich	reich	_	ACXX-----1-----	_	_	_	2	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s29-n817
-4	und	und	_	J^-------------	_	_	_	3	_	Coord	_	_	_	_	_	_	a_tree-de_src-s29-n818
-5	altert	altern	_	ACXX-----1-----	_	_	_	6	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s29-n819
-6	rasch	rasch	_	ACXX-----1-----	_	_	_	4	_	NR	_	_	_	_	_	_	a_tree-de_src-s29-n820
-7	;	--	_	Z:-------------	_	_	_	6	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s29-n821
-8	die	der	_	PZYP1----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s29-n822
-9	Europäer	europäer	_	NNYP1----------	_	_	_	10	_	Sb	_	_	_	_	_	_	a_tree-de_src-s29-n823
-10	sind	sein	_	VB-P---3P------	_	_	_	2	_	NR	_	_	_	_	_	_	a_tree-de_src-s29-n824
-11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s29-n825
-12	von	von	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s29-n826
-13	großzügigen	großzügig	_	AAYP3----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s29-n827
-14	Fürsorgeprogrammen	fürsorgeprogramm	_	NNNP3----------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s29-n828
-15	abgepolstert	abgolstern	_	ACXX-----1-----	_	_	_	18	_	Adv	_	_	_	_	_	_	a_tree-de_src-s29-n829
-16	nicht	nicht	_	TT--------N----	_	_	_	18	_	Neg	_	_	_	_	_	_	a_tree-de_src-s29-n830
-17	mehr	mehr	_	Db-------------	_	_	_	16	_	Adv	_	_	_	_	_	_	a_tree-de_src-s29-n831
-18	bereitet	bereiten	_	VpXX---XX------	_	_	_	19	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s29-n832
-19	"	--	_	Z:-------------	_	_	_	10	_	Coord	_	_	_	_	_	_	a_tree-de_src-s29-n833
-20	schmutzige	schmutzig	_	AAFP4----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s29-n834
-21	Arbeiten	arbeit	_	NNFP4----------	_	_	_	19	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s29-n835
-22	"	--	_	Z:-------------	_	_	_	21	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s29-n836
-23	,	--	_	Z:-------------	_	_	_	22	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s29-n837
-24	sagen	sagen	_	VB-P---1P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s29-n838
-25	wir	wir	_	PP-P1--1-------	_	_	_	24	_	Sb	_	_	_	_	_	_	a_tree-de_src-s29-n839
-26	in	in	_	RR--X----------	_	_	_	34	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s29-n840
-27	der	der	_	PZFS3----------	_	_	_	28	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s29-n841
-28	Landwirtschaft	landwirtschaft	_	NNFS3----------	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s29-n842
-29	oder	oder	_	J^-------------	_	_	_	26	_	Coord	_	_	_	_	_	_	a_tree-de_src-s29-n843
-30	in	in	_	RR--X----------	_	_	_	29	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s29-n844
-31	der	der	_	PZFS3----------	_	_	_	32	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s29-n845
-32	Lederindustrie	lederindustrie	_	NNFS3----------	_	_	_	30	_	NR	_	_	_	_	_	_	a_tree-de_src-s29-n846
-33	zu	zu	_	TT-------------	_	_	_	34	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s29-n847
-34	übernehmen	übernehmen	_	Vf-------------	_	_	_	24	_	Obj	_	_	_	_	_	_	a_tree-de_src-s29-n848
-35	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s29-n849
+1	Europa	europa	_	NNNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	(8)
+2	ist	sein	_	VB-S---3P------	_	_	_	24	_	Coord	_	_	_	_	_	_
+3	reich	reich	_	ACXX-----1-----	_	_	_	2	_	Pnom	_	_	_	_	_	_
+4	und	und	_	J^-------------	_	_	_	3	_	Coord	_	_	_	_	_	_
+5	altert	altern	_	ACXX-----1-----	_	_	_	6	_	AuxZ	_	_	_	_	_	_
+6	rasch	rasch	_	ACXX-----1-----	_	_	_	4	_	NR	_	_	_	_	_	_
+7	;	--	_	Z:-------------	_	_	_	6	_	AuxG	_	_	_	_	_	_
+8	die	der	_	PZYP1----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Europäer	europäer	_	NNYP1----------	_	_	_	10	_	Sb	_	_	_	_	_	_
+10	sind	sein	_	VB-P---3P------	_	_	_	2	_	NR	_	_	_	_	_	_
+11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_
+12	von	von	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_
+13	großzügigen	großzügig	_	AAYP3----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_
+14	Fürsorgeprogrammen	fürsorgeprogramm	_	NNNP3----------	_	_	_	12	_	Obj	_	_	_	_	_	_
+15	abgepolstert	abgolstern	_	ACXX-----1-----	_	_	_	18	_	Adv	_	_	_	_	_	_
+16	nicht	nicht	_	TT--------N----	_	_	_	18	_	Neg	_	_	_	_	_	_
+17	mehr	mehr	_	Db-------------	_	_	_	16	_	Adv	_	_	_	_	_	_
+18	bereitet	bereiten	_	VpXX---XX------	_	_	_	19	_	Pnom	_	_	_	_	_	_
+19	"	--	_	Z:-------------	_	_	_	10	_	Coord	_	_	_	_	_	_
+20	schmutzige	schmutzig	_	AAFP4----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_
+21	Arbeiten	arbeit	_	NNFP4----------	_	_	_	19	_	Pnom	_	_	_	_	_	_
+22	"	--	_	Z:-------------	_	_	_	21	_	AuxG	_	_	_	_	_	_
+23	,	--	_	Z:-------------	_	_	_	22	_	AuxX	_	_	_	_	_	_
+24	sagen	sagen	_	VB-P---1P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+25	wir	wir	_	PP-P1--1-------	_	_	_	24	_	Sb	_	_	_	_	_	_
+26	in	in	_	RR--X----------	_	_	_	34	_	AuxP	_	_	_	_	_	_
+27	der	der	_	PZFS3----------	_	_	_	28	_	AuxA	_	_	_	_	_	_
+28	Landwirtschaft	landwirtschaft	_	NNFS3----------	_	_	_	26	_	Atr	_	_	_	_	_	_
+29	oder	oder	_	J^-------------	_	_	_	26	_	Coord	_	_	_	_	_	_
+30	in	in	_	RR--X----------	_	_	_	29	_	AuxP	_	_	_	_	_	_
+31	der	der	_	PZFS3----------	_	_	_	32	_	AuxA	_	_	_	_	_	_
+32	Lederindustrie	lederindustrie	_	NNFS3----------	_	_	_	30	_	NR	_	_	_	_	_	_
+33	zu	zu	_	TT-------------	_	_	_	34	_	AuxV	_	_	_	_	_	_
+34	übernehmen	übernehmen	_	Vf-------------	_	_	_	24	_	Obj	_	_	_	_	_	_
+35	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZYP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	(10	a_tree-de_src-s30-n850
-2	Europäer	europäer	_	NNYP1----------	_	_	_	3	_	Sb	_	_	_	_	_	10)	a_tree-de_src-s30-n851
-3	sind	sein	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s30-n852
-4	allerdings	allerdings	_	Db-------------	_	_	_	3	_	Adv	_	_	_	_	_	_	a_tree-de_src-s30-n853
-5	schnell	schnell	_	ACXX-----1-----	_	_	_	6	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s30-n854
-6	bereit	bereit	_	ACXX-----1-----	_	_	_	3	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s30-n855
-7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s30-n856
-8	der	der	_	PZXP2----------	_	_	_	9	_	AuxA	_	_	_	_	_	(11	a_tree-de_src-s30-n857
-9	USA	usa	_	NNXP2----------	_	_	_	24	_	Obj	_	_	_	_	_	11)	a_tree-de_src-s30-n858
-10	jeden	jeder	_	PZYS4----------	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s30-n859
-11	Fehler	fehler	_	NNYS4----------	_	_	_	24	_	Obj	_	_	_	_	_	_	a_tree-de_src-s30-n860
-12	in	in	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s30-n861
-13	ihrer	ihr	_	PSFS3-X3-------	_	_	_	14	_	Atr	_	_	_	_	_	(10)	a_tree-de_src-s30-n862
-14	Minderheitenpolitik	minderheitenpolitik	_	NNFS3----------	_	_	_	12	_	Adv	_	_	_	_	_	_	a_tree-de_src-s30-n863
-15	und	und	_	J^-------------	_	_	_	14	_	Coord	_	_	_	_	_	_	a_tree-de_src-s30-n864
-16	jedes	jeder	_	PZYS2----------	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s30-n865
-17	Anzeichen	anzeichen	_	NNNS1----------	_	_	_	15	_	NR	_	_	_	_	_	_	a_tree-de_src-s30-n866
-18	von	von	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s30-n867
-19	Rassismus	rassismus	_	NNYS3----------	_	_	_	18	_	Atr	_	_	_	_	_	_	a_tree-de_src-s30-n868
-20	über	über	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s30-n869
-21	den	der	_	PZYS4----------	_	_	_	22	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s30-n870
-22	Atlantik	atlantik	_	NNYS4----------	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s30-n871
-23	hinweg	hinweg	_	Db-------------	_	_	_	20	_	Adv	_	_	_	_	_	_	a_tree-de_src-s30-n872
-24	vorzuwerfen	vorwerfen	_	Vf-------------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s30-n873
-25	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s30-n874
+1	Die	der	_	PZYP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	(10
+2	Europäer	europäer	_	NNYP1----------	_	_	_	3	_	Sb	_	_	_	_	_	10)
+3	sind	sein	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	allerdings	allerdings	_	Db-------------	_	_	_	3	_	Adv	_	_	_	_	_	_
+5	schnell	schnell	_	ACXX-----1-----	_	_	_	6	_	AuxZ	_	_	_	_	_	_
+6	bereit	bereit	_	ACXX-----1-----	_	_	_	3	_	Pnom	_	_	_	_	_	_
+7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_
+8	der	der	_	PZXP2----------	_	_	_	9	_	AuxA	_	_	_	_	_	(11
+9	USA	usa	_	NNXP2----------	_	_	_	24	_	Obj	_	_	_	_	_	11)
+10	jeden	jeder	_	PZYS4----------	_	_	_	11	_	Atr	_	_	_	_	_	_
+11	Fehler	fehler	_	NNYS4----------	_	_	_	24	_	Obj	_	_	_	_	_	_
+12	in	in	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+13	ihrer	ihr	_	PSFS3-X3-------	_	_	_	14	_	Atr	_	_	_	_	_	(10)
+14	Minderheitenpolitik	minderheitenpolitik	_	NNFS3----------	_	_	_	12	_	Adv	_	_	_	_	_	_
+15	und	und	_	J^-------------	_	_	_	14	_	Coord	_	_	_	_	_	_
+16	jedes	jeder	_	PZYS2----------	_	_	_	17	_	Atr	_	_	_	_	_	_
+17	Anzeichen	anzeichen	_	NNNS1----------	_	_	_	15	_	NR	_	_	_	_	_	_
+18	von	von	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_
+19	Rassismus	rassismus	_	NNYS3----------	_	_	_	18	_	Atr	_	_	_	_	_	_
+20	über	über	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+21	den	der	_	PZYS4----------	_	_	_	22	_	AuxA	_	_	_	_	_	_
+22	Atlantik	atlantik	_	NNYS4----------	_	_	_	20	_	Atr	_	_	_	_	_	_
+23	hinweg	hinweg	_	Db-------------	_	_	_	20	_	Adv	_	_	_	_	_	_
+24	vorzuwerfen	vorwerfen	_	Vf-------------	_	_	_	6	_	Obj	_	_	_	_	_	_
+25	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Beim	bei	_	PZNS3----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s31-n875
-2	Lesen	lese	_	NNNS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s31-n876
-3	der	der	_	PZFS2----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s31-n877
-4	europäischen	europäisch	_	AAFS2----1-----	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s31-n878
-5	Presse	presse	_	NNFS2----------	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s31-n879
-6	stellt	stellen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s31-n880
-7	man	man	_	PZ-S1----------	_	_	_	6	_	Sb	_	_	_	_	_	_	a_tree-de_src-s31-n881
-8	in	in	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s31-n882
-9	der	der	_	PZFS3----------	_	_	_	10	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s31-n883
-10	Rassenfragen	rassenfrage	_	NNFP2----------	_	_	_	8	_	Adv	_	_	_	_	_	_	a_tree-de_src-s31-n884
-11	oft	oft	_	Db-------------	_	_	_	6	_	Adv	_	_	_	_	_	_	a_tree-de_src-s31-n885
-12	einen	ein	_	PZYS4----------	_	_	_	13	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s31-n886
-13	Überlegenheitskomplex	überlegenheitskomplex	_	NNYS4----------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s31-n887
-14	gegenüber	gegenüber	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s31-n888
-15	den	der	_	PZXP3----------	_	_	_	16	_	AuxA	_	_	_	_	_	(11	a_tree-de_src-s31-n889
-16	USA	usa	_	NNXP3----------	_	_	_	14	_	Atr	_	_	_	_	_	11)	a_tree-de_src-s31-n890
-17	fest	fest	_	TT-------------	_	_	_	6	_	AuxT	_	_	_	_	_	_	a_tree-de_src-s31-n891
-18	:	--	_	Z:-------------	_	_	_	17	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s31-n892
-19	Die	der	_	PZYP1----------	_	_	_	20	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s31-n893
-20	Amerikaner	amerikaner	_	NNYP1----------	_	_	_	21	_	Sb	_	_	_	_	_	_	a_tree-de_src-s31-n894
-21	haben	haben	_	VB-P---3P------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s31-n895
-22	Probleme	problem	_	NNNP4----------	_	_	_	21	_	Obj	_	_	_	_	_	_	a_tree-de_src-s31-n896
-23	mit	mit	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s31-n897
-24	Rassismus	rassismus	_	NNYS3----------	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s31-n898
-25	;	--	_	Z:-------------	_	_	_	24	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s31-n899
-26	dagegen	dagegen	_	PDXXX----------	_	_	_	40	_	Adv	_	_	_	_	_	_	a_tree-de_src-s31-n900
-27	sind	sein	_	VB-P---1P------	_	_	_	22	_	ExD	_	_	_	_	_	_	a_tree-de_src-s31-n901
-28	wir	wir	_	PP-P1--1-------	_	_	_	27	_	Sb	_	_	_	_	_	_	a_tree-de_src-s31-n902
-29	immun	immun	_	NNNS4----------	_	_	_	28	_	Apposition	_	_	_	_	_	_	a_tree-de_src-s31-n903
-30	,	--	_	Z:-------------	_	_	_	29	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s31-n904
-31	von	von	_	RR--X----------	_	_	_	40	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s31-n905
-32	ein	ein	_	PZXXX----------	_	_	_	33	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s31-n906
-33	paar	paar	_	PZXXX----------	_	_	_	35	_	Atr	_	_	_	_	_	_	a_tree-de_src-s31-n907
-34	wahnsinnigen	wahnsinnig	_	AAYP1----1-----	_	_	_	35	_	Atr	_	_	_	_	_	_	a_tree-de_src-s31-n908
-35	Neo-Nazis	neo-nazi	_	NNYP1----------	_	_	_	36	_	Atr	_	_	_	_	_	_	a_tree-de_src-s31-n909
-36	,	--	_	Z:-------------	_	_	_	31	_	Obj	_	_	_	_	_	_	a_tree-de_src-s31-n910
-37	Skinheads	skinhead	_	NNYP1----------	_	_	_	36	_	Atr	_	_	_	_	_	_	a_tree-de_src-s31-n911
-38	und	und	_	J^-------------	_	_	_	37	_	Coord	_	_	_	_	_	_	a_tree-de_src-s31-n912
-39	dergleichen	dergleichen	_	PZFP3----1-----	_	_	_	38	_	NR	_	_	_	_	_	_	a_tree-de_src-s31-n913
-40	abgesehen	absehen	_	VpXX---XX------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s31-n914
-41	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s31-n915
+1	Beim	bei	_	PZNS3----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+2	Lesen	lese	_	NNNS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+3	der	der	_	PZFS2----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+4	europäischen	europäisch	_	AAFS2----1-----	_	_	_	5	_	Atr	_	_	_	_	_	_
+5	Presse	presse	_	NNFS2----------	_	_	_	2	_	Atr	_	_	_	_	_	_
+6	stellt	stellen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+7	man	man	_	PZ-S1----------	_	_	_	6	_	Sb	_	_	_	_	_	_
+8	in	in	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+9	der	der	_	PZFS3----------	_	_	_	10	_	AuxA	_	_	_	_	_	_
+10	Rassenfragen	rassenfrage	_	NNFP2----------	_	_	_	8	_	Adv	_	_	_	_	_	_
+11	oft	oft	_	Db-------------	_	_	_	6	_	Adv	_	_	_	_	_	_
+12	einen	ein	_	PZYS4----------	_	_	_	13	_	AuxA	_	_	_	_	_	_
+13	Überlegenheitskomplex	überlegenheitskomplex	_	NNYS4----------	_	_	_	6	_	Obj	_	_	_	_	_	_
+14	gegenüber	gegenüber	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_
+15	den	der	_	PZXP3----------	_	_	_	16	_	AuxA	_	_	_	_	_	(11
+16	USA	usa	_	NNXP3----------	_	_	_	14	_	Atr	_	_	_	_	_	11)
+17	fest	fest	_	TT-------------	_	_	_	6	_	AuxT	_	_	_	_	_	_
+18	:	--	_	Z:-------------	_	_	_	17	_	AuxG	_	_	_	_	_	_
+19	Die	der	_	PZYP1----------	_	_	_	20	_	AuxA	_	_	_	_	_	_
+20	Amerikaner	amerikaner	_	NNYP1----------	_	_	_	21	_	Sb	_	_	_	_	_	_
+21	haben	haben	_	VB-P---3P------	_	_	_	6	_	Obj	_	_	_	_	_	_
+22	Probleme	problem	_	NNNP4----------	_	_	_	21	_	Obj	_	_	_	_	_	_
+23	mit	mit	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+24	Rassismus	rassismus	_	NNYS3----------	_	_	_	23	_	Atr	_	_	_	_	_	_
+25	;	--	_	Z:-------------	_	_	_	24	_	AuxG	_	_	_	_	_	_
+26	dagegen	dagegen	_	PDXXX----------	_	_	_	40	_	Adv	_	_	_	_	_	_
+27	sind	sein	_	VB-P---1P------	_	_	_	22	_	ExD	_	_	_	_	_	_
+28	wir	wir	_	PP-P1--1-------	_	_	_	27	_	Sb	_	_	_	_	_	_
+29	immun	immun	_	NNNS4----------	_	_	_	28	_	Apposition	_	_	_	_	_	_
+30	,	--	_	Z:-------------	_	_	_	29	_	AuxX	_	_	_	_	_	_
+31	von	von	_	RR--X----------	_	_	_	40	_	AuxP	_	_	_	_	_	_
+32	ein	ein	_	PZXXX----------	_	_	_	33	_	AuxA	_	_	_	_	_	_
+33	paar	paar	_	PZXXX----------	_	_	_	35	_	Atr	_	_	_	_	_	_
+34	wahnsinnigen	wahnsinnig	_	AAYP1----1-----	_	_	_	35	_	Atr	_	_	_	_	_	_
+35	Neo-Nazis	neo-nazi	_	NNYP1----------	_	_	_	36	_	Atr	_	_	_	_	_	_
+36	,	--	_	Z:-------------	_	_	_	31	_	Obj	_	_	_	_	_	_
+37	Skinheads	skinhead	_	NNYP1----------	_	_	_	36	_	Atr	_	_	_	_	_	_
+38	und	und	_	J^-------------	_	_	_	37	_	Coord	_	_	_	_	_	_
+39	dergleichen	dergleichen	_	PZFP3----1-----	_	_	_	38	_	NR	_	_	_	_	_	_
+40	abgesehen	absehen	_	VpXX---XX------	_	_	_	27	_	Obj	_	_	_	_	_	_
+41	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	In	in	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s32-n916
-2	den	der	_	PZFP3----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s32-n917
-3	letzten	letzter	_	AAFP3----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n918
-4	Wochen	woche	_	NNFP3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s32-n919
-5	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s32-n920
-6	sich	sich	_	P6-S4--3-------	_	_	_	7	_	Obj	_	_	_	_	_	_	a_tree-de_src-s32-n921
-7	gezeigt	zeigen	_	VpXX---XX------	_	_	_	5	_	Obj	_	_	_	_	_	_	a_tree-de_src-s32-n922
-8	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s32-n923
-9	daß	daß	_	J,-------------	_	_	_	5	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s32-n924
-10	das	der	_	PZNS1----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s32-n925
-11	Rassenproblem	rassenproblem	_	NNNS1----------	_	_	_	20	_	Sb	_	_	_	_	_	_	a_tree-de_src-s32-n926
-12	in	in	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s32-n927
-13	Europa	europa	_	NNNS3----------	_	_	_	12	_	Atr	_	_	_	_	_	(12	a_tree-de_src-s32-n928
-14	von	von	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s32-n929
-15	Paris	paris	_	NNNS3----------	_	_	_	14	_	Atr	_	_	_	_	_	12)	a_tree-de_src-s32-n930
-16	bis	bis	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s32-n931
-17	Amsterdam	amsterdam	_	NNNS3----------	_	_	_	16	_	Adv	_	_	_	_	_	_	a_tree-de_src-s32-n932
-18	viel	viel	_	Db-------------	_	_	_	19	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s32-n933
-19	tiefer	tief	_	ACXX-----2-----	_	_	_	20	_	Adv	_	_	_	_	_	_	a_tree-de_src-s32-n934
-20	sitzt	sitzen	_	VB-S---3P------	_	_	_	9	_	Sb	_	_	_	_	_	_	a_tree-de_src-s32-n935
-21	und	und	_	J^-------------	_	_	_	22	_	Coord	_	_	_	_	_	_	a_tree-de_src-s32-n936
-22	-	--	_	Z:-------------	_	_	_	20	_	Coord	_	_	_	_	_	_	a_tree-de_src-s32-n937
-23	wie	wie	_	J^-------------	_	_	_	24	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s32-n938
-24	in	in	_	RR--X----------	_	_	_	32	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s32-n939
-25	den	der	_	PZXP3----------	_	_	_	26	_	AuxA	_	_	_	_	_	(11	a_tree-de_src-s32-n940
-26	USA	usa	_	NNXP3----------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n941
-27	-	--	_	Z:-------------	_	_	_	26	_	AuxG	_	_	_	_	_	11)	a_tree-de_src-s32-n942
-28	auf	auf	_	RR--X----------	_	_	_	32	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s32-n943
-29	die	der	_	PZFS4----------	_	_	_	31	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s32-n944
-30	traurige	traurig	_	AAFS4----1-----	_	_	_	31	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n945
-31	Tatsache	tatsache	_	NNFS4----------	_	_	_	28	_	Obj	_	_	_	_	_	_	a_tree-de_src-s32-n946
-32	zurückgeht	zurückgehen	_	VB-S---3P------	_	_	_	22	_	Coord	_	_	_	_	_	_	a_tree-de_src-s32-n947
-33	,	--	_	Z:-------------	_	_	_	34	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s32-n948
-34	daß	daß	_	J,-------------	_	_	_	32	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s32-n949
-35	Rassenbeziehungen	rassenbeziehung	_	NNFP1----------	_	_	_	38	_	Sb	_	_	_	_	_	_	a_tree-de_src-s32-n950
-36	inhärent	inhärent	_	ACXX-----1-----	_	_	_	37	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s32-n951
-37	schwierig	schwierig	_	ACXX-----1-----	_	_	_	38	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s32-n952
-38	sind	sein	_	VB-P---3P------	_	_	_	34	_	Obj	_	_	_	_	_	_	a_tree-de_src-s32-n953
-39	und	und	_	J^-------------	_	_	_	38	_	Coord	_	_	_	_	_	_	a_tree-de_src-s32-n954
-40	daß	daß	_	J,-------------	_	_	_	39	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s32-n955
-41	ein	ein	_	PZYS1----------	_	_	_	45	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s32-n956
-42	vertrauensvoller	vertrauensvoll	_	AAYS1----1-----	_	_	_	45	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n957
-43	und	und	_	J^-------------	_	_	_	42	_	Coord	_	_	_	_	_	_	a_tree-de_src-s32-n958
-44	kooperativer	kooperativ	_	AAYS1----1-----	_	_	_	43	_	NR	_	_	_	_	_	_	a_tree-de_src-s32-n959
-45	Umgang	umgang	_	NNYS1----------	_	_	_	50	_	Sb	_	_	_	_	_	_	a_tree-de_src-s32-n960
-46	nicht	nicht	_	TT--------N----	_	_	_	50	_	Neg	_	_	_	_	_	_	a_tree-de_src-s32-n961
-47	leicht	leicht	_	ACXX-----1-----	_	_	_	50	_	Adv	_	_	_	_	_	_	a_tree-de_src-s32-n962
-48	über	über	_	RR--X----------	_	_	_	50	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s32-n963
-49	Rassenschranken	rassenschranke	_	NNFP4----------	_	_	_	48	_	Obj	_	_	_	_	_	_	a_tree-de_src-s32-n964
-50	hinwegkommt	hinwegkommen	_	VB-S---3P------	_	_	_	40	_	NR	_	_	_	_	_	_	a_tree-de_src-s32-n965
-51	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s32-n966
+1	In	in	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_
+2	den	der	_	PZFP3----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+3	letzten	letzter	_	AAFP3----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Wochen	woche	_	NNFP3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+5	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+6	sich	sich	_	P6-S4--3-------	_	_	_	7	_	Obj	_	_	_	_	_	_
+7	gezeigt	zeigen	_	VpXX---XX------	_	_	_	5	_	Obj	_	_	_	_	_	_
+8	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_
+9	daß	daß	_	J,-------------	_	_	_	5	_	AuxC	_	_	_	_	_	_
+10	das	der	_	PZNS1----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+11	Rassenproblem	rassenproblem	_	NNNS1----------	_	_	_	20	_	Sb	_	_	_	_	_	_
+12	in	in	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_
+13	Europa	europa	_	NNNS3----------	_	_	_	12	_	Atr	_	_	_	_	_	(12
+14	von	von	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_
+15	Paris	paris	_	NNNS3----------	_	_	_	14	_	Atr	_	_	_	_	_	12)
+16	bis	bis	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_
+17	Amsterdam	amsterdam	_	NNNS3----------	_	_	_	16	_	Adv	_	_	_	_	_	_
+18	viel	viel	_	Db-------------	_	_	_	19	_	AuxZ	_	_	_	_	_	_
+19	tiefer	tief	_	ACXX-----2-----	_	_	_	20	_	Adv	_	_	_	_	_	_
+20	sitzt	sitzen	_	VB-S---3P------	_	_	_	9	_	Sb	_	_	_	_	_	_
+21	und	und	_	J^-------------	_	_	_	22	_	Coord	_	_	_	_	_	_
+22	-	--	_	Z:-------------	_	_	_	20	_	Coord	_	_	_	_	_	_
+23	wie	wie	_	J^-------------	_	_	_	24	_	AuxC	_	_	_	_	_	_
+24	in	in	_	RR--X----------	_	_	_	32	_	AuxP	_	_	_	_	_	_
+25	den	der	_	PZXP3----------	_	_	_	26	_	AuxA	_	_	_	_	_	(11
+26	USA	usa	_	NNXP3----------	_	_	_	24	_	Atr	_	_	_	_	_	_
+27	-	--	_	Z:-------------	_	_	_	26	_	AuxG	_	_	_	_	_	11)
+28	auf	auf	_	RR--X----------	_	_	_	32	_	AuxP	_	_	_	_	_	_
+29	die	der	_	PZFS4----------	_	_	_	31	_	AuxA	_	_	_	_	_	_
+30	traurige	traurig	_	AAFS4----1-----	_	_	_	31	_	Atr	_	_	_	_	_	_
+31	Tatsache	tatsache	_	NNFS4----------	_	_	_	28	_	Obj	_	_	_	_	_	_
+32	zurückgeht	zurückgehen	_	VB-S---3P------	_	_	_	22	_	Coord	_	_	_	_	_	_
+33	,	--	_	Z:-------------	_	_	_	34	_	AuxX	_	_	_	_	_	_
+34	daß	daß	_	J,-------------	_	_	_	32	_	AuxC	_	_	_	_	_	_
+35	Rassenbeziehungen	rassenbeziehung	_	NNFP1----------	_	_	_	38	_	Sb	_	_	_	_	_	_
+36	inhärent	inhärent	_	ACXX-----1-----	_	_	_	37	_	AuxZ	_	_	_	_	_	_
+37	schwierig	schwierig	_	ACXX-----1-----	_	_	_	38	_	Pnom	_	_	_	_	_	_
+38	sind	sein	_	VB-P---3P------	_	_	_	34	_	Obj	_	_	_	_	_	_
+39	und	und	_	J^-------------	_	_	_	38	_	Coord	_	_	_	_	_	_
+40	daß	daß	_	J,-------------	_	_	_	39	_	AuxC	_	_	_	_	_	_
+41	ein	ein	_	PZYS1----------	_	_	_	45	_	AuxA	_	_	_	_	_	_
+42	vertrauensvoller	vertrauensvoll	_	AAYS1----1-----	_	_	_	45	_	Atr	_	_	_	_	_	_
+43	und	und	_	J^-------------	_	_	_	42	_	Coord	_	_	_	_	_	_
+44	kooperativer	kooperativ	_	AAYS1----1-----	_	_	_	43	_	NR	_	_	_	_	_	_
+45	Umgang	umgang	_	NNYS1----------	_	_	_	50	_	Sb	_	_	_	_	_	_
+46	nicht	nicht	_	TT--------N----	_	_	_	50	_	Neg	_	_	_	_	_	_
+47	leicht	leicht	_	ACXX-----1-----	_	_	_	50	_	Adv	_	_	_	_	_	_
+48	über	über	_	RR--X----------	_	_	_	50	_	AuxP	_	_	_	_	_	_
+49	Rassenschranken	rassenschranke	_	NNFP4----------	_	_	_	48	_	Obj	_	_	_	_	_	_
+50	hinwegkommt	hinwegkommen	_	VB-S---3P------	_	_	_	40	_	NR	_	_	_	_	_	_
+51	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Wenn	wenn	_	J,-------------	_	_	_	35	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s33-n967
-2	Europas	europa	_	NNNS2----------	_	_	_	4	_	Atr	_	_	_	_	_	(8)|(14	a_tree-de_src-s33-n968
-3	große	groß	_	AAFP4----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s33-n969
-4	Parteien	partei	_	NNFP4----------	_	_	_	6	_	Sb	_	_	_	_	_	14)	a_tree-de_src-s33-n970
-5	nicht	nicht	_	TT--------N----	_	_	_	6	_	Neg	_	_	_	_	_	_	a_tree-de_src-s33-n971
-6	anfangen	anfangen	_	VB-X---XX------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s33-n972
-7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s33-n973
-8	die	der	_	PZFP1----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s33-n974
-9	Rassenspannungen	rassenspannung	_	NNFP4----------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n975
-10	in	in	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s33-n976
-11	Europa	europa	_	NNNS3----------	_	_	_	10	_	Atr	_	_	_	_	_	(12)	a_tree-de_src-s33-n977
-12	ernster	ernster	_	ACXX-----1-----	_	_	_	14	_	Adv	_	_	_	_	_	_	a_tree-de_src-s33-n978
-13	zu	zu	_	TT-------------	_	_	_	14	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s33-n979
-14	untersuchen	untersuchen	_	Vf-------------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n980
-15	und	und	_	J^-------------	_	_	_	14	_	Coord	_	_	_	_	_	_	a_tree-de_src-s33-n981
-16	zu	zu	_	TT-------------	_	_	_	17	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s33-n982
-17	verstehen	verstehen	_	Vf-------------	_	_	_	15	_	NR	_	_	_	_	_	_	a_tree-de_src-s33-n983
-18	und	und	_	J^-------------	_	_	_	14	_	Coord	_	_	_	_	_	_	a_tree-de_src-s33-n984
-19	,,Rasse	,,rasse	_	NNXXX----------	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s33-n985
-20	,,Rasse	,,rasse	_	NNXXX----------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n986
-21	"	--	_	Z:-------------	_	_	_	20	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s33-n987
-22	zu	zu	_	RR--X----------	_	_	_	27	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s33-n988
-23	einem	ein	_	PZYS3----------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s33-n989
-24	ihrer	ihr	_	PSNP2-X3-------	_	_	_	26	_	Atr	_	_	_	_	_	(14)	a_tree-de_src-s33-n990
-25	wichtigsten	wichtig	_	AAFP2----3-----	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s33-n991
-26	Prioritäten	priorität	_	NNFP2----------	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s33-n992
-27	machen	machen	_	Vf-P---3P------	_	_	_	18	_	NR	_	_	_	_	_	_	a_tree-de_src-s33-n993
-28	,	--	_	Z:-------------	_	_	_	27	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s33-n994
-29	werden	werden	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s33-n995
-30	Individuen	individuum	_	NNNP1----------	_	_	_	29	_	Sb	_	_	_	_	_	(13	a_tree-de_src-s33-n996
-31	wie	wie	_	J^-------------	_	_	_	33	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s33-n997
-32	Le	le	_	NNXXX----------	_	_	_	33	_	Atr	_	_	_	_	_	_	a_tree-de_src-s33-n998
-33	Pen	pen	_	NNYS1----------	_	_	_	30	_	Atr	_	_	_	_	_	13)	a_tree-de_src-s33-n999
-34	sich	sich	_	P6-S4--3-------	_	_	_	35	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n1000
-35	veranlaßt	veranlassen	_	VpXX---XX------	_	_	_	36	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n1001
-36	sehen	sehen	_	Vf-------------	_	_	_	29	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n1002
-37	,	--	_	Z:-------------	_	_	_	36	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s33-n1003
-38	die	der	_	PZFP1----------	_	_	_	39	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s33-n1004
-39	Lücken	lücke	_	NNFP4----------	_	_	_	45	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n1005
-40	mit	mit	_	RR--X----------	_	_	_	45	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s33-n1006
-41	ihre	ihr	_	PSFS4-X3-------	_	_	_	42	_	Atr	_	_	_	_	_	(13)	a_tree-de_src-s33-n1007
-42	Botschaft	botschaft	_	NNFS4----------	_	_	_	40	_	Adv	_	_	_	_	_	_	a_tree-de_src-s33-n1008
-43	des	der	_	PZYS2----------	_	_	_	44	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s33-n1009
-44	Hasses	haß	_	NNYS2----------	_	_	_	42	_	Atr	_	_	_	_	_	_	a_tree-de_src-s33-n1010
-45	auszufüllen	ausfüllen	_	Vf-------------	_	_	_	35	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n1011
-46	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s33-n1012
+1	Wenn	wenn	_	J,-------------	_	_	_	35	_	AuxC	_	_	_	_	_	_
+2	Europas	europa	_	NNNS2----------	_	_	_	4	_	Atr	_	_	_	_	_	(8)|(14
+3	große	groß	_	AAFP4----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Parteien	partei	_	NNFP4----------	_	_	_	6	_	Sb	_	_	_	_	_	14)
+5	nicht	nicht	_	TT--------N----	_	_	_	6	_	Neg	_	_	_	_	_	_
+6	anfangen	anfangen	_	VB-X---XX------	_	_	_	1	_	Adv	_	_	_	_	_	_
+7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_
+8	die	der	_	PZFP1----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Rassenspannungen	rassenspannung	_	NNFP4----------	_	_	_	14	_	Obj	_	_	_	_	_	_
+10	in	in	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_
+11	Europa	europa	_	NNNS3----------	_	_	_	10	_	Atr	_	_	_	_	_	(12)
+12	ernster	ernster	_	ACXX-----1-----	_	_	_	14	_	Adv	_	_	_	_	_	_
+13	zu	zu	_	TT-------------	_	_	_	14	_	AuxV	_	_	_	_	_	_
+14	untersuchen	untersuchen	_	Vf-------------	_	_	_	6	_	Obj	_	_	_	_	_	_
+15	und	und	_	J^-------------	_	_	_	14	_	Coord	_	_	_	_	_	_
+16	zu	zu	_	TT-------------	_	_	_	17	_	AuxV	_	_	_	_	_	_
+17	verstehen	verstehen	_	Vf-------------	_	_	_	15	_	NR	_	_	_	_	_	_
+18	und	und	_	J^-------------	_	_	_	14	_	Coord	_	_	_	_	_	_
+19	,,Rasse	,,rasse	_	NNXXX----------	_	_	_	20	_	Atr	_	_	_	_	_	_
+20	,,Rasse	,,rasse	_	NNXXX----------	_	_	_	27	_	Obj	_	_	_	_	_	_
+21	"	--	_	Z:-------------	_	_	_	20	_	AuxG	_	_	_	_	_	_
+22	zu	zu	_	RR--X----------	_	_	_	27	_	AuxP	_	_	_	_	_	_
+23	einem	ein	_	PZYS3----------	_	_	_	22	_	Adv	_	_	_	_	_	_
+24	ihrer	ihr	_	PSNP2-X3-------	_	_	_	26	_	Atr	_	_	_	_	_	(14)
+25	wichtigsten	wichtig	_	AAFP2----3-----	_	_	_	26	_	Atr	_	_	_	_	_	_
+26	Prioritäten	priorität	_	NNFP2----------	_	_	_	23	_	Atr	_	_	_	_	_	_
+27	machen	machen	_	Vf-P---3P------	_	_	_	18	_	NR	_	_	_	_	_	_
+28	,	--	_	Z:-------------	_	_	_	27	_	AuxX	_	_	_	_	_	_
+29	werden	werden	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+30	Individuen	individuum	_	NNNP1----------	_	_	_	29	_	Sb	_	_	_	_	_	(13
+31	wie	wie	_	J^-------------	_	_	_	33	_	AuxC	_	_	_	_	_	_
+32	Le	le	_	NNXXX----------	_	_	_	33	_	Atr	_	_	_	_	_	_
+33	Pen	pen	_	NNYS1----------	_	_	_	30	_	Atr	_	_	_	_	_	13)
+34	sich	sich	_	P6-S4--3-------	_	_	_	35	_	Obj	_	_	_	_	_	_
+35	veranlaßt	veranlassen	_	VpXX---XX------	_	_	_	36	_	Obj	_	_	_	_	_	_
+36	sehen	sehen	_	Vf-------------	_	_	_	29	_	Obj	_	_	_	_	_	_
+37	,	--	_	Z:-------------	_	_	_	36	_	AuxX	_	_	_	_	_	_
+38	die	der	_	PZFP1----------	_	_	_	39	_	AuxA	_	_	_	_	_	_
+39	Lücken	lücke	_	NNFP4----------	_	_	_	45	_	Obj	_	_	_	_	_	_
+40	mit	mit	_	RR--X----------	_	_	_	45	_	AuxP	_	_	_	_	_	_
+41	ihre	ihr	_	PSFS4-X3-------	_	_	_	42	_	Atr	_	_	_	_	_	(13)
+42	Botschaft	botschaft	_	NNFS4----------	_	_	_	40	_	Adv	_	_	_	_	_	_
+43	des	der	_	PZYS2----------	_	_	_	44	_	AuxA	_	_	_	_	_	_
+44	Hasses	haß	_	NNYS2----------	_	_	_	42	_	Atr	_	_	_	_	_	_
+45	auszufüllen	ausfüllen	_	Vf-------------	_	_	_	35	_	Obj	_	_	_	_	_	_
+46	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Alberto	alberto	_	NNYS1----------	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1013
-2	Alesina	alesina	_	NNYS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s34-n1014
-3	ist	sein	_	VB-S---3P------	_	_	_	0	_	Coord	_	_	_	_	_	_	a_tree-de_src-s34-n1015
-4	Professor	professor	_	NNYS1----------	_	_	_	3	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s34-n1016
-5	der	der	_	PZFS2----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s34-n1017
-6	Wirtschaftswissenschaft	wirtschaftswissenschaft	_	NNFS2----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1018
-7	an	an	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s34-n1019
-8	der	der	_	PZFS3----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s34-n1020
-9	Universität	universität	_	NNFS3----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1021
-10	Havard	havard	_	NNXS1----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1022
-11	;	--	_	Z:-------------	_	_	_	10	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s34-n1023
-12	Francesco	francesco	_	NNYS1----------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1024
-13	Giavazzi	giavazzi	_	NNYS1----------	_	_	_	24	_	Sb	_	_	_	_	_	_	a_tree-de_src-s34-n1025
-14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s34-n1026
-15	Professor	professor	_	NNYS1----------	_	_	_	13	_	Apposition	_	_	_	_	_	_	a_tree-de_src-s34-n1027
-16	der	der	_	PZFS2----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s34-n1028
-17	Wirtschaftswissenschaft	wirtschaftswissenschaft	_	NNFS2----------	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1029
-18	an	an	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s34-n1030
-19	der	der	_	PZFS3----------	_	_	_	21	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s34-n1031
-20	Bocconi	bocconi	_	NNFS3----------	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1032
-21	Universität	universität	_	NNFS3----------	_	_	_	18	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1033
-22	in	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s34-n1034
-23	Mailand	mailand	_	NNNS3----------	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1035
-24	gehört	gehören	_	VB-S---3P------	_	_	_	3	_	NR	_	_	_	_	_	_	a_tree-de_src-s34-n1036
-25	zur	zu	_	PZFS3----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s34-n1037
-26	Gruppe	gruppe	_	NNFS3----------	_	_	_	25	_	Obj	_	_	_	_	_	_	a_tree-de_src-s34-n1038
-27	der	der	_	PZYP2----------	_	_	_	28	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s34-n1039
-28	Wirtschaftsberater	wirtschaftsberater	_	NNYP2----------	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1040
-29	des	der	_	PZYS2----------	_	_	_	30	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s34-n1041
-30	Präsidenten	präsident	_	NNYS2----------	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1042
-31	der	der	_	PZFS2----------	_	_	_	33	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s34-n1043
-32	Europäischen	europäisch	_	AAFS2----1-----	_	_	_	33	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1044
-33	Kommission	kommission	_	NNFS2----------	_	_	_	30	_	Atr	_	_	_	_	_	_	a_tree-de_src-s34-n1045
-34	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s34-n1046
+1	Alberto	alberto	_	NNYS1----------	_	_	_	2	_	Atr	_	_	_	_	_	_
+2	Alesina	alesina	_	NNYS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+3	ist	sein	_	VB-S---3P------	_	_	_	0	_	Coord	_	_	_	_	_	_
+4	Professor	professor	_	NNYS1----------	_	_	_	3	_	Pnom	_	_	_	_	_	_
+5	der	der	_	PZFS2----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+6	Wirtschaftswissenschaft	wirtschaftswissenschaft	_	NNFS2----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+7	an	an	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+8	der	der	_	PZFS3----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Universität	universität	_	NNFS3----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+10	Havard	havard	_	NNXS1----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+11	;	--	_	Z:-------------	_	_	_	10	_	AuxG	_	_	_	_	_	_
+12	Francesco	francesco	_	NNYS1----------	_	_	_	13	_	Atr	_	_	_	_	_	_
+13	Giavazzi	giavazzi	_	NNYS1----------	_	_	_	24	_	Sb	_	_	_	_	_	_
+14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_
+15	Professor	professor	_	NNYS1----------	_	_	_	13	_	Apposition	_	_	_	_	_	_
+16	der	der	_	PZFS2----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+17	Wirtschaftswissenschaft	wirtschaftswissenschaft	_	NNFS2----------	_	_	_	15	_	Atr	_	_	_	_	_	_
+18	an	an	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_
+19	der	der	_	PZFS3----------	_	_	_	21	_	AuxA	_	_	_	_	_	_
+20	Bocconi	bocconi	_	NNFS3----------	_	_	_	21	_	Atr	_	_	_	_	_	_
+21	Universität	universität	_	NNFS3----------	_	_	_	18	_	Atr	_	_	_	_	_	_
+22	in	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_
+23	Mailand	mailand	_	NNNS3----------	_	_	_	22	_	Atr	_	_	_	_	_	_
+24	gehört	gehören	_	VB-S---3P------	_	_	_	3	_	NR	_	_	_	_	_	_
+25	zur	zu	_	PZFS3----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+26	Gruppe	gruppe	_	NNFS3----------	_	_	_	25	_	Obj	_	_	_	_	_	_
+27	der	der	_	PZYP2----------	_	_	_	28	_	AuxA	_	_	_	_	_	_
+28	Wirtschaftsberater	wirtschaftsberater	_	NNYP2----------	_	_	_	26	_	Atr	_	_	_	_	_	_
+29	des	der	_	PZYS2----------	_	_	_	30	_	AuxA	_	_	_	_	_	_
+30	Präsidenten	präsident	_	NNYS2----------	_	_	_	28	_	Atr	_	_	_	_	_	_
+31	der	der	_	PZFS2----------	_	_	_	33	_	AuxA	_	_	_	_	_	_
+32	Europäischen	europäisch	_	AAFS2----1-----	_	_	_	33	_	Atr	_	_	_	_	_	_
+33	Kommission	kommission	_	NNFS2----------	_	_	_	30	_	Atr	_	_	_	_	_	_
+34	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
 #end document 007_de

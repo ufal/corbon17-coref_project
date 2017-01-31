@@ -1,812 +1,812 @@
 #begin document 004_de
-1	Vor	vor	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s1-n1
-2	einem	ein	_	PZNS3----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s1-n2
-3	Jahr	jahr	_	NNNS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s1-n3
-4	,	--	_	Z:-------------	_	_	_	3	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s1-n4
-5	am	an	_	PZYS3----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s1-n5
-6	seventienth.	seventienth.	_	AAYS3----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n6
-7	Februar	februar	_	NNYS3----------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n7
-8	2008	2008	_	Cn-XX----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n8
-9	,	--	_	Z:-------------	_	_	_	8	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s1-n9
-10	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s1-n10
-11	Kosovo	kosovo	_	NNYS1----------	_	_	_	10	_	Sb	_	_	_	_	_	(1)	a_tree-de_src-s1-n11
-12	seine	sein	_	PSFS4-X3-------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n12
-13	Unabhängigkeit	unabhängigkeit	_	NNFS4----------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s1-n13
-14	erklärt	erklären	_	VpXX---XX------	_	_	_	10	_	Obj	_	_	_	_	_	_	a_tree-de_src-s1-n14
-15	und	und	_	J^-------------	_	_	_	10	_	Coord	_	_	_	_	_	_	a_tree-de_src-s1-n15
-16	ist	sein	_	VB-S---3P------	_	_	_	15	_	NR	_	_	_	_	_	_	a_tree-de_src-s1-n16
-17	bisher	bisher	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s1-n17
-18	von	von	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s1-n18
-19	über	über	_	Db-------------	_	_	_	20	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s1-n19
-20	50	50	_	Cn-XX----------	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n20
-21	Ländern	land	_	NNNP3----------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s1-n21
-22	anerkannt	anerkennen	_	VpXX---XX------	_	_	_	23	_	Obj	_	_	_	_	_	_	a_tree-de_src-s1-n22
-23	worden	werden	_	VpXX---XX------	_	_	_	16	_	Obj	_	_	_	_	_	_	a_tree-de_src-s1-n23
-24	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s1-n24
-25	die	der	_	PJFS1----------	_	_	_	33	_	Sb	_	_	_	_	_	_	a_tree-de_src-s1-n25
-26	beinahe	beinahe	_	Db-------------	_	_	_	27	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s1-n26
-27	sixty	sixty	_	Cn-S1----------	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n27
-28	%	%	_	NNNXX----------	_	_	_	33	_	Obj	_	_	_	_	_	_	a_tree-de_src-s1-n28
-29	der	der	_	PZFS2----------	_	_	_	31	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s1-n29
-30	wirtschaftlichen	wirtschaftlich	_	AAFS2----1-----	_	_	_	31	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n30
-31	Macht	macht	_	NNFS2----------	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n31
-32	weltweit	weltweit	_	ACXX-----1-----	_	_	_	33	_	Adv	_	_	_	_	_	_	a_tree-de_src-s1-n32
-33	repräsentieren	repräsentieren	_	VB-P---3P------	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n33
-34	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s1-n34
+1	Vor	vor	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_
+2	einem	ein	_	PZNS3----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+3	Jahr	jahr	_	NNNS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+4	,	--	_	Z:-------------	_	_	_	3	_	AuxX	_	_	_	_	_	_
+5	am	an	_	PZYS3----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+6	seventienth.	seventienth.	_	AAYS3----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_
+7	Februar	februar	_	NNYS3----------	_	_	_	5	_	Atr	_	_	_	_	_	_
+8	2008	2008	_	Cn-XX----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+9	,	--	_	Z:-------------	_	_	_	8	_	AuxX	_	_	_	_	_	_
+10	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+11	Kosovo	kosovo	_	NNYS1----------	_	_	_	10	_	Sb	_	_	_	_	_	(1)
+12	seine	sein	_	PSFS4-X3-------	_	_	_	13	_	Atr	_	_	_	_	_	_
+13	Unabhängigkeit	unabhängigkeit	_	NNFS4----------	_	_	_	14	_	Obj	_	_	_	_	_	_
+14	erklärt	erklären	_	VpXX---XX------	_	_	_	10	_	Obj	_	_	_	_	_	_
+15	und	und	_	J^-------------	_	_	_	10	_	Coord	_	_	_	_	_	_
+16	ist	sein	_	VB-S---3P------	_	_	_	15	_	NR	_	_	_	_	_	_
+17	bisher	bisher	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_
+18	von	von	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+19	über	über	_	Db-------------	_	_	_	20	_	AuxZ	_	_	_	_	_	_
+20	50	50	_	Cn-XX----------	_	_	_	21	_	Atr	_	_	_	_	_	_
+21	Ländern	land	_	NNNP3----------	_	_	_	18	_	Obj	_	_	_	_	_	_
+22	anerkannt	anerkennen	_	VpXX---XX------	_	_	_	23	_	Obj	_	_	_	_	_	_
+23	worden	werden	_	VpXX---XX------	_	_	_	16	_	Obj	_	_	_	_	_	_
+24	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_
+25	die	der	_	PJFS1----------	_	_	_	33	_	Sb	_	_	_	_	_	_
+26	beinahe	beinahe	_	Db-------------	_	_	_	27	_	AuxZ	_	_	_	_	_	_
+27	sixty	sixty	_	Cn-S1----------	_	_	_	28	_	Atr	_	_	_	_	_	_
+28	%	%	_	NNNXX----------	_	_	_	33	_	Obj	_	_	_	_	_	_
+29	der	der	_	PZFS2----------	_	_	_	31	_	AuxA	_	_	_	_	_	_
+30	wirtschaftlichen	wirtschaftlich	_	AAFS2----1-----	_	_	_	31	_	Atr	_	_	_	_	_	_
+31	Macht	macht	_	NNFS2----------	_	_	_	28	_	Atr	_	_	_	_	_	_
+32	weltweit	weltweit	_	ACXX-----1-----	_	_	_	33	_	Adv	_	_	_	_	_	_
+33	repräsentieren	repräsentieren	_	VB-P---3P------	_	_	_	21	_	Atr	_	_	_	_	_	_
+34	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZFS1----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s2-n35
-2	von	von	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s2-n36
-3	vielen	vieler	_	PZXP3----------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s2-n37
-4	befürchtete	befürchten	_	AAFS1----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n38
-5	interethnische	interethnisch	_	AAFS1----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n39
-6	Gewalt	gewalt	_	NNFS1----------	_	_	_	7	_	Sb	_	_	_	_	_	_	a_tree-de_src-s2-n40
-7	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s2-n41
-8	größtenteils	größtenteils	_	Db-------------	_	_	_	9	_	Adv	_	_	_	_	_	_	a_tree-de_src-s2-n42
-9	vermieden	vermeiden	_	VpXX---XX------	_	_	_	10	_	Obj	_	_	_	_	_	_	a_tree-de_src-s2-n43
-10	worden	werden	_	VpXX---XX------	_	_	_	7	_	Obj	_	_	_	_	_	_	a_tree-de_src-s2-n44
-11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s2-n45
-12	und	und	_	J^-------------	_	_	_	7	_	Coord	_	_	_	_	_	_	a_tree-de_src-s2-n46
-13	der	der	_	PZYS1----------	_	_	_	18	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s2-n47
-14	ebenfalls	ebenfalls	_	Db-------------	_	_	_	17	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s2-n48
-15	von	von	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s2-n49
-16	einigen	einiger	_	PZXP3----------	_	_	_	15	_	Obj	_	_	_	_	_	_	a_tree-de_src-s2-n50
-17	vorhergesagte	vorhergesagt	_	AAYS1----1-----	_	_	_	18	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n51
-18	Massenexodus	massenexodu	_	NNYS1----------	_	_	_	21	_	Sb	_	_	_	_	_	_	a_tree-de_src-s2-n52
-19	von	von	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s2-n53
-20	Serben	serbe	_	NNYP3----------	_	_	_	19	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n54
-21	ist	sein	_	VB-S---3P------	_	_	_	12	_	NR	_	_	_	_	_	_	a_tree-de_src-s2-n55
-22	ausgeblieben	ausbleiben	_	VpXX---XX------	_	_	_	21	_	Obj	_	_	_	_	_	_	a_tree-de_src-s2-n56
-23	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s2-n57
+1	Die	der	_	PZFS1----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+2	von	von	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+3	vielen	vieler	_	PZXP3----------	_	_	_	2	_	Obj	_	_	_	_	_	_
+4	befürchtete	befürchten	_	AAFS1----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_
+5	interethnische	interethnisch	_	AAFS1----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	Gewalt	gewalt	_	NNFS1----------	_	_	_	7	_	Sb	_	_	_	_	_	_
+7	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+8	größtenteils	größtenteils	_	Db-------------	_	_	_	9	_	Adv	_	_	_	_	_	_
+9	vermieden	vermeiden	_	VpXX---XX------	_	_	_	10	_	Obj	_	_	_	_	_	_
+10	worden	werden	_	VpXX---XX------	_	_	_	7	_	Obj	_	_	_	_	_	_
+11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_
+12	und	und	_	J^-------------	_	_	_	7	_	Coord	_	_	_	_	_	_
+13	der	der	_	PZYS1----------	_	_	_	18	_	AuxA	_	_	_	_	_	_
+14	ebenfalls	ebenfalls	_	Db-------------	_	_	_	17	_	AuxZ	_	_	_	_	_	_
+15	von	von	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_
+16	einigen	einiger	_	PZXP3----------	_	_	_	15	_	Obj	_	_	_	_	_	_
+17	vorhergesagte	vorhergesagt	_	AAYS1----1-----	_	_	_	18	_	Atr	_	_	_	_	_	_
+18	Massenexodus	massenexodu	_	NNYS1----------	_	_	_	21	_	Sb	_	_	_	_	_	_
+19	von	von	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_
+20	Serben	serbe	_	NNYP3----------	_	_	_	19	_	Atr	_	_	_	_	_	_
+21	ist	sein	_	VB-S---3P------	_	_	_	12	_	NR	_	_	_	_	_	_
+22	ausgeblieben	ausbleiben	_	VpXX---XX------	_	_	_	21	_	Obj	_	_	_	_	_	_
+23	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Der	der	_	PZYS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n58
-2	umfassende	umfassend	_	AAYS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n59
-3	Vorschlag	vorschlag	_	NNYS1----------	_	_	_	31	_	Sb	_	_	_	_	_	_	a_tree-de_src-s3-n60
-4	zur	zu	_	PZFS3----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n61
-5	Regelung	regelung	_	NNFS3----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n62
-6	der	der	_	PZFS2----------	_	_	_	7	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n63
-7	Statusfrage	statusfrage	_	NNFS2----------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n64
-8	des	der	_	PZYS2----------	_	_	_	9	_	AuxA	_	_	_	_	_	(1	a_tree-de_src-s3-n65
-9	Kosovo	kosovo	_	NNYS2----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n66
-10	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s3-n67
-11	(	--	_	Z:-------------	_	_	_	10	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s3-n68
-12	der	der	_	PZYS1----------	_	_	_	16	_	AuxA	_	_	_	_	_	(8	a_tree-de_src-s3-n69
-13	so	so	_	Db-------------	_	_	_	14	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s3-n70
-14	genannte	genannt	_	AAYS1----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n71
-15	„	„	_	AAYS1----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n72
-16	Ahtisaari-Plan	ahtisaari-plan	_	NNYS1----------	_	_	_	9	_	Apposition	_	_	_	_	_	_	a_tree-de_src-s3-n73
-17	“	“	_	NNYS1----------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n74
-18	)	--	_	Z:-------------	_	_	_	17	_	AuxG	_	_	_	_	_	1)|8)	a_tree-de_src-s3-n75
-19	,	--	_	Z:-------------	_	_	_	18	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s3-n76
-20	der	der	_	PJYS1----------	_	_	_	29	_	Sb	_	_	_	_	_	_	a_tree-de_src-s3-n77
-21	eine	ein	_	PZFS4----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n78
-22	internationale	international	_	AAFS4----1-----	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n79
-23	Aufsicht	aufsicht	_	NNFS4----------	_	_	_	29	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n80
-24	über	über	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n81
-25	die	der	_	PZFS4----------	_	_	_	26	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n82
-26	Unabhängigkeit	unabhängigkeit	_	NNFS4----------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n83
-27	des	der	_	PZYS2----------	_	_	_	28	_	AuxA	_	_	_	_	_	(1	a_tree-de_src-s3-n84
-28	Kosovo	kosovo	_	NNYS2----------	_	_	_	26	_	Atr	_	_	_	_	_	1)	a_tree-de_src-s3-n85
-29	vorsieht	vorsehen	_	VB-S---3P------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n86
-30	,	--	_	Z:-------------	_	_	_	29	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s3-n87
-31	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s3-n88
-32	schrittweise	schrittweise	_	ACXX-----1-----	_	_	_	33	_	Adv	_	_	_	_	_	_	a_tree-de_src-s3-n89
-33	umgesetzt	umsetzen	_	VpXX---XX------	_	_	_	31	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n90
-34	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s3-n91
+1	Der	der	_	PZYS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+2	umfassende	umfassend	_	AAYS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Vorschlag	vorschlag	_	NNYS1----------	_	_	_	31	_	Sb	_	_	_	_	_	_
+4	zur	zu	_	PZFS3----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+5	Regelung	regelung	_	NNFS3----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+6	der	der	_	PZFS2----------	_	_	_	7	_	AuxA	_	_	_	_	_	_
+7	Statusfrage	statusfrage	_	NNFS2----------	_	_	_	5	_	Atr	_	_	_	_	_	_
+8	des	der	_	PZYS2----------	_	_	_	9	_	AuxA	_	_	_	_	_	(1
+9	Kosovo	kosovo	_	NNYS2----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+10	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_
+11	(	--	_	Z:-------------	_	_	_	10	_	AuxG	_	_	_	_	_	_
+12	der	der	_	PZYS1----------	_	_	_	16	_	AuxA	_	_	_	_	_	(8
+13	so	so	_	Db-------------	_	_	_	14	_	AuxZ	_	_	_	_	_	_
+14	genannte	genannt	_	AAYS1----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_
+15	„	„	_	AAYS1----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_
+16	Ahtisaari-Plan	ahtisaari-plan	_	NNYS1----------	_	_	_	9	_	Apposition	_	_	_	_	_	_
+17	“	“	_	NNYS1----------	_	_	_	16	_	Atr	_	_	_	_	_	_
+18	)	--	_	Z:-------------	_	_	_	17	_	AuxG	_	_	_	_	_	1)|8)
+19	,	--	_	Z:-------------	_	_	_	18	_	AuxX	_	_	_	_	_	_
+20	der	der	_	PJYS1----------	_	_	_	29	_	Sb	_	_	_	_	_	_
+21	eine	ein	_	PZFS4----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+22	internationale	international	_	AAFS4----1-----	_	_	_	23	_	Atr	_	_	_	_	_	_
+23	Aufsicht	aufsicht	_	NNFS4----------	_	_	_	29	_	Obj	_	_	_	_	_	_
+24	über	über	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_
+25	die	der	_	PZFS4----------	_	_	_	26	_	AuxA	_	_	_	_	_	_
+26	Unabhängigkeit	unabhängigkeit	_	NNFS4----------	_	_	_	24	_	Atr	_	_	_	_	_	_
+27	des	der	_	PZYS2----------	_	_	_	28	_	AuxA	_	_	_	_	_	(1
+28	Kosovo	kosovo	_	NNYS2----------	_	_	_	26	_	Atr	_	_	_	_	_	1)
+29	vorsieht	vorsehen	_	VB-S---3P------	_	_	_	16	_	Atr	_	_	_	_	_	_
+30	,	--	_	Z:-------------	_	_	_	29	_	AuxX	_	_	_	_	_	_
+31	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+32	schrittweise	schrittweise	_	ACXX-----1-----	_	_	_	33	_	Adv	_	_	_	_	_	_
+33	umgesetzt	umsetzen	_	VpXX---XX------	_	_	_	31	_	Obj	_	_	_	_	_	_
+34	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Eine	ein	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s4-n92
-2	umfangreiche	umfangreich	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n93
-3	zivile	zivil	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n94
-4	Mission	mission	_	NNFS1----------	_	_	_	8	_	Sb	_	_	_	_	_	_	a_tree-de_src-s4-n95
-5	der	der	_	PZFS2----------	_	_	_	7	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s4-n96
-6	Europäischen	europäisch	_	AAFS2----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n97
-7	Union	union	_	NNFS2----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n98
-8	wurde	werden	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s4-n99
-9	entsandt	entsenden	_	VpXX---XX------	_	_	_	8	_	Obj	_	_	_	_	_	_	a_tree-de_src-s4-n100
-10	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s4-n101
+1	Eine	ein	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+2	umfangreiche	umfangreich	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+3	zivile	zivil	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Mission	mission	_	NNFS1----------	_	_	_	8	_	Sb	_	_	_	_	_	_
+5	der	der	_	PZFS2----------	_	_	_	7	_	AuxA	_	_	_	_	_	_
+6	Europäischen	europäisch	_	AAFS2----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_
+7	Union	union	_	NNFS2----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+8	wurde	werden	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+9	entsandt	entsenden	_	VpXX---XX------	_	_	_	8	_	Obj	_	_	_	_	_	_
+10	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Dennoch	dennoch	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n102
-2	können	können	_	VB-P---1P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s5-n103
-3	wir	wir	_	PP-P1--1-------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s5-n104
-4	das	der	_	PZNS4----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s5-n105
-5	Kapitel	kapitel	_	NNNS4----------	_	_	_	37	_	Obj	_	_	_	_	_	_	a_tree-de_src-s5-n106
-6	über	über	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s5-n107
-7	diesen	dieser	_	PDYS4----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n108
-8	bösartigen	bösartig	_	AAYS4----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n109
-9	Konflikt	konflikt	_	NNYS4----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n110
-10	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s5-n111
-11	der	der	_	PJYS1----------	_	_	_	17	_	Sb	_	_	_	_	_	_	a_tree-de_src-s5-n112
-12	zu	zu	_	RR--X----------	_	_	_	16	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s5-n113
-13	so	so	_	Db-------------	_	_	_	14	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s5-n114
-14	vielen	vieler	_	PZFP3----------	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n115
-15	Tragödien	tragödie	_	NNFP3----------	_	_	_	12	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n116
-16	geführt	führen	_	VpXX---XX------	_	_	_	17	_	Obj	_	_	_	_	_	_	a_tree-de_src-s5-n117
-17	hat	haben	_	VB-S---3P------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n118
-18	und	und	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_	a_tree-de_src-s5-n119
-19	schon	schon	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n120
-20	viel	viel	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n121
-21	zu	zu	_	TT-------------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n122
-22	lange	lange	_	Db-------------	_	_	_	31	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n123
-23	eine	ein	_	PZFS4----------	_	_	_	24	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s5-n124
-24	Ursache	ursache	_	NNFS4----------	_	_	_	31	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s5-n125
-25	für	für	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s5-n126
-26	die	der	_	PZFS4----------	_	_	_	27	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s5-n127
-27	Instabilität	instabilität	_	NNFS4----------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n128
-28	auf	auf	_	RR--X----------	_	_	_	27	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s5-n129
-29	dem	der	_	PZYS3----------	_	_	_	30	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s5-n130
-30	Balkan	balkan	_	NNYS3----------	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s5-n131
-31	ist	sein	_	VB-S---3P------	_	_	_	18	_	NR	_	_	_	_	_	_	a_tree-de_src-s5-n132
-32	,	--	_	Z:-------------	_	_	_	31	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s5-n133
-33	leider	leider	_	Db-------------	_	_	_	37	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n134
-34	nicht	nicht	_	TT--------N----	_	_	_	37	_	Neg	_	_	_	_	_	_	a_tree-de_src-s5-n135
-35	für	für	_	RR--X----------	_	_	_	37	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s5-n136
-36	abgeschlossen	abschließen	_	ACXX-----1-----	_	_	_	35	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n137
-37	erklären	erklären	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s5-n138
-38	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s5-n139
+1	Dennoch	dennoch	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_
+2	können	können	_	VB-P---1P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	wir	wir	_	PP-P1--1-------	_	_	_	2	_	Sb	_	_	_	_	_	_
+4	das	der	_	PZNS4----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+5	Kapitel	kapitel	_	NNNS4----------	_	_	_	37	_	Obj	_	_	_	_	_	_
+6	über	über	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_
+7	diesen	dieser	_	PDYS4----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+8	bösartigen	bösartig	_	AAYS4----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Konflikt	konflikt	_	NNYS4----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+10	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_
+11	der	der	_	PJYS1----------	_	_	_	17	_	Sb	_	_	_	_	_	_
+12	zu	zu	_	RR--X----------	_	_	_	16	_	AuxP	_	_	_	_	_	_
+13	so	so	_	Db-------------	_	_	_	14	_	AuxZ	_	_	_	_	_	_
+14	vielen	vieler	_	PZFP3----------	_	_	_	15	_	Atr	_	_	_	_	_	_
+15	Tragödien	tragödie	_	NNFP3----------	_	_	_	12	_	Adv	_	_	_	_	_	_
+16	geführt	führen	_	VpXX---XX------	_	_	_	17	_	Obj	_	_	_	_	_	_
+17	hat	haben	_	VB-S---3P------	_	_	_	9	_	Atr	_	_	_	_	_	_
+18	und	und	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_
+19	schon	schon	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_
+20	viel	viel	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_
+21	zu	zu	_	TT-------------	_	_	_	22	_	Adv	_	_	_	_	_	_
+22	lange	lange	_	Db-------------	_	_	_	31	_	Adv	_	_	_	_	_	_
+23	eine	ein	_	PZFS4----------	_	_	_	24	_	AuxA	_	_	_	_	_	_
+24	Ursache	ursache	_	NNFS4----------	_	_	_	31	_	Pnom	_	_	_	_	_	_
+25	für	für	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+26	die	der	_	PZFS4----------	_	_	_	27	_	AuxA	_	_	_	_	_	_
+27	Instabilität	instabilität	_	NNFS4----------	_	_	_	25	_	Atr	_	_	_	_	_	_
+28	auf	auf	_	RR--X----------	_	_	_	27	_	AuxP	_	_	_	_	_	_
+29	dem	der	_	PZYS3----------	_	_	_	30	_	AuxA	_	_	_	_	_	_
+30	Balkan	balkan	_	NNYS3----------	_	_	_	28	_	Atr	_	_	_	_	_	_
+31	ist	sein	_	VB-S---3P------	_	_	_	18	_	NR	_	_	_	_	_	_
+32	,	--	_	Z:-------------	_	_	_	31	_	AuxX	_	_	_	_	_	_
+33	leider	leider	_	Db-------------	_	_	_	37	_	Adv	_	_	_	_	_	_
+34	nicht	nicht	_	TT--------N----	_	_	_	37	_	Neg	_	_	_	_	_	_
+35	für	für	_	RR--X----------	_	_	_	37	_	AuxP	_	_	_	_	_	_
+36	abgeschlossen	abschließen	_	ACXX-----1-----	_	_	_	35	_	Adv	_	_	_	_	_	_
+37	erklären	erklären	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_
+38	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Das	der	_	PZNS1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n140
-2	Problem	problem	_	NNNS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s6-n141
-3	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s6-n142
-4	nicht	nicht	_	TT--------N----	_	_	_	5	_	Neg	_	_	_	_	_	_	a_tree-de_src-s6-n143
-5	verschwinden	verschwinden	_	Vf-------------	_	_	_	3	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n144
-6	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s6-n145
-7	weil	weil	_	J,-------------	_	_	_	5	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s6-n146
-8	Serbien	serbien	_	NNNS1----------	_	_	_	15	_	Sb	_	_	_	_	_	(2)	a_tree-de_src-s6-n147
-9	auf	auf	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s6-n148
-10	seiner	sein	_	PSFS3-X3-------	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n149
-11	Ablehnung	ablehnung	_	NNFS3----------	_	_	_	9	_	Adv	_	_	_	_	_	_	a_tree-de_src-s6-n150
-12	der	der	_	PZFS2----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n151
-13	neuen	neu	_	AAFS2----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n152
-14	Realität	realität	_	NNFS2----------	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n153
-15	beharrt	beharren	_	VB-S---3P------	_	_	_	7	_	Adv	_	_	_	_	_	_	a_tree-de_src-s6-n154
-16	und	und	_	J^-------------	_	_	_	15	_	Coord	_	_	_	_	_	_	a_tree-de_src-s6-n155
-17	nach	nach	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s6-n156
-18	Kräften	kraft	_	NNFP3----------	_	_	_	17	_	Adv	_	_	_	_	_	_	a_tree-de_src-s6-n157
-19	bemüht	bemüht	_	ACXX-----------	_	_	_	20	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s6-n158
-20	ist	sein	_	VB-S---3P------	_	_	_	16	_	NR	_	_	_	_	_	_	a_tree-de_src-s6-n159
-21	,	--	_	Z:-------------	_	_	_	20	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s6-n160
-22	eine	ein	_	PZFS4----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n161
-23	Normalisierung	normalisierung	_	NNFS4----------	_	_	_	25	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n162
-24	zu	zu	_	TT-------------	_	_	_	25	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s6-n163
-25	verhindern	verhindern	_	Vf-------------	_	_	_	19	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n164
-26	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s6-n165
+1	Das	der	_	PZNS1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_
+2	Problem	problem	_	NNNS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+3	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	nicht	nicht	_	TT--------N----	_	_	_	5	_	Neg	_	_	_	_	_	_
+5	verschwinden	verschwinden	_	Vf-------------	_	_	_	3	_	Obj	_	_	_	_	_	_
+6	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_
+7	weil	weil	_	J,-------------	_	_	_	5	_	AuxC	_	_	_	_	_	_
+8	Serbien	serbien	_	NNNS1----------	_	_	_	15	_	Sb	_	_	_	_	_	(2)
+9	auf	auf	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+10	seiner	sein	_	PSFS3-X3-------	_	_	_	11	_	Atr	_	_	_	_	_	_
+11	Ablehnung	ablehnung	_	NNFS3----------	_	_	_	9	_	Adv	_	_	_	_	_	_
+12	der	der	_	PZFS2----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+13	neuen	neu	_	AAFS2----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_
+14	Realität	realität	_	NNFS2----------	_	_	_	11	_	Atr	_	_	_	_	_	_
+15	beharrt	beharren	_	VB-S---3P------	_	_	_	7	_	Adv	_	_	_	_	_	_
+16	und	und	_	J^-------------	_	_	_	15	_	Coord	_	_	_	_	_	_
+17	nach	nach	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_
+18	Kräften	kraft	_	NNFP3----------	_	_	_	17	_	Adv	_	_	_	_	_	_
+19	bemüht	bemüht	_	ACXX-----------	_	_	_	20	_	Pnom	_	_	_	_	_	_
+20	ist	sein	_	VB-S---3P------	_	_	_	16	_	NR	_	_	_	_	_	_
+21	,	--	_	Z:-------------	_	_	_	20	_	AuxX	_	_	_	_	_	_
+22	eine	ein	_	PZFS4----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+23	Normalisierung	normalisierung	_	NNFS4----------	_	_	_	25	_	Obj	_	_	_	_	_	_
+24	zu	zu	_	TT-------------	_	_	_	25	_	AuxV	_	_	_	_	_	_
+25	verhindern	verhindern	_	Vf-------------	_	_	_	19	_	Obj	_	_	_	_	_	_
+26	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Auf	auf	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s7-n166
-2	Anordnung	anordnung	_	NNFS1----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s7-n167
-3	der	der	_	PZFS2----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n168
-4	serbischen	serbisch	_	AAFS2----1-----	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n169
-5	Regierung	regierung	_	NNFS2----------	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n170
-6	verweigern	verweigern	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s7-n171
-7	Kosovo-Serben	kosovo-serben	_	NNFP4----------	_	_	_	6	_	Sb	_	_	_	_	_	_	a_tree-de_src-s7-n172
-8	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s7-n173
-9	die	der	_	PJFP1----------	_	_	_	15	_	Sb	_	_	_	_	_	_	a_tree-de_src-s7-n174
-10	etwa	etwa	_	Db-------------	_	_	_	11	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s7-n175
-11	five	fiv	_	AAFP1----1-----	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n176
-12	%	%	_	NNFP1----------	_	_	_	15	_	Obj	_	_	_	_	_	_	a_tree-de_src-s7-n177
-13	der	der	_	PZFS2----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n178
-14	Bevölkerung	bevölkerung	_	NNFS2----------	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n179
-15	stellen	stellen	_	VB-P---3P------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n180
-16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s7-n181
-17	die	der	_	PZFS4----------	_	_	_	18	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n182
-18	Zusammenarbeit	zusammenarbeit	_	NNFS4----------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s7-n183
-19	mit	mit	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s7-n184
-20	der	der	_	PZFS3----------	_	_	_	21	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n185
-21	Regierung	regierung	_	NNFS3----------	_	_	_	19	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n186
-22	des	der	_	PZYS2----------	_	_	_	23	_	AuxA	_	_	_	_	_	(1	a_tree-de_src-s7-n187
-23	Kosovo	kosovo	_	NNYS2----------	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n188
-24	und	und	_	J^-------------	_	_	_	23	_	Coord	_	_	_	_	_	_	a_tree-de_src-s7-n189
-25	der	der	_	PZFS2----------	_	_	_	26	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n190
-26	EU-Mission	eu-mission	_	NNFS2----------	_	_	_	24	_	NR	_	_	_	_	_	1)	a_tree-de_src-s7-n191
-27	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s7-n192
+1	Auf	auf	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+2	Anordnung	anordnung	_	NNFS1----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+3	der	der	_	PZFS2----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+4	serbischen	serbisch	_	AAFS2----1-----	_	_	_	5	_	Atr	_	_	_	_	_	_
+5	Regierung	regierung	_	NNFS2----------	_	_	_	2	_	Atr	_	_	_	_	_	_
+6	verweigern	verweigern	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+7	Kosovo-Serben	kosovo-serben	_	NNFP4----------	_	_	_	6	_	Sb	_	_	_	_	_	_
+8	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_
+9	die	der	_	PJFP1----------	_	_	_	15	_	Sb	_	_	_	_	_	_
+10	etwa	etwa	_	Db-------------	_	_	_	11	_	AuxZ	_	_	_	_	_	_
+11	five	fiv	_	AAFP1----1-----	_	_	_	12	_	Atr	_	_	_	_	_	_
+12	%	%	_	NNFP1----------	_	_	_	15	_	Obj	_	_	_	_	_	_
+13	der	der	_	PZFS2----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+14	Bevölkerung	bevölkerung	_	NNFS2----------	_	_	_	12	_	Atr	_	_	_	_	_	_
+15	stellen	stellen	_	VB-P---3P------	_	_	_	7	_	Atr	_	_	_	_	_	_
+16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_
+17	die	der	_	PZFS4----------	_	_	_	18	_	AuxA	_	_	_	_	_	_
+18	Zusammenarbeit	zusammenarbeit	_	NNFS4----------	_	_	_	6	_	Obj	_	_	_	_	_	_
+19	mit	mit	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_
+20	der	der	_	PZFS3----------	_	_	_	21	_	AuxA	_	_	_	_	_	_
+21	Regierung	regierung	_	NNFS3----------	_	_	_	19	_	Atr	_	_	_	_	_	_
+22	des	der	_	PZYS2----------	_	_	_	23	_	AuxA	_	_	_	_	_	(1
+23	Kosovo	kosovo	_	NNYS2----------	_	_	_	21	_	Atr	_	_	_	_	_	_
+24	und	und	_	J^-------------	_	_	_	23	_	Coord	_	_	_	_	_	_
+25	der	der	_	PZFS2----------	_	_	_	26	_	AuxA	_	_	_	_	_	_
+26	EU-Mission	eu-mission	_	NNFS2----------	_	_	_	24	_	NR	_	_	_	_	_	1)
+27	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Dadurch	dadurch	_	PDXXX----------	_	_	_	11	_	Adv	_	_	_	_	_	_	a_tree-de_src-s8-n193
-2	–	–	_	X@-------------	_	_	_	1	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n194
-3	und	und	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_	a_tree-de_src-s8-n195
-4	das	der	_	PDNS1----------	_	_	_	5	_	Sb	_	_	_	_	_	_	a_tree-de_src-s8-n196
-5	ist	sein	_	VB-S---3P------	_	_	_	3	_	NR	_	_	_	_	_	_	a_tree-de_src-s8-n197
-6	die	der	_	PZFS1----------	_	_	_	7	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n198
-7	Ironie	ironie	_	NNFS1----------	_	_	_	5	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s8-n199
-8	des	der	_	PZNS2----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n200
-9	Problems	problem	_	NNNS2----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n201
-10	–	–	_	Z:-------------	_	_	_	9	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s8-n202
-11	sind	sein	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s8-n203
-12	es	es	_	PPNS1--3-------	_	_	_	11	_	Sb	_	_	_	_	_	_	a_tree-de_src-s8-n204
-13	die	der	_	PZYP1----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n205
-14	Serben	serbe	_	NNYP1----------	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n206
-15	selbst	selbst	_	Db-------------	_	_	_	14	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s8-n207
-16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s8-n208
-17	die	der	_	PJYP1----------	_	_	_	27	_	Sb	_	_	_	_	_	_	a_tree-de_src-s8-n209
-18	die	der	_	PZFS4----------	_	_	_	20	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n210
-19	frühzeitige	frühzeitig	_	AAFS4----1-----	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n211
-20	Einführung	einführung	_	NNFS4----------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n212
-21	der	der	_	PZFS2----------	_	_	_	26	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n213
-22	im	in	_	PZYS3----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s8-n214
-23	Ahtisaari-Plan	ahtisaari-plan	_	NNYS3----------	_	_	_	22	_	Atr	_	_	_	_	_	(8)	a_tree-de_src-s8-n215
-24	vorgesehenen	vorgesehen	_	AAFP1----1-----	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n216
-25	weitreichenden	weitreichend	_	AANP4----1-----	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n217
-26	Gemeinschaftsrechte	gemeinschaftsrecht	_	NNNP4----------	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n218
-27	verhindern	verhindern	_	VB-X---XX------	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n219
-28	,	--	_	Z:-------------	_	_	_	27	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s8-n220
-29	die	der	_	PJNP4----------	_	_	_	37	_	Sb	_	_	_	_	_	_	a_tree-de_src-s8-n221
-30	ihnen	ihnen	_	PPYP3--3-------	_	_	_	36	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n222
-31	ein	ein	_	PZNS4----------	_	_	_	35	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n223
-32	normales	normal	_	AANS4----1-----	_	_	_	35	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n224
-33	und	und	_	J^-------------	_	_	_	32	_	Coord	_	_	_	_	_	_	a_tree-de_src-s8-n225
-34	sicheres	sicher	_	AANS4----1-----	_	_	_	33	_	NR	_	_	_	_	_	_	a_tree-de_src-s8-n226
-35	Leben	leben	_	NNNS4----------	_	_	_	36	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n227
-36	ermöglichen	ermöglichen	_	Vf-------------	_	_	_	37	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n228
-37	würden	werden	_	VB-P---3R------	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n229
-38	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s8-n230
+1	Dadurch	dadurch	_	PDXXX----------	_	_	_	11	_	Adv	_	_	_	_	_	_
+2	–	–	_	X@-------------	_	_	_	1	_	Atr	_	_	_	_	_	_
+3	und	und	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_
+4	das	der	_	PDNS1----------	_	_	_	5	_	Sb	_	_	_	_	_	_
+5	ist	sein	_	VB-S---3P------	_	_	_	3	_	NR	_	_	_	_	_	_
+6	die	der	_	PZFS1----------	_	_	_	7	_	AuxA	_	_	_	_	_	_
+7	Ironie	ironie	_	NNFS1----------	_	_	_	5	_	Pnom	_	_	_	_	_	_
+8	des	der	_	PZNS2----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Problems	problem	_	NNNS2----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+10	–	–	_	Z:-------------	_	_	_	9	_	AuxG	_	_	_	_	_	_
+11	sind	sein	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+12	es	es	_	PPNS1--3-------	_	_	_	11	_	Sb	_	_	_	_	_	_
+13	die	der	_	PZYP1----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+14	Serben	serbe	_	NNYP1----------	_	_	_	12	_	Atr	_	_	_	_	_	_
+15	selbst	selbst	_	Db-------------	_	_	_	14	_	AuxZ	_	_	_	_	_	_
+16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_
+17	die	der	_	PJYP1----------	_	_	_	27	_	Sb	_	_	_	_	_	_
+18	die	der	_	PZFS4----------	_	_	_	20	_	AuxA	_	_	_	_	_	_
+19	frühzeitige	frühzeitig	_	AAFS4----1-----	_	_	_	20	_	Atr	_	_	_	_	_	_
+20	Einführung	einführung	_	NNFS4----------	_	_	_	27	_	Obj	_	_	_	_	_	_
+21	der	der	_	PZFS2----------	_	_	_	26	_	AuxA	_	_	_	_	_	_
+22	im	in	_	PZYS3----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+23	Ahtisaari-Plan	ahtisaari-plan	_	NNYS3----------	_	_	_	22	_	Atr	_	_	_	_	_	(8)
+24	vorgesehenen	vorgesehen	_	AAFP1----1-----	_	_	_	26	_	Atr	_	_	_	_	_	_
+25	weitreichenden	weitreichend	_	AANP4----1-----	_	_	_	26	_	Atr	_	_	_	_	_	_
+26	Gemeinschaftsrechte	gemeinschaftsrecht	_	NNNP4----------	_	_	_	20	_	Atr	_	_	_	_	_	_
+27	verhindern	verhindern	_	VB-X---XX------	_	_	_	14	_	Atr	_	_	_	_	_	_
+28	,	--	_	Z:-------------	_	_	_	27	_	AuxX	_	_	_	_	_	_
+29	die	der	_	PJNP4----------	_	_	_	37	_	Sb	_	_	_	_	_	_
+30	ihnen	ihnen	_	PPYP3--3-------	_	_	_	36	_	Obj	_	_	_	_	_	_
+31	ein	ein	_	PZNS4----------	_	_	_	35	_	AuxA	_	_	_	_	_	_
+32	normales	normal	_	AANS4----1-----	_	_	_	35	_	Atr	_	_	_	_	_	_
+33	und	und	_	J^-------------	_	_	_	32	_	Coord	_	_	_	_	_	_
+34	sicheres	sicher	_	AANS4----1-----	_	_	_	33	_	NR	_	_	_	_	_	_
+35	Leben	leben	_	NNNS4----------	_	_	_	36	_	Obj	_	_	_	_	_	_
+36	ermöglichen	ermöglichen	_	Vf-------------	_	_	_	37	_	Obj	_	_	_	_	_	_
+37	würden	werden	_	VB-P---3R------	_	_	_	26	_	Atr	_	_	_	_	_	_
+38	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Auf	auf	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s9-n231
-2	internationaler	international	_	AAFS3----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n232
-3	Ebene	ebene	_	NNFS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n233
-4	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s9-n234
-5	Serbien	serbien	_	NNNS1----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n235
-6	–	–	_	NNXXX----------	_	_	_	4	_	Sb	_	_	_	_	_	_	a_tree-de_src-s9-n236
-7	mit	mit	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s9-n237
-8	kräftiger	kräftig	_	AAFS3----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n238
-9	Unterstützung	unterstützung	_	NNFS3----------	_	_	_	7	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n239
-10	aus	aus	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s9-n240
-11	Russland	russland	_	NNNS3----------	_	_	_	10	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n241
-12	–	–	_	TT-------------	_	_	_	13	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s9-n242
-13	aktiv	aktiv	_	ACXX-----1-----	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n243
-14	damit	damit	_	PDXXX----------	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n244
-15	beschäftigt	beschäftigen	_	VpXX---XX------	_	_	_	4	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s9-n245
-16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s9-n246
-17	Kosovos	kosovo	_	NNXS2----------	_	_	_	18	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s9-n247
-18	Beitritt	beitritt	_	NNYS4----------	_	_	_	30	_	Obj	_	_	_	_	_	_	a_tree-de_src-s9-n248
-19	in	in	_	RR--X----------	_	_	_	30	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s9-n249
-20	die	der	_	PZFP4----------	_	_	_	22	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s9-n250
-21	Vereinten	vereint	_	AAFP4----1-----	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n251
-22	Nationen	nation	_	NNFP4----------	_	_	_	19	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n252
-23	und	und	_	J^-------------	_	_	_	22	_	Coord	_	_	_	_	_	_	a_tree-de_src-s9-n253
-24	andere	anderer	_	AAYP1----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n254
-25	globale	global	_	AAYP1----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n255
-26	oder	oder	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_	a_tree-de_src-s9-n256
-27	regionale	regional	_	AAFP4----1-----	_	_	_	26	_	NR	_	_	_	_	_	_	a_tree-de_src-s9-n257
-28	Organisationen	organisation	_	NNFP4----------	_	_	_	23	_	NR	_	_	_	_	_	_	a_tree-de_src-s9-n258
-29	zu	zu	_	TT-------------	_	_	_	30	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s9-n259
-30	blockieren	blockieren	_	Vf-------------	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s9-n260
-31	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s9-n261
+1	Auf	auf	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+2	internationaler	international	_	AAFS3----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Ebene	ebene	_	NNFS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+4	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+5	Serbien	serbien	_	NNNS1----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	–	–	_	NNXXX----------	_	_	_	4	_	Sb	_	_	_	_	_	_
+7	mit	mit	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+8	kräftiger	kräftig	_	AAFS3----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Unterstützung	unterstützung	_	NNFS3----------	_	_	_	7	_	Adv	_	_	_	_	_	_
+10	aus	aus	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+11	Russland	russland	_	NNNS3----------	_	_	_	10	_	Adv	_	_	_	_	_	_
+12	–	–	_	TT-------------	_	_	_	13	_	AuxV	_	_	_	_	_	_
+13	aktiv	aktiv	_	ACXX-----1-----	_	_	_	15	_	Adv	_	_	_	_	_	_
+14	damit	damit	_	PDXXX----------	_	_	_	15	_	Adv	_	_	_	_	_	_
+15	beschäftigt	beschäftigen	_	VpXX---XX------	_	_	_	4	_	Pnom	_	_	_	_	_	_
+16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_
+17	Kosovos	kosovo	_	NNXS2----------	_	_	_	18	_	Atr	_	_	_	_	_	(1)
+18	Beitritt	beitritt	_	NNYS4----------	_	_	_	30	_	Obj	_	_	_	_	_	_
+19	in	in	_	RR--X----------	_	_	_	30	_	AuxP	_	_	_	_	_	_
+20	die	der	_	PZFP4----------	_	_	_	22	_	AuxA	_	_	_	_	_	_
+21	Vereinten	vereint	_	AAFP4----1-----	_	_	_	22	_	Atr	_	_	_	_	_	_
+22	Nationen	nation	_	NNFP4----------	_	_	_	19	_	Adv	_	_	_	_	_	_
+23	und	und	_	J^-------------	_	_	_	22	_	Coord	_	_	_	_	_	_
+24	andere	anderer	_	AAYP1----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_
+25	globale	global	_	AAYP1----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_
+26	oder	oder	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_
+27	regionale	regional	_	AAFP4----1-----	_	_	_	26	_	NR	_	_	_	_	_	_
+28	Organisationen	organisation	_	NNFP4----------	_	_	_	23	_	NR	_	_	_	_	_	_
+29	zu	zu	_	TT-------------	_	_	_	30	_	AuxV	_	_	_	_	_	_
+30	blockieren	blockieren	_	Vf-------------	_	_	_	14	_	Atr	_	_	_	_	_	_
+31	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Es	es	_	PPNS1--3-------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s10-n262
-2	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s10-n263
-3	schwer	schwer	_	ACXX-----1-----	_	_	_	4	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s10-n264
-4	nachvollziehbar	nachvollziehbar	_	ACXX-----1-----	_	_	_	2	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s10-n265
-5	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s10-n266
-6	worauf	worauf	_	J,-------------	_	_	_	1	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s10-n267
-7	Serbiens	serbien	_	NNNS2----------	_	_	_	9	_	Sb	_	_	_	_	_	(2)	a_tree-de_src-s10-n268
-8	Bemühungen	bemühung	_	NNFP4----------	_	_	_	9	_	Obj	_	_	_	_	_	_	a_tree-de_src-s10-n269
-9	abzielen	abzallen	_	VB-X---XX------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s10-n270
-10	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s10-n271
+1	Es	es	_	PPNS1--3-------	_	_	_	2	_	Sb	_	_	_	_	_	_
+2	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	schwer	schwer	_	ACXX-----1-----	_	_	_	4	_	AuxZ	_	_	_	_	_	_
+4	nachvollziehbar	nachvollziehbar	_	ACXX-----1-----	_	_	_	2	_	Pnom	_	_	_	_	_	_
+5	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_
+6	worauf	worauf	_	J,-------------	_	_	_	1	_	AuxC	_	_	_	_	_	_
+7	Serbiens	serbien	_	NNNS2----------	_	_	_	9	_	Sb	_	_	_	_	_	(2)
+8	Bemühungen	bemühung	_	NNFP4----------	_	_	_	9	_	Obj	_	_	_	_	_	_
+9	abzielen	abzallen	_	VB-X---XX------	_	_	_	6	_	Atr	_	_	_	_	_	_
+10	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Niemand	niemand	_	PZYS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s11-n272
-2	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s11-n273
-3	bestreiten	bestreiten	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n274
-4	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s11-n275
-5	dass	daß	_	J,-------------	_	_	_	3	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s11-n276
-6	es	es	_	PPNS1--3-------	_	_	_	11	_	Sb	_	_	_	_	_	_	a_tree-de_src-s11-n277
-7	schmerzhaft	schmerzhaft	_	ACXX-----1-----	_	_	_	18	_	Adv	_	_	_	_	_	_	a_tree-de_src-s11-n278
-8	für	für	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s11-n279
-9	einen	ein	_	PZYS4----------	_	_	_	10	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s11-n280
-10	Staat	staat	_	NNYS4----------	_	_	_	8	_	Adv	_	_	_	_	_	_	a_tree-de_src-s11-n281
-11	ist	sein	_	VB-S---3P------	_	_	_	5	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n282
-12	,	--	_	Z:-------------	_	_	_	11	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s11-n283
-13	von	von	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s11-n284
-14	einem	ein	_	PZYS3----------	_	_	_	15	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s11-n285
-15	Teil	teil	_	NNYS3----------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n286
-16	seines	sein	_	PSNS2-X3-------	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n287
-17	Territoriums	territorium	_	NNNS2----------	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n288
-18	getrennt	trennen	_	VpXX---XX------	_	_	_	20	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n289
-19	zu	zu	_	TT-------------	_	_	_	20	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s11-n290
-20	sein	sein	_	Vf-------------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n291
-21	–	–	_	NNXXX----------	_	_	_	11	_	Sb	_	_	_	_	_	_	a_tree-de_src-s11-n292
-22	auch	auch	_	Db-------------	_	_	_	33	_	Adv	_	_	_	_	_	_	a_tree-de_src-s11-n293
-23	wenn	wenn	_	J,-------------	_	_	_	21	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s11-n294
-24	dieses	dieser	_	PDNS1----------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n295
-25	Territorium	territorium	_	NNNS1----------	_	_	_	33	_	Sb	_	_	_	_	_	_	a_tree-de_src-s11-n296
-26	größtenteils	größtenteils	_	Db-------------	_	_	_	32	_	Adv	_	_	_	_	_	_	a_tree-de_src-s11-n297
-27	von	von	_	RR--X----------	_	_	_	32	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s11-n298
-28	einer	ein	_	PZFS3----------	_	_	_	31	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s11-n299
-29	anderen	anderer	_	AAFS3----1-----	_	_	_	31	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n300
-30	ethnischen	ethnisch	_	AAFS3----1-----	_	_	_	31	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n301
-31	Gruppe	gruppe	_	NNFS3----------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n302
-32	bevölkert	bevölkern	_	VpXX---XX------	_	_	_	33	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s11-n303
-33	ist	sein	_	VB-S---3P------	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n304
-34	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s11-n305
+1	Niemand	niemand	_	PZYS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+2	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	bestreiten	bestreiten	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_
+4	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_
+5	dass	daß	_	J,-------------	_	_	_	3	_	AuxC	_	_	_	_	_	_
+6	es	es	_	PPNS1--3-------	_	_	_	11	_	Sb	_	_	_	_	_	_
+7	schmerzhaft	schmerzhaft	_	ACXX-----1-----	_	_	_	18	_	Adv	_	_	_	_	_	_
+8	für	für	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_
+9	einen	ein	_	PZYS4----------	_	_	_	10	_	AuxA	_	_	_	_	_	_
+10	Staat	staat	_	NNYS4----------	_	_	_	8	_	Adv	_	_	_	_	_	_
+11	ist	sein	_	VB-S---3P------	_	_	_	5	_	Obj	_	_	_	_	_	_
+12	,	--	_	Z:-------------	_	_	_	11	_	AuxX	_	_	_	_	_	_
+13	von	von	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_
+14	einem	ein	_	PZYS3----------	_	_	_	15	_	AuxA	_	_	_	_	_	_
+15	Teil	teil	_	NNYS3----------	_	_	_	13	_	Obj	_	_	_	_	_	_
+16	seines	sein	_	PSNS2-X3-------	_	_	_	17	_	Atr	_	_	_	_	_	_
+17	Territoriums	territorium	_	NNNS2----------	_	_	_	15	_	Atr	_	_	_	_	_	_
+18	getrennt	trennen	_	VpXX---XX------	_	_	_	20	_	Obj	_	_	_	_	_	_
+19	zu	zu	_	TT-------------	_	_	_	20	_	AuxV	_	_	_	_	_	_
+20	sein	sein	_	Vf-------------	_	_	_	6	_	Atr	_	_	_	_	_	_
+21	–	–	_	NNXXX----------	_	_	_	11	_	Sb	_	_	_	_	_	_
+22	auch	auch	_	Db-------------	_	_	_	33	_	Adv	_	_	_	_	_	_
+23	wenn	wenn	_	J,-------------	_	_	_	21	_	AuxC	_	_	_	_	_	_
+24	dieses	dieser	_	PDNS1----------	_	_	_	25	_	Atr	_	_	_	_	_	_
+25	Territorium	territorium	_	NNNS1----------	_	_	_	33	_	Sb	_	_	_	_	_	_
+26	größtenteils	größtenteils	_	Db-------------	_	_	_	32	_	Adv	_	_	_	_	_	_
+27	von	von	_	RR--X----------	_	_	_	32	_	AuxP	_	_	_	_	_	_
+28	einer	ein	_	PZFS3----------	_	_	_	31	_	AuxA	_	_	_	_	_	_
+29	anderen	anderer	_	AAFS3----1-----	_	_	_	31	_	Atr	_	_	_	_	_	_
+30	ethnischen	ethnisch	_	AAFS3----1-----	_	_	_	31	_	Atr	_	_	_	_	_	_
+31	Gruppe	gruppe	_	NNFS3----------	_	_	_	27	_	Obj	_	_	_	_	_	_
+32	bevölkert	bevölkern	_	VpXX---XX------	_	_	_	33	_	Pnom	_	_	_	_	_	_
+33	ist	sein	_	VB-S---3P------	_	_	_	23	_	Atr	_	_	_	_	_	_
+34	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Trotzdem	trotzdem	_	PDXXX----------	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s12-n306
-2	gibt	geben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s12-n307
-3	es	es	_	PPNS1--3-------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s12-n308
-4	Beispiele	beispiel	_	NNNP4----------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n309
-5	in	in	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s12-n310
-6	der	der	_	PZFS3----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s12-n311
-7	jüngeren	junge	_	AAFS3----2-----	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n312
-8	Geschichte	geschichte	_	NNFS3----------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n313
-9	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s12-n314
-10	dass	dass	_	J,-------------	_	_	_	2	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s12-n315
-11	eine	ein	_	PZFS1----------	_	_	_	13	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s12-n316
-12	solche	solcher	_	PZFS1----------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n317
-13	Lösung	lösung	_	NNFS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_	a_tree-de_src-s12-n318
-14	in	in	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s12-n319
-15	gegenseitigem	gegenseitig	_	AANS3----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n320
-16	Einvernehmen	einvernehmen	_	NNNS3----------	_	_	_	14	_	Adv	_	_	_	_	_	_	a_tree-de_src-s12-n321
-17	erzielt	erzielen	_	VpXX---XX------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n322
-18	werden	werden	_	Vf-------------	_	_	_	19	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n323
-19	kann	können	_	VB-S---3P------	_	_	_	10	_	Adv	_	_	_	_	_	_	a_tree-de_src-s12-n324
-20	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s12-n325
+1	Trotzdem	trotzdem	_	PDXXX----------	_	_	_	2	_	Adv	_	_	_	_	_	_
+2	gibt	geben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	es	es	_	PPNS1--3-------	_	_	_	2	_	Sb	_	_	_	_	_	_
+4	Beispiele	beispiel	_	NNNP4----------	_	_	_	2	_	Obj	_	_	_	_	_	_
+5	in	in	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+6	der	der	_	PZFS3----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+7	jüngeren	junge	_	AAFS3----2-----	_	_	_	8	_	Atr	_	_	_	_	_	_
+8	Geschichte	geschichte	_	NNFS3----------	_	_	_	5	_	Atr	_	_	_	_	_	_
+9	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_
+10	dass	dass	_	J,-------------	_	_	_	2	_	AuxC	_	_	_	_	_	_
+11	eine	ein	_	PZFS1----------	_	_	_	13	_	AuxA	_	_	_	_	_	_
+12	solche	solcher	_	PZFS1----------	_	_	_	13	_	Atr	_	_	_	_	_	_
+13	Lösung	lösung	_	NNFS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_
+14	in	in	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_
+15	gegenseitigem	gegenseitig	_	AANS3----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_
+16	Einvernehmen	einvernehmen	_	NNNS3----------	_	_	_	14	_	Adv	_	_	_	_	_	_
+17	erzielt	erzielen	_	VpXX---XX------	_	_	_	18	_	Obj	_	_	_	_	_	_
+18	werden	werden	_	Vf-------------	_	_	_	19	_	Obj	_	_	_	_	_	_
+19	kann	können	_	VB-S---3P------	_	_	_	10	_	Adv	_	_	_	_	_	_
+20	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Nach	nach	_	RR--X----------	_	_	_	52	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s13-n326
-2	dem	der	_	PZNS3----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s13-n327
-3	brutalen	brutal	_	AANS3----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n328
-4	Vorgehen	vorgehen	_	NNNS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s13-n329
-5	des	der	_	PZNS2----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s13-n330
-6	Milosevic-Regimes	milosevic-regime	_	NNNS2----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n331
-7	in	in	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s13-n332
-8	den	der	_	PZNP3----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s13-n333
-9	Neunzigerjahren	neunzigerjahr	_	NNNP3----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n334
-10	–	–	_	Z:-------------	_	_	_	9	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s13-n335
-11	einschließlich	einschließlich	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s13-n336
-12	Unterdrückung	unterdrückung	_	NNFS3----------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n337
-13	,	--	_	Z:-------------	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n338
-14	massiver	massiv	_	AAFP2----1-----	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n339
-15	Verletzungen	verletzung	_	NNFP3----------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n340
-16	der	der	_	PZNP2----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s13-n341
-17	Menschenrechte	menschenrecht	_	NNNP2----------	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n342
-18	und	und	_	J^-------------	_	_	_	15	_	Coord	_	_	_	_	_	_	a_tree-de_src-s13-n343
-19	großangelegten	großangelegt	_	AAFP3----1-----	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n344
-20	Vertreibungen	vertreibung	_	NNFP3----------	_	_	_	18	_	NR	_	_	_	_	_	_	a_tree-de_src-s13-n345
-21	von	von	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s13-n346
-22	Kosovoalbanern	kosovoalbaner	_	NNYP3----------	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n347
-23	–	–	_	NNXXX----------	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n348
-24	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s13-n349
-25	das	der	_	PJNS4----------	_	_	_	39	_	Obj	_	_	_	_	_	_	a_tree-de_src-s13-n350
-26	die	der	_	PZFS1----------	_	_	_	27	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s13-n351
-27	NATO	nato	_	NNFS1----------	_	_	_	39	_	Sb	_	_	_	_	_	_	a_tree-de_src-s13-n352
-28	zum	zu	_	PZNS3----------	_	_	_	39	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s13-n353
-29	Eingreifen	eingreifen	_	NNNS3----------	_	_	_	28	_	Adv	_	_	_	_	_	_	a_tree-de_src-s13-n354
-30	und	und	_	J^-------------	_	_	_	29	_	Coord	_	_	_	_	_	_	a_tree-de_src-s13-n355
-31	die	der	_	PZFS1----------	_	_	_	32	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s13-n356
-32	UN	un	_	NNFS1----------	_	_	_	30	_	NR	_	_	_	_	_	_	a_tree-de_src-s13-n357
-33	zur	zu	_	PZFS3----------	_	_	_	39	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s13-n358
-34	Übernahme	übernahme	_	NNFS3----------	_	_	_	33	_	Adv	_	_	_	_	_	_	a_tree-de_src-s13-n359
-35	der	der	_	PZFS2----------	_	_	_	36	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s13-n360
-36	Verwaltung	verwaltung	_	NNFS2----------	_	_	_	34	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n361
-37	des	der	_	PZNS2----------	_	_	_	38	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s13-n362
-38	Landes	land	_	NNNS2----------	_	_	_	36	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n363
-39	veranlasste	veranlas	_	VB-S---3R------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n364
-40	,	--	_	Z:-------------	_	_	_	39	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s13-n365
-41	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s13-n366
-42	eine	ein	_	PZFS1----------	_	_	_	43	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s13-n367
-43	Rückkehr	rückkehr	_	NNFS1----------	_	_	_	41	_	Sb	_	_	_	_	_	_	a_tree-de_src-s13-n368
-44	zu	zu	_	RR--X----------	_	_	_	43	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s13-n369
-45	serbischer	serbisch	_	AAFS3----1-----	_	_	_	46	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n370
-46	Herrschaft	herrschaft	_	NNFS3----------	_	_	_	44	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n371
-47	im	in	_	PZYS3----------	_	_	_	46	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s13-n372
-48	Fall	fall	_	NNYS3----------	_	_	_	47	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n373
-49	des	der	_	PZYS2----------	_	_	_	50	_	AuxA	_	_	_	_	_	(1	a_tree-de_src-s13-n374
-50	Kosovo	kosovo	_	NNYS2----------	_	_	_	48	_	Atr	_	_	_	_	_	1)	a_tree-de_src-s13-n375
-51	undenkbar	undenkbar	_	ACXX-----1-----	_	_	_	52	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s13-n376
-52	geworden	werden	_	VpXX---XX------	_	_	_	41	_	Obj	_	_	_	_	_	_	a_tree-de_src-s13-n377
-53	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s13-n378
+1	Nach	nach	_	RR--X----------	_	_	_	52	_	AuxP	_	_	_	_	_	_
+2	dem	der	_	PZNS3----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+3	brutalen	brutal	_	AANS3----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Vorgehen	vorgehen	_	NNNS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+5	des	der	_	PZNS2----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+6	Milosevic-Regimes	milosevic-regime	_	NNNS2----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+7	in	in	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+8	den	der	_	PZNP3----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Neunzigerjahren	neunzigerjahr	_	NNNP3----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+10	–	–	_	Z:-------------	_	_	_	9	_	AuxG	_	_	_	_	_	_
+11	einschließlich	einschließlich	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+12	Unterdrückung	unterdrückung	_	NNFS3----------	_	_	_	13	_	Atr	_	_	_	_	_	_
+13	,	--	_	Z:-------------	_	_	_	11	_	Atr	_	_	_	_	_	_
+14	massiver	massiv	_	AAFP2----1-----	_	_	_	15	_	Atr	_	_	_	_	_	_
+15	Verletzungen	verletzung	_	NNFP3----------	_	_	_	13	_	Atr	_	_	_	_	_	_
+16	der	der	_	PZNP2----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+17	Menschenrechte	menschenrecht	_	NNNP2----------	_	_	_	15	_	Atr	_	_	_	_	_	_
+18	und	und	_	J^-------------	_	_	_	15	_	Coord	_	_	_	_	_	_
+19	großangelegten	großangelegt	_	AAFP3----1-----	_	_	_	20	_	Atr	_	_	_	_	_	_
+20	Vertreibungen	vertreibung	_	NNFP3----------	_	_	_	18	_	NR	_	_	_	_	_	_
+21	von	von	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_
+22	Kosovoalbanern	kosovoalbaner	_	NNYP3----------	_	_	_	21	_	Atr	_	_	_	_	_	_
+23	–	–	_	NNXXX----------	_	_	_	22	_	Atr	_	_	_	_	_	_
+24	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_
+25	das	der	_	PJNS4----------	_	_	_	39	_	Obj	_	_	_	_	_	_
+26	die	der	_	PZFS1----------	_	_	_	27	_	AuxA	_	_	_	_	_	_
+27	NATO	nato	_	NNFS1----------	_	_	_	39	_	Sb	_	_	_	_	_	_
+28	zum	zu	_	PZNS3----------	_	_	_	39	_	AuxP	_	_	_	_	_	_
+29	Eingreifen	eingreifen	_	NNNS3----------	_	_	_	28	_	Adv	_	_	_	_	_	_
+30	und	und	_	J^-------------	_	_	_	29	_	Coord	_	_	_	_	_	_
+31	die	der	_	PZFS1----------	_	_	_	32	_	AuxA	_	_	_	_	_	_
+32	UN	un	_	NNFS1----------	_	_	_	30	_	NR	_	_	_	_	_	_
+33	zur	zu	_	PZFS3----------	_	_	_	39	_	AuxP	_	_	_	_	_	_
+34	Übernahme	übernahme	_	NNFS3----------	_	_	_	33	_	Adv	_	_	_	_	_	_
+35	der	der	_	PZFS2----------	_	_	_	36	_	AuxA	_	_	_	_	_	_
+36	Verwaltung	verwaltung	_	NNFS2----------	_	_	_	34	_	Atr	_	_	_	_	_	_
+37	des	der	_	PZNS2----------	_	_	_	38	_	AuxA	_	_	_	_	_	_
+38	Landes	land	_	NNNS2----------	_	_	_	36	_	Atr	_	_	_	_	_	_
+39	veranlasste	veranlas	_	VB-S---3R------	_	_	_	4	_	Atr	_	_	_	_	_	_
+40	,	--	_	Z:-------------	_	_	_	39	_	AuxX	_	_	_	_	_	_
+41	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+42	eine	ein	_	PZFS1----------	_	_	_	43	_	AuxA	_	_	_	_	_	_
+43	Rückkehr	rückkehr	_	NNFS1----------	_	_	_	41	_	Sb	_	_	_	_	_	_
+44	zu	zu	_	RR--X----------	_	_	_	43	_	AuxP	_	_	_	_	_	_
+45	serbischer	serbisch	_	AAFS3----1-----	_	_	_	46	_	Atr	_	_	_	_	_	_
+46	Herrschaft	herrschaft	_	NNFS3----------	_	_	_	44	_	Atr	_	_	_	_	_	_
+47	im	in	_	PZYS3----------	_	_	_	46	_	AuxP	_	_	_	_	_	_
+48	Fall	fall	_	NNYS3----------	_	_	_	47	_	Atr	_	_	_	_	_	_
+49	des	der	_	PZYS2----------	_	_	_	50	_	AuxA	_	_	_	_	_	(1
+50	Kosovo	kosovo	_	NNYS2----------	_	_	_	48	_	Atr	_	_	_	_	_	1)
+51	undenkbar	undenkbar	_	ACXX-----1-----	_	_	_	52	_	Pnom	_	_	_	_	_	_
+52	geworden	werden	_	VpXX---XX------	_	_	_	41	_	Obj	_	_	_	_	_	_
+53	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZFP1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s14-n379
-2	demokratischen	demokratisch	_	AAFP1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n380
-3	Führungskräfte	führungskraft	_	NNFP1----------	_	_	_	7	_	Sb	_	_	_	_	_	_	a_tree-de_src-s14-n381
-4	des	der	_	PZNS2----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s14-n382
-5	heutigen	heutig	_	AANS2----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n383
-6	Serbien	serbien	_	NNNS2----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n384
-7	müssen	müssen	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s14-n385
-8	begreifen	begreifen	_	Vf-------------	_	_	_	7	_	Obj	_	_	_	_	_	_	a_tree-de_src-s14-n386
-9	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s14-n387
-10	dass	daß	_	J,-------------	_	_	_	8	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s14-n388
-11	der	der	_	PZYS1----------	_	_	_	12	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s14-n389
-12	Verlust	verlust	_	NNYS1----------	_	_	_	27	_	Sb	_	_	_	_	_	_	a_tree-de_src-s14-n390
-13	des	der	_	PZYS2----------	_	_	_	14	_	AuxA	_	_	_	_	_	(1	a_tree-de_src-s14-n391
-14	Kosovo	kosovo	_	NNYS2----------	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n392
-15	–	–	_	Z:-------------	_	_	_	14	_	AuxG	_	_	_	_	_	1)	a_tree-de_src-s14-n393
-16	auch	auch	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s14-n394
-17	wenn	wenn	_	J,-------------	_	_	_	27	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s14-n395
-18	sie	sie	_	PPFS1--3-------	_	_	_	22	_	Sb	_	_	_	_	_	(3)	a_tree-de_src-s14-n396
-19	ihn	ihn	_	PPYS4--3-------	_	_	_	21	_	Obj	_	_	_	_	_	_	a_tree-de_src-s14-n397
-20	nicht	nicht	_	TT--------N----	_	_	_	21	_	Neg	_	_	_	_	_	_	a_tree-de_src-s14-n398
-21	herbeigeführt	herbeiführen	_	VpXX---XX------	_	_	_	22	_	Obj	_	_	_	_	_	_	a_tree-de_src-s14-n399
-22	haben	haben	_	VB-P---3P------	_	_	_	17	_	Adv	_	_	_	_	_	_	a_tree-de_src-s14-n400
-23	–	–	_	Z:-------------	_	_	_	22	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s14-n401
-24	eine	ein	_	PZFS4----------	_	_	_	26	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s14-n402
-25	unabänderliche	unabänderlich	_	AAFS4----1-----	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n403
-26	Realität	realität	_	NNFS4----------	_	_	_	27	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s14-n404
-27	ist	sein	_	VB-S---3P------	_	_	_	10	_	Obj	_	_	_	_	_	_	a_tree-de_src-s14-n405
-28	,	--	_	Z:-------------	_	_	_	27	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s14-n406
-29	mit	mit	_	RR--X----------	_	_	_	33	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s14-n407
-30	der	der	_	PJFS3----------	_	_	_	29	_	Obj	_	_	_	_	_	_	a_tree-de_src-s14-n408
-31	sie	sie	_	PPFS1--3-------	_	_	_	34	_	Sb	_	_	_	_	_	(3)	a_tree-de_src-s14-n409
-32	sich	sich	_	P6-P4--3-------	_	_	_	33	_	Obj	_	_	_	_	_	_	a_tree-de_src-s14-n410
-33	abfinden	abfinden	_	Vf-------------	_	_	_	34	_	Obj	_	_	_	_	_	_	a_tree-de_src-s14-n411
-34	müssen	müssen	_	VB-P---3P------	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n412
-35	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s14-n413
+1	Die	der	_	PZFP1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+2	demokratischen	demokratisch	_	AAFP1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Führungskräfte	führungskraft	_	NNFP1----------	_	_	_	7	_	Sb	_	_	_	_	_	_
+4	des	der	_	PZNS2----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+5	heutigen	heutig	_	AANS2----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	Serbien	serbien	_	NNNS2----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+7	müssen	müssen	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+8	begreifen	begreifen	_	Vf-------------	_	_	_	7	_	Obj	_	_	_	_	_	_
+9	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_
+10	dass	daß	_	J,-------------	_	_	_	8	_	AuxC	_	_	_	_	_	_
+11	der	der	_	PZYS1----------	_	_	_	12	_	AuxA	_	_	_	_	_	_
+12	Verlust	verlust	_	NNYS1----------	_	_	_	27	_	Sb	_	_	_	_	_	_
+13	des	der	_	PZYS2----------	_	_	_	14	_	AuxA	_	_	_	_	_	(1
+14	Kosovo	kosovo	_	NNYS2----------	_	_	_	12	_	Atr	_	_	_	_	_	_
+15	–	–	_	Z:-------------	_	_	_	14	_	AuxG	_	_	_	_	_	1)
+16	auch	auch	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_
+17	wenn	wenn	_	J,-------------	_	_	_	27	_	AuxC	_	_	_	_	_	_
+18	sie	sie	_	PPFS1--3-------	_	_	_	22	_	Sb	_	_	_	_	_	(3)
+19	ihn	ihn	_	PPYS4--3-------	_	_	_	21	_	Obj	_	_	_	_	_	_
+20	nicht	nicht	_	TT--------N----	_	_	_	21	_	Neg	_	_	_	_	_	_
+21	herbeigeführt	herbeiführen	_	VpXX---XX------	_	_	_	22	_	Obj	_	_	_	_	_	_
+22	haben	haben	_	VB-P---3P------	_	_	_	17	_	Adv	_	_	_	_	_	_
+23	–	–	_	Z:-------------	_	_	_	22	_	AuxG	_	_	_	_	_	_
+24	eine	ein	_	PZFS4----------	_	_	_	26	_	AuxA	_	_	_	_	_	_
+25	unabänderliche	unabänderlich	_	AAFS4----1-----	_	_	_	26	_	Atr	_	_	_	_	_	_
+26	Realität	realität	_	NNFS4----------	_	_	_	27	_	Pnom	_	_	_	_	_	_
+27	ist	sein	_	VB-S---3P------	_	_	_	10	_	Obj	_	_	_	_	_	_
+28	,	--	_	Z:-------------	_	_	_	27	_	AuxX	_	_	_	_	_	_
+29	mit	mit	_	RR--X----------	_	_	_	33	_	AuxP	_	_	_	_	_	_
+30	der	der	_	PJFS3----------	_	_	_	29	_	Obj	_	_	_	_	_	_
+31	sie	sie	_	PPFS1--3-------	_	_	_	34	_	Sb	_	_	_	_	_	(3)
+32	sich	sich	_	P6-P4--3-------	_	_	_	33	_	Obj	_	_	_	_	_	_
+33	abfinden	abfinden	_	Vf-------------	_	_	_	34	_	Obj	_	_	_	_	_	_
+34	müssen	müssen	_	VB-P---3P------	_	_	_	26	_	Atr	_	_	_	_	_	_
+35	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Alles	alle	_	PZNS1----------	_	_	_	14	_	Sb	_	_	_	_	_	_	a_tree-de_src-s15-n414
-2	,	--	_	Z:-------------	_	_	_	1	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s15-n415
-3	was	was	_	PJNS1----------	_	_	_	12	_	Sb	_	_	_	_	_	_	a_tree-de_src-s15-n416
-4	sie	sie	_	PPFS1--3-------	_	_	_	11	_	Obj	_	_	_	_	_	_	a_tree-de_src-s15-n417
-5	mit	mit	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n418
-6	ihrer	ihr	_	PSFS3-X3-------	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n419
-7	gegenwärtigen	gegenwärtig	_	AAFS3----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n420
-8	Politik	politik	_	NNFS3----------	_	_	_	5	_	Adv	_	_	_	_	_	_	a_tree-de_src-s15-n421
-9	der	der	_	PZFS2----------	_	_	_	10	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s15-n422
-10	Ablehnung	ablehnung	_	NNFS2----------	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n423
-11	erreichen	erreichen	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s15-n424
-12	können	können	_	VB-P---3P------	_	_	_	1	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n425
-13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s15-n426
-14	sind	sein	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s15-n427
-15	eine	ein	_	PZFS1----------	_	_	_	16	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s15-n428
-16	Verzögerung	verzögerung	_	NNFS4----------	_	_	_	14	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s15-n429
-17	der	der	_	PZYP2----------	_	_	_	20	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s15-n430
-18	dringend	dringend	_	ACXX-----1-----	_	_	_	19	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s15-n431
-19	benötigten	benötigt	_	AAFS3----1-----	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n432
-20	Stabilität	stabilität	_	NNFS2----------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n433
-21	in	in	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n434
-22	der	der	_	PZFS3----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s15-n435
-23	Region	region	_	NNFS3----------	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n436
-24	im	in	_	PZYS3----------	_	_	_	23	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n437
-25	Zuge	zug	_	NNYS3----------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n438
-26	des	der	_	PZYS2----------	_	_	_	27	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s15-n439
-27	Zerfalls	zerfall	_	NNYS2----------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n440
-28	von	von	_	RR--X----------	_	_	_	27	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n441
-29	Jugoslawien	jugoslawien	_	NNNS3----------	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n442
-30	und	und	_	J^-------------	_	_	_	16	_	Coord	_	_	_	_	_	_	a_tree-de_src-s15-n443
-31	ein	ein	_	PZNS4----------	_	_	_	33	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s15-n444
-32	elendes	elend	_	AANS4----1-----	_	_	_	33	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n445
-33	Leben	leben	_	NNNS4----------	_	_	_	30	_	NR	_	_	_	_	_	_	a_tree-de_src-s15-n446
-34	für	für	_	RR--X----------	_	_	_	33	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n447
-35	Kosovo	kosovo	_	NNXS4----------	_	_	_	34	_	Atr	_	_	_	_	_	(1	a_tree-de_src-s15-n448
-36	und	und	_	J^-------------	_	_	_	35	_	Coord	_	_	_	_	_	_	a_tree-de_src-s15-n449
-37	seine	sein	_	PSYP4-X3-------	_	_	_	38	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s15-n450
-38	Einwohner	einwohner	_	NNYP4----------	_	_	_	36	_	NR	_	_	_	_	_	1)	a_tree-de_src-s15-n451
-39	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s15-n452
+1	Alles	alle	_	PZNS1----------	_	_	_	14	_	Sb	_	_	_	_	_	_
+2	,	--	_	Z:-------------	_	_	_	1	_	AuxX	_	_	_	_	_	_
+3	was	was	_	PJNS1----------	_	_	_	12	_	Sb	_	_	_	_	_	_
+4	sie	sie	_	PPFS1--3-------	_	_	_	11	_	Obj	_	_	_	_	_	_
+5	mit	mit	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_
+6	ihrer	ihr	_	PSFS3-X3-------	_	_	_	8	_	Atr	_	_	_	_	_	_
+7	gegenwärtigen	gegenwärtig	_	AAFS3----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_
+8	Politik	politik	_	NNFS3----------	_	_	_	5	_	Adv	_	_	_	_	_	_
+9	der	der	_	PZFS2----------	_	_	_	10	_	AuxA	_	_	_	_	_	_
+10	Ablehnung	ablehnung	_	NNFS2----------	_	_	_	8	_	Atr	_	_	_	_	_	_
+11	erreichen	erreichen	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_
+12	können	können	_	VB-P---3P------	_	_	_	1	_	Atr	_	_	_	_	_	_
+13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_
+14	sind	sein	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+15	eine	ein	_	PZFS1----------	_	_	_	16	_	AuxA	_	_	_	_	_	_
+16	Verzögerung	verzögerung	_	NNFS4----------	_	_	_	14	_	Pnom	_	_	_	_	_	_
+17	der	der	_	PZYP2----------	_	_	_	20	_	AuxA	_	_	_	_	_	_
+18	dringend	dringend	_	ACXX-----1-----	_	_	_	19	_	AuxZ	_	_	_	_	_	_
+19	benötigten	benötigt	_	AAFS3----1-----	_	_	_	20	_	Atr	_	_	_	_	_	_
+20	Stabilität	stabilität	_	NNFS2----------	_	_	_	16	_	Atr	_	_	_	_	_	_
+21	in	in	_	RR--X----------	_	_	_	20	_	AuxP	_	_	_	_	_	_
+22	der	der	_	PZFS3----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+23	Region	region	_	NNFS3----------	_	_	_	21	_	Atr	_	_	_	_	_	_
+24	im	in	_	PZYS3----------	_	_	_	23	_	AuxP	_	_	_	_	_	_
+25	Zuge	zug	_	NNYS3----------	_	_	_	24	_	Atr	_	_	_	_	_	_
+26	des	der	_	PZYS2----------	_	_	_	27	_	AuxA	_	_	_	_	_	_
+27	Zerfalls	zerfall	_	NNYS2----------	_	_	_	25	_	Atr	_	_	_	_	_	_
+28	von	von	_	RR--X----------	_	_	_	27	_	AuxP	_	_	_	_	_	_
+29	Jugoslawien	jugoslawien	_	NNNS3----------	_	_	_	28	_	Atr	_	_	_	_	_	_
+30	und	und	_	J^-------------	_	_	_	16	_	Coord	_	_	_	_	_	_
+31	ein	ein	_	PZNS4----------	_	_	_	33	_	AuxA	_	_	_	_	_	_
+32	elendes	elend	_	AANS4----1-----	_	_	_	33	_	Atr	_	_	_	_	_	_
+33	Leben	leben	_	NNNS4----------	_	_	_	30	_	NR	_	_	_	_	_	_
+34	für	für	_	RR--X----------	_	_	_	33	_	AuxP	_	_	_	_	_	_
+35	Kosovo	kosovo	_	NNXS4----------	_	_	_	34	_	Atr	_	_	_	_	_	(1
+36	und	und	_	J^-------------	_	_	_	35	_	Coord	_	_	_	_	_	_
+37	seine	sein	_	PSYP4-X3-------	_	_	_	38	_	Atr	_	_	_	_	_	(1)
+38	Einwohner	einwohner	_	NNYP4----------	_	_	_	36	_	NR	_	_	_	_	_	1)
+39	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Wäre	sein	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s16-n453
-2	es	es	_	PPNS1--3-------	_	_	_	1	_	Sb	_	_	_	_	_	_	a_tree-de_src-s16-n454
-3	nicht	nicht	_	TT--------N----	_	_	_	1	_	Neg	_	_	_	_	_	_	a_tree-de_src-s16-n455
-4	klüger	klug	_	ACXX-----2-----	_	_	_	11	_	Adv	_	_	_	_	_	_	a_tree-de_src-s16-n456
-5	dem	der	_	PZYS3----------	_	_	_	7	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s16-n457
-6	jungen	jung	_	AAYS3----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n458
-7	Staat	staat	_	NNYS3----------	_	_	_	11	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n459
-8	eine	ein	_	PZFS4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s16-n460
-9	Hand	hand	_	NNFS4----------	_	_	_	11	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n461
-10	zu	zu	_	TT-------------	_	_	_	11	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s16-n462
-11	reichen	reichen	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n463
-12	,	--	_	Z:-------------	_	_	_	1	_	Coord	_	_	_	_	_	_	a_tree-de_src-s16-n464
-13	Feindseligkeit	feindseligkeit	_	NNFS1----------	_	_	_	16	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s16-n465
-14	zu	zu	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s16-n466
-15	Freundschaft	freundschaft	_	NNFS3----------	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n467
-16	werden	werden	_	Vf-------------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n468
-17	zu	zu	_	TT-------------	_	_	_	18	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s16-n469
-18	lassen	lassen	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n470
-19	und	und	_	J^-------------	_	_	_	18	_	Coord	_	_	_	_	_	_	a_tree-de_src-s16-n471
-20	so	so	_	Db-------------	_	_	_	29	_	Adv	_	_	_	_	_	_	a_tree-de_src-s16-n472
-21	die	der	_	PZFS1----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s16-n473
-22	zukünftige	zukünftig	_	AAFS1----1-----	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n474
-23	Anwesenheit	anwesenheit	_	NNFS1----------	_	_	_	29	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n475
-24	von	von	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s16-n476
-25	Serben	serbe	_	NNYP3----------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n477
-26	im	in	_	PZYS3----------	_	_	_	25	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s16-n478
-27	Kosovo	kosovo	_	NNYS3----------	_	_	_	26	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s16-n479
-28	zu	zu	_	TT-------------	_	_	_	29	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s16-n480
-29	sichern	sichern	_	Vf-------------	_	_	_	19	_	NR	_	_	_	_	_	_	a_tree-de_src-s16-n481
-30	?	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s16-n482
+1	Wäre	sein	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+2	es	es	_	PPNS1--3-------	_	_	_	1	_	Sb	_	_	_	_	_	_
+3	nicht	nicht	_	TT--------N----	_	_	_	1	_	Neg	_	_	_	_	_	_
+4	klüger	klug	_	ACXX-----2-----	_	_	_	11	_	Adv	_	_	_	_	_	_
+5	dem	der	_	PZYS3----------	_	_	_	7	_	AuxA	_	_	_	_	_	_
+6	jungen	jung	_	AAYS3----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_
+7	Staat	staat	_	NNYS3----------	_	_	_	11	_	Obj	_	_	_	_	_	_
+8	eine	ein	_	PZFS4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Hand	hand	_	NNFS4----------	_	_	_	11	_	Obj	_	_	_	_	_	_
+10	zu	zu	_	TT-------------	_	_	_	11	_	AuxV	_	_	_	_	_	_
+11	reichen	reichen	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_
+12	,	--	_	Z:-------------	_	_	_	1	_	Coord	_	_	_	_	_	_
+13	Feindseligkeit	feindseligkeit	_	NNFS1----------	_	_	_	16	_	Pnom	_	_	_	_	_	_
+14	zu	zu	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_
+15	Freundschaft	freundschaft	_	NNFS3----------	_	_	_	14	_	Atr	_	_	_	_	_	_
+16	werden	werden	_	Vf-------------	_	_	_	18	_	Obj	_	_	_	_	_	_
+17	zu	zu	_	TT-------------	_	_	_	18	_	AuxV	_	_	_	_	_	_
+18	lassen	lassen	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_
+19	und	und	_	J^-------------	_	_	_	18	_	Coord	_	_	_	_	_	_
+20	so	so	_	Db-------------	_	_	_	29	_	Adv	_	_	_	_	_	_
+21	die	der	_	PZFS1----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+22	zukünftige	zukünftig	_	AAFS1----1-----	_	_	_	23	_	Atr	_	_	_	_	_	_
+23	Anwesenheit	anwesenheit	_	NNFS1----------	_	_	_	29	_	Obj	_	_	_	_	_	_
+24	von	von	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_
+25	Serben	serbe	_	NNYP3----------	_	_	_	24	_	Atr	_	_	_	_	_	_
+26	im	in	_	PZYS3----------	_	_	_	25	_	AuxP	_	_	_	_	_	_
+27	Kosovo	kosovo	_	NNYS3----------	_	_	_	26	_	Atr	_	_	_	_	_	(1)
+28	zu	zu	_	TT-------------	_	_	_	29	_	AuxV	_	_	_	_	_	_
+29	sichern	sichern	_	Vf-------------	_	_	_	19	_	NR	_	_	_	_	_	_
+30	?	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	In	in	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n483
-2	erster	erster	_	AAFS3----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n484
-3	Linie	linie	_	NNFS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s17-n485
-4	ist	sein	_	VB-S---3P------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n486
-5	Kosovo	kosovo	_	NNNS1----------	_	_	_	4	_	Sb	_	_	_	_	_	(1)	a_tree-de_src-s17-n487
-6	ein	ein	_	PZNS1----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n488
-7	europäisches	europäisch	_	AANS1----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n489
-8	Problem	problem	_	NNNS1----------	_	_	_	4	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s17-n490
-9	und	und	_	J^-------------	_	_	_	8	_	Coord	_	_	_	_	_	_	a_tree-de_src-s17-n491
-10	die	der	_	PZFS4----------	_	_	_	11	_	AuxA	_	_	_	_	_	(4	a_tree-de_src-s17-n492
-11	EU	eu	_	NNFS4----------	_	_	_	9	_	NR	_	_	_	_	_	4)	a_tree-de_src-s17-n493
-12	trägt	tragen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s17-n494
-13	die	der	_	PZFS4----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n495
-14	Hauptverantwortlichkeit	hauptverantwortlichkeit	_	NNFS1----------	_	_	_	12	_	Sb	_	_	_	_	_	_	a_tree-de_src-s17-n496
-15	dafür	dafür	_	PDXXX----------	_	_	_	12	_	Adv	_	_	_	_	_	_	a_tree-de_src-s17-n497
-16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s17-n498
-17	das	der	_	PZNS4----------	_	_	_	18	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n499
-18	Land	land	_	NNNS4----------	_	_	_	24	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n500
-19	zu	zu	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n501
-20	einer	ein	_	PZFS3----------	_	_	_	21	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n502
-21	Erfolgsgeschichte	erfolgsgeschicht	_	NNFS3----------	_	_	_	19	_	Adv	_	_	_	_	_	_	a_tree-de_src-s17-n503
-22	werden	werden	_	Vf-------------	_	_	_	24	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n504
-23	zu	zu	_	TT-------------	_	_	_	24	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s17-n505
-24	lassen.	lassen.	_	Vf-------------	_	_	_	15	_	Coord	_	_	_	_	_	_	a_tree-de_src-s17-n506
-25	.	.	_	NNXXX----------	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n507
-26	Bedauerlicherweise	bedauerlicherweise	_	NNYP4----------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n508
-27	hat	haben	_	VB-S---3P------	_	_	_	24	_	NR	_	_	_	_	_	_	a_tree-de_src-s17-n509
-28	die	der	_	PZFS1----------	_	_	_	29	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n510
-29	Unfähigkeit	unfähigkeit	_	NNFS1----------	_	_	_	27	_	Sb	_	_	_	_	_	_	a_tree-de_src-s17-n511
-30	der	der	_	PZFS2----------	_	_	_	31	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n512
-31	Union	union	_	NNFS2----------	_	_	_	29	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n513
-32	,	--	_	Z:-------------	_	_	_	31	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s17-n514
-33	sich	sich	_	P6-S4--3-------	_	_	_	39	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n515
-34	auf	auf	_	RR--X----------	_	_	_	39	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n516
-35	eine	ein	_	PZFS4----------	_	_	_	37	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n517
-36	gemeinsame	gemeinsam	_	AAFS4----1-----	_	_	_	37	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n518
-37	Politik	politik	_	NNFS4----------	_	_	_	34	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n519
-38	zu	zu	_	TT-------------	_	_	_	39	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s17-n520
-39	einigen	einigen	_	Vf-------------	_	_	_	26	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n521
-40	,	--	_	Z:-------------	_	_	_	39	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s17-n522
-41	nicht	nicht	_	TT--------N----	_	_	_	42	_	Neg	_	_	_	_	_	_	a_tree-de_src-s17-n523
-42	nur	nur	_	Db-------------	_	_	_	48	_	Adv	_	_	_	_	_	_	a_tree-de_src-s17-n524
-43	ihre	ihr	_	PSFS4-X3-------	_	_	_	44	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n525
-44	Rolle	rolle	_	NNFS4----------	_	_	_	48	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n526
-45	auf	auf	_	RR--X----------	_	_	_	48	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n527
-46	internationaler	international	_	AAFS3----1-----	_	_	_	47	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n528
-47	Ebene	ebene	_	NNFS3----------	_	_	_	45	_	Adv	_	_	_	_	_	_	a_tree-de_src-s17-n529
-48	geschwächt	schwächen	_	VpXX---XX------	_	_	_	29	_	ExD	_	_	_	_	_	_	a_tree-de_src-s17-n530
-49	,	--	_	Z:-------------	_	_	_	48	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s17-n531
-50	sondern	sondern	_	J^-------------	_	_	_	48	_	Coord	_	_	_	_	_	_	a_tree-de_src-s17-n532
-51	ist	sein	_	VB-S---3P------	_	_	_	50	_	NR	_	_	_	_	_	_	a_tree-de_src-s17-n533
-52	außerdem	außerdem	_	PDXXX----------	_	_	_	51	_	Adv	_	_	_	_	_	_	a_tree-de_src-s17-n534
-53	zu	zu	_	RR--X----------	_	_	_	63	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n535
-54	einer	ein	_	PZFS3----------	_	_	_	56	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n536
-55	enormen	enorm	_	AAFS3----1-----	_	_	_	56	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n537
-56	Hürde	hürde	_	NNFS3----------	_	_	_	53	_	Adv	_	_	_	_	_	_	a_tree-de_src-s17-n538
-57	für	für	_	RR--X----------	_	_	_	56	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n539
-58	entschlossenes	entschlossen	_	AANS4----1-----	_	_	_	59	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n540
-59	Handeln	handeln	_	NNNS4----------	_	_	_	57	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n541
-60	im	in	_	PZNS3----------	_	_	_	59	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n542
-61	Land	land	_	NNNS3----------	_	_	_	60	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n543
-62	selbst	selbst	_	Db-------------	_	_	_	63	_	Adv	_	_	_	_	_	_	a_tree-de_src-s17-n544
-63	geworden	werden	_	VpXX---XX------	_	_	_	51	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n545
-64	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s17-n546
+1	In	in	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+2	erster	erster	_	AAFS3----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Linie	linie	_	NNFS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+4	ist	sein	_	VB-S---3P------	_	_	_	12	_	Obj	_	_	_	_	_	_
+5	Kosovo	kosovo	_	NNNS1----------	_	_	_	4	_	Sb	_	_	_	_	_	(1)
+6	ein	ein	_	PZNS1----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+7	europäisches	europäisch	_	AANS1----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_
+8	Problem	problem	_	NNNS1----------	_	_	_	4	_	Pnom	_	_	_	_	_	_
+9	und	und	_	J^-------------	_	_	_	8	_	Coord	_	_	_	_	_	_
+10	die	der	_	PZFS4----------	_	_	_	11	_	AuxA	_	_	_	_	_	(4
+11	EU	eu	_	NNFS4----------	_	_	_	9	_	NR	_	_	_	_	_	4)
+12	trägt	tragen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+13	die	der	_	PZFS4----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+14	Hauptverantwortlichkeit	hauptverantwortlichkeit	_	NNFS1----------	_	_	_	12	_	Sb	_	_	_	_	_	_
+15	dafür	dafür	_	PDXXX----------	_	_	_	12	_	Adv	_	_	_	_	_	_
+16	,	--	_	Z:-------------	_	_	_	15	_	AuxX	_	_	_	_	_	_
+17	das	der	_	PZNS4----------	_	_	_	18	_	AuxA	_	_	_	_	_	_
+18	Land	land	_	NNNS4----------	_	_	_	24	_	Obj	_	_	_	_	_	_
+19	zu	zu	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+20	einer	ein	_	PZFS3----------	_	_	_	21	_	AuxA	_	_	_	_	_	_
+21	Erfolgsgeschichte	erfolgsgeschicht	_	NNFS3----------	_	_	_	19	_	Adv	_	_	_	_	_	_
+22	werden	werden	_	Vf-------------	_	_	_	24	_	Obj	_	_	_	_	_	_
+23	zu	zu	_	TT-------------	_	_	_	24	_	AuxV	_	_	_	_	_	_
+24	lassen.	lassen.	_	Vf-------------	_	_	_	15	_	Coord	_	_	_	_	_	_
+25	.	.	_	NNXXX----------	_	_	_	26	_	Atr	_	_	_	_	_	_
+26	Bedauerlicherweise	bedauerlicherweise	_	NNYP4----------	_	_	_	27	_	Obj	_	_	_	_	_	_
+27	hat	haben	_	VB-S---3P------	_	_	_	24	_	NR	_	_	_	_	_	_
+28	die	der	_	PZFS1----------	_	_	_	29	_	AuxA	_	_	_	_	_	_
+29	Unfähigkeit	unfähigkeit	_	NNFS1----------	_	_	_	27	_	Sb	_	_	_	_	_	_
+30	der	der	_	PZFS2----------	_	_	_	31	_	AuxA	_	_	_	_	_	_
+31	Union	union	_	NNFS2----------	_	_	_	29	_	Atr	_	_	_	_	_	_
+32	,	--	_	Z:-------------	_	_	_	31	_	AuxX	_	_	_	_	_	_
+33	sich	sich	_	P6-S4--3-------	_	_	_	39	_	Obj	_	_	_	_	_	_
+34	auf	auf	_	RR--X----------	_	_	_	39	_	AuxP	_	_	_	_	_	_
+35	eine	ein	_	PZFS4----------	_	_	_	37	_	AuxA	_	_	_	_	_	_
+36	gemeinsame	gemeinsam	_	AAFS4----1-----	_	_	_	37	_	Atr	_	_	_	_	_	_
+37	Politik	politik	_	NNFS4----------	_	_	_	34	_	Obj	_	_	_	_	_	_
+38	zu	zu	_	TT-------------	_	_	_	39	_	AuxV	_	_	_	_	_	_
+39	einigen	einigen	_	Vf-------------	_	_	_	26	_	Obj	_	_	_	_	_	_
+40	,	--	_	Z:-------------	_	_	_	39	_	AuxX	_	_	_	_	_	_
+41	nicht	nicht	_	TT--------N----	_	_	_	42	_	Neg	_	_	_	_	_	_
+42	nur	nur	_	Db-------------	_	_	_	48	_	Adv	_	_	_	_	_	_
+43	ihre	ihr	_	PSFS4-X3-------	_	_	_	44	_	Atr	_	_	_	_	_	_
+44	Rolle	rolle	_	NNFS4----------	_	_	_	48	_	Obj	_	_	_	_	_	_
+45	auf	auf	_	RR--X----------	_	_	_	48	_	AuxP	_	_	_	_	_	_
+46	internationaler	international	_	AAFS3----1-----	_	_	_	47	_	Atr	_	_	_	_	_	_
+47	Ebene	ebene	_	NNFS3----------	_	_	_	45	_	Adv	_	_	_	_	_	_
+48	geschwächt	schwächen	_	VpXX---XX------	_	_	_	29	_	ExD	_	_	_	_	_	_
+49	,	--	_	Z:-------------	_	_	_	48	_	AuxX	_	_	_	_	_	_
+50	sondern	sondern	_	J^-------------	_	_	_	48	_	Coord	_	_	_	_	_	_
+51	ist	sein	_	VB-S---3P------	_	_	_	50	_	NR	_	_	_	_	_	_
+52	außerdem	außerdem	_	PDXXX----------	_	_	_	51	_	Adv	_	_	_	_	_	_
+53	zu	zu	_	RR--X----------	_	_	_	63	_	AuxP	_	_	_	_	_	_
+54	einer	ein	_	PZFS3----------	_	_	_	56	_	AuxA	_	_	_	_	_	_
+55	enormen	enorm	_	AAFS3----1-----	_	_	_	56	_	Atr	_	_	_	_	_	_
+56	Hürde	hürde	_	NNFS3----------	_	_	_	53	_	Adv	_	_	_	_	_	_
+57	für	für	_	RR--X----------	_	_	_	56	_	AuxP	_	_	_	_	_	_
+58	entschlossenes	entschlossen	_	AANS4----1-----	_	_	_	59	_	Atr	_	_	_	_	_	_
+59	Handeln	handeln	_	NNNS4----------	_	_	_	57	_	Atr	_	_	_	_	_	_
+60	im	in	_	PZNS3----------	_	_	_	59	_	AuxP	_	_	_	_	_	_
+61	Land	land	_	NNNS3----------	_	_	_	60	_	Atr	_	_	_	_	_	_
+62	selbst	selbst	_	Db-------------	_	_	_	63	_	Adv	_	_	_	_	_	_
+63	geworden	werden	_	VpXX---XX------	_	_	_	51	_	Obj	_	_	_	_	_	_
+64	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZYP1----------	_	_	_	3	_	AuxA	_	_	_	_	_	(5	a_tree-de_src-s18-n547
-2	fünf	fünf	_	Cn-XX----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n548
-3	Mitgliedsstaaten	mitgliedsstaat	_	NNYP1----------	_	_	_	12	_	Sb	_	_	_	_	_	5)	a_tree-de_src-s18-n549
-4	,	--	_	Z:-------------	_	_	_	3	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s18-n550
-5	die	der	_	PJYP1----------	_	_	_	10	_	Sb	_	_	_	_	_	_	a_tree-de_src-s18-n551
-6	Kosovo	kosovo	_	NNXS1----------	_	_	_	10	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n552
-7	die	der	_	PZFS4----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s18-n553
-8	Anerkennung	anerkennung	_	NNFS4----------	_	_	_	10	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n554
-9	weiter	weiter	_	Db-------------	_	_	_	10	_	Adv	_	_	_	_	_	_	a_tree-de_src-s18-n555
-10	vorenthalten	vorenthalten	_	VB-X---XX------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n556
-11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s18-n557
-12	sollten	sollen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s18-n558
-13	sich	sich	_	P6-P4--3-------	_	_	_	17	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n559
-14	darüber	darüber	_	PDXXX----------	_	_	_	17	_	Adv	_	_	_	_	_	_	a_tree-de_src-s18-n560
-15	im	in	_	PZYS3----------	_	_	_	17	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s18-n561
-16	Klaren	klar	_	NNYS3----------	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s18-n562
-17	sein	sein	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n563
-18	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s18-n564
-19	dass	dass	_	J,-------------	_	_	_	14	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s18-n565
-20	ihre	ihr	_	PSFS1-X3-------	_	_	_	21	_	Atr	_	_	_	_	_	(5)	a_tree-de_src-s18-n566
-21	Haltung	haltung	_	NNFS1----------	_	_	_	23	_	Sb	_	_	_	_	_	_	a_tree-de_src-s18-n567
-22	diejenigen	derjenige	_	PDXP4----------	_	_	_	23	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n568
-23	ermutigt	ermutigen	_	VB-S---3P------	_	_	_	19	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n569
-24	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s18-n570
-25	die	der	_	PJFS1----------	_	_	_	31	_	Sb	_	_	_	_	_	_	a_tree-de_src-s18-n571
-26	jegliche	jeglicher	_	PZFS4----------	_	_	_	27	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n572
-27	Zusammenarbeit	zusammenarbeit	_	NNFS4----------	_	_	_	31	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n573
-28	mit	mit	_	RR--X----------	_	_	_	31	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s18-n574
-29	der	der	_	PZFS3----------	_	_	_	30	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s18-n575
-30	EU-Mission	eu-mission	_	NNFS3----------	_	_	_	28	_	Adv	_	_	_	_	_	_	a_tree-de_src-s18-n576
-31	ablehnen	ablehnen	_	VB-P---3P------	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n577
-32	und	und	_	J^-------------	_	_	_	31	_	Coord	_	_	_	_	_	_	a_tree-de_src-s18-n578
-33	ihre	ihr	_	PSFS4-X3-------	_	_	_	34	_	Atr	_	_	_	_	_	(5)	a_tree-de_src-s18-n579
-34	Arbeit	arbeit	_	NNFS4----------	_	_	_	35	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n580
-35	behindern	behindern	_	VB-P---3P------	_	_	_	32	_	NR	_	_	_	_	_	_	a_tree-de_src-s18-n581
-36	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s18-n582
+1	Die	der	_	PZYP1----------	_	_	_	3	_	AuxA	_	_	_	_	_	(5
+2	fünf	fünf	_	Cn-XX----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Mitgliedsstaaten	mitgliedsstaat	_	NNYP1----------	_	_	_	12	_	Sb	_	_	_	_	_	5)
+4	,	--	_	Z:-------------	_	_	_	3	_	AuxX	_	_	_	_	_	_
+5	die	der	_	PJYP1----------	_	_	_	10	_	Sb	_	_	_	_	_	_
+6	Kosovo	kosovo	_	NNXS1----------	_	_	_	10	_	Obj	_	_	_	_	_	_
+7	die	der	_	PZFS4----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+8	Anerkennung	anerkennung	_	NNFS4----------	_	_	_	10	_	Obj	_	_	_	_	_	_
+9	weiter	weiter	_	Db-------------	_	_	_	10	_	Adv	_	_	_	_	_	_
+10	vorenthalten	vorenthalten	_	VB-X---XX------	_	_	_	3	_	Atr	_	_	_	_	_	_
+11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_
+12	sollten	sollen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+13	sich	sich	_	P6-P4--3-------	_	_	_	17	_	Obj	_	_	_	_	_	_
+14	darüber	darüber	_	PDXXX----------	_	_	_	17	_	Adv	_	_	_	_	_	_
+15	im	in	_	PZYS3----------	_	_	_	17	_	AuxP	_	_	_	_	_	_
+16	Klaren	klar	_	NNYS3----------	_	_	_	15	_	Adv	_	_	_	_	_	_
+17	sein	sein	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_
+18	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_
+19	dass	dass	_	J,-------------	_	_	_	14	_	AuxC	_	_	_	_	_	_
+20	ihre	ihr	_	PSFS1-X3-------	_	_	_	21	_	Atr	_	_	_	_	_	(5)
+21	Haltung	haltung	_	NNFS1----------	_	_	_	23	_	Sb	_	_	_	_	_	_
+22	diejenigen	derjenige	_	PDXP4----------	_	_	_	23	_	Obj	_	_	_	_	_	_
+23	ermutigt	ermutigen	_	VB-S---3P------	_	_	_	19	_	Atr	_	_	_	_	_	_
+24	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_
+25	die	der	_	PJFS1----------	_	_	_	31	_	Sb	_	_	_	_	_	_
+26	jegliche	jeglicher	_	PZFS4----------	_	_	_	27	_	Atr	_	_	_	_	_	_
+27	Zusammenarbeit	zusammenarbeit	_	NNFS4----------	_	_	_	31	_	Obj	_	_	_	_	_	_
+28	mit	mit	_	RR--X----------	_	_	_	31	_	AuxP	_	_	_	_	_	_
+29	der	der	_	PZFS3----------	_	_	_	30	_	AuxA	_	_	_	_	_	_
+30	EU-Mission	eu-mission	_	NNFS3----------	_	_	_	28	_	Adv	_	_	_	_	_	_
+31	ablehnen	ablehnen	_	VB-P---3P------	_	_	_	22	_	Atr	_	_	_	_	_	_
+32	und	und	_	J^-------------	_	_	_	31	_	Coord	_	_	_	_	_	_
+33	ihre	ihr	_	PSFS4-X3-------	_	_	_	34	_	Atr	_	_	_	_	_	(5)
+34	Arbeit	arbeit	_	NNFS4----------	_	_	_	35	_	Obj	_	_	_	_	_	_
+35	behindern	behindern	_	VB-P---3P------	_	_	_	32	_	NR	_	_	_	_	_	_
+36	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Ihre	ihr	_	PSFS1-X3-------	_	_	_	2	_	Atr	_	_	_	_	_	(5)	a_tree-de_src-s19-n583
-2	Haltung	haltung	_	NNFS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s19-n584
-3	macht	machen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s19-n585
-4	es	es	_	PPNS4--3-------	_	_	_	3	_	Obj	_	_	_	_	_	_	a_tree-de_src-s19-n586
-5	gemäßigten	gemäßigt	_	AAFP4----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n587
-6	Kräften	kraft	_	NNFP4----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n588
-7	in	in	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s19-n589
-8	Serbien	serbien	_	NNNS3----------	_	_	_	7	_	Atr	_	_	_	_	_	(6)	a_tree-de_src-s19-n590
-9	zudem	zudem	_	PDXXX----------	_	_	_	3	_	Adv	_	_	_	_	_	_	a_tree-de_src-s19-n591
-10	unendlich	unendlich	_	ACXX-----1-----	_	_	_	12	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s19-n592
-11	viel	viel	_	Db-------------	_	_	_	12	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s19-n593
-12	schwerer	schwer	_	ACXX-----2-----	_	_	_	3	_	Adv	_	_	_	_	_	_	a_tree-de_src-s19-n594
-13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s19-n595
-14	sich	sich	_	P6-S4--3-------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s19-n596
-15	der	der	_	PZFS3----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s19-n597
-16	neuen	neu	_	AAFS3----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n598
-17	Situation	situation	_	NNFS3----------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s19-n599
-18	anzupassen	anpassen	_	Vf-------------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n600
-19	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s19-n601
+1	Ihre	ihr	_	PSFS1-X3-------	_	_	_	2	_	Atr	_	_	_	_	_	(5)
+2	Haltung	haltung	_	NNFS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+3	macht	machen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	es	es	_	PPNS4--3-------	_	_	_	3	_	Obj	_	_	_	_	_	_
+5	gemäßigten	gemäßigt	_	AAFP4----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	Kräften	kraft	_	NNFP4----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+7	in	in	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+8	Serbien	serbien	_	NNNS3----------	_	_	_	7	_	Atr	_	_	_	_	_	(6)
+9	zudem	zudem	_	PDXXX----------	_	_	_	3	_	Adv	_	_	_	_	_	_
+10	unendlich	unendlich	_	ACXX-----1-----	_	_	_	12	_	AuxZ	_	_	_	_	_	_
+11	viel	viel	_	Db-------------	_	_	_	12	_	AuxZ	_	_	_	_	_	_
+12	schwerer	schwer	_	ACXX-----2-----	_	_	_	3	_	Adv	_	_	_	_	_	_
+13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_
+14	sich	sich	_	P6-S4--3-------	_	_	_	18	_	Obj	_	_	_	_	_	_
+15	der	der	_	PZFS3----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+16	neuen	neu	_	AAFS3----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_
+17	Situation	situation	_	NNFS3----------	_	_	_	18	_	Obj	_	_	_	_	_	_
+18	anzupassen	anpassen	_	Vf-------------	_	_	_	9	_	Atr	_	_	_	_	_	_
+19	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Nur	nur	_	Db-------------	_	_	_	4	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s20-n602
-2	eine	ein	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n603
-3	geschlossene	geschlossen	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n604
-4	Position	position	_	NNFS1----------	_	_	_	31	_	Sb	_	_	_	_	_	_	a_tree-de_src-s20-n605
-5	der	der	_	PZFS2----------	_	_	_	6	_	AuxA	_	_	_	_	_	(4	a_tree-de_src-s20-n606
-6	EU	eu	_	NNFS2----------	_	_	_	4	_	Atr	_	_	_	_	_	4)	a_tree-de_src-s20-n607
-7	in	in	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n608
-8	Verbindung	verbindung	_	NNFS3----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n609
-9	mit	mit	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n610
-10	dem	der	_	PZNS3----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n611
-11	Wissen	wissen	_	NNNS3----------	_	_	_	9	_	Obj	_	_	_	_	_	_	a_tree-de_src-s20-n612
-12	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s20-n613
-13	dass	dass	_	J,-------------	_	_	_	11	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s20-n614
-14	der	der	_	PZYS1----------	_	_	_	15	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n615
-15	Beitritt	beitritt	_	NNYS1----------	_	_	_	21	_	Sb	_	_	_	_	_	_	a_tree-de_src-s20-n616
-16	Serbiens	serbien	_	NNNS2----------	_	_	_	15	_	Atr	_	_	_	_	_	(6)	a_tree-de_src-s20-n617
-17	in	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n618
-18	die	der	_	PZFS4----------	_	_	_	19	_	AuxA	_	_	_	_	_	(4	a_tree-de_src-s20-n619
-19	EU	eu	_	NNFS4----------	_	_	_	17	_	Adv	_	_	_	_	_	4)	a_tree-de_src-s20-n620
-20	undenkbar	undenkbar	_	ACXX-----1-----	_	_	_	21	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s20-n621
-21	ist	sein	_	VB-S---3P------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s20-n622
-22	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s20-n623
-23	solange	solange	_	J,-------------	_	_	_	21	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s20-n624
-24	dieser	dieser	_	PDYS1----------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n625
-25	Konflikt	konflikt	_	NNYS1----------	_	_	_	29	_	Sb	_	_	_	_	_	_	a_tree-de_src-s20-n626
-26	nicht	nicht	_	TT--------N----	_	_	_	28	_	Neg	_	_	_	_	_	_	a_tree-de_src-s20-n627
-27	vollständig	vollständig	_	ACXX-----1-----	_	_	_	28	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n628
-28	gelöst	lösen	_	VpXX---XX------	_	_	_	29	_	Obj	_	_	_	_	_	_	a_tree-de_src-s20-n629
-29	wird	werden	_	VB-S---3P------	_	_	_	23	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n630
-30	,	--	_	Z:-------------	_	_	_	29	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s20-n631
-31	könnte	können	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s20-n632
-32	im	in	_	PZYS3----------	_	_	_	48	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n633
-33	Lauf	lauf	_	NNYS3----------	_	_	_	32	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n634
-34	der	der	_	PZFS2----------	_	_	_	35	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n635
-35	Zeit	zeit	_	NNFS2----------	_	_	_	33	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n636
-36	zu	zu	_	RR--X----------	_	_	_	48	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n637
-37	einem	ein	_	PZYS3----------	_	_	_	38	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n638
-38	Haltungswechsel	haltungswechsel	_	NNYS3----------	_	_	_	36	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n639
-39	sowohl	sowohl	_	J^-------------	_	_	_	40	_	Coord	_	_	_	_	_	_	a_tree-de_src-s20-n640
-40	seitens	seitens	_	RR--X----------	_	_	_	48	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n641
-41	der	der	_	PZYP2----------	_	_	_	43	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n642
-42	gewöhnlichen	gewöhnlich	_	AAYP2----1-----	_	_	_	43	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n643
-43	Serben	serbe	_	NNYP2----------	_	_	_	40	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n644
-44	als	als	_	J^-------------	_	_	_	40	_	Coord	_	_	_	_	_	_	a_tree-de_src-s20-n645
-45	auch	auch	_	Db-------------	_	_	_	47	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s20-n646
-46	ihrer	ihr	_	PSFS2-X3-------	_	_	_	47	_	Atr	_	_	_	_	_	(5)	a_tree-de_src-s20-n647
-47	Regierung	regierung	_	NNFS2----------	_	_	_	44	_	NR	_	_	_	_	_	_	a_tree-de_src-s20-n648
-48	führen	führen	_	Vf-------------	_	_	_	31	_	Obj	_	_	_	_	_	_	a_tree-de_src-s20-n649
-49	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s20-n650
+1	Nur	nur	_	Db-------------	_	_	_	4	_	AuxZ	_	_	_	_	_	_
+2	eine	ein	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+3	geschlossene	geschlossen	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Position	position	_	NNFS1----------	_	_	_	31	_	Sb	_	_	_	_	_	_
+5	der	der	_	PZFS2----------	_	_	_	6	_	AuxA	_	_	_	_	_	(4
+6	EU	eu	_	NNFS2----------	_	_	_	4	_	Atr	_	_	_	_	_	4)
+7	in	in	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+8	Verbindung	verbindung	_	NNFS3----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+9	mit	mit	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_
+10	dem	der	_	PZNS3----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+11	Wissen	wissen	_	NNNS3----------	_	_	_	9	_	Obj	_	_	_	_	_	_
+12	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_
+13	dass	dass	_	J,-------------	_	_	_	11	_	AuxC	_	_	_	_	_	_
+14	der	der	_	PZYS1----------	_	_	_	15	_	AuxA	_	_	_	_	_	_
+15	Beitritt	beitritt	_	NNYS1----------	_	_	_	21	_	Sb	_	_	_	_	_	_
+16	Serbiens	serbien	_	NNNS2----------	_	_	_	15	_	Atr	_	_	_	_	_	(6)
+17	in	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_
+18	die	der	_	PZFS4----------	_	_	_	19	_	AuxA	_	_	_	_	_	(4
+19	EU	eu	_	NNFS4----------	_	_	_	17	_	Adv	_	_	_	_	_	4)
+20	undenkbar	undenkbar	_	ACXX-----1-----	_	_	_	21	_	Pnom	_	_	_	_	_	_
+21	ist	sein	_	VB-S---3P------	_	_	_	13	_	Obj	_	_	_	_	_	_
+22	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_
+23	solange	solange	_	J,-------------	_	_	_	21	_	AuxC	_	_	_	_	_	_
+24	dieser	dieser	_	PDYS1----------	_	_	_	25	_	Atr	_	_	_	_	_	_
+25	Konflikt	konflikt	_	NNYS1----------	_	_	_	29	_	Sb	_	_	_	_	_	_
+26	nicht	nicht	_	TT--------N----	_	_	_	28	_	Neg	_	_	_	_	_	_
+27	vollständig	vollständig	_	ACXX-----1-----	_	_	_	28	_	Adv	_	_	_	_	_	_
+28	gelöst	lösen	_	VpXX---XX------	_	_	_	29	_	Obj	_	_	_	_	_	_
+29	wird	werden	_	VB-S---3P------	_	_	_	23	_	Adv	_	_	_	_	_	_
+30	,	--	_	Z:-------------	_	_	_	29	_	AuxX	_	_	_	_	_	_
+31	könnte	können	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+32	im	in	_	PZYS3----------	_	_	_	48	_	AuxP	_	_	_	_	_	_
+33	Lauf	lauf	_	NNYS3----------	_	_	_	32	_	Adv	_	_	_	_	_	_
+34	der	der	_	PZFS2----------	_	_	_	35	_	AuxA	_	_	_	_	_	_
+35	Zeit	zeit	_	NNFS2----------	_	_	_	33	_	Atr	_	_	_	_	_	_
+36	zu	zu	_	RR--X----------	_	_	_	48	_	AuxP	_	_	_	_	_	_
+37	einem	ein	_	PZYS3----------	_	_	_	38	_	AuxA	_	_	_	_	_	_
+38	Haltungswechsel	haltungswechsel	_	NNYS3----------	_	_	_	36	_	Adv	_	_	_	_	_	_
+39	sowohl	sowohl	_	J^-------------	_	_	_	40	_	Coord	_	_	_	_	_	_
+40	seitens	seitens	_	RR--X----------	_	_	_	48	_	AuxP	_	_	_	_	_	_
+41	der	der	_	PZYP2----------	_	_	_	43	_	AuxA	_	_	_	_	_	_
+42	gewöhnlichen	gewöhnlich	_	AAYP2----1-----	_	_	_	43	_	Atr	_	_	_	_	_	_
+43	Serben	serbe	_	NNYP2----------	_	_	_	40	_	Atr	_	_	_	_	_	_
+44	als	als	_	J^-------------	_	_	_	40	_	Coord	_	_	_	_	_	_
+45	auch	auch	_	Db-------------	_	_	_	47	_	AuxZ	_	_	_	_	_	_
+46	ihrer	ihr	_	PSFS2-X3-------	_	_	_	47	_	Atr	_	_	_	_	_	(5)
+47	Regierung	regierung	_	NNFS2----------	_	_	_	44	_	NR	_	_	_	_	_	_
+48	führen	führen	_	Vf-------------	_	_	_	31	_	Obj	_	_	_	_	_	_
+49	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Auf	auf	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s21-n651
-2	der	der	_	PZFS3----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s21-n652
-3	anderen	anderer	_	AAFS3----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n653
-4	Seite	seite	_	NNFS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s21-n654
-5	braucht	brauchen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s21-n655
-6	Kosovo	kosovo	_	NNXS1----------	_	_	_	5	_	Sb	_	_	_	_	_	(1)	a_tree-de_src-s21-n656
-7	eine	ein	_	PZFS4----------	_	_	_	10	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s21-n657
-8	klare	klar	_	AAFS4----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n658
-9	europäische	europäisch	_	AAFS4----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n659
-10	Perspektive	perspektive	_	NNFS4----------	_	_	_	5	_	Obj	_	_	_	_	_	_	a_tree-de_src-s21-n660
-11	und	und	_	J^-------------	_	_	_	10	_	Coord	_	_	_	_	_	_	a_tree-de_src-s21-n661
-12	bereitwillige	bereitwillig	_	AAFS4----1-----	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n662
-13	Unterstützung	unterstützung	_	NNFS4----------	_	_	_	11	_	NR	_	_	_	_	_	_	a_tree-de_src-s21-n663
-14	dabei	dabei	_	PDXXX----------	_	_	_	5	_	Adv	_	_	_	_	_	_	a_tree-de_src-s21-n664
-15	,	--	_	Z:-------------	_	_	_	14	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s21-n665
-16	sich	sich	_	P6-S4--3-------	_	_	_	21	_	Obj	_	_	_	_	_	_	a_tree-de_src-s21-n666
-17	den	der	_	PZYS4----------	_	_	_	19	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s21-n667
-18	einschüchternden	einschüchternd	_	AAFP3----1-----	_	_	_	19	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n668
-19	Herausforderungen	herausforderung	_	NNFP3----------	_	_	_	21	_	Obj	_	_	_	_	_	_	a_tree-de_src-s21-n669
-20	zu	zu	_	TT-------------	_	_	_	21	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s21-n670
-21	stellen	stellen	_	Vf-------------	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n671
-22	,	--	_	Z:-------------	_	_	_	21	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s21-n672
-23	denen	der	_	PJXP3----------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s21-n673
-24	es	es	_	PPNS1--3-------	_	_	_	27	_	Sb	_	_	_	_	_	_	a_tree-de_src-s21-n674
-25	sich	sich	_	P6-S4--3-------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s21-n675
-26	gegenüber	gegenüber	_	Db-------------	_	_	_	27	_	Adv	_	_	_	_	_	_	a_tree-de_src-s21-n676
-27	sieht	sehen	_	VB-S---3P------	_	_	_	19	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n677
-28	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s21-n678
+1	Auf	auf	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_
+2	der	der	_	PZFS3----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+3	anderen	anderer	_	AAFS3----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Seite	seite	_	NNFS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+5	braucht	brauchen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+6	Kosovo	kosovo	_	NNXS1----------	_	_	_	5	_	Sb	_	_	_	_	_	(1)
+7	eine	ein	_	PZFS4----------	_	_	_	10	_	AuxA	_	_	_	_	_	_
+8	klare	klar	_	AAFS4----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_
+9	europäische	europäisch	_	AAFS4----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_
+10	Perspektive	perspektive	_	NNFS4----------	_	_	_	5	_	Obj	_	_	_	_	_	_
+11	und	und	_	J^-------------	_	_	_	10	_	Coord	_	_	_	_	_	_
+12	bereitwillige	bereitwillig	_	AAFS4----1-----	_	_	_	13	_	Atr	_	_	_	_	_	_
+13	Unterstützung	unterstützung	_	NNFS4----------	_	_	_	11	_	NR	_	_	_	_	_	_
+14	dabei	dabei	_	PDXXX----------	_	_	_	5	_	Adv	_	_	_	_	_	_
+15	,	--	_	Z:-------------	_	_	_	14	_	AuxX	_	_	_	_	_	_
+16	sich	sich	_	P6-S4--3-------	_	_	_	21	_	Obj	_	_	_	_	_	_
+17	den	der	_	PZYS4----------	_	_	_	19	_	AuxA	_	_	_	_	_	_
+18	einschüchternden	einschüchternd	_	AAFP3----1-----	_	_	_	19	_	Atr	_	_	_	_	_	_
+19	Herausforderungen	herausforderung	_	NNFP3----------	_	_	_	21	_	Obj	_	_	_	_	_	_
+20	zu	zu	_	TT-------------	_	_	_	21	_	AuxV	_	_	_	_	_	_
+21	stellen	stellen	_	Vf-------------	_	_	_	14	_	Atr	_	_	_	_	_	_
+22	,	--	_	Z:-------------	_	_	_	21	_	AuxX	_	_	_	_	_	_
+23	denen	der	_	PJXP3----------	_	_	_	27	_	Obj	_	_	_	_	_	_
+24	es	es	_	PPNS1--3-------	_	_	_	27	_	Sb	_	_	_	_	_	_
+25	sich	sich	_	P6-S4--3-------	_	_	_	27	_	Obj	_	_	_	_	_	_
+26	gegenüber	gegenüber	_	Db-------------	_	_	_	27	_	Adv	_	_	_	_	_	_
+27	sieht	sehen	_	VB-S---3P------	_	_	_	19	_	Atr	_	_	_	_	_	_
+28	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Momentan	momentan	_	NNXS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s22-n679
-2	fehlt	fehlen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s22-n680
-3	beides	beide	_	PZNS4----------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s22-n681
-4	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s22-n682
+1	Momentan	momentan	_	NNXS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+2	fehlt	fehlen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	beides	beide	_	PZNS4----------	_	_	_	2	_	Obj	_	_	_	_	_	_
+4	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Niemand	niemand	_	PZYS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s23-n683
-2	sollte	sollen	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s23-n684
-3	sich	sich	_	P6-S4--3-------	_	_	_	8	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n685
-4	von	von	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s23-n686
-5	der	der	_	PZFS3----------	_	_	_	7	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s23-n687
-6	relativen	relativ	_	AAFS3----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s23-n688
-7	Ruhe	ruhe	_	NNFS3----------	_	_	_	4	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n689
-8	täuschen	täuschen	_	Vf-------------	_	_	_	9	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n690
-9	lassen	lassen	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n691
-10	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s23-n692
-11	die	der	_	PJXP1----------	_	_	_	15	_	Sb	_	_	_	_	_	_	a_tree-de_src-s23-n693
-12	momentan	momentan	_	ACXX-----1-----	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s23-n694
-13	in	in	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s23-n695
-14	Kosovo	kosovo	_	NNNS3----------	_	_	_	13	_	Adv	_	_	_	_	_	(1)	a_tree-de_src-s23-n696
-15	herrscht	herrschen	_	VB-S---3P------	_	_	_	8	_	Adv	_	_	_	_	_	_	a_tree-de_src-s23-n697
-16	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s23-n698
+1	Niemand	niemand	_	PZYS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+2	sollte	sollen	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	sich	sich	_	P6-S4--3-------	_	_	_	8	_	Obj	_	_	_	_	_	_
+4	von	von	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_
+5	der	der	_	PZFS3----------	_	_	_	7	_	AuxA	_	_	_	_	_	_
+6	relativen	relativ	_	AAFS3----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_
+7	Ruhe	ruhe	_	NNFS3----------	_	_	_	4	_	Obj	_	_	_	_	_	_
+8	täuschen	täuschen	_	Vf-------------	_	_	_	9	_	Obj	_	_	_	_	_	_
+9	lassen	lassen	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_
+10	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_
+11	die	der	_	PJXP1----------	_	_	_	15	_	Sb	_	_	_	_	_	_
+12	momentan	momentan	_	ACXX-----1-----	_	_	_	15	_	Adv	_	_	_	_	_	_
+13	in	in	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+14	Kosovo	kosovo	_	NNNS3----------	_	_	_	13	_	Adv	_	_	_	_	_	(1)
+15	herrscht	herrschen	_	VB-S---3P------	_	_	_	8	_	Adv	_	_	_	_	_	_
+16	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZFP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s24-n699
-2	Tragödien	tragödie	_	NNFP1----------	_	_	_	9	_	Sb	_	_	_	_	_	_	a_tree-de_src-s24-n700
-3	in	in	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s24-n701
-4	der	der	_	PZFS3----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s24-n702
-5	jüngsten	jung	_	AAFS3----3-----	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n703
-6	Vergangenheit	vergangenheit	_	NNFS3----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n704
-7	des	der	_	PZYS2----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s24-n705
-8	Balkan	balkan	_	NNYS2----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n706
-9	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s24-n707
-10	gezeigt	zeigen	_	VpXX---XX------	_	_	_	9	_	Obj	_	_	_	_	_	_	a_tree-de_src-s24-n708
-11	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s24-n709
-12	dass	daß	_	J,-------------	_	_	_	10	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s24-n710
-13	Probleme	problem	_	NNNP1----------	_	_	_	25	_	Sb	_	_	_	_	_	_	a_tree-de_src-s24-n711
-14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s24-n712
-15	die	der	_	PJNP1----------	_	_	_	17	_	Sb	_	_	_	_	_	_	a_tree-de_src-s24-n713
-16	ungelöst	ungelöst	_	ACXX-----1-----	_	_	_	17	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s24-n714
-17	bleiben	bleiben	_	VB-P---3P------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n715
-18	,	--	_	Z:-------------	_	_	_	17	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s24-n716
-19	früher	früh	_	ACXX-----2-----	_	_	_	25	_	Adv	_	_	_	_	_	_	a_tree-de_src-s24-n717
-20	oder	oder	_	J^-------------	_	_	_	19	_	Coord	_	_	_	_	_	_	a_tree-de_src-s24-n718
-21	später	spät	_	ACXX-----2-----	_	_	_	20	_	NR	_	_	_	_	_	_	a_tree-de_src-s24-n719
-22	zu	zu	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s24-n720
-23	offenen	offen	_	AAFP3----1-----	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n721
-24	Konflikten	konflikt	_	NNFP3----------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s24-n722
-25	werden	werden	_	VB-X---XX------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s24-n723
-26	;	--	_	Z:-------------	_	_	_	25	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s24-n724
-27	mit	mit	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s24-n725
-28	untragbaren	untragbar	_	AAXP3----1-----	_	_	_	29	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n726
-29	Kosten	kosten	_	NNXP3----------	_	_	_	27	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n727
-30	für	für	_	RR--X----------	_	_	_	29	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s24-n728
-31	alle	aller	_	PZXP4----------	_	_	_	32	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n729
-32	Beteiligten	beteiligter	_	NNXP4----------	_	_	_	30	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n730
-33	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s24-n731
+1	Die	der	_	PZFP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_
+2	Tragödien	tragödie	_	NNFP1----------	_	_	_	9	_	Sb	_	_	_	_	_	_
+3	in	in	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_
+4	der	der	_	PZFS3----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+5	jüngsten	jung	_	AAFS3----3-----	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	Vergangenheit	vergangenheit	_	NNFS3----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+7	des	der	_	PZYS2----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+8	Balkan	balkan	_	NNYS2----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+9	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+10	gezeigt	zeigen	_	VpXX---XX------	_	_	_	9	_	Obj	_	_	_	_	_	_
+11	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_
+12	dass	daß	_	J,-------------	_	_	_	10	_	AuxC	_	_	_	_	_	_
+13	Probleme	problem	_	NNNP1----------	_	_	_	25	_	Sb	_	_	_	_	_	_
+14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_
+15	die	der	_	PJNP1----------	_	_	_	17	_	Sb	_	_	_	_	_	_
+16	ungelöst	ungelöst	_	ACXX-----1-----	_	_	_	17	_	Pnom	_	_	_	_	_	_
+17	bleiben	bleiben	_	VB-P---3P------	_	_	_	13	_	Atr	_	_	_	_	_	_
+18	,	--	_	Z:-------------	_	_	_	17	_	AuxX	_	_	_	_	_	_
+19	früher	früh	_	ACXX-----2-----	_	_	_	25	_	Adv	_	_	_	_	_	_
+20	oder	oder	_	J^-------------	_	_	_	19	_	Coord	_	_	_	_	_	_
+21	später	spät	_	ACXX-----2-----	_	_	_	20	_	NR	_	_	_	_	_	_
+22	zu	zu	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_
+23	offenen	offen	_	AAFP3----1-----	_	_	_	24	_	Atr	_	_	_	_	_	_
+24	Konflikten	konflikt	_	NNFP3----------	_	_	_	22	_	Adv	_	_	_	_	_	_
+25	werden	werden	_	VB-X---XX------	_	_	_	12	_	Obj	_	_	_	_	_	_
+26	;	--	_	Z:-------------	_	_	_	25	_	AuxG	_	_	_	_	_	_
+27	mit	mit	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_
+28	untragbaren	untragbar	_	AAXP3----1-----	_	_	_	29	_	Atr	_	_	_	_	_	_
+29	Kosten	kosten	_	NNXP3----------	_	_	_	27	_	Atr	_	_	_	_	_	_
+30	für	für	_	RR--X----------	_	_	_	29	_	AuxP	_	_	_	_	_	_
+31	alle	aller	_	PZXP4----------	_	_	_	32	_	Atr	_	_	_	_	_	_
+32	Beteiligten	beteiligter	_	NNXP4----------	_	_	_	30	_	Atr	_	_	_	_	_	_
+33	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Für	für	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s25-n732
-2	Selbstzufriedenheit	selbstzufriedenheit	_	NNFS4----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s25-n733
-3	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s25-n734
-4	keine	kein	_	PZFS1----------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s25-n735
-5	Zeit	zeit	_	NNFS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s25-n736
-6	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s25-n737
+1	Für	für	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+2	Selbstzufriedenheit	selbstzufriedenheit	_	NNFS4----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+3	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	keine	kein	_	PZFS1----------	_	_	_	5	_	Atr	_	_	_	_	_	_
+5	Zeit	zeit	_	NNFS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+6	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZXP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s26-n738
-2	Beteiligten	beteiligter	_	NNXP1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s26-n739
-3	sollten	sollen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s26-n740
-4	sich	sich	_	P6-P4--3-------	_	_	_	7	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n741
-5	zu	zu	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s26-n742
-6	Herzen	herz	_	NNNS3----------	_	_	_	5	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n743
-7	nehmen	nehmen	_	Vf-------------	_	_	_	3	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n744
-8	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s26-n745
-9	was	was	_	PJNS4----------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n746
-10	der	der	_	PZYS1----------	_	_	_	12	_	AuxA	_	_	_	_	_	(7	a_tree-de_src-s26-n747
-11	amerikanische	amerikanisch	_	AAYS1----1-----	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n748
-12	Präsident	präsident	_	NNYS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_	a_tree-de_src-s26-n749
-13	Barack	barack	_	NNYS1----------	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n750
-14	Obama	obama	_	NNYS1----------	_	_	_	12	_	Atr	_	_	_	_	_	7)	a_tree-de_src-s26-n751
-15	in	in	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s26-n752
-16	seiner	sein	_	PSFS3-X3-------	_	_	_	17	_	Atr	_	_	_	_	_	(7)	a_tree-de_src-s26-n753
-17	Antrittsrede	antrittsrede	_	NNFS3----------	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s26-n754
-18	gesagt	sagen	_	VpXX---XX------	_	_	_	19	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n755
-19	hat	haben	_	VB-S---3P------	_	_	_	7	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n756
-20	:	--	_	Z:-------------	_	_	_	19	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s26-n757
-21	„	„	_	X@-------------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n758
-22	Aber	aber	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_	a_tree-de_src-s26-n759
-23	die	der	_	PZFS1----------	_	_	_	24	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s26-n760
-24	Zeit	zeit	_	NNFS1----------	_	_	_	25	_	NR	_	_	_	_	_	_	a_tree-de_src-s26-n761
-25	,	--	_	Z:-------------	_	_	_	21	_	Coord	_	_	_	_	_	_	a_tree-de_src-s26-n762
-26	in	in	_	RR--X----------	_	_	_	30	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s26-n763
-27	der	der	_	PJFS3----------	_	_	_	26	_	Adv	_	_	_	_	_	_	a_tree-de_src-s26-n764
-28	wir	wir	_	PP-P1--1-------	_	_	_	31	_	Sb	_	_	_	_	_	_	a_tree-de_src-s26-n765
-29	stur	stur	_	ACXX-----1-----	_	_	_	30	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s26-n766
-30	geblieben	bleiben	_	VpXX---XX------	_	_	_	31	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n767
-31	sind	sein	_	VB-P---3P------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n768
-32	,	--	_	Z:-------------	_	_	_	31	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s26-n769
-33	Sonderinteressen	sonderinteresse	_	NNYP1----------	_	_	_	25	_	NR	_	_	_	_	_	_	a_tree-de_src-s26-n770
-34	geschützt	schützen	_	VpXX---XX------	_	_	_	33	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n771
-35	und	und	_	J^-------------	_	_	_	33	_	Coord	_	_	_	_	_	_	a_tree-de_src-s26-n772
-36	unliebsame	unliebsam	_	AAFP4----1-----	_	_	_	37	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n773
-37	Entscheidungen	entscheidung	_	NNFP4----------	_	_	_	38	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n774
-38	verschoben	verschieben	_	VpXX---XX------	_	_	_	39	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n775
-39	haben	haben	_	VB-P---3P------	_	_	_	35	_	NR	_	_	_	_	_	_	a_tree-de_src-s26-n776
-40	–	–	_	NNXXX----------	_	_	_	39	_	Sb	_	_	_	_	_	_	a_tree-de_src-s26-n777
-41	diese	dieser	_	PDFS4----------	_	_	_	42	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n778
-42	Zeit	zeit	_	NNFS1----------	_	_	_	43	_	Sb	_	_	_	_	_	_	a_tree-de_src-s26-n779
-43	ist	sein	_	VB-S---3P------	_	_	_	40	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n780
-44	sicherlich	sicherlich	_	Db-------------	_	_	_	43	_	Adv	_	_	_	_	_	_	a_tree-de_src-s26-n781
-45	vorbei	vorbei	_	Db-------------	_	_	_	43	_	Adv	_	_	_	_	_	_	a_tree-de_src-s26-n782
-46	“	“	_	NNXXX----------	_	_	_	43	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s26-n783
-47	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s26-n784
+1	Die	der	_	PZXP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_
+2	Beteiligten	beteiligter	_	NNXP1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+3	sollten	sollen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	sich	sich	_	P6-P4--3-------	_	_	_	7	_	Obj	_	_	_	_	_	_
+5	zu	zu	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_
+6	Herzen	herz	_	NNNS3----------	_	_	_	5	_	Obj	_	_	_	_	_	_
+7	nehmen	nehmen	_	Vf-------------	_	_	_	3	_	Obj	_	_	_	_	_	_
+8	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_
+9	was	was	_	PJNS4----------	_	_	_	18	_	Obj	_	_	_	_	_	_
+10	der	der	_	PZYS1----------	_	_	_	12	_	AuxA	_	_	_	_	_	(7
+11	amerikanische	amerikanisch	_	AAYS1----1-----	_	_	_	12	_	Atr	_	_	_	_	_	_
+12	Präsident	präsident	_	NNYS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_
+13	Barack	barack	_	NNYS1----------	_	_	_	14	_	Atr	_	_	_	_	_	_
+14	Obama	obama	_	NNYS1----------	_	_	_	12	_	Atr	_	_	_	_	_	7)
+15	in	in	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_
+16	seiner	sein	_	PSFS3-X3-------	_	_	_	17	_	Atr	_	_	_	_	_	(7)
+17	Antrittsrede	antrittsrede	_	NNFS3----------	_	_	_	15	_	Adv	_	_	_	_	_	_
+18	gesagt	sagen	_	VpXX---XX------	_	_	_	19	_	Obj	_	_	_	_	_	_
+19	hat	haben	_	VB-S---3P------	_	_	_	7	_	Obj	_	_	_	_	_	_
+20	:	--	_	Z:-------------	_	_	_	19	_	AuxG	_	_	_	_	_	_
+21	„	„	_	X@-------------	_	_	_	7	_	Atr	_	_	_	_	_	_
+22	Aber	aber	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_
+23	die	der	_	PZFS1----------	_	_	_	24	_	AuxA	_	_	_	_	_	_
+24	Zeit	zeit	_	NNFS1----------	_	_	_	25	_	NR	_	_	_	_	_	_
+25	,	--	_	Z:-------------	_	_	_	21	_	Coord	_	_	_	_	_	_
+26	in	in	_	RR--X----------	_	_	_	30	_	AuxP	_	_	_	_	_	_
+27	der	der	_	PJFS3----------	_	_	_	26	_	Adv	_	_	_	_	_	_
+28	wir	wir	_	PP-P1--1-------	_	_	_	31	_	Sb	_	_	_	_	_	_
+29	stur	stur	_	ACXX-----1-----	_	_	_	30	_	Pnom	_	_	_	_	_	_
+30	geblieben	bleiben	_	VpXX---XX------	_	_	_	31	_	Obj	_	_	_	_	_	_
+31	sind	sein	_	VB-P---3P------	_	_	_	24	_	Atr	_	_	_	_	_	_
+32	,	--	_	Z:-------------	_	_	_	31	_	AuxX	_	_	_	_	_	_
+33	Sonderinteressen	sonderinteresse	_	NNYP1----------	_	_	_	25	_	NR	_	_	_	_	_	_
+34	geschützt	schützen	_	VpXX---XX------	_	_	_	33	_	Obj	_	_	_	_	_	_
+35	und	und	_	J^-------------	_	_	_	33	_	Coord	_	_	_	_	_	_
+36	unliebsame	unliebsam	_	AAFP4----1-----	_	_	_	37	_	Atr	_	_	_	_	_	_
+37	Entscheidungen	entscheidung	_	NNFP4----------	_	_	_	38	_	Obj	_	_	_	_	_	_
+38	verschoben	verschieben	_	VpXX---XX------	_	_	_	39	_	Obj	_	_	_	_	_	_
+39	haben	haben	_	VB-P---3P------	_	_	_	35	_	NR	_	_	_	_	_	_
+40	–	–	_	NNXXX----------	_	_	_	39	_	Sb	_	_	_	_	_	_
+41	diese	dieser	_	PDFS4----------	_	_	_	42	_	Atr	_	_	_	_	_	_
+42	Zeit	zeit	_	NNFS1----------	_	_	_	43	_	Sb	_	_	_	_	_	_
+43	ist	sein	_	VB-S---3P------	_	_	_	40	_	Atr	_	_	_	_	_	_
+44	sicherlich	sicherlich	_	Db-------------	_	_	_	43	_	Adv	_	_	_	_	_	_
+45	vorbei	vorbei	_	Db-------------	_	_	_	43	_	Adv	_	_	_	_	_	_
+46	“	“	_	NNXXX----------	_	_	_	43	_	Pnom	_	_	_	_	_	_
+47	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
 #end document 004_de

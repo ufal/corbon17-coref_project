@@ -1,926 +1,926 @@
 #begin document 002_de
-1	NEW	--	_	NNXXX----------	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n1
-2	YORK	york	_	NNNS1----------	_	_	_	0	_	ExD	_	_	_	_	_	_	a_tree-de_src-s1-n2
-3	:	--	_	Z:-------------	_	_	_	2	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s1-n3
-4	Die	der	_	PZFS1----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s1-n4
-5	Terroristenzuflucht	terroristenzuflucht	_	NNFS1----------	_	_	_	16	_	Sb	_	_	_	_	_	_	a_tree-de_src-s1-n5
-6	in	in	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s1-n6
-7	der	der	_	PZFS3----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s1-n7
-8	Region	region	_	NNFS3----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n8
-9	Südwasiristan	südwasiristan	_	NNNS1----------	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n9
-10	im	in	_	PZNS3----------	_	_	_	5	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s1-n10
-11	an	an	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s1-n11
-12	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n12
-13	grenzenden	grenzend	_	AANS3----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n13
-14	Stammesgebiet	stammesgebiet	_	NNNS3----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s1-n14
-15	Pakistans	pakistan	_	NNNS2----------	_	_	_	14	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s1-n15
-16	zerfällt	zerfallen	_	VB-S---3P------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s1-n16
-17	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s1-n17
+1	NEW	--	_	NNXXX----------	_	_	_	2	_	Atr	_	_	_	_	_	_
+2	YORK	york	_	NNNS1----------	_	_	_	0	_	ExD	_	_	_	_	_	_
+3	:	--	_	Z:-------------	_	_	_	2	_	AuxG	_	_	_	_	_	_
+4	Die	der	_	PZFS1----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+5	Terroristenzuflucht	terroristenzuflucht	_	NNFS1----------	_	_	_	16	_	Sb	_	_	_	_	_	_
+6	in	in	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_
+7	der	der	_	PZFS3----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+8	Region	region	_	NNFS3----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+9	Südwasiristan	südwasiristan	_	NNNS1----------	_	_	_	8	_	Atr	_	_	_	_	_	_
+10	im	in	_	PZNS3----------	_	_	_	5	_	AuxP	_	_	_	_	_	_
+11	an	an	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_
+12	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	11	_	Atr	_	_	_	_	_	_
+13	grenzenden	grenzend	_	AANS3----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_
+14	Stammesgebiet	stammesgebiet	_	NNNS3----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+15	Pakistans	pakistan	_	NNNS2----------	_	_	_	14	_	Atr	_	_	_	_	_	(1)
+16	zerfällt	zerfallen	_	VB-S---3P------	_	_	_	2	_	Obj	_	_	_	_	_	_
+17	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Es	es	_	PPNS1--3-------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s2-n18
-2	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s2-n19
-3	eine	ein	_	PZFS4----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s2-n20
-4	Weile	weile	_	NNFS4----------	_	_	_	5	_	Obj	_	_	_	_	_	_	a_tree-de_src-s2-n21
-5	gedauert	dauern	_	VpXX---XX------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s2-n22
-6	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s2-n23
-7	bis	bis	_	J,-------------	_	_	_	5	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s2-n24
-8	die	der	_	PZFS1----------	_	_	_	10	_	AuxA	_	_	_	_	_	(8	a_tree-de_src-s2-n25
-9	pakistanische	pakistanisch	_	AAFS1----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n26
-10	Armee	armee	_	NNFS1----------	_	_	_	21	_	Sb	_	_	_	_	_	_	a_tree-de_src-s2-n27
-11	gegen	gegen	_	RR--X----------	_	_	_	10	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s2-n28
-12	die	der	_	PZFS4----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s2-n29
-13	zunehmende	zunehmend	_	AAFS4----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n30
-14	Gewalt	gewalt	_	NNFS4----------	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n31
-15	und	und	_	J^-------------	_	_	_	10	_	Coord	_	_	_	_	_	_	a_tree-de_src-s2-n32
-16	das	der	_	PZNS4----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s2-n33
-17	Chaos	chaos	_	NNNS4----------	_	_	_	15	_	NR	_	_	_	_	_	_	a_tree-de_src-s2-n34
-18	in	in	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s2-n35
-19	der	der	_	PZFS3----------	_	_	_	20	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s2-n36
-20	Region	region	_	NNFS3----------	_	_	_	18	_	Atr	_	_	_	_	_	8)	a_tree-de_src-s2-n37
-21	vorging	vorgehen	_	VB-S---3R------	_	_	_	7	_	Adv	_	_	_	_	_	_	a_tree-de_src-s2-n38
-22	,	--	_	Z:-------------	_	_	_	21	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s2-n39
-23	doch	doch	_	J^-------------	_	_	_	21	_	Coord	_	_	_	_	_	_	a_tree-de_src-s2-n40
-24	ihr	ihr	_	PSYS1-X3-------	_	_	_	25	_	Atr	_	_	_	_	_	(8)	a_tree-de_src-s2-n41
-25	Feldzug	feldzug	_	NNYS1----------	_	_	_	28	_	Sb	_	_	_	_	_	_	a_tree-de_src-s2-n42
-26	in	in	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s2-n43
-27	Südwasiristan	südwasiristan	_	NNNS3----------	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s2-n44
-28	macht	machen	_	VB-S---3P------	_	_	_	23	_	NR	_	_	_	_	_	_	a_tree-de_src-s2-n45
-29	Fortschritte	fortschritt	_	NNYP4----------	_	_	_	28	_	Obj	_	_	_	_	_	_	a_tree-de_src-s2-n46
-30	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s2-n47
+1	Es	es	_	PPNS1--3-------	_	_	_	2	_	Sb	_	_	_	_	_	_
+2	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	eine	ein	_	PZFS4----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+4	Weile	weile	_	NNFS4----------	_	_	_	5	_	Obj	_	_	_	_	_	_
+5	gedauert	dauern	_	VpXX---XX------	_	_	_	2	_	Obj	_	_	_	_	_	_
+6	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_
+7	bis	bis	_	J,-------------	_	_	_	5	_	AuxC	_	_	_	_	_	_
+8	die	der	_	PZFS1----------	_	_	_	10	_	AuxA	_	_	_	_	_	(8
+9	pakistanische	pakistanisch	_	AAFS1----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_
+10	Armee	armee	_	NNFS1----------	_	_	_	21	_	Sb	_	_	_	_	_	_
+11	gegen	gegen	_	RR--X----------	_	_	_	10	_	AuxP	_	_	_	_	_	_
+12	die	der	_	PZFS4----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+13	zunehmende	zunehmend	_	AAFS4----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_
+14	Gewalt	gewalt	_	NNFS4----------	_	_	_	11	_	Atr	_	_	_	_	_	_
+15	und	und	_	J^-------------	_	_	_	10	_	Coord	_	_	_	_	_	_
+16	das	der	_	PZNS4----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+17	Chaos	chaos	_	NNNS4----------	_	_	_	15	_	NR	_	_	_	_	_	_
+18	in	in	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_
+19	der	der	_	PZFS3----------	_	_	_	20	_	AuxA	_	_	_	_	_	_
+20	Region	region	_	NNFS3----------	_	_	_	18	_	Atr	_	_	_	_	_	8)
+21	vorging	vorgehen	_	VB-S---3R------	_	_	_	7	_	Adv	_	_	_	_	_	_
+22	,	--	_	Z:-------------	_	_	_	21	_	AuxX	_	_	_	_	_	_
+23	doch	doch	_	J^-------------	_	_	_	21	_	Coord	_	_	_	_	_	_
+24	ihr	ihr	_	PSYS1-X3-------	_	_	_	25	_	Atr	_	_	_	_	_	(8)
+25	Feldzug	feldzug	_	NNYS1----------	_	_	_	28	_	Sb	_	_	_	_	_	_
+26	in	in	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_
+27	Südwasiristan	südwasiristan	_	NNNS3----------	_	_	_	26	_	Atr	_	_	_	_	_	_
+28	macht	machen	_	VB-S---3P------	_	_	_	23	_	NR	_	_	_	_	_	_
+29	Fortschritte	fortschritt	_	NNYP4----------	_	_	_	28	_	Obj	_	_	_	_	_	_
+30	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZFS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n48
-2	unmittelbare	unmittelbar	_	AAFS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n49
-3	Bedeutung	bedeutung	_	NNFS1----------	_	_	_	6	_	Sb	_	_	_	_	_	_	a_tree-de_src-s3-n50
-4	der	der	_	PZFS2----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n51
-5	Kampagne	kampagne	_	NNFS2----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n52
-6	besteht	bestehen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s3-n53
-7	darin	darin	_	PDXXX----------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n54
-8	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s3-n55
-9	dass	dass	_	J,-------------	_	_	_	7	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s3-n56
-10	Pakistan	pakistan	_	NNNS1----------	_	_	_	12	_	Sb	_	_	_	_	_	(1)	a_tree-de_src-s3-n57
-11	entschlossen	entschließen	_	VpXX---XX------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n58
-12	ist	sein	_	VB-S---3P------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n59
-13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s3-n60
-14	seine	sein	_	PSFS4-X3-------	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n61
-15	Autorität	autorität	_	NNFS4----------	_	_	_	20	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n62
-16	in	in	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s3-n63
-17	dem	der	_	PZNS3----------	_	_	_	18	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s3-n64
-18	Gebiet	gebiet	_	NNNS3----------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s3-n65
-19	zu	zu	_	TT-------------	_	_	_	20	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s3-n66
-20	etablieren	etablieren	_	Vf-------------	_	_	_	11	_	Obj	_	_	_	_	_	_	a_tree-de_src-s3-n67
-21	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s3-n68
+1	Die	der	_	PZFS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+2	unmittelbare	unmittelbar	_	AAFS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Bedeutung	bedeutung	_	NNFS1----------	_	_	_	6	_	Sb	_	_	_	_	_	_
+4	der	der	_	PZFS2----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+5	Kampagne	kampagne	_	NNFS2----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+6	besteht	bestehen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+7	darin	darin	_	PDXXX----------	_	_	_	6	_	Obj	_	_	_	_	_	_
+8	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_
+9	dass	dass	_	J,-------------	_	_	_	7	_	AuxC	_	_	_	_	_	_
+10	Pakistan	pakistan	_	NNNS1----------	_	_	_	12	_	Sb	_	_	_	_	_	(1)
+11	entschlossen	entschließen	_	VpXX---XX------	_	_	_	12	_	Obj	_	_	_	_	_	_
+12	ist	sein	_	VB-S---3P------	_	_	_	9	_	Atr	_	_	_	_	_	_
+13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_
+14	seine	sein	_	PSFS4-X3-------	_	_	_	15	_	Atr	_	_	_	_	_	_
+15	Autorität	autorität	_	NNFS4----------	_	_	_	20	_	Obj	_	_	_	_	_	_
+16	in	in	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+17	dem	der	_	PZNS3----------	_	_	_	18	_	AuxA	_	_	_	_	_	_
+18	Gebiet	gebiet	_	NNNS3----------	_	_	_	16	_	Atr	_	_	_	_	_	_
+19	zu	zu	_	TT-------------	_	_	_	20	_	AuxV	_	_	_	_	_	_
+20	etablieren	etablieren	_	Vf-------------	_	_	_	11	_	Obj	_	_	_	_	_	_
+21	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Doch	doch	_	J^-------------	_	_	_	16	_	Coord	_	_	_	_	_	_	a_tree-de_src-s4-n69
-2	das	der	_	PZNS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s4-n70
-3	Zeitfenster	zeitfenster	_	NNNS1----------	_	_	_	16	_	Sb	_	_	_	_	_	_	a_tree-de_src-s4-n71
-4	,	--	_	Z:-------------	_	_	_	3	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s4-n72
-5	in	in	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s4-n73
-6	dem	der	_	PJNS3----------	_	_	_	5	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n74
-7	das	der	_	PZNS1----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s4-n75
-8	Militär	militär	_	NNNS1----------	_	_	_	14	_	Sb	_	_	_	_	_	_	a_tree-de_src-s4-n76
-9	das	der	_	PZNS4----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s4-n77
-10	bestehende	bestehend	_	AANS4----1-----	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n78
-11	Machtvakuum	machtvakuum	_	NNNS4----------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s4-n79
-12	dort	dort	_	Db-------------	_	_	_	13	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n80
-13	füllen	füllen	_	Vf-------------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s4-n81
-14	kann	können	_	VB-S---3P------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n82
-15	,	--	_	Z:-------------	_	_	_	14	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s4-n83
-16	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s4-n84
-17	nur	nur	_	Db-------------	_	_	_	21	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n85
-18	kurze	kurz	_	AAFS4----1-----	_	_	_	19	_	Atr	_	_	_	_	_	_	a_tree-de_src-s4-n86
-19	Zeit	zeit	_	NNFS4----------	_	_	_	21	_	Obj	_	_	_	_	_	_	a_tree-de_src-s4-n87
-20	offen	offen	_	ACXX-----1-----	_	_	_	21	_	Adv	_	_	_	_	_	_	a_tree-de_src-s4-n88
-21	stehen	stehen	_	Vf-------------	_	_	_	16	_	Obj	_	_	_	_	_	_	a_tree-de_src-s4-n89
-22	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s4-n90
+1	Doch	doch	_	J^-------------	_	_	_	16	_	Coord	_	_	_	_	_	_
+2	das	der	_	PZNS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+3	Zeitfenster	zeitfenster	_	NNNS1----------	_	_	_	16	_	Sb	_	_	_	_	_	_
+4	,	--	_	Z:-------------	_	_	_	3	_	AuxX	_	_	_	_	_	_
+5	in	in	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_
+6	dem	der	_	PJNS3----------	_	_	_	5	_	Adv	_	_	_	_	_	_
+7	das	der	_	PZNS1----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+8	Militär	militär	_	NNNS1----------	_	_	_	14	_	Sb	_	_	_	_	_	_
+9	das	der	_	PZNS4----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+10	bestehende	bestehend	_	AANS4----1-----	_	_	_	11	_	Atr	_	_	_	_	_	_
+11	Machtvakuum	machtvakuum	_	NNNS4----------	_	_	_	13	_	Obj	_	_	_	_	_	_
+12	dort	dort	_	Db-------------	_	_	_	13	_	Adv	_	_	_	_	_	_
+13	füllen	füllen	_	Vf-------------	_	_	_	14	_	Obj	_	_	_	_	_	_
+14	kann	können	_	VB-S---3P------	_	_	_	3	_	Atr	_	_	_	_	_	_
+15	,	--	_	Z:-------------	_	_	_	14	_	AuxX	_	_	_	_	_	_
+16	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+17	nur	nur	_	Db-------------	_	_	_	21	_	Adv	_	_	_	_	_	_
+18	kurze	kurz	_	AAFS4----1-----	_	_	_	19	_	Atr	_	_	_	_	_	_
+19	Zeit	zeit	_	NNFS4----------	_	_	_	21	_	Obj	_	_	_	_	_	_
+20	offen	offen	_	ACXX-----1-----	_	_	_	21	_	Adv	_	_	_	_	_	_
+21	stehen	stehen	_	Vf-------------	_	_	_	16	_	Obj	_	_	_	_	_	_
+22	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZYP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	(13	a_tree-de_src-s5-n91
-2	Terroristen	terrorist	_	NNYP1----------	_	_	_	3	_	Sb	_	_	_	_	_	13)	a_tree-de_src-s5-n92
-3	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s5-n93
-4	schon	schon	_	Db-------------	_	_	_	5	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s5-n94
-5	früher	früh	_	ACXX-----2-----	_	_	_	6	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n95
-6	gezeigt	zeigen	_	VpXX---XX------	_	_	_	3	_	Obj	_	_	_	_	_	_	a_tree-de_src-s5-n96
-7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s5-n97
-8	dass	dass	_	J,-------------	_	_	_	12	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s5-n98
-9	sie	sie	_	PPFS1--3-------	_	_	_	12	_	Sb	_	_	_	_	_	_	a_tree-de_src-s5-n99
-10	einen	ein	_	PZYS4----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s5-n100
-11	Schlag	schlag	_	NNYS4----------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s5-n101
-12	hinnehmen	hinnehmen	_	VB-P---3P------	_	_	_	13	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n102
-13	,	--	_	Z:-------------	_	_	_	6	_	Coord	_	_	_	_	_	_	a_tree-de_src-s5-n103
-14	zurückschlagen	zurückschlagen	_	VB-P---3R------	_	_	_	13	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n104
-15	und	und	_	J^-------------	_	_	_	14	_	Coord	_	_	_	_	_	_	a_tree-de_src-s5-n105
-16	sogar	sogar	_	Db-------------	_	_	_	21	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n106
-17	ihre	ihr	_	PSNP4-X3-------	_	_	_	18	_	Atr	_	_	_	_	_	(13)	a_tree-de_src-s5-n107
-18	Netzwerke	netzwerk	_	NNNP4----------	_	_	_	20	_	Obj	_	_	_	_	_	_	a_tree-de_src-s5-n108
-19	wieder	wieder	_	Db-------------	_	_	_	20	_	Adv	_	_	_	_	_	_	a_tree-de_src-s5-n109
-20	aufbauen	aufbauen	_	Vf-------------	_	_	_	21	_	Obj	_	_	_	_	_	_	a_tree-de_src-s5-n110
-21	können	können	_	Vf-------------	_	_	_	15	_	NR	_	_	_	_	_	_	a_tree-de_src-s5-n111
-22	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s5-n112
+1	Die	der	_	PZYP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	(13
+2	Terroristen	terrorist	_	NNYP1----------	_	_	_	3	_	Sb	_	_	_	_	_	13)
+3	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	schon	schon	_	Db-------------	_	_	_	5	_	AuxZ	_	_	_	_	_	_
+5	früher	früh	_	ACXX-----2-----	_	_	_	6	_	Adv	_	_	_	_	_	_
+6	gezeigt	zeigen	_	VpXX---XX------	_	_	_	3	_	Obj	_	_	_	_	_	_
+7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_
+8	dass	dass	_	J,-------------	_	_	_	12	_	AuxC	_	_	_	_	_	_
+9	sie	sie	_	PPFS1--3-------	_	_	_	12	_	Sb	_	_	_	_	_	_
+10	einen	ein	_	PZYS4----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+11	Schlag	schlag	_	NNYS4----------	_	_	_	12	_	Obj	_	_	_	_	_	_
+12	hinnehmen	hinnehmen	_	VB-P---3P------	_	_	_	13	_	Adv	_	_	_	_	_	_
+13	,	--	_	Z:-------------	_	_	_	6	_	Coord	_	_	_	_	_	_
+14	zurückschlagen	zurückschlagen	_	VB-P---3R------	_	_	_	13	_	Adv	_	_	_	_	_	_
+15	und	und	_	J^-------------	_	_	_	14	_	Coord	_	_	_	_	_	_
+16	sogar	sogar	_	Db-------------	_	_	_	21	_	Adv	_	_	_	_	_	_
+17	ihre	ihr	_	PSNP4-X3-------	_	_	_	18	_	Atr	_	_	_	_	_	(13)
+18	Netzwerke	netzwerk	_	NNNP4----------	_	_	_	20	_	Obj	_	_	_	_	_	_
+19	wieder	wieder	_	Db-------------	_	_	_	20	_	Adv	_	_	_	_	_	_
+20	aufbauen	aufbauen	_	Vf-------------	_	_	_	21	_	Obj	_	_	_	_	_	_
+21	können	können	_	Vf-------------	_	_	_	15	_	NR	_	_	_	_	_	_
+22	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Tatsächlich	tatsächlich	_	ACXX-----1-----	_	_	_	28	_	Adv	_	_	_	_	_	_	a_tree-de_src-s6-n113
-2	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s6-n114
-3	es	es	_	PPNS1--3-------	_	_	_	28	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n115
-4	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s6-n116
-5	seit	seit	_	J,-------------	_	_	_	3	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s6-n117
-6	die	der	_	PZFS1----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n118
-7	pakistanische	pakistanisch	_	AAFS1----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n119
-8	Armee	armee	_	NNFS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_	a_tree-de_src-s6-n120
-9	im	in	_	PZYS3----------	_	_	_	19	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s6-n121
-10	Oktober	oktober	_	NNYS3----------	_	_	_	9	_	Adv	_	_	_	_	_	_	a_tree-de_src-s6-n122
-11	ihre	ihr	_	PSFS4-X3-------	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n123
-12	Operation	operation	_	NNFS4----------	_	_	_	19	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n124
-13	Rah-e-Nijat	rah-e-nijat	_	NNYS1----------	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n125
-14	(	--	_	Z:-------------	_	_	_	13	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s6-n126
-15	Pfad	pfad	_	NNYS1----------	_	_	_	12	_	ExD	_	_	_	_	_	_	a_tree-de_src-s6-n127
-16	zur	zu	_	PZFS3----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s6-n128
-17	Erlösung	erlösung	_	NNFS3----------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n129
-18	)	--	_	Z:-------------	_	_	_	17	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s6-n130
-19	einleitete	einleiten	_	VB-S---3R------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n131
-20	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s6-n132
-21	ein	ein	_	PZNS1----------	_	_	_	22	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n133
-22	Dutzend	dutzend	_	NNNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s6-n134
-23	verheerender	verheerend	_	AAYP2----1-----	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n135
-24	Terroranschläge	terroranschlag	_	NNYP2----------	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n136
-25	in	in	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s6-n137
-26	Pakistans	pakistan	_	NNNS2----------	_	_	_	27	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s6-n138
-27	Großstädten	großstadt	_	NNFP3----------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n139
-28	gegeben	geben	_	VpXX---XX------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n140
-29	,	--	_	Z:-------------	_	_	_	28	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s6-n141
-30	die	der	_	PJFP1----------	_	_	_	38	_	Sb	_	_	_	_	_	_	a_tree-de_src-s6-n142
-31	die	der	_	PZFS4----------	_	_	_	32	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n143
-32	Reichweite	reichweite	_	NNFS4----------	_	_	_	38	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n144
-33	der	der	_	PZNP2----------	_	_	_	35	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s6-n145
-34	südwasirischen	südwasirisch	_	AAYP2----1-----	_	_	_	35	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n146
-35	Kämpfer	kämpfer	_	NNYP2----------	_	_	_	32	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n147
-36	unter	unter	_	RR--X----------	_	_	_	38	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s6-n148
-37	Beweis	beweis	_	NNYS4----------	_	_	_	36	_	Obj	_	_	_	_	_	_	a_tree-de_src-s6-n149
-38	stellen	stellen	_	VB-X---XX------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s6-n150
-39	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s6-n151
+1	Tatsächlich	tatsächlich	_	ACXX-----1-----	_	_	_	28	_	Adv	_	_	_	_	_	_
+2	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	es	es	_	PPNS1--3-------	_	_	_	28	_	Obj	_	_	_	_	_	_
+4	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_
+5	seit	seit	_	J,-------------	_	_	_	3	_	AuxC	_	_	_	_	_	_
+6	die	der	_	PZFS1----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+7	pakistanische	pakistanisch	_	AAFS1----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_
+8	Armee	armee	_	NNFS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_
+9	im	in	_	PZYS3----------	_	_	_	19	_	AuxP	_	_	_	_	_	_
+10	Oktober	oktober	_	NNYS3----------	_	_	_	9	_	Adv	_	_	_	_	_	_
+11	ihre	ihr	_	PSFS4-X3-------	_	_	_	12	_	Atr	_	_	_	_	_	_
+12	Operation	operation	_	NNFS4----------	_	_	_	19	_	Obj	_	_	_	_	_	_
+13	Rah-e-Nijat	rah-e-nijat	_	NNYS1----------	_	_	_	12	_	Atr	_	_	_	_	_	_
+14	(	--	_	Z:-------------	_	_	_	13	_	AuxG	_	_	_	_	_	_
+15	Pfad	pfad	_	NNYS1----------	_	_	_	12	_	ExD	_	_	_	_	_	_
+16	zur	zu	_	PZFS3----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+17	Erlösung	erlösung	_	NNFS3----------	_	_	_	16	_	Atr	_	_	_	_	_	_
+18	)	--	_	Z:-------------	_	_	_	17	_	AuxG	_	_	_	_	_	_
+19	einleitete	einleiten	_	VB-S---3R------	_	_	_	5	_	Atr	_	_	_	_	_	_
+20	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_
+21	ein	ein	_	PZNS1----------	_	_	_	22	_	AuxA	_	_	_	_	_	_
+22	Dutzend	dutzend	_	NNNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+23	verheerender	verheerend	_	AAYP2----1-----	_	_	_	24	_	Atr	_	_	_	_	_	_
+24	Terroranschläge	terroranschlag	_	NNYP2----------	_	_	_	22	_	Atr	_	_	_	_	_	_
+25	in	in	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+26	Pakistans	pakistan	_	NNNS2----------	_	_	_	27	_	Atr	_	_	_	_	_	(1)
+27	Großstädten	großstadt	_	NNFP3----------	_	_	_	25	_	Atr	_	_	_	_	_	_
+28	gegeben	geben	_	VpXX---XX------	_	_	_	2	_	Obj	_	_	_	_	_	_
+29	,	--	_	Z:-------------	_	_	_	28	_	AuxX	_	_	_	_	_	_
+30	die	der	_	PJFP1----------	_	_	_	38	_	Sb	_	_	_	_	_	_
+31	die	der	_	PZFS4----------	_	_	_	32	_	AuxA	_	_	_	_	_	_
+32	Reichweite	reichweite	_	NNFS4----------	_	_	_	38	_	Obj	_	_	_	_	_	_
+33	der	der	_	PZNP2----------	_	_	_	35	_	AuxA	_	_	_	_	_	_
+34	südwasirischen	südwasirisch	_	AAYP2----1-----	_	_	_	35	_	Atr	_	_	_	_	_	_
+35	Kämpfer	kämpfer	_	NNYP2----------	_	_	_	32	_	Atr	_	_	_	_	_	_
+36	unter	unter	_	RR--X----------	_	_	_	38	_	AuxP	_	_	_	_	_	_
+37	Beweis	beweis	_	NNYS4----------	_	_	_	36	_	Obj	_	_	_	_	_	_
+38	stellen	stellen	_	VB-X---XX------	_	_	_	24	_	Atr	_	_	_	_	_	_
+39	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	In	in	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s7-n152
-2	ein	ein	_	PZXXX----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n153
-3	paar	paar	_	PZXXX----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n154
-4	Fällen	fall	_	NNYP3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s7-n155
-5	waren	sein	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s7-n156
-6	in	in	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s7-n157
-7	Islamabad	islamabad	_	NNNS3----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n158
-8	führende	führend	_	AAYP4----1-----	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n159
-9	Armee-	Armee	_	X@-------------	_	_	_	11	_	Coord	_	_	_	_	_	_	a_tree-de_src-s7-n160
-10	und	und	_	J^-------------	_	_	_	9	_	NR	_	_	_	_	_	_	a_tree-de_src-s7-n161
-11	Geheimdienstoffiziere	geheimdienstoffizier	_	NNYP1----------	_	_	_	5	_	Sb	_	_	_	_	_	_	a_tree-de_src-s7-n162
-12	außerhalb	außerhalb	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s7-n163
-13	der	der	_	PZFS3----------	_	_	_	15	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n164
-14	eigenen	eigen	_	AAFS3----1-----	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n165
-15	Wohnung	wohnung	_	NNFS3----------	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n166
-16	das	der	_	PZNS4----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n167
-17	Ziel	ziel	_	NNNS4----------	_	_	_	5	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s7-n168
-18	–	–	_	Cn-XX----------	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n169
-19	trotz	trotz	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s7-n170
-20	umfassender	umfassend	_	AAFP2----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n171
-21	Sicherheitsmaßnahmen	sicherheitsmaßnahme	_	NNFP2----------	_	_	_	19	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n172
-22	in	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s7-n173
-23	und	und	_	J^-------------	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s7-n174
-24	um	um	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s7-n175
-25	die	der	_	PZFS4----------	_	_	_	26	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s7-n176
-26	Hauptstadt	hauptstadt	_	NNFS4----------	_	_	_	24	_	NR	_	_	_	_	_	_	a_tree-de_src-s7-n177
-27	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s7-n178
+1	In	in	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_
+2	ein	ein	_	PZXXX----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+3	paar	paar	_	PZXXX----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Fällen	fall	_	NNYP3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+5	waren	sein	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+6	in	in	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_
+7	Islamabad	islamabad	_	NNNS3----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+8	führende	führend	_	AAYP4----1-----	_	_	_	11	_	Atr	_	_	_	_	_	_
+9	Armee-	Armee	_	X@-------------	_	_	_	11	_	Coord	_	_	_	_	_	_
+10	und	und	_	J^-------------	_	_	_	9	_	NR	_	_	_	_	_	_
+11	Geheimdienstoffiziere	geheimdienstoffizier	_	NNYP1----------	_	_	_	5	_	Sb	_	_	_	_	_	_
+12	außerhalb	außerhalb	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_
+13	der	der	_	PZFS3----------	_	_	_	15	_	AuxA	_	_	_	_	_	_
+14	eigenen	eigen	_	AAFS3----1-----	_	_	_	15	_	Atr	_	_	_	_	_	_
+15	Wohnung	wohnung	_	NNFS3----------	_	_	_	12	_	Atr	_	_	_	_	_	_
+16	das	der	_	PZNS4----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+17	Ziel	ziel	_	NNNS4----------	_	_	_	5	_	Pnom	_	_	_	_	_	_
+18	–	–	_	Cn-XX----------	_	_	_	17	_	Atr	_	_	_	_	_	_
+19	trotz	trotz	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_
+20	umfassender	umfassend	_	AAFP2----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_
+21	Sicherheitsmaßnahmen	sicherheitsmaßnahme	_	NNFP2----------	_	_	_	19	_	Atr	_	_	_	_	_	_
+22	in	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_
+23	und	und	_	J^-------------	_	_	_	22	_	Atr	_	_	_	_	_	_
+24	um	um	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_
+25	die	der	_	PZFS4----------	_	_	_	26	_	AuxA	_	_	_	_	_	_
+26	Hauptstadt	hauptstadt	_	NNFS4----------	_	_	_	24	_	NR	_	_	_	_	_	_
+27	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Der	der	_	PZYS1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n179
-2	Anschlag	anschlag	_	NNYS1----------	_	_	_	11	_	Sb	_	_	_	_	_	_	a_tree-de_src-s8-n180
-3	auf	auf	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s8-n181
-4	das	der	_	PZNS4----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n182
-5	Armeehauptquartier	armeehauptquartier	_	NNNS4----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n183
-6	in	in	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s8-n184
-7	Rawalpindi	rawalpindi	_	NNNS3----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n185
-8	am	an	_	PZYS3----------	_	_	_	2	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s8-n186
-9	11	11	_	Cn-XX----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n187
-10	Oktober	oktober	_	NNYS3----------	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n188
-11	war	sein	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s8-n189
-12	der	der	_	PZYS1----------	_	_	_	13	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n190
-13	Waghalsigste	waghalsigste	_	NNYS1----------	_	_	_	11	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s8-n191
-14	davon	davon	_	PDXXX----------	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n192
-15	–	–	_	Z:-------------	_	_	_	14	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s8-n193
-16	und	und	_	J^-------------	_	_	_	11	_	Coord	_	_	_	_	_	_	a_tree-de_src-s8-n194
-17	erschütterte	erschüttern	_	VB-S---3R------	_	_	_	16	_	NR	_	_	_	_	_	_	a_tree-de_src-s8-n195
-18	die	der	_	PZFS4----------	_	_	_	19	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n196
-19	Militärführung	militärführung	_	NNFS1----------	_	_	_	17	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n197
-20	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s8-n198
-21	denn	denn	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_	a_tree-de_src-s8-n199
-22	die	der	_	PZYP1----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n200
-23	Terroristen	terrorist	_	NNYP1----------	_	_	_	24	_	Sb	_	_	_	_	_	_	a_tree-de_src-s8-n201
-24	kannten	kennen	_	VB-P---3R------	_	_	_	21	_	NR	_	_	_	_	_	_	a_tree-de_src-s8-n202
-25	das	der	_	PZNS4----------	_	_	_	26	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n203
-26	Layout	layout	_	NNNS4----------	_	_	_	24	_	Obj	_	_	_	_	_	_	a_tree-de_src-s8-n204
-27	der	der	_	PZFS2----------	_	_	_	30	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s8-n205
-28	Militär-	Militär	_	X@-------------	_	_	_	30	_	Coord	_	_	_	_	_	_	a_tree-de_src-s8-n206
-29	und	und	_	J^-------------	_	_	_	28	_	NR	_	_	_	_	_	_	a_tree-de_src-s8-n207
-30	Geheimdienstgebäude	geheimdienstgebäude	_	NNNP2----------	_	_	_	26	_	Atr	_	_	_	_	_	_	a_tree-de_src-s8-n208
-31	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s8-n209
+1	Der	der	_	PZYS1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_
+2	Anschlag	anschlag	_	NNYS1----------	_	_	_	11	_	Sb	_	_	_	_	_	_
+3	auf	auf	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_
+4	das	der	_	PZNS4----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+5	Armeehauptquartier	armeehauptquartier	_	NNNS4----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+6	in	in	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_
+7	Rawalpindi	rawalpindi	_	NNNS3----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+8	am	an	_	PZYS3----------	_	_	_	2	_	AuxP	_	_	_	_	_	_
+9	11	11	_	Cn-XX----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+10	Oktober	oktober	_	NNYS3----------	_	_	_	8	_	Atr	_	_	_	_	_	_
+11	war	sein	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+12	der	der	_	PZYS1----------	_	_	_	13	_	AuxA	_	_	_	_	_	_
+13	Waghalsigste	waghalsigste	_	NNYS1----------	_	_	_	11	_	Pnom	_	_	_	_	_	_
+14	davon	davon	_	PDXXX----------	_	_	_	13	_	Atr	_	_	_	_	_	_
+15	–	–	_	Z:-------------	_	_	_	14	_	AuxG	_	_	_	_	_	_
+16	und	und	_	J^-------------	_	_	_	11	_	Coord	_	_	_	_	_	_
+17	erschütterte	erschüttern	_	VB-S---3R------	_	_	_	16	_	NR	_	_	_	_	_	_
+18	die	der	_	PZFS4----------	_	_	_	19	_	AuxA	_	_	_	_	_	_
+19	Militärführung	militärführung	_	NNFS1----------	_	_	_	17	_	Obj	_	_	_	_	_	_
+20	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_
+21	denn	denn	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_
+22	die	der	_	PZYP1----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+23	Terroristen	terrorist	_	NNYP1----------	_	_	_	24	_	Sb	_	_	_	_	_	_
+24	kannten	kennen	_	VB-P---3R------	_	_	_	21	_	NR	_	_	_	_	_	_
+25	das	der	_	PZNS4----------	_	_	_	26	_	AuxA	_	_	_	_	_	_
+26	Layout	layout	_	NNNS4----------	_	_	_	24	_	Obj	_	_	_	_	_	_
+27	der	der	_	PZFS2----------	_	_	_	30	_	AuxA	_	_	_	_	_	_
+28	Militär-	Militär	_	X@-------------	_	_	_	30	_	Coord	_	_	_	_	_	_
+29	und	und	_	J^-------------	_	_	_	28	_	NR	_	_	_	_	_	_
+30	Geheimdienstgebäude	geheimdienstgebäude	_	NNNP2----------	_	_	_	26	_	Atr	_	_	_	_	_	_
+31	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Doch	doch	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_	a_tree-de_src-s9-n210
-2	dieses	dieser	_	PDNS1----------	_	_	_	3	_	Atr	_	_	_	_	_	(14	a_tree-de_src-s9-n211
-3	Insiderwissen	insiderwis	_	NNNS1----------	_	_	_	4	_	Sb	_	_	_	_	_	14)	a_tree-de_src-s9-n212
-4	wirkte	wirken	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s9-n213
-5	sich	sich	_	P6-S4--3-------	_	_	_	4	_	Obj	_	_	_	_	_	_	a_tree-de_src-s9-n214
-6	zugleich	zugleich	_	Db-------------	_	_	_	4	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n215
-7	gegen	gegen	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s9-n216
-8	die	der	_	PZYP4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s9-n217
-9	Extremisten	extremist	_	NNYP4----------	_	_	_	7	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n218
-10	aus	aus	_	TT-------------	_	_	_	4	_	AuxT	_	_	_	_	_	_	a_tree-de_src-s9-n219
-11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s9-n220
-12	denn	denn	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_	a_tree-de_src-s9-n221
-13	es	es	_	PPNS1--3-------	_	_	_	14	_	Sb	_	_	_	_	_	(14)	a_tree-de_src-s9-n222
-14	zeigte	zeigen	_	VB-S---3R------	_	_	_	12	_	NR	_	_	_	_	_	_	a_tree-de_src-s9-n223
-15	,	--	_	Z:-------------	_	_	_	14	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s9-n224
-16	was	was	_	PQNS1----------	_	_	_	24	_	Sb	_	_	_	_	_	_	a_tree-de_src-s9-n225
-17	für	für	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s9-n226
-18	das	der	_	PZNS4----------	_	_	_	19	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s9-n227
-19	Land	land	_	NNNS4----------	_	_	_	17	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n228
-20	insgesamt	insgesamt	_	Db-------------	_	_	_	24	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n229
-21	auf	auf	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s9-n230
-22	dem	der	_	PZNS3----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s9-n231
-23	Spiel	spiel	_	NNNS3----------	_	_	_	21	_	Adv	_	_	_	_	_	_	a_tree-de_src-s9-n232
-24	stand	stehen	_	VB-S---3R------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s9-n233
-25	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s9-n234
+1	Doch	doch	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_
+2	dieses	dieser	_	PDNS1----------	_	_	_	3	_	Atr	_	_	_	_	_	(14
+3	Insiderwissen	insiderwis	_	NNNS1----------	_	_	_	4	_	Sb	_	_	_	_	_	14)
+4	wirkte	wirken	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+5	sich	sich	_	P6-S4--3-------	_	_	_	4	_	Obj	_	_	_	_	_	_
+6	zugleich	zugleich	_	Db-------------	_	_	_	4	_	Adv	_	_	_	_	_	_
+7	gegen	gegen	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+8	die	der	_	PZYP4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Extremisten	extremist	_	NNYP4----------	_	_	_	7	_	Adv	_	_	_	_	_	_
+10	aus	aus	_	TT-------------	_	_	_	4	_	AuxT	_	_	_	_	_	_
+11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_
+12	denn	denn	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_
+13	es	es	_	PPNS1--3-------	_	_	_	14	_	Sb	_	_	_	_	_	(14)
+14	zeigte	zeigen	_	VB-S---3R------	_	_	_	12	_	NR	_	_	_	_	_	_
+15	,	--	_	Z:-------------	_	_	_	14	_	AuxX	_	_	_	_	_	_
+16	was	was	_	PQNS1----------	_	_	_	24	_	Sb	_	_	_	_	_	_
+17	für	für	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+18	das	der	_	PZNS4----------	_	_	_	19	_	AuxA	_	_	_	_	_	_
+19	Land	land	_	NNNS4----------	_	_	_	17	_	Adv	_	_	_	_	_	_
+20	insgesamt	insgesamt	_	Db-------------	_	_	_	24	_	Adv	_	_	_	_	_	_
+21	auf	auf	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+22	dem	der	_	PZNS3----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+23	Spiel	spiel	_	NNNS3----------	_	_	_	21	_	Adv	_	_	_	_	_	_
+24	stand	stehen	_	VB-S---3R------	_	_	_	14	_	Obj	_	_	_	_	_	_
+25	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Nirgends	Nirgend	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s10-n235
-2	in	in	_	RR--X----------	_	_	_	12	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s10-n236
-3	Pakistan	pakistan	_	NNNS3----------	_	_	_	2	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s10-n237
-4	wurden	werden	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s10-n238
-5	größere	groß	_	AAFP1----2-----	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s10-n239
-6	Straßenproteste	straßenprotest	_	NNFP1----------	_	_	_	4	_	Sb	_	_	_	_	_	_	a_tree-de_src-s10-n240
-7	gegen	gegen	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s10-n241
-8	die	der	_	PZFS4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s10-n242
-9	Militäroperation	militäroperation	_	NNFS4----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s10-n243
-10	in	in	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s10-n244
-11	Südwasiristan	südwasiristan	_	NNNS3----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s10-n245
-12	gemeldet	melden	_	VpXX---XX------	_	_	_	4	_	Obj	_	_	_	_	_	_	a_tree-de_src-s10-n246
-13	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s10-n247
+1	Nirgends	Nirgend	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_
+2	in	in	_	RR--X----------	_	_	_	12	_	AuxP	_	_	_	_	_	_
+3	Pakistan	pakistan	_	NNNS3----------	_	_	_	2	_	Atr	_	_	_	_	_	(1)
+4	wurden	werden	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+5	größere	groß	_	AAFP1----2-----	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	Straßenproteste	straßenprotest	_	NNFP1----------	_	_	_	4	_	Sb	_	_	_	_	_	_
+7	gegen	gegen	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+8	die	der	_	PZFS4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Militäroperation	militäroperation	_	NNFS4----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+10	in	in	_	RR--X----------	_	_	_	9	_	AuxP	_	_	_	_	_	_
+11	Südwasiristan	südwasiristan	_	NNNS3----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+12	gemeldet	melden	_	VpXX---XX------	_	_	_	4	_	Obj	_	_	_	_	_	_
+13	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Ein	ein	_	PZYS1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s11-n248
-2	Erfolg	erfolg	_	NNYS1----------	_	_	_	6	_	Sb	_	_	_	_	_	_	a_tree-de_src-s11-n249
-3	in	in	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s11-n250
-4	Südwasiristan	südwasiristan	_	NNNS3----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n251
-5	freilich	freilich	_	Db-------------	_	_	_	2	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s11-n252
-6	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s11-n253
-7	nur	nur	_	Db-------------	_	_	_	9	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s11-n254
-8	der	der	_	PZYS1----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s11-n255
-9	Anfang	anfang	_	NNYS1----------	_	_	_	6	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s11-n256
-10	im	in	_	PZYS3----------	_	_	_	9	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s11-n257
-11	Umgang	umgang	_	NNYS3----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s11-n258
-12	mit	mit	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s11-n259
-13	dem	der	_	PZNS3----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s11-n260
-14	Problem	problem	_	NNNS3----------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s11-n261
-15	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s11-n262
+1	Ein	ein	_	PZYS1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_
+2	Erfolg	erfolg	_	NNYS1----------	_	_	_	6	_	Sb	_	_	_	_	_	_
+3	in	in	_	RR--X----------	_	_	_	2	_	AuxP	_	_	_	_	_	_
+4	Südwasiristan	südwasiristan	_	NNNS3----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+5	freilich	freilich	_	Db-------------	_	_	_	2	_	AuxZ	_	_	_	_	_	_
+6	ist	sein	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+7	nur	nur	_	Db-------------	_	_	_	9	_	AuxZ	_	_	_	_	_	_
+8	der	der	_	PZYS1----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Anfang	anfang	_	NNYS1----------	_	_	_	6	_	Pnom	_	_	_	_	_	_
+10	im	in	_	PZYS3----------	_	_	_	9	_	AuxP	_	_	_	_	_	_
+11	Umgang	umgang	_	NNYS3----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+12	mit	mit	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_
+13	dem	der	_	PZNS3----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+14	Problem	problem	_	NNNS3----------	_	_	_	12	_	Obj	_	_	_	_	_	_
+15	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZYP1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s12-n263
-2	militanten	militant	_	AAYP1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n264
-3	Zentren	zentrum	_	NNFP1----------	_	_	_	4	_	Sb	_	_	_	_	_	_	a_tree-de_src-s12-n265
-4	sind	sein	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s12-n266
-5	über	über	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s12-n267
-6	viele	viele	_	PZXP4----------	_	_	_	5	_	Adv	_	_	_	_	_	_	a_tree-de_src-s12-n268
-7	der	der	_	PZYP2----------	_	_	_	10	_	AuxA	_	_	_	_	_	(2	a_tree-de_src-s12-n269
-8	dünn	dünn	_	ACXX-----1-----	_	_	_	9	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s12-n270
-9	besiedelten	besiedelt	_	AANP2----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n271
-10	Stammesgebiete	stammesgebiet	_	NNNP2----------	_	_	_	6	_	Atr	_	_	_	_	_	2)	a_tree-de_src-s12-n272
-11	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s12-n273
-12	u.a	u.a	_	J,-------------	_	_	_	4	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s12-n274
-13	die	der	_	PZFP1----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s12-n275
-14	Regionen	region	_	NNFP1----------	_	_	_	21	_	Sb	_	_	_	_	_	_	a_tree-de_src-s12-n276
-15	Nordswasiristan	nordswasiristan	_	NNNS1----------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n277
-16	,	--	_	Z:-------------	_	_	_	14	_	Coord	_	_	_	_	_	_	a_tree-de_src-s12-n278
-17	Orakzai	orakzai	_	NNYS1----------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s12-n279
-18	und	und	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_	a_tree-de_src-s12-n280
-19	Mohmand	mohmand	_	NNYS1----------	_	_	_	18	_	NR	_	_	_	_	_	_	a_tree-de_src-s12-n281
-20	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s12-n282
-21	verstreut	verstreuen	_	VpXX---XX------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s12-n283
-22	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s12-n284
+1	Die	der	_	PZYP1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+2	militanten	militant	_	AAYP1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Zentren	zentrum	_	NNFP1----------	_	_	_	4	_	Sb	_	_	_	_	_	_
+4	sind	sein	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+5	über	über	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_
+6	viele	viele	_	PZXP4----------	_	_	_	5	_	Adv	_	_	_	_	_	_
+7	der	der	_	PZYP2----------	_	_	_	10	_	AuxA	_	_	_	_	_	(2
+8	dünn	dünn	_	ACXX-----1-----	_	_	_	9	_	AuxZ	_	_	_	_	_	_
+9	besiedelten	besiedelt	_	AANP2----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_
+10	Stammesgebiete	stammesgebiet	_	NNNP2----------	_	_	_	6	_	Atr	_	_	_	_	_	2)
+11	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_
+12	u.a	u.a	_	J,-------------	_	_	_	4	_	AuxC	_	_	_	_	_	_
+13	die	der	_	PZFP1----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+14	Regionen	region	_	NNFP1----------	_	_	_	21	_	Sb	_	_	_	_	_	_
+15	Nordswasiristan	nordswasiristan	_	NNNS1----------	_	_	_	16	_	Atr	_	_	_	_	_	_
+16	,	--	_	Z:-------------	_	_	_	14	_	Coord	_	_	_	_	_	_
+17	Orakzai	orakzai	_	NNYS1----------	_	_	_	16	_	Atr	_	_	_	_	_	_
+18	und	und	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_
+19	Mohmand	mohmand	_	NNYS1----------	_	_	_	18	_	NR	_	_	_	_	_	_
+20	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_
+21	verstreut	verstreuen	_	VpXX---XX------	_	_	_	12	_	Obj	_	_	_	_	_	_
+22	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Mehr	mehr	_	Db-------------	_	_	_	13	_	Adv	_	_	_	_	_	_	a_tree-de_src-s13-n285
-2	noch	noch	_	Db-------------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s13-n286
-3	:	--	_	Z:-------------	_	_	_	2	_	AuxG	_	_	_	_	_	_	a_tree-de_src-s13-n287
-4	Der	der	_	PZYS1----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s13-n288
-5	gewalttätige	gewalttätig	_	AAYS1----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s13-n289
-6	Extremismus	extremismus	_	NNYS1----------	_	_	_	7	_	Sb	_	_	_	_	_	_	a_tree-de_src-s13-n290
-7	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s13-n291
-8	sich	sich	_	P6-S4--3-------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s13-n292
-9	inzwischen	inzwischen	_	Db-------------	_	_	_	13	_	Adv	_	_	_	_	_	_	a_tree-de_src-s13-n293
-10	ins	in	_	PZNS4----------	_	_	_	13	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s13-n294
-11	eigentliche	eigentlich	_	AANS4----1-----	_	_	_	12	_	Atr	_	_	_	_	_	(1	a_tree-de_src-s13-n295
-12	Pakistan	pakistan	_	NNNS4----------	_	_	_	10	_	Adv	_	_	_	_	_	1)	a_tree-de_src-s13-n296
-13	ausgeweitet	ausweiten	_	VpXX---XX------	_	_	_	7	_	Obj	_	_	_	_	_	_	a_tree-de_src-s13-n297
-14	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s13-n298
+1	Mehr	mehr	_	Db-------------	_	_	_	13	_	Adv	_	_	_	_	_	_
+2	noch	noch	_	Db-------------	_	_	_	1	_	Adv	_	_	_	_	_	_
+3	:	--	_	Z:-------------	_	_	_	2	_	AuxG	_	_	_	_	_	_
+4	Der	der	_	PZYS1----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+5	gewalttätige	gewalttätig	_	AAYS1----1-----	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	Extremismus	extremismus	_	NNYS1----------	_	_	_	7	_	Sb	_	_	_	_	_	_
+7	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+8	sich	sich	_	P6-S4--3-------	_	_	_	13	_	Obj	_	_	_	_	_	_
+9	inzwischen	inzwischen	_	Db-------------	_	_	_	13	_	Adv	_	_	_	_	_	_
+10	ins	in	_	PZNS4----------	_	_	_	13	_	AuxP	_	_	_	_	_	_
+11	eigentliche	eigentlich	_	AANS4----1-----	_	_	_	12	_	Atr	_	_	_	_	_	(1
+12	Pakistan	pakistan	_	NNNS4----------	_	_	_	10	_	Adv	_	_	_	_	_	1)
+13	ausgeweitet	ausweiten	_	VpXX---XX------	_	_	_	7	_	Obj	_	_	_	_	_	_
+14	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	So	so	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s14-n299
-2	nimmt	nehmen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s14-n300
-3	die	der	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s14-n301
-4	Zahl	zahl	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s14-n302
-5	der	der	_	PZYP2----------	_	_	_	7	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s14-n303
-6	religiösen	religiös	_	AAYP2----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n304
-7	Fanatiker	fanatiker	_	NNYP2----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n305
-8	im	in	_	PZYS3----------	_	_	_	7	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s14-n306
-9	südlichen	südlich	_	AAYS3----1-----	_	_	_	10	_	Atr	_	_	_	_	_	(3	a_tree-de_src-s14-n307
-10	Punjab	punjab	_	NNYS3----------	_	_	_	8	_	Atr	_	_	_	_	_	3)	a_tree-de_src-s14-n308
-11	rasch	rasch	_	ACXX-----1-----	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s14-n309
-12	zu	zu	_	TT-------------	_	_	_	2	_	AuxT	_	_	_	_	_	_	a_tree-de_src-s14-n310
-13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s14-n311
-14	und	und	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_	a_tree-de_src-s14-n312
-15	das	der	_	PZNS1----------	_	_	_	16	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s14-n313
-16	Problem	problem	_	NNNS1----------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s14-n314
-17	dort	dort	_	Db-------------	_	_	_	18	_	Adv	_	_	_	_	_	_	a_tree-de_src-s14-n315
-18	auszurotten	ausrotten	_	Vf-------------	_	_	_	20	_	Sb	_	_	_	_	_	_	a_tree-de_src-s14-n316
-19	,	--	_	Z:-------------	_	_	_	18	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s14-n317
-20	ist	sein	_	VB-S---3P------	_	_	_	14	_	NR	_	_	_	_	_	_	a_tree-de_src-s14-n318
-21	sehr	sehr	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s14-n319
-22	viel	viel	_	Db-------------	_	_	_	23	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s14-n320
-23	schwieriger	schwierig	_	ACXX-----2-----	_	_	_	20	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s14-n321
-24	als	als	_	J^-------------	_	_	_	25	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s14-n322
-25	in	in	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s14-n323
-26	den	der	_	PZNP3----------	_	_	_	28	_	AuxA	_	_	_	_	_	(2	a_tree-de_src-s14-n324
-27	paschtunischen	paschtunisch	_	AANP3----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s14-n325
-28	Stammesgebieten	stammesgebiet	_	NNNP3----------	_	_	_	25	_	Atr	_	_	_	_	_	2)	a_tree-de_src-s14-n326
-29	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s14-n327
+1	So	so	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_
+2	nimmt	nehmen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	die	der	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+4	Zahl	zahl	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+5	der	der	_	PZYP2----------	_	_	_	7	_	AuxA	_	_	_	_	_	_
+6	religiösen	religiös	_	AAYP2----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_
+7	Fanatiker	fanatiker	_	NNYP2----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+8	im	in	_	PZYS3----------	_	_	_	7	_	AuxP	_	_	_	_	_	_
+9	südlichen	südlich	_	AAYS3----1-----	_	_	_	10	_	Atr	_	_	_	_	_	(3
+10	Punjab	punjab	_	NNYS3----------	_	_	_	8	_	Atr	_	_	_	_	_	3)
+11	rasch	rasch	_	ACXX-----1-----	_	_	_	2	_	Adv	_	_	_	_	_	_
+12	zu	zu	_	TT-------------	_	_	_	2	_	AuxT	_	_	_	_	_	_
+13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_
+14	und	und	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_
+15	das	der	_	PZNS1----------	_	_	_	16	_	AuxA	_	_	_	_	_	_
+16	Problem	problem	_	NNNS1----------	_	_	_	18	_	Obj	_	_	_	_	_	_
+17	dort	dort	_	Db-------------	_	_	_	18	_	Adv	_	_	_	_	_	_
+18	auszurotten	ausrotten	_	Vf-------------	_	_	_	20	_	Sb	_	_	_	_	_	_
+19	,	--	_	Z:-------------	_	_	_	18	_	AuxX	_	_	_	_	_	_
+20	ist	sein	_	VB-S---3P------	_	_	_	14	_	NR	_	_	_	_	_	_
+21	sehr	sehr	_	Db-------------	_	_	_	22	_	Adv	_	_	_	_	_	_
+22	viel	viel	_	Db-------------	_	_	_	23	_	AuxZ	_	_	_	_	_	_
+23	schwieriger	schwierig	_	ACXX-----2-----	_	_	_	20	_	Pnom	_	_	_	_	_	_
+24	als	als	_	J^-------------	_	_	_	25	_	AuxC	_	_	_	_	_	_
+25	in	in	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_
+26	den	der	_	PZNP3----------	_	_	_	28	_	AuxA	_	_	_	_	_	(2
+27	paschtunischen	paschtunisch	_	AANP3----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_
+28	Stammesgebieten	stammesgebiet	_	NNNP3----------	_	_	_	25	_	Atr	_	_	_	_	_	2)
+29	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Viele	vieler	_	PZYP1----------	_	_	_	6	_	Sb	_	_	_	_	_	_	a_tree-de_src-s15-n328
-2	der	der	_	PZYP2----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s15-n329
-3	Militanten	militant	_	NNYP2----------	_	_	_	1	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n330
-4	im	in	_	PZNS3----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n331
-5	Punjab	punjab	_	NNNS3----------	_	_	_	4	_	Atr	_	_	_	_	_	(3)	a_tree-de_src-s15-n332
-6	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s15-n333
-7	über	über	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n334
-8	Jahre	jahr	_	NNNP4----------	_	_	_	7	_	Adv	_	_	_	_	_	_	a_tree-de_src-s15-n335
-9	eng	eng	_	ACXX-----1-----	_	_	_	14	_	Adv	_	_	_	_	_	_	a_tree-de_src-s15-n336
-10	mit	mit	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n337
-11	den	der	_	PZFP3----------	_	_	_	13	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s15-n338
-12	pakistanischen	pakistanisch	_	AAFP3----1-----	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n339
-13	Geheimdiensten	geheimdienst	_	NNFP3----------	_	_	_	10	_	Adv	_	_	_	_	_	_	a_tree-de_src-s15-n340
-14	zusammengearbeitet	zusammengearbeiten	_	VpXX---XX------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s15-n341
-15	,	--	_	Z:-------------	_	_	_	14	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s15-n342
-16	und	und	_	J^-------------	_	_	_	6	_	Coord	_	_	_	_	_	_	a_tree-de_src-s15-n343
-17	ihre	ihr	_	PSFS1-X3-------	_	_	_	18	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n344
-18	Infrastruktur	infrastruktur	_	NNFS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_	a_tree-de_src-s15-n345
-19	ist	sein	_	VB-S---3P------	_	_	_	16	_	NR	_	_	_	_	_	_	a_tree-de_src-s15-n346
-20	verteilt	verteilen	_	VpXX---XX------	_	_	_	19	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s15-n347
-21	und	und	_	J^-------------	_	_	_	20	_	Coord	_	_	_	_	_	_	a_tree-de_src-s15-n348
-22	in	in	_	RR--X----------	_	_	_	28	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s15-n349
-23	den	der	_	PZYP3----------	_	_	_	25	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s15-n350
-24	verschiedenen	verschieden	_	AANP3----1-----	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s15-n351
-25	Dörfern	dorf	_	NNNP3----------	_	_	_	22	_	Adv	_	_	_	_	_	_	a_tree-de_src-s15-n352
-26	und	und	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_	a_tree-de_src-s15-n353
-27	Städten	stadt	_	NNFP3----------	_	_	_	26	_	NR	_	_	_	_	_	_	a_tree-de_src-s15-n354
-28	verborgen	verbergen	_	VpXX---XX------	_	_	_	21	_	NR	_	_	_	_	_	_	a_tree-de_src-s15-n355
-29	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s15-n356
+1	Viele	vieler	_	PZYP1----------	_	_	_	6	_	Sb	_	_	_	_	_	_
+2	der	der	_	PZYP2----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+3	Militanten	militant	_	NNYP2----------	_	_	_	1	_	Atr	_	_	_	_	_	_
+4	im	in	_	PZNS3----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+5	Punjab	punjab	_	NNNS3----------	_	_	_	4	_	Atr	_	_	_	_	_	(3)
+6	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+7	über	über	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_
+8	Jahre	jahr	_	NNNP4----------	_	_	_	7	_	Adv	_	_	_	_	_	_
+9	eng	eng	_	ACXX-----1-----	_	_	_	14	_	Adv	_	_	_	_	_	_
+10	mit	mit	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_
+11	den	der	_	PZFP3----------	_	_	_	13	_	AuxA	_	_	_	_	_	_
+12	pakistanischen	pakistanisch	_	AAFP3----1-----	_	_	_	13	_	Atr	_	_	_	_	_	_
+13	Geheimdiensten	geheimdienst	_	NNFP3----------	_	_	_	10	_	Adv	_	_	_	_	_	_
+14	zusammengearbeitet	zusammengearbeiten	_	VpXX---XX------	_	_	_	6	_	Obj	_	_	_	_	_	_
+15	,	--	_	Z:-------------	_	_	_	14	_	AuxX	_	_	_	_	_	_
+16	und	und	_	J^-------------	_	_	_	6	_	Coord	_	_	_	_	_	_
+17	ihre	ihr	_	PSFS1-X3-------	_	_	_	18	_	Atr	_	_	_	_	_	_
+18	Infrastruktur	infrastruktur	_	NNFS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_
+19	ist	sein	_	VB-S---3P------	_	_	_	16	_	NR	_	_	_	_	_	_
+20	verteilt	verteilen	_	VpXX---XX------	_	_	_	19	_	Pnom	_	_	_	_	_	_
+21	und	und	_	J^-------------	_	_	_	20	_	Coord	_	_	_	_	_	_
+22	in	in	_	RR--X----------	_	_	_	28	_	AuxP	_	_	_	_	_	_
+23	den	der	_	PZYP3----------	_	_	_	25	_	AuxA	_	_	_	_	_	_
+24	verschiedenen	verschieden	_	AANP3----1-----	_	_	_	25	_	Atr	_	_	_	_	_	_
+25	Dörfern	dorf	_	NNNP3----------	_	_	_	22	_	Adv	_	_	_	_	_	_
+26	und	und	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_
+27	Städten	stadt	_	NNFP3----------	_	_	_	26	_	NR	_	_	_	_	_	_
+28	verborgen	verbergen	_	VpXX---XX------	_	_	_	21	_	NR	_	_	_	_	_	_
+29	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZFS1----------	_	_	_	2	_	AuxA	_	_	_	_	_	(4	a_tree-de_src-s16-n357
-2	Armee	armee	_	NNFS1----------	_	_	_	13	_	Sb	_	_	_	_	_	4)	a_tree-de_src-s16-n358
-3	,	--	_	Z:-------------	_	_	_	2	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s16-n359
-4	die	der	_	PJFS1----------	_	_	_	11	_	Sb	_	_	_	_	_	(4)	a_tree-de_src-s16-n360
-5	einen	ein	_	PZYS4----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s16-n361
-6	Großteil	großteil	_	NNYS4----------	_	_	_	11	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n362
-7	ihrer	ihr	_	PSYP2-X3-------	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n363
-8	Soldaten	soldat	_	NNYP2----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n364
-9	im	in	_	PZYS3----------	_	_	_	11	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s16-n365
-10	Punjab	punjab	_	NNYS3----------	_	_	_	9	_	Adv	_	_	_	_	_	_	a_tree-de_src-s16-n366
-11	rekrutiert	rekrutieren	_	VB-S---3P------	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s16-n367
-12	,	--	_	Z:-------------	_	_	_	11	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s16-n368
-13	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s16-n369
-14	dort	dort	_	Db-------------	_	_	_	18	_	Adv	_	_	_	_	_	_	a_tree-de_src-s16-n370
-15	nicht	nicht	_	TT--------N----	_	_	_	18	_	Neg	_	_	_	_	_	_	a_tree-de_src-s16-n371
-16	mit	mit	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s16-n372
-17	Gewalt	gewalt	_	NNFS3----------	_	_	_	16	_	Adv	_	_	_	_	_	_	a_tree-de_src-s16-n373
-18	vorgehen	vorgehen	_	Vf-------------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n374
-19	,	--	_	Z:-------------	_	_	_	18	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s16-n375
-20	so	so	_	Db-------------	_	_	_	18	_	Adv	_	_	_	_	_	_	a_tree-de_src-s16-n376
-21	wie	wie	_	J^-------------	_	_	_	27	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s16-n377
-22	sie	sie	_	PPFS1--3-------	_	_	_	27	_	Sb	_	_	_	_	_	_	a_tree-de_src-s16-n378
-23	es	es	_	PPNS4--3-------	_	_	_	27	_	Obj	_	_	_	_	_	_	a_tree-de_src-s16-n379
-24	in	in	_	RR--X----------	_	_	_	27	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s16-n380
-25	den	der	_	PZYS4----------	_	_	_	26	_	AuxA	_	_	_	_	_	(2	a_tree-de_src-s16-n381
-26	Stammesgebieten	stammesgebiet	_	NNYS4----------	_	_	_	24	_	Adv	_	_	_	_	_	2)	a_tree-de_src-s16-n382
-27	tut	tun	_	VB-S---3P------	_	_	_	20	_	Adv	_	_	_	_	_	_	a_tree-de_src-s16-n383
-28	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s16-n384
+1	Die	der	_	PZFS1----------	_	_	_	2	_	AuxA	_	_	_	_	_	(4
+2	Armee	armee	_	NNFS1----------	_	_	_	13	_	Sb	_	_	_	_	_	4)
+3	,	--	_	Z:-------------	_	_	_	2	_	AuxX	_	_	_	_	_	_
+4	die	der	_	PJFS1----------	_	_	_	11	_	Sb	_	_	_	_	_	(4)
+5	einen	ein	_	PZYS4----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+6	Großteil	großteil	_	NNYS4----------	_	_	_	11	_	Obj	_	_	_	_	_	_
+7	ihrer	ihr	_	PSYP2-X3-------	_	_	_	8	_	Atr	_	_	_	_	_	_
+8	Soldaten	soldat	_	NNYP2----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+9	im	in	_	PZYS3----------	_	_	_	11	_	AuxP	_	_	_	_	_	_
+10	Punjab	punjab	_	NNYS3----------	_	_	_	9	_	Adv	_	_	_	_	_	_
+11	rekrutiert	rekrutieren	_	VB-S---3P------	_	_	_	2	_	Atr	_	_	_	_	_	_
+12	,	--	_	Z:-------------	_	_	_	11	_	AuxX	_	_	_	_	_	_
+13	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+14	dort	dort	_	Db-------------	_	_	_	18	_	Adv	_	_	_	_	_	_
+15	nicht	nicht	_	TT--------N----	_	_	_	18	_	Neg	_	_	_	_	_	_
+16	mit	mit	_	RR--X----------	_	_	_	18	_	AuxP	_	_	_	_	_	_
+17	Gewalt	gewalt	_	NNFS3----------	_	_	_	16	_	Adv	_	_	_	_	_	_
+18	vorgehen	vorgehen	_	Vf-------------	_	_	_	13	_	Obj	_	_	_	_	_	_
+19	,	--	_	Z:-------------	_	_	_	18	_	AuxX	_	_	_	_	_	_
+20	so	so	_	Db-------------	_	_	_	18	_	Adv	_	_	_	_	_	_
+21	wie	wie	_	J^-------------	_	_	_	27	_	AuxC	_	_	_	_	_	_
+22	sie	sie	_	PPFS1--3-------	_	_	_	27	_	Sb	_	_	_	_	_	_
+23	es	es	_	PPNS4--3-------	_	_	_	27	_	Obj	_	_	_	_	_	_
+24	in	in	_	RR--X----------	_	_	_	27	_	AuxP	_	_	_	_	_	_
+25	den	der	_	PZYS4----------	_	_	_	26	_	AuxA	_	_	_	_	_	(2
+26	Stammesgebieten	stammesgebiet	_	NNYS4----------	_	_	_	24	_	Adv	_	_	_	_	_	2)
+27	tut	tun	_	VB-S---3P------	_	_	_	20	_	Adv	_	_	_	_	_	_
+28	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Nur	nur	_	Db-------------	_	_	_	4	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s17-n385
-2	eine	ein	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n386
-3	konzertierte	konzertiert	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n387
-4	Anstrengung	anstrengung	_	NNFS1----------	_	_	_	12	_	Sb	_	_	_	_	_	_	a_tree-de_src-s17-n388
-5	der	der	_	PZFP2----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n389
-6	Strafverfolgungsbehörden	strafverfolgungsbehörde	_	NNFP2----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n390
-7	mit	mit	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n391
-8	uneingeschränkter	uneingeschränkt	_	AAFS3----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n392
-9	Unterstützung	unterstützung	_	NNFS3----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n393
-10	der	der	_	PZYP2----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s17-n394
-11	Geheimdienste	geheimdienst	_	NNYP2----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n395
-12	kann	können	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s17-n396
-13	im	in	_	PZNS3----------	_	_	_	17	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s17-n397
-14	pakistanischen	pakistanisch	_	AANS3----1-----	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s17-n398
-15	Kernland	kernland	_	NNNS3----------	_	_	_	13	_	Adv	_	_	_	_	_	_	a_tree-de_src-s17-n399
-16	Erfolg	erfolg	_	NNYS4----------	_	_	_	17	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n400
-17	haben	haben	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s17-n401
-18	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s17-n402
+1	Nur	nur	_	Db-------------	_	_	_	4	_	AuxZ	_	_	_	_	_	_
+2	eine	ein	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+3	konzertierte	konzertiert	_	AAFS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Anstrengung	anstrengung	_	NNFS1----------	_	_	_	12	_	Sb	_	_	_	_	_	_
+5	der	der	_	PZFP2----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+6	Strafverfolgungsbehörden	strafverfolgungsbehörde	_	NNFP2----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+7	mit	mit	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+8	uneingeschränkter	uneingeschränkt	_	AAFS3----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Unterstützung	unterstützung	_	NNFS3----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+10	der	der	_	PZYP2----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+11	Geheimdienste	geheimdienst	_	NNYP2----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+12	kann	können	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+13	im	in	_	PZNS3----------	_	_	_	17	_	AuxP	_	_	_	_	_	_
+14	pakistanischen	pakistanisch	_	AANS3----1-----	_	_	_	15	_	Atr	_	_	_	_	_	_
+15	Kernland	kernland	_	NNNS3----------	_	_	_	13	_	Adv	_	_	_	_	_	_
+16	Erfolg	erfolg	_	NNYS4----------	_	_	_	17	_	Obj	_	_	_	_	_	_
+17	haben	haben	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_
+18	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZFS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	(5	a_tree-de_src-s18-n403
-2	tiefe	tief	_	AAFS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n404
-3	Sicherheitskrise	sicherheitskrise	_	NNFS1----------	_	_	_	6	_	Sb	_	_	_	_	_	_	a_tree-de_src-s18-n405
-4	in	in	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s18-n406
-5	Pakistan	pakistan	_	NNNS3----------	_	_	_	4	_	Atr	_	_	_	_	_	(1)|5)	a_tree-de_src-s18-n407
-6	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s18-n408
-7	ihre	ihr	_	PSFS4-X3-------	_	_	_	8	_	Atr	_	_	_	_	_	(5)	a_tree-de_src-s18-n409
-8	Entsprechung	entsprechung	_	NNFS4----------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n410
-9	jenseits	jenseits	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s18-n411
-10	der	der	_	PZFS3----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s18-n412
-11	Grenze	grenze	_	NNFS3----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n413
-12	in	in	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s18-n414
-13	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	12	_	Atr	_	_	_	_	_	(6)	a_tree-de_src-s18-n415
-14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s18-n416
-15	das	der	_	PJNS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_	a_tree-de_src-s18-n417
-16	ein	ein	_	PZNS4----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s18-n418
-17	Modell	modell	_	NNNS4----------	_	_	_	19	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n419
-18	dafür	dafür	_	PDXXX----------	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n420
-19	bietet	bieten	_	VB-S---3P------	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n421
-20	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s18-n422
-21	wie	wie	_	P4XXX----------	_	_	_	25	_	Adv	_	_	_	_	_	_	a_tree-de_src-s18-n423
-22	man	man	_	PZ-S1----------	_	_	_	25	_	Sb	_	_	_	_	_	_	a_tree-de_src-s18-n424
-23	nicht	nicht	_	TT--------N----	_	_	_	25	_	Neg	_	_	_	_	_	_	a_tree-de_src-s18-n425
-24	vorgehen	vorgehen	_	Vf-------------	_	_	_	25	_	Obj	_	_	_	_	_	_	a_tree-de_src-s18-n426
-25	sollte	sollen	_	VB-S---3R------	_	_	_	18	_	Atr	_	_	_	_	_	_	a_tree-de_src-s18-n427
-26	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s18-n428
+1	Die	der	_	PZFS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	(5
+2	tiefe	tief	_	AAFS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Sicherheitskrise	sicherheitskrise	_	NNFS1----------	_	_	_	6	_	Sb	_	_	_	_	_	_
+4	in	in	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+5	Pakistan	pakistan	_	NNNS3----------	_	_	_	4	_	Atr	_	_	_	_	_	(1)|5)
+6	hat	haben	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+7	ihre	ihr	_	PSFS4-X3-------	_	_	_	8	_	Atr	_	_	_	_	_	(5)
+8	Entsprechung	entsprechung	_	NNFS4----------	_	_	_	6	_	Obj	_	_	_	_	_	_
+9	jenseits	jenseits	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_
+10	der	der	_	PZFS3----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+11	Grenze	grenze	_	NNFS3----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+12	in	in	_	RR--X----------	_	_	_	11	_	AuxP	_	_	_	_	_	_
+13	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	12	_	Atr	_	_	_	_	_	(6)
+14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_
+15	das	der	_	PJNS1----------	_	_	_	19	_	Sb	_	_	_	_	_	_
+16	ein	ein	_	PZNS4----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+17	Modell	modell	_	NNNS4----------	_	_	_	19	_	Obj	_	_	_	_	_	_
+18	dafür	dafür	_	PDXXX----------	_	_	_	17	_	Atr	_	_	_	_	_	_
+19	bietet	bieten	_	VB-S---3P------	_	_	_	8	_	Atr	_	_	_	_	_	_
+20	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_
+21	wie	wie	_	P4XXX----------	_	_	_	25	_	Adv	_	_	_	_	_	_
+22	man	man	_	PZ-S1----------	_	_	_	25	_	Sb	_	_	_	_	_	_
+23	nicht	nicht	_	TT--------N----	_	_	_	25	_	Neg	_	_	_	_	_	_
+24	vorgehen	vorgehen	_	Vf-------------	_	_	_	25	_	Obj	_	_	_	_	_	_
+25	sollte	sollen	_	VB-S---3R------	_	_	_	18	_	Atr	_	_	_	_	_	_
+26	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZYP1----------	_	_	_	3	_	AuxA	_	_	_	_	_	(7	a_tree-de_src-s19-n429
-2	afghanischen	afghanisch	_	AAYP1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n430
-3	Taliban	taliban	_	NNYP1----------	_	_	_	4	_	Sb	_	_	_	_	_	7)	a_tree-de_src-s19-n431
-4	brauchten	brauchen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s19-n432
-5	aufgrund	aufgrund	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s19-n433
-6	der	der	_	PZNP2----------	_	_	_	7	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s19-n434
-7	Versäumnisse	versäumnis	_	NNNP2----------	_	_	_	5	_	Adv	_	_	_	_	_	_	a_tree-de_src-s19-n435
-8	der	der	_	PZFS2----------	_	_	_	10	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s19-n436
-9	afghanischen	afghanisch	_	AAFS2----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n437
-10	Regierung	regierung	_	NNFS2----------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n438
-11	und	und	_	J^-------------	_	_	_	7	_	Coord	_	_	_	_	_	_	a_tree-de_src-s19-n439
-12	ihrer	ihr	_	PSFS2-X3-------	_	_	_	14	_	Atr	_	_	_	_	_	(7)	a_tree-de_src-s19-n440
-13	internationalen	international	_	AAYP2----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n441
-14	Unterstützer	unterstützer	_	NNYP4----------	_	_	_	11	_	NR	_	_	_	_	_	_	a_tree-de_src-s19-n442
-15	beim	bei	_	PZYS3----------	_	_	_	14	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s19-n443
-16	Wiederaufbau	wiederaufbau	_	NNYS3----------	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n444
-17	und	und	_	J^-------------	_	_	_	15	_	Coord	_	_	_	_	_	_	a_tree-de_src-s19-n445
-18	bei	bei	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s19-n446
-19	der	der	_	PZFS3----------	_	_	_	20	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s19-n447
-20	Stabilisierung	stabilisierung	_	NNFS3----------	_	_	_	18	_	NR	_	_	_	_	_	_	a_tree-de_src-s19-n448
-21	des	der	_	PZNS2----------	_	_	_	22	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s19-n449
-22	Landes	land	_	NNNS2----------	_	_	_	20	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n450
-23	nach	nach	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s19-n451
-24	ihrem	ihr	_	PSYS3-X3-------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n452
-25	Sturz	sturz	_	NNYS3----------	_	_	_	23	_	Adv	_	_	_	_	_	_	a_tree-de_src-s19-n453
-26	und	und	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_	a_tree-de_src-s19-n454
-27	ihrer	ihr	_	PSFS3-X3-------	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n455
-28	Vertreibung	vertreibung	_	NNFS3----------	_	_	_	26	_	NR	_	_	_	_	_	_	a_tree-de_src-s19-n456
-29	aus	aus	_	RR--X----------	_	_	_	28	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s19-n457
-30	dem	der	_	PZNS3----------	_	_	_	31	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s19-n458
-31	Land	land	_	NNNS3----------	_	_	_	29	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n459
-32	Ende	ende	_	NNNSX----------	_	_	_	31	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n460
-33	2001	2001	_	Cn-XX----------	_	_	_	32	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n461
-34	lediglich	lediglich	_	Db-------------	_	_	_	4	_	Adv	_	_	_	_	_	_	a_tree-de_src-s19-n462
-35	ein	ein	_	PZXXX----------	_	_	_	36	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s19-n463
-36	paar	paar	_	PZXXX----------	_	_	_	37	_	Atr	_	_	_	_	_	_	a_tree-de_src-s19-n464
-37	Jahre	jahr	_	NNNP4----------	_	_	_	4	_	Obj	_	_	_	_	_	_	a_tree-de_src-s19-n465
-38	,	--	_	Z:-------------	_	_	_	39	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s19-n466
-39	um	um	_	J,-------------	_	_	_	4	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s19-n467
-40	sich	sich	_	P6-S4--3-------	_	_	_	42	_	Obj	_	_	_	_	_	_	a_tree-de_src-s19-n468
-41	zu	zu	_	TT-------------	_	_	_	42	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s19-n469
-42	erholen	erholen	_	Vf-------------	_	_	_	39	_	Adv	_	_	_	_	_	_	a_tree-de_src-s19-n470
-43	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s19-n471
+1	Die	der	_	PZYP1----------	_	_	_	3	_	AuxA	_	_	_	_	_	(7
+2	afghanischen	afghanisch	_	AAYP1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Taliban	taliban	_	NNYP1----------	_	_	_	4	_	Sb	_	_	_	_	_	7)
+4	brauchten	brauchen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+5	aufgrund	aufgrund	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+6	der	der	_	PZNP2----------	_	_	_	7	_	AuxA	_	_	_	_	_	_
+7	Versäumnisse	versäumnis	_	NNNP2----------	_	_	_	5	_	Adv	_	_	_	_	_	_
+8	der	der	_	PZFS2----------	_	_	_	10	_	AuxA	_	_	_	_	_	_
+9	afghanischen	afghanisch	_	AAFS2----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_
+10	Regierung	regierung	_	NNFS2----------	_	_	_	7	_	Atr	_	_	_	_	_	_
+11	und	und	_	J^-------------	_	_	_	7	_	Coord	_	_	_	_	_	_
+12	ihrer	ihr	_	PSFS2-X3-------	_	_	_	14	_	Atr	_	_	_	_	_	(7)
+13	internationalen	international	_	AAYP2----1-----	_	_	_	14	_	Atr	_	_	_	_	_	_
+14	Unterstützer	unterstützer	_	NNYP4----------	_	_	_	11	_	NR	_	_	_	_	_	_
+15	beim	bei	_	PZYS3----------	_	_	_	14	_	AuxP	_	_	_	_	_	_
+16	Wiederaufbau	wiederaufbau	_	NNYS3----------	_	_	_	15	_	Atr	_	_	_	_	_	_
+17	und	und	_	J^-------------	_	_	_	15	_	Coord	_	_	_	_	_	_
+18	bei	bei	_	RR--X----------	_	_	_	17	_	AuxP	_	_	_	_	_	_
+19	der	der	_	PZFS3----------	_	_	_	20	_	AuxA	_	_	_	_	_	_
+20	Stabilisierung	stabilisierung	_	NNFS3----------	_	_	_	18	_	NR	_	_	_	_	_	_
+21	des	der	_	PZNS2----------	_	_	_	22	_	AuxA	_	_	_	_	_	_
+22	Landes	land	_	NNNS2----------	_	_	_	20	_	Atr	_	_	_	_	_	_
+23	nach	nach	_	RR--X----------	_	_	_	4	_	AuxP	_	_	_	_	_	_
+24	ihrem	ihr	_	PSYS3-X3-------	_	_	_	25	_	Atr	_	_	_	_	_	_
+25	Sturz	sturz	_	NNYS3----------	_	_	_	23	_	Adv	_	_	_	_	_	_
+26	und	und	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_
+27	ihrer	ihr	_	PSFS3-X3-------	_	_	_	28	_	Atr	_	_	_	_	_	_
+28	Vertreibung	vertreibung	_	NNFS3----------	_	_	_	26	_	NR	_	_	_	_	_	_
+29	aus	aus	_	RR--X----------	_	_	_	28	_	AuxP	_	_	_	_	_	_
+30	dem	der	_	PZNS3----------	_	_	_	31	_	AuxA	_	_	_	_	_	_
+31	Land	land	_	NNNS3----------	_	_	_	29	_	Atr	_	_	_	_	_	_
+32	Ende	ende	_	NNNSX----------	_	_	_	31	_	Atr	_	_	_	_	_	_
+33	2001	2001	_	Cn-XX----------	_	_	_	32	_	Atr	_	_	_	_	_	_
+34	lediglich	lediglich	_	Db-------------	_	_	_	4	_	Adv	_	_	_	_	_	_
+35	ein	ein	_	PZXXX----------	_	_	_	36	_	AuxA	_	_	_	_	_	_
+36	paar	paar	_	PZXXX----------	_	_	_	37	_	Atr	_	_	_	_	_	_
+37	Jahre	jahr	_	NNNP4----------	_	_	_	4	_	Obj	_	_	_	_	_	_
+38	,	--	_	Z:-------------	_	_	_	39	_	AuxX	_	_	_	_	_	_
+39	um	um	_	J,-------------	_	_	_	4	_	AuxC	_	_	_	_	_	_
+40	sich	sich	_	P6-S4--3-------	_	_	_	42	_	Obj	_	_	_	_	_	_
+41	zu	zu	_	TT-------------	_	_	_	42	_	AuxV	_	_	_	_	_	_
+42	erholen	erholen	_	Vf-------------	_	_	_	39	_	Adv	_	_	_	_	_	_
+43	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Ein	ein	_	PZYS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n472
-2	kritischer	kritisch	_	AAYS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n473
-3	Faktor	faktor	_	NNYS1----------	_	_	_	9	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s20-n474
-4	für	für	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n475
-5	die	der	_	PZFS4----------	_	_	_	6	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n476
-6	Erholung	erholung	_	NNFS4----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n477
-7	der	der	_	PZFS2----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n478
-8	Taliban	taliban	_	NNNP2----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n479
-9	waren	sein	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s20-n480
-10	das	der	_	PZNS1----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n481
-11	Rückzugsgebiet	rückzugsgebiet	_	NNNS1----------	_	_	_	9	_	Sb	_	_	_	_	_	_	a_tree-de_src-s20-n482
-12	,	--	_	Z:-------------	_	_	_	11	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s20-n483
-13	das	der	_	PJNS4----------	_	_	_	22	_	Obj	_	_	_	_	_	_	a_tree-de_src-s20-n484
-14	sie	sie	_	PPXP1--3-------	_	_	_	22	_	Sb	_	_	_	_	_	(7)	a_tree-de_src-s20-n485
-15	in	in	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n486
-16	den	der	_	PZNP3----------	_	_	_	18	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n487
-17	abgelegenen	abgelegen	_	AAYP3----1-----	_	_	_	18	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n488
-18	Bereichen	bereich	_	NNYP3----------	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n489
-19	des	der	_	PZYS2----------	_	_	_	21	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n490
-20	pakistanisch-afghanischen	pakistanisch-afghanisch	_	AAYS2----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n491
-21	Grenzlandes	grenzland	_	NNYS2----------	_	_	_	18	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n492
-22	vorfanden	vorfehen	_	VB-P---3R------	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n493
-23	,	--	_	Z:-------------	_	_	_	22	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s20-n494
-24	und	und	_	J^-------------	_	_	_	11	_	Coord	_	_	_	_	_	_	a_tree-de_src-s20-n495
-25	die	der	_	PZFS1----------	_	_	_	27	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s20-n496
-26	anhaltende	anhaltend	_	AAFS1----1-----	_	_	_	27	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n497
-27	Unterstützung	unterstützung	_	NNFS1----------	_	_	_	24	_	NR	_	_	_	_	_	_	a_tree-de_src-s20-n498
-28	,	--	_	Z:-------------	_	_	_	27	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s20-n499
-29	die	der	_	PJFS4----------	_	_	_	35	_	Obj	_	_	_	_	_	_	a_tree-de_src-s20-n500
-30	sie	sie	_	PPXP1--3-------	_	_	_	35	_	Sb	_	_	_	_	_	(7)	a_tree-de_src-s20-n501
-31	von	von	_	RR--X----------	_	_	_	35	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n502
-32	Elementen	element	_	NNNP3----------	_	_	_	31	_	Adv	_	_	_	_	_	_	a_tree-de_src-s20-n503
-33	innerhalb	innerhalb	_	RR--X----------	_	_	_	35	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s20-n504
-34	Pakistans	pakistan	_	NNNS2----------	_	_	_	33	_	Adv	_	_	_	_	_	(1)	a_tree-de_src-s20-n505
-35	erhielten	erhalten	_	VB-P---3R------	_	_	_	27	_	Atr	_	_	_	_	_	_	a_tree-de_src-s20-n506
-36	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s20-n507
+1	Ein	ein	_	PZYS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+2	kritischer	kritisch	_	AAYS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Faktor	faktor	_	NNYS1----------	_	_	_	9	_	Pnom	_	_	_	_	_	_
+4	für	für	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+5	die	der	_	PZFS4----------	_	_	_	6	_	AuxA	_	_	_	_	_	_
+6	Erholung	erholung	_	NNFS4----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+7	der	der	_	PZFS2----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+8	Taliban	taliban	_	NNNP2----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+9	waren	sein	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+10	das	der	_	PZNS1----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+11	Rückzugsgebiet	rückzugsgebiet	_	NNNS1----------	_	_	_	9	_	Sb	_	_	_	_	_	_
+12	,	--	_	Z:-------------	_	_	_	11	_	AuxX	_	_	_	_	_	_
+13	das	der	_	PJNS4----------	_	_	_	22	_	Obj	_	_	_	_	_	_
+14	sie	sie	_	PPXP1--3-------	_	_	_	22	_	Sb	_	_	_	_	_	(7)
+15	in	in	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+16	den	der	_	PZNP3----------	_	_	_	18	_	AuxA	_	_	_	_	_	_
+17	abgelegenen	abgelegen	_	AAYP3----1-----	_	_	_	18	_	Atr	_	_	_	_	_	_
+18	Bereichen	bereich	_	NNYP3----------	_	_	_	15	_	Adv	_	_	_	_	_	_
+19	des	der	_	PZYS2----------	_	_	_	21	_	AuxA	_	_	_	_	_	_
+20	pakistanisch-afghanischen	pakistanisch-afghanisch	_	AAYS2----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_
+21	Grenzlandes	grenzland	_	NNYS2----------	_	_	_	18	_	Atr	_	_	_	_	_	_
+22	vorfanden	vorfehen	_	VB-P---3R------	_	_	_	11	_	Atr	_	_	_	_	_	_
+23	,	--	_	Z:-------------	_	_	_	22	_	AuxX	_	_	_	_	_	_
+24	und	und	_	J^-------------	_	_	_	11	_	Coord	_	_	_	_	_	_
+25	die	der	_	PZFS1----------	_	_	_	27	_	AuxA	_	_	_	_	_	_
+26	anhaltende	anhaltend	_	AAFS1----1-----	_	_	_	27	_	Atr	_	_	_	_	_	_
+27	Unterstützung	unterstützung	_	NNFS1----------	_	_	_	24	_	NR	_	_	_	_	_	_
+28	,	--	_	Z:-------------	_	_	_	27	_	AuxX	_	_	_	_	_	_
+29	die	der	_	PJFS4----------	_	_	_	35	_	Obj	_	_	_	_	_	_
+30	sie	sie	_	PPXP1--3-------	_	_	_	35	_	Sb	_	_	_	_	_	(7)
+31	von	von	_	RR--X----------	_	_	_	35	_	AuxP	_	_	_	_	_	_
+32	Elementen	element	_	NNNP3----------	_	_	_	31	_	Adv	_	_	_	_	_	_
+33	innerhalb	innerhalb	_	RR--X----------	_	_	_	35	_	AuxP	_	_	_	_	_	_
+34	Pakistans	pakistan	_	NNNS2----------	_	_	_	33	_	Adv	_	_	_	_	_	(1)
+35	erhielten	erhalten	_	VB-P---3R------	_	_	_	27	_	Atr	_	_	_	_	_	_
+36	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Diesmal	diesmal	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s21-n508
-2	müssen	müssen	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s21-n509
-3	die	der	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s21-n510
-4	NATO	nato	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s21-n511
-5	und	und	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_	a_tree-de_src-s21-n512
-6	die	der	_	PZNP1----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s21-n513
-7	afghanischen	afghanisch	_	AAFP1----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n514
-8	Streitkräfte	streitkraft	_	NNFP1----------	_	_	_	5	_	NR	_	_	_	_	_	_	a_tree-de_src-s21-n515
-9	bereit	bereit	_	ACXX-----1-----	_	_	_	10	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s21-n516
-10	sein	sein	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s21-n517
-11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s21-n518
-12	den	der	_	PZYS4----------	_	_	_	13	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s21-n519
-13	Kampf	kampf	_	NNYS4----------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s21-n520
-14	mit	mit	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s21-n521
-15	den	der	_	PZYP3----------	_	_	_	17	_	AuxA	_	_	_	_	_	(9	a_tree-de_src-s21-n522
-16	afghanischen	afghanisch	_	AAYP3----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s21-n523
-17	Taliban	taliban	_	NNYS4----------	_	_	_	14	_	Obj	_	_	_	_	_	9)	a_tree-de_src-s21-n524
-18	aufzunehmen	aufnehmen	_	Vf-------------	_	_	_	9	_	Obj	_	_	_	_	_	_	a_tree-de_src-s21-n525
-19	,	--	_	Z:-------------	_	_	_	20	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s21-n526
-20	sobald	sobald	_	J,-------------	_	_	_	2	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s21-n527
-21	diese	dieser	_	PDFS1----------	_	_	_	25	_	Sb	_	_	_	_	_	_	a_tree-de_src-s21-n528
-22	aus	aus	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s21-n529
-23	Pakistan	pakistan	_	NNNS3----------	_	_	_	22	_	Adv	_	_	_	_	_	(1)	a_tree-de_src-s21-n530
-24	vertrieben	vertreiben	_	VpXX---XX------	_	_	_	25	_	Obj	_	_	_	_	_	_	a_tree-de_src-s21-n531
-25	werden	werden	_	VB-P---3P------	_	_	_	20	_	Adv	_	_	_	_	_	_	a_tree-de_src-s21-n532
-26	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s21-n533
+1	Diesmal	diesmal	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_
+2	müssen	müssen	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	die	der	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+4	NATO	nato	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+5	und	und	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_
+6	die	der	_	PZNP1----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+7	afghanischen	afghanisch	_	AAFP1----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_
+8	Streitkräfte	streitkraft	_	NNFP1----------	_	_	_	5	_	NR	_	_	_	_	_	_
+9	bereit	bereit	_	ACXX-----1-----	_	_	_	10	_	Pnom	_	_	_	_	_	_
+10	sein	sein	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_
+11	,	--	_	Z:-------------	_	_	_	10	_	AuxX	_	_	_	_	_	_
+12	den	der	_	PZYS4----------	_	_	_	13	_	AuxA	_	_	_	_	_	_
+13	Kampf	kampf	_	NNYS4----------	_	_	_	18	_	Obj	_	_	_	_	_	_
+14	mit	mit	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_
+15	den	der	_	PZYP3----------	_	_	_	17	_	AuxA	_	_	_	_	_	(9
+16	afghanischen	afghanisch	_	AAYP3----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_
+17	Taliban	taliban	_	NNYS4----------	_	_	_	14	_	Obj	_	_	_	_	_	9)
+18	aufzunehmen	aufnehmen	_	Vf-------------	_	_	_	9	_	Obj	_	_	_	_	_	_
+19	,	--	_	Z:-------------	_	_	_	20	_	AuxX	_	_	_	_	_	_
+20	sobald	sobald	_	J,-------------	_	_	_	2	_	AuxC	_	_	_	_	_	_
+21	diese	dieser	_	PDFS1----------	_	_	_	25	_	Sb	_	_	_	_	_	_
+22	aus	aus	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+23	Pakistan	pakistan	_	NNNS3----------	_	_	_	22	_	Adv	_	_	_	_	_	(1)
+24	vertrieben	vertreiben	_	VpXX---XX------	_	_	_	25	_	Obj	_	_	_	_	_	_
+25	werden	werden	_	VB-P---3P------	_	_	_	20	_	Adv	_	_	_	_	_	_
+26	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZXP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s22-n534
-2	USA	usa	_	NNXP1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s22-n535
-3	,	--	_	Z:-------------	_	_	_	15	_	Coord	_	_	_	_	_	_	a_tree-de_src-s22-n536
-4	Afghanistan	afghanistan	_	NNNS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s22-n537
-5	und	und	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_	a_tree-de_src-s22-n538
-6	Indien	indien	_	NNNS3----------	_	_	_	5	_	NR	_	_	_	_	_	(10)	a_tree-de_src-s22-n539
-7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s22-n540
-8	die	der	_	PJFS1----------	_	_	_	13	_	Sb	_	_	_	_	_	_	a_tree-de_src-s22-n541
-9	die	der	_	PZYP1----------	_	_	_	10	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s22-n542
-10	Kämpfe	kampf	_	NNYP4----------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s22-n543
-11	in	in	_	RR--X----------	_	_	_	10	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s22-n544
-12	Pakistan	pakistan	_	NNNS3----------	_	_	_	11	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s22-n545
-13	beobachten	beobachten	_	Vf-------------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n546
-14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s22-n547
-15	erwarten	erwarten	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s22-n548
-16	von	von	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s22-n549
-17	der	der	_	PZFS3----------	_	_	_	19	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s22-n550
-18	pakistanischen	pakistanisch	_	AAFS3----1-----	_	_	_	19	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n551
-19	Armee	armee	_	NNFS3----------	_	_	_	16	_	Obj	_	_	_	_	_	_	a_tree-de_src-s22-n552
-20	,	--	_	Z:-------------	_	_	_	21	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s22-n553
-21	dass	dass	_	J,-------------	_	_	_	15	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s22-n554
-22	sie	sie	_	PPXP1--3-------	_	_	_	35	_	Sb	_	_	_	_	_	_	a_tree-de_src-s22-n555
-23	es	es	_	PPNS4--3-------	_	_	_	35	_	Obj	_	_	_	_	_	_	a_tree-de_src-s22-n556
-24	sowohl	sowohl	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_	a_tree-de_src-s22-n557
-25	mit	mit	_	RR--X----------	_	_	_	35	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s22-n558
-26	den	der	_	PZYP3----------	_	_	_	28	_	AuxA	_	_	_	_	_	(9	a_tree-de_src-s22-n559
-27	afghanischen	afghanisch	_	AAYP3----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n560
-28	Taliban	taliban	_	NNYS4----------	_	_	_	25	_	Atr	_	_	_	_	_	9)	a_tree-de_src-s22-n561
-29	als	als	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_	a_tree-de_src-s22-n562
-30	auch	auch	_	Db-------------	_	_	_	34	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s22-n563
-31	den	der	_	PZYS4----------	_	_	_	34	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s22-n564
-32	militanten	militant	_	AAYS4----1-----	_	_	_	34	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n565
-33	pakistanischen	pakistanisch	_	AAYP3----1-----	_	_	_	34	_	Atr	_	_	_	_	_	_	a_tree-de_src-s22-n566
-34	Extremisten	extremist	_	NNYP3----------	_	_	_	29	_	NR	_	_	_	_	_	_	a_tree-de_src-s22-n567
-35	aufnimmt	aufnehmen	_	VB-S---3P------	_	_	_	21	_	Adv	_	_	_	_	_	_	a_tree-de_src-s22-n568
-36	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s22-n569
+1	Die	der	_	PZXP1----------	_	_	_	2	_	AuxA	_	_	_	_	_	_
+2	USA	usa	_	NNXP1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+3	,	--	_	Z:-------------	_	_	_	15	_	Coord	_	_	_	_	_	_
+4	Afghanistan	afghanistan	_	NNNS1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+5	und	und	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_
+6	Indien	indien	_	NNNS3----------	_	_	_	5	_	NR	_	_	_	_	_	(10)
+7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_
+8	die	der	_	PJFS1----------	_	_	_	13	_	Sb	_	_	_	_	_	_
+9	die	der	_	PZYP1----------	_	_	_	10	_	AuxA	_	_	_	_	_	_
+10	Kämpfe	kampf	_	NNYP4----------	_	_	_	13	_	Obj	_	_	_	_	_	_
+11	in	in	_	RR--X----------	_	_	_	10	_	AuxP	_	_	_	_	_	_
+12	Pakistan	pakistan	_	NNNS3----------	_	_	_	11	_	Atr	_	_	_	_	_	(1)
+13	beobachten	beobachten	_	Vf-------------	_	_	_	3	_	Atr	_	_	_	_	_	_
+14	,	--	_	Z:-------------	_	_	_	13	_	AuxX	_	_	_	_	_	_
+15	erwarten	erwarten	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+16	von	von	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+17	der	der	_	PZFS3----------	_	_	_	19	_	AuxA	_	_	_	_	_	_
+18	pakistanischen	pakistanisch	_	AAFS3----1-----	_	_	_	19	_	Atr	_	_	_	_	_	_
+19	Armee	armee	_	NNFS3----------	_	_	_	16	_	Obj	_	_	_	_	_	_
+20	,	--	_	Z:-------------	_	_	_	21	_	AuxX	_	_	_	_	_	_
+21	dass	dass	_	J,-------------	_	_	_	15	_	AuxC	_	_	_	_	_	_
+22	sie	sie	_	PPXP1--3-------	_	_	_	35	_	Sb	_	_	_	_	_	_
+23	es	es	_	PPNS4--3-------	_	_	_	35	_	Obj	_	_	_	_	_	_
+24	sowohl	sowohl	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_
+25	mit	mit	_	RR--X----------	_	_	_	35	_	AuxP	_	_	_	_	_	_
+26	den	der	_	PZYP3----------	_	_	_	28	_	AuxA	_	_	_	_	_	(9
+27	afghanischen	afghanisch	_	AAYP3----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_
+28	Taliban	taliban	_	NNYS4----------	_	_	_	25	_	Atr	_	_	_	_	_	9)
+29	als	als	_	J^-------------	_	_	_	25	_	Coord	_	_	_	_	_	_
+30	auch	auch	_	Db-------------	_	_	_	34	_	AuxZ	_	_	_	_	_	_
+31	den	der	_	PZYS4----------	_	_	_	34	_	AuxA	_	_	_	_	_	_
+32	militanten	militant	_	AAYS4----1-----	_	_	_	34	_	Atr	_	_	_	_	_	_
+33	pakistanischen	pakistanisch	_	AAYP3----1-----	_	_	_	34	_	Atr	_	_	_	_	_	_
+34	Extremisten	extremist	_	NNYP3----------	_	_	_	29	_	NR	_	_	_	_	_	_
+35	aufnimmt	aufnehmen	_	VB-S---3P------	_	_	_	21	_	Adv	_	_	_	_	_	_
+36	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Doch	doch	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s23-n570
-2	dürften	dürfen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s23-n571
-3	tausende	tausend	_	NNNP1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s23-n572
-4	von	von	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s23-n573
-5	Kämpfern	kämpfer	_	NNYP3----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s23-n574
-6	über	über	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s23-n575
-7	die	der	_	PZNP4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s23-n576
-8	paschtunischen	paschtunisch	_	AANP4----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s23-n577
-9	Stammesgebiete	stammesgebiet	_	NNNP4----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s23-n578
-10	Pakistans	pakistan	_	NNNS2----------	_	_	_	9	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s23-n579
-11	verstreut	verstreuen	_	VpXX---XX------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n580
-12	sein	sein	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n581
-13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s23-n582
-14	von	von	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s23-n583
-15	denen	der	_	PJFP3----------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n584
-16	sich	sich	_	P6-P4--3-------	_	_	_	22	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n585
-17	viele	vieler	_	PZXP1----------	_	_	_	22	_	Sb	_	_	_	_	_	_	a_tree-de_src-s23-n586
-18	auf	auf	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s23-n587
-19	Operationen	operation	_	NNFP3----------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n588
-20	in	in	_	RR--X----------	_	_	_	19	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s23-n589
-21	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	20	_	Atr	_	_	_	_	_	(6)	a_tree-de_src-s23-n590
-22	konzentrieren	konzentrieren	_	Vf-------------	_	_	_	11	_	Obj	_	_	_	_	_	_	a_tree-de_src-s23-n591
-23	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s23-n592
+1	Doch	doch	_	Db-------------	_	_	_	2	_	Adv	_	_	_	_	_	_
+2	dürften	dürfen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	tausende	tausend	_	NNNP1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+4	von	von	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+5	Kämpfern	kämpfer	_	NNYP3----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+6	über	über	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+7	die	der	_	PZNP4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+8	paschtunischen	paschtunisch	_	AANP4----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Stammesgebiete	stammesgebiet	_	NNNP4----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+10	Pakistans	pakistan	_	NNNS2----------	_	_	_	9	_	Atr	_	_	_	_	_	(1)
+11	verstreut	verstreuen	_	VpXX---XX------	_	_	_	12	_	Obj	_	_	_	_	_	_
+12	sein	sein	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_
+13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_
+14	von	von	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+15	denen	der	_	PJFP3----------	_	_	_	14	_	Obj	_	_	_	_	_	_
+16	sich	sich	_	P6-P4--3-------	_	_	_	22	_	Obj	_	_	_	_	_	_
+17	viele	vieler	_	PZXP1----------	_	_	_	22	_	Sb	_	_	_	_	_	_
+18	auf	auf	_	RR--X----------	_	_	_	22	_	AuxP	_	_	_	_	_	_
+19	Operationen	operation	_	NNFP3----------	_	_	_	18	_	Obj	_	_	_	_	_	_
+20	in	in	_	RR--X----------	_	_	_	19	_	AuxP	_	_	_	_	_	_
+21	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	20	_	Atr	_	_	_	_	_	(6)
+22	konzentrieren	konzentrieren	_	Vf-------------	_	_	_	11	_	Obj	_	_	_	_	_	_
+23	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Die	der	_	PZFS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s24-n593
-2	grenzübergreifende	grenzübergreifend	_	AAFS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n594
-3	Bewegung	bewegung	_	NNFS1----------	_	_	_	6	_	Sb	_	_	_	_	_	_	a_tree-de_src-s24-n595
-4	der	der	_	PZXP2----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s24-n596
-5	Radikalen	radikal	_	NNXP2----------	_	_	_	3	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n597
-6	lässt	lässen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s24-n598
-7	die	der	_	PZFS4----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s24-n599
-8	Wichtigkeit	wichtigkeit	_	NNFS4----------	_	_	_	11	_	Obj	_	_	_	_	_	_	a_tree-de_src-s24-n600
-9	internationaler	international	_	AAFS2----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n601
-10	Zusammenarbeit	zusammenarbeit	_	NNFS2----------	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s24-n602
-11	erkennen	erkennen	_	Vf-------------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s24-n603
-12	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s24-n604
+1	Die	der	_	PZFS1----------	_	_	_	3	_	AuxA	_	_	_	_	_	_
+2	grenzübergreifende	grenzübergreifend	_	AAFS1----1-----	_	_	_	3	_	Atr	_	_	_	_	_	_
+3	Bewegung	bewegung	_	NNFS1----------	_	_	_	6	_	Sb	_	_	_	_	_	_
+4	der	der	_	PZXP2----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+5	Radikalen	radikal	_	NNXP2----------	_	_	_	3	_	Atr	_	_	_	_	_	_
+6	lässt	lässen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+7	die	der	_	PZFS4----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+8	Wichtigkeit	wichtigkeit	_	NNFS4----------	_	_	_	11	_	Obj	_	_	_	_	_	_
+9	internationaler	international	_	AAFS2----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_
+10	Zusammenarbeit	zusammenarbeit	_	NNFS2----------	_	_	_	8	_	Atr	_	_	_	_	_	_
+11	erkennen	erkennen	_	Vf-------------	_	_	_	6	_	Obj	_	_	_	_	_	_
+12	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Darüber	darüber	_	PDXXX----------	_	_	_	3	_	Adv	_	_	_	_	_	_	a_tree-de_src-s25-n605
-2	hinaus	hinaus	_	RR--X----------	_	_	_	1	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s25-n606
-3	wechseln	wechseln	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s25-n607
-4	die	der	_	PZNP1----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s25-n608
-5	Bündnisse	bündnis	_	NNNP1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s25-n609
-6	zwischen	zwischen	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s25-n610
-7	den	der	_	PZFP3----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s25-n611
-8	radikalen	radikal	_	AAFP3----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s25-n612
-9	Gruppen	gruppe	_	NNFP3----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s25-n613
-10	ständig	ständig	_	ACXX-----1-----	_	_	_	3	_	Adv	_	_	_	_	_	_	a_tree-de_src-s25-n614
-11	–	–	_	J^-------------	_	_	_	13	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s25-n615
-12	eine	ein	_	PZFS1----------	_	_	_	13	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s25-n616
-13	Reflexion	reflexion	_	NNFS1----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s25-n617
-14	von	von	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s25-n618
-15	Stammestraditionen	stammestradition	_	NNFP3----------	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s25-n619
-16	und	und	_	J^-------------	_	_	_	15	_	Coord	_	_	_	_	_	_	a_tree-de_src-s25-n620
-17	Opportunismus	opportunismus	_	NNYS3----------	_	_	_	16	_	NR	_	_	_	_	_	_	a_tree-de_src-s25-n621
-18	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s25-n622
+1	Darüber	darüber	_	PDXXX----------	_	_	_	3	_	Adv	_	_	_	_	_	_
+2	hinaus	hinaus	_	RR--X----------	_	_	_	1	_	AuxP	_	_	_	_	_	_
+3	wechseln	wechseln	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	die	der	_	PZNP1----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+5	Bündnisse	bündnis	_	NNNP1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+6	zwischen	zwischen	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_
+7	den	der	_	PZFP3----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+8	radikalen	radikal	_	AAFP3----1-----	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Gruppen	gruppe	_	NNFP3----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+10	ständig	ständig	_	ACXX-----1-----	_	_	_	3	_	Adv	_	_	_	_	_	_
+11	–	–	_	J^-------------	_	_	_	13	_	AuxC	_	_	_	_	_	_
+12	eine	ein	_	PZFS1----------	_	_	_	13	_	AuxA	_	_	_	_	_	_
+13	Reflexion	reflexion	_	NNFS1----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+14	von	von	_	RR--X----------	_	_	_	13	_	AuxP	_	_	_	_	_	_
+15	Stammestraditionen	stammestradition	_	NNFP3----------	_	_	_	14	_	Atr	_	_	_	_	_	_
+16	und	und	_	J^-------------	_	_	_	15	_	Coord	_	_	_	_	_	_
+17	Opportunismus	opportunismus	_	NNYS3----------	_	_	_	16	_	NR	_	_	_	_	_	_
+18	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Außenstehende	außenstehend	_	AAYP1----1-----	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n623
-2	Beobachter	beobachter	_	NNYP1----------	_	_	_	12	_	Sb	_	_	_	_	_	_	a_tree-de_src-s26-n624
-3	dieser	dieser	_	PDFP2----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n625
-4	Verlagerungen	verlagerung	_	NNFP2----------	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n626
-5	und	und	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_	a_tree-de_src-s26-n627
-6	ihrer	ihr	_	PSFS2-X3-------	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n628
-7	Handhabung	handhabung	_	NNFS2----------	_	_	_	5	_	NR	_	_	_	_	_	_	a_tree-de_src-s26-n629
-8	durch	durch	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s26-n630
-9	die	der	_	PZFS4----------	_	_	_	11	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s26-n631
-10	pakistanische	pakistanisch	_	AAFS4----1-----	_	_	_	11	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n632
-11	Regierung	regierung	_	NNFS4----------	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n633
-12	waren	sein	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s26-n634
-13	bisher	bisher	_	Db-------------	_	_	_	23	_	Adv	_	_	_	_	_	_	a_tree-de_src-s26-n635
-14	nicht	nicht	_	TT--------N----	_	_	_	23	_	Neg	_	_	_	_	_	_	a_tree-de_src-s26-n636
-15	in	in	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s26-n637
-16	der	der	_	PZFS3----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s26-n638
-17	Lage	lage	_	NNFS3----------	_	_	_	15	_	Adv	_	_	_	_	_	_	a_tree-de_src-s26-n639
-18	,	--	_	Z:-------------	_	_	_	17	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s26-n640
-19	ein	ein	_	PZNS4----------	_	_	_	21	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s26-n641
-20	konsistentes	konsistent	_	AANS4----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n642
-21	Muster	muster	_	NNNS4----------	_	_	_	23	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n643
-22	zu	zu	_	TT-------------	_	_	_	23	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s26-n644
-23	erkennen	erkennen	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n645
-24	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s26-n646
-25	das	der	_	PJNS1----------	_	_	_	30	_	Sb	_	_	_	_	_	_	a_tree-de_src-s26-n647
-26	die	der	_	PZFS4----------	_	_	_	28	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s26-n648
-27	pakistanische	pakistanisch	_	AAFS4----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n649
-28	Politik	politik	_	NNFS4----------	_	_	_	29	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n650
-29	erklären	erklären	_	Vf-------------	_	_	_	30	_	Obj	_	_	_	_	_	_	a_tree-de_src-s26-n651
-30	würde	werden	_	VB-S---3R------	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s26-n652
-31	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s26-n653
+1	Außenstehende	außenstehend	_	AAYP1----1-----	_	_	_	2	_	Atr	_	_	_	_	_	_
+2	Beobachter	beobachter	_	NNYP1----------	_	_	_	12	_	Sb	_	_	_	_	_	_
+3	dieser	dieser	_	PDFP2----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Verlagerungen	verlagerung	_	NNFP2----------	_	_	_	2	_	Atr	_	_	_	_	_	_
+5	und	und	_	J^-------------	_	_	_	4	_	Coord	_	_	_	_	_	_
+6	ihrer	ihr	_	PSFS2-X3-------	_	_	_	7	_	Atr	_	_	_	_	_	_
+7	Handhabung	handhabung	_	NNFS2----------	_	_	_	5	_	NR	_	_	_	_	_	_
+8	durch	durch	_	RR--X----------	_	_	_	7	_	AuxP	_	_	_	_	_	_
+9	die	der	_	PZFS4----------	_	_	_	11	_	AuxA	_	_	_	_	_	_
+10	pakistanische	pakistanisch	_	AAFS4----1-----	_	_	_	11	_	Atr	_	_	_	_	_	_
+11	Regierung	regierung	_	NNFS4----------	_	_	_	8	_	Atr	_	_	_	_	_	_
+12	waren	sein	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+13	bisher	bisher	_	Db-------------	_	_	_	23	_	Adv	_	_	_	_	_	_
+14	nicht	nicht	_	TT--------N----	_	_	_	23	_	Neg	_	_	_	_	_	_
+15	in	in	_	RR--X----------	_	_	_	23	_	AuxP	_	_	_	_	_	_
+16	der	der	_	PZFS3----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+17	Lage	lage	_	NNFS3----------	_	_	_	15	_	Adv	_	_	_	_	_	_
+18	,	--	_	Z:-------------	_	_	_	17	_	AuxX	_	_	_	_	_	_
+19	ein	ein	_	PZNS4----------	_	_	_	21	_	AuxA	_	_	_	_	_	_
+20	konsistentes	konsistent	_	AANS4----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_
+21	Muster	muster	_	NNNS4----------	_	_	_	23	_	Obj	_	_	_	_	_	_
+22	zu	zu	_	TT-------------	_	_	_	23	_	AuxV	_	_	_	_	_	_
+23	erkennen	erkennen	_	Vf-------------	_	_	_	12	_	Obj	_	_	_	_	_	_
+24	,	--	_	Z:-------------	_	_	_	23	_	AuxX	_	_	_	_	_	_
+25	das	der	_	PJNS1----------	_	_	_	30	_	Sb	_	_	_	_	_	_
+26	die	der	_	PZFS4----------	_	_	_	28	_	AuxA	_	_	_	_	_	_
+27	pakistanische	pakistanisch	_	AAFS4----1-----	_	_	_	28	_	Atr	_	_	_	_	_	_
+28	Politik	politik	_	NNFS4----------	_	_	_	29	_	Obj	_	_	_	_	_	_
+29	erklären	erklären	_	Vf-------------	_	_	_	30	_	Obj	_	_	_	_	_	_
+30	würde	werden	_	VB-S---3R------	_	_	_	21	_	Atr	_	_	_	_	_	_
+31	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Doch	doch	_	J^-------------	_	_	_	3	_	Coord	_	_	_	_	_	_	a_tree-de_src-s27-n654
-2	man	man	_	PZ-S1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s27-n655
-3	muss	muss	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s27-n656
-4	an	an	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s27-n657
-5	dieser	dieser	_	PDFS3----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s27-n658
-6	Stelle	stelle	_	NNFS3----------	_	_	_	4	_	Adv	_	_	_	_	_	_	a_tree-de_src-s27-n659
-7	die	der	_	PZFS4----------	_	_	_	8	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s27-n660
-8	Regionalpolitik	regionalpolitik	_	NNFS4----------	_	_	_	9	_	Obj	_	_	_	_	_	_	a_tree-de_src-s27-n661
-9	berücksichtigen	berücksichtigen	_	Vf-------------	_	_	_	3	_	Obj	_	_	_	_	_	_	a_tree-de_src-s27-n662
-10	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s27-n663
-11	und	und	_	J^-------------	_	_	_	3	_	Coord	_	_	_	_	_	_	a_tree-de_src-s27-n664
-12	insbesondere	insbesondere	_	Db-------------	_	_	_	15	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s27-n665
-13	die	der	_	PZFS4----------	_	_	_	15	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s27-n666
-14	anhaltende	anhaltend	_	AAFS4----1-----	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s27-n667
-15	Rivalität	rivalität	_	NNFS4----------	_	_	_	11	_	NR	_	_	_	_	_	_	a_tree-de_src-s27-n668
-16	zwischen	zwischen	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s27-n669
-17	Indien	indien	_	NNNS3----------	_	_	_	16	_	Atr	_	_	_	_	_	(10	a_tree-de_src-s27-n670
-18	und	und	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_	a_tree-de_src-s27-n671
-19	Pakistan	pakistan	_	NNNS3----------	_	_	_	18	_	NR	_	_	_	_	_	10)	a_tree-de_src-s27-n672
-20	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s27-n673
+1	Doch	doch	_	J^-------------	_	_	_	3	_	Coord	_	_	_	_	_	_
+2	man	man	_	PZ-S1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+3	muss	muss	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	an	an	_	RR--X----------	_	_	_	3	_	AuxP	_	_	_	_	_	_
+5	dieser	dieser	_	PDFS3----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+6	Stelle	stelle	_	NNFS3----------	_	_	_	4	_	Adv	_	_	_	_	_	_
+7	die	der	_	PZFS4----------	_	_	_	8	_	AuxA	_	_	_	_	_	_
+8	Regionalpolitik	regionalpolitik	_	NNFS4----------	_	_	_	9	_	Obj	_	_	_	_	_	_
+9	berücksichtigen	berücksichtigen	_	Vf-------------	_	_	_	3	_	Obj	_	_	_	_	_	_
+10	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_
+11	und	und	_	J^-------------	_	_	_	3	_	Coord	_	_	_	_	_	_
+12	insbesondere	insbesondere	_	Db-------------	_	_	_	15	_	AuxZ	_	_	_	_	_	_
+13	die	der	_	PZFS4----------	_	_	_	15	_	AuxA	_	_	_	_	_	_
+14	anhaltende	anhaltend	_	AAFS4----1-----	_	_	_	15	_	Atr	_	_	_	_	_	_
+15	Rivalität	rivalität	_	NNFS4----------	_	_	_	11	_	NR	_	_	_	_	_	_
+16	zwischen	zwischen	_	RR--X----------	_	_	_	15	_	AuxP	_	_	_	_	_	_
+17	Indien	indien	_	NNNS3----------	_	_	_	16	_	Atr	_	_	_	_	_	(10
+18	und	und	_	J^-------------	_	_	_	17	_	Coord	_	_	_	_	_	_
+19	Pakistan	pakistan	_	NNNS3----------	_	_	_	18	_	NR	_	_	_	_	_	10)
+20	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	In	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s28-n674
-2	bisher	bisher	_	Db-------------	_	_	_	4	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s28-n675
-3	jeder	jeder	_	PZFS3----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s28-n676
-4	Phase	phase	_	NNFS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_	a_tree-de_src-s28-n677
-5	des	der	_	PZYS2----------	_	_	_	8	_	AuxA	_	_	_	_	_	(11	a_tree-de_src-s28-n678
-6	lang	lang	_	ACXX-----1-----	_	_	_	7	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s28-n679
-7	anhaltenden	anhaltend	_	AAYS2----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s28-n680
-8	Konflikts	konflikt	_	NNYS2----------	_	_	_	4	_	Atr	_	_	_	_	_	11)	a_tree-de_src-s28-n681
-9	,	--	_	Z:-------------	_	_	_	8	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s28-n682
-10	der	der	_	PJYS1----------	_	_	_	17	_	Sb	_	_	_	_	_	(11)	a_tree-de_src-s28-n683
-11	die	der	_	PZXP1----------	_	_	_	12	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s28-n684
-12	USA	usa	_	NNXP1----------	_	_	_	16	_	Obj	_	_	_	_	_	_	a_tree-de_src-s28-n685
-13	in	in	_	RR--X----------	_	_	_	16	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s28-n686
-14	die	der	_	PZFS4----------	_	_	_	15	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s28-n687
-15	Region	region	_	NNFS4----------	_	_	_	13	_	Adv	_	_	_	_	_	_	a_tree-de_src-s28-n688
-16	hineingezogen	hineinziehen	_	VpXX---XX------	_	_	_	17	_	Obj	_	_	_	_	_	_	a_tree-de_src-s28-n689
-17	hat	haben	_	VB-S---3P------	_	_	_	8	_	Atr	_	_	_	_	_	_	a_tree-de_src-s28-n690
-18	,	--	_	Z:-------------	_	_	_	17	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s28-n691
-19	war	sein	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s28-n692
-20	Pakistan	pakistan	_	NNNS1----------	_	_	_	19	_	Sb	_	_	_	_	_	(1)	a_tree-de_src-s28-n693
-21	bestrebt	bestreben	_	VpXX---XX------	_	_	_	19	_	Pnom	_	_	_	_	_	_	a_tree-de_src-s28-n694
-22	,	--	_	Z:-------------	_	_	_	21	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s28-n695
-23	den	der	_	PZYS4----------	_	_	_	25	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s28-n696
-24	indischen	indisch	_	AAYS4----1-----	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s28-n697
-25	Einfluss	einfluss	_	NNYS4----------	_	_	_	29	_	Obj	_	_	_	_	_	_	a_tree-de_src-s28-n698
-26	in	in	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s28-n699
-27	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	26	_	Atr	_	_	_	_	_	(6)	a_tree-de_src-s28-n700
-28	zu	zu	_	TT-------------	_	_	_	29	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s28-n701
-29	begrenzen	begrenzen	_	Vf-------------	_	_	_	21	_	Obj	_	_	_	_	_	_	a_tree-de_src-s28-n702
-30	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s28-n703
+1	In	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_
+2	bisher	bisher	_	Db-------------	_	_	_	4	_	AuxZ	_	_	_	_	_	_
+3	jeder	jeder	_	PZFS3----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Phase	phase	_	NNFS3----------	_	_	_	1	_	Adv	_	_	_	_	_	_
+5	des	der	_	PZYS2----------	_	_	_	8	_	AuxA	_	_	_	_	_	(11
+6	lang	lang	_	ACXX-----1-----	_	_	_	7	_	AuxZ	_	_	_	_	_	_
+7	anhaltenden	anhaltend	_	AAYS2----1-----	_	_	_	8	_	Atr	_	_	_	_	_	_
+8	Konflikts	konflikt	_	NNYS2----------	_	_	_	4	_	Atr	_	_	_	_	_	11)
+9	,	--	_	Z:-------------	_	_	_	8	_	AuxX	_	_	_	_	_	_
+10	der	der	_	PJYS1----------	_	_	_	17	_	Sb	_	_	_	_	_	(11)
+11	die	der	_	PZXP1----------	_	_	_	12	_	AuxA	_	_	_	_	_	_
+12	USA	usa	_	NNXP1----------	_	_	_	16	_	Obj	_	_	_	_	_	_
+13	in	in	_	RR--X----------	_	_	_	16	_	AuxP	_	_	_	_	_	_
+14	die	der	_	PZFS4----------	_	_	_	15	_	AuxA	_	_	_	_	_	_
+15	Region	region	_	NNFS4----------	_	_	_	13	_	Adv	_	_	_	_	_	_
+16	hineingezogen	hineinziehen	_	VpXX---XX------	_	_	_	17	_	Obj	_	_	_	_	_	_
+17	hat	haben	_	VB-S---3P------	_	_	_	8	_	Atr	_	_	_	_	_	_
+18	,	--	_	Z:-------------	_	_	_	17	_	AuxX	_	_	_	_	_	_
+19	war	sein	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+20	Pakistan	pakistan	_	NNNS1----------	_	_	_	19	_	Sb	_	_	_	_	_	(1)
+21	bestrebt	bestreben	_	VpXX---XX------	_	_	_	19	_	Pnom	_	_	_	_	_	_
+22	,	--	_	Z:-------------	_	_	_	21	_	AuxX	_	_	_	_	_	_
+23	den	der	_	PZYS4----------	_	_	_	25	_	AuxA	_	_	_	_	_	_
+24	indischen	indisch	_	AAYS4----1-----	_	_	_	25	_	Atr	_	_	_	_	_	_
+25	Einfluss	einfluss	_	NNYS4----------	_	_	_	29	_	Obj	_	_	_	_	_	_
+26	in	in	_	RR--X----------	_	_	_	25	_	AuxP	_	_	_	_	_	_
+27	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	26	_	Atr	_	_	_	_	_	(6)
+28	zu	zu	_	TT-------------	_	_	_	29	_	AuxV	_	_	_	_	_	_
+29	begrenzen	begrenzen	_	Vf-------------	_	_	_	21	_	Obj	_	_	_	_	_	_
+30	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Tatsächlich	tatsächlich	_	ACXX-----1-----	_	_	_	2	_	Adv	_	_	_	_	_	_	a_tree-de_src-s29-n704
-2	verstören	verstören	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s29-n705
-3	Indiens	indien	_	NNNS2----------	_	_	_	5	_	Atr	_	_	_	_	_	(10)	a_tree-de_src-s29-n706
-4	wachsender	wachsend	_	AAYS1----1-----	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s29-n707
-5	Einfluss	einfluss	_	NNYS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s29-n708
-6	und	und	_	J^-------------	_	_	_	5	_	Coord	_	_	_	_	_	_	a_tree-de_src-s29-n709
-7	seine	sein	_	PSFS1-X3-------	_	_	_	8	_	Atr	_	_	_	_	_	(10)	a_tree-de_src-s29-n710
-8	Investitionstätigkeit	investitionstätigkeit	_	NNFS1----------	_	_	_	6	_	NR	_	_	_	_	_	_	a_tree-de_src-s29-n711
-9	in	in	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s29-n712
-10	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	9	_	Atr	_	_	_	_	_	(6)	a_tree-de_src-s29-n713
-11	den	der	_	PZYS4----------	_	_	_	13	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s29-n714
-12	nationalen	national	_	AAYS4----1-----	_	_	_	13	_	Atr	_	_	_	_	_	_	a_tree-de_src-s29-n715
-13	Sicherheitsapparat	sicherheitsapparat	_	NNYS4----------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s29-n716
-14	Pakistans	pakistan	_	NNNS2----------	_	_	_	13	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s29-n717
-15	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s29-n718
+1	Tatsächlich	tatsächlich	_	ACXX-----1-----	_	_	_	2	_	Adv	_	_	_	_	_	_
+2	verstören	verstören	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	Indiens	indien	_	NNNS2----------	_	_	_	5	_	Atr	_	_	_	_	_	(10)
+4	wachsender	wachsend	_	AAYS1----1-----	_	_	_	5	_	Atr	_	_	_	_	_	_
+5	Einfluss	einfluss	_	NNYS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+6	und	und	_	J^-------------	_	_	_	5	_	Coord	_	_	_	_	_	_
+7	seine	sein	_	PSFS1-X3-------	_	_	_	8	_	Atr	_	_	_	_	_	(10)
+8	Investitionstätigkeit	investitionstätigkeit	_	NNFS1----------	_	_	_	6	_	NR	_	_	_	_	_	_
+9	in	in	_	RR--X----------	_	_	_	8	_	AuxP	_	_	_	_	_	_
+10	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	9	_	Atr	_	_	_	_	_	(6)
+11	den	der	_	PZYS4----------	_	_	_	13	_	AuxA	_	_	_	_	_	_
+12	nationalen	national	_	AAYS4----1-----	_	_	_	13	_	Atr	_	_	_	_	_	_
+13	Sicherheitsapparat	sicherheitsapparat	_	NNYS4----------	_	_	_	2	_	Obj	_	_	_	_	_	_
+14	Pakistans	pakistan	_	NNNS2----------	_	_	_	13	_	Atr	_	_	_	_	_	(1)
+15	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Letztlich	letztlich	_	Db-------------	_	_	_	11	_	Adv	_	_	_	_	_	_	a_tree-de_src-s30-n719
-2	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s30-n720
-3	die	der	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s30-n721
-4	Dynamik	dynamik	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_	a_tree-de_src-s30-n722
-5	der	der	_	PZFS2----------	_	_	_	7	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s30-n723
-6	afghanischen	afghanisch	_	AAFS2----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_	a_tree-de_src-s30-n724
-7	Politik	politik	_	NNFS2----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s30-n725
-8	das	der	_	PZNS4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s30-n726
-9	Schicksal	schicksal	_	NNNS1----------	_	_	_	11	_	Obj	_	_	_	_	_	_	a_tree-de_src-s30-n727
-10	Afghanistans	afghanistan	_	NNNS2----------	_	_	_	9	_	Atr	_	_	_	_	_	(6)	a_tree-de_src-s30-n728
-11	bestimmen	bestimmen	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s30-n729
-12	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s30-n730
+1	Letztlich	letztlich	_	Db-------------	_	_	_	11	_	Adv	_	_	_	_	_	_
+2	wird	werden	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	die	der	_	PZFS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+4	Dynamik	dynamik	_	NNFS1----------	_	_	_	2	_	Sb	_	_	_	_	_	_
+5	der	der	_	PZFS2----------	_	_	_	7	_	AuxA	_	_	_	_	_	_
+6	afghanischen	afghanisch	_	AAFS2----1-----	_	_	_	7	_	Atr	_	_	_	_	_	_
+7	Politik	politik	_	NNFS2----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+8	das	der	_	PZNS4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Schicksal	schicksal	_	NNNS1----------	_	_	_	11	_	Obj	_	_	_	_	_	_
+10	Afghanistans	afghanistan	_	NNNS2----------	_	_	_	9	_	Atr	_	_	_	_	_	(6)
+11	bestimmen	bestimmen	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_
+12	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Doch	doch	_	J^-------------	_	_	_	14	_	Coord	_	_	_	_	_	_	a_tree-de_src-s31-n731
-2	ein	ein	_	PZNS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s31-n732
-3	gemeinschaftliches	gemeinschaftlich	_	AANS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s31-n733
-4	Bemühen	bemühen	_	NNNS1----------	_	_	_	14	_	Sb	_	_	_	_	_	_	a_tree-de_src-s31-n734
-5	Indiens	indien	_	NNNS2----------	_	_	_	4	_	Atr	_	_	_	_	_	(10	a_tree-de_src-s31-n735
-6	und	und	_	J^-------------	_	_	_	5	_	Coord	_	_	_	_	_	_	a_tree-de_src-s31-n736
-7	Pakistan	pakistan	_	NNNS1----------	_	_	_	6	_	NR	_	_	_	_	_	10)	a_tree-de_src-s31-n737
-8	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s31-n738
-9	das	der	_	PZNS4----------	_	_	_	10	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s31-n739
-10	Land	land	_	NNNS4----------	_	_	_	12	_	Obj	_	_	_	_	_	_	a_tree-de_src-s31-n740
-11	zu	zu	_	TT-------------	_	_	_	12	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s31-n741
-12	stabilisieren	stabilisieren	_	Vf-------------	_	_	_	4	_	Obj	_	_	_	_	_	_	a_tree-de_src-s31-n742
-13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s31-n743
-14	würde	werden	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s31-n744
-15	Wunder	wunder	_	NNNS1----------	_	_	_	16	_	Obj	_	_	_	_	_	_	a_tree-de_src-s31-n745
-16	bewirken	bewirken	_	Vf-------------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s31-n746
-17	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s31-n747
+1	Doch	doch	_	J^-------------	_	_	_	14	_	Coord	_	_	_	_	_	_
+2	ein	ein	_	PZNS1----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+3	gemeinschaftliches	gemeinschaftlich	_	AANS1----1-----	_	_	_	4	_	Atr	_	_	_	_	_	_
+4	Bemühen	bemühen	_	NNNS1----------	_	_	_	14	_	Sb	_	_	_	_	_	_
+5	Indiens	indien	_	NNNS2----------	_	_	_	4	_	Atr	_	_	_	_	_	(10
+6	und	und	_	J^-------------	_	_	_	5	_	Coord	_	_	_	_	_	_
+7	Pakistan	pakistan	_	NNNS1----------	_	_	_	6	_	NR	_	_	_	_	_	10)
+8	,	--	_	Z:-------------	_	_	_	7	_	AuxX	_	_	_	_	_	_
+9	das	der	_	PZNS4----------	_	_	_	10	_	AuxA	_	_	_	_	_	_
+10	Land	land	_	NNNS4----------	_	_	_	12	_	Obj	_	_	_	_	_	_
+11	zu	zu	_	TT-------------	_	_	_	12	_	AuxV	_	_	_	_	_	_
+12	stabilisieren	stabilisieren	_	Vf-------------	_	_	_	4	_	Obj	_	_	_	_	_	_
+13	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_
+14	würde	werden	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+15	Wunder	wunder	_	NNNS1----------	_	_	_	16	_	Obj	_	_	_	_	_	_
+16	bewirken	bewirken	_	Vf-------------	_	_	_	14	_	Obj	_	_	_	_	_	_
+17	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Für	für	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s32-n748
-2	Pakistan	pakistan	_	NNNS4----------	_	_	_	1	_	Adv	_	_	_	_	_	(1	a_tree-de_src-s32-n749
-3	wie	wie	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_	a_tree-de_src-s32-n750
-4	Indien	indien	_	NNNS3----------	_	_	_	3	_	NR	_	_	_	_	_	1)|(10)	a_tree-de_src-s32-n751
-5	besteht	bestehen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s32-n752
-6	die	der	_	PZFS1----------	_	_	_	7	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s32-n753
-7	Gefahr	gefahr	_	NNFS1----------	_	_	_	5	_	Sb	_	_	_	_	_	_	a_tree-de_src-s32-n754
-8	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s32-n755
-9	dass	daß	_	J,-------------	_	_	_	7	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s32-n756
-10	sich	sich	_	P6-S4--3-------	_	_	_	19	_	Obj	_	_	_	_	_	_	a_tree-de_src-s32-n757
-11	Afghanistan	afghanistan	_	NNNS1----------	_	_	_	19	_	Sb	_	_	_	_	_	(6)	a_tree-de_src-s32-n758
-12	in	in	_	RR--X----------	_	_	_	19	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s32-n759
-13	ein	ein	_	PZNS4----------	_	_	_	16	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s32-n760
-14	neues	neu	_	AANS4----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n761
-15	umkämpftes	umkämpft	_	AANS4----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n762
-16	Territorium	territorium	_	NNNS4----------	_	_	_	12	_	Adv	_	_	_	_	_	_	a_tree-de_src-s32-n763
-17	wie	wie	_	J^-------------	_	_	_	18	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s32-n764
-18	Kaschmir	kaschmir	_	NNNS3----------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n765
-19	verwandelt	verwandeln	_	VB-S---3P------	_	_	_	9	_	Obj	_	_	_	_	_	_	a_tree-de_src-s32-n766
-20	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s32-n767
-21	wo	wo	_	P4XXX----------	_	_	_	31	_	Adv	_	_	_	_	_	_	a_tree-de_src-s32-n768
-22	der	der	_	PZYS1----------	_	_	_	23	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s32-n769
-23	Konflikt	konflikt	_	NNYS1----------	_	_	_	31	_	Sb	_	_	_	_	_	_	a_tree-de_src-s32-n770
-24	beiden	beide	_	PZNP3----------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n771
-25	Ländern	land	_	NNNP3----------	_	_	_	23	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n772
-26	seit	seit	_	RR--X----------	_	_	_	31	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s32-n773
-27	mehr	mehr	_	PZXXX----------	_	_	_	30	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n774
-28	als	als	_	J^-------------	_	_	_	29	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s32-n775
-29	60	60	_	Cn-XX----------	_	_	_	27	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n776
-30	Jahren	jahr	_	NNNP3----------	_	_	_	26	_	Adv	_	_	_	_	_	_	a_tree-de_src-s32-n777
-31	schadet	schaden	_	VB-S---3P------	_	_	_	16	_	Atr	_	_	_	_	_	_	a_tree-de_src-s32-n778
-32	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s32-n779
+1	Für	für	_	RR--X----------	_	_	_	5	_	AuxP	_	_	_	_	_	_
+2	Pakistan	pakistan	_	NNNS4----------	_	_	_	1	_	Adv	_	_	_	_	_	(1
+3	wie	wie	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_
+4	Indien	indien	_	NNNS3----------	_	_	_	3	_	NR	_	_	_	_	_	1)|(10)
+5	besteht	bestehen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+6	die	der	_	PZFS1----------	_	_	_	7	_	AuxA	_	_	_	_	_	_
+7	Gefahr	gefahr	_	NNFS1----------	_	_	_	5	_	Sb	_	_	_	_	_	_
+8	,	--	_	Z:-------------	_	_	_	9	_	AuxX	_	_	_	_	_	_
+9	dass	daß	_	J,-------------	_	_	_	7	_	AuxC	_	_	_	_	_	_
+10	sich	sich	_	P6-S4--3-------	_	_	_	19	_	Obj	_	_	_	_	_	_
+11	Afghanistan	afghanistan	_	NNNS1----------	_	_	_	19	_	Sb	_	_	_	_	_	(6)
+12	in	in	_	RR--X----------	_	_	_	19	_	AuxP	_	_	_	_	_	_
+13	ein	ein	_	PZNS4----------	_	_	_	16	_	AuxA	_	_	_	_	_	_
+14	neues	neu	_	AANS4----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_
+15	umkämpftes	umkämpft	_	AANS4----1-----	_	_	_	16	_	Atr	_	_	_	_	_	_
+16	Territorium	territorium	_	NNNS4----------	_	_	_	12	_	Adv	_	_	_	_	_	_
+17	wie	wie	_	J^-------------	_	_	_	18	_	AuxC	_	_	_	_	_	_
+18	Kaschmir	kaschmir	_	NNNS3----------	_	_	_	16	_	Atr	_	_	_	_	_	_
+19	verwandelt	verwandeln	_	VB-S---3P------	_	_	_	9	_	Obj	_	_	_	_	_	_
+20	,	--	_	Z:-------------	_	_	_	19	_	AuxX	_	_	_	_	_	_
+21	wo	wo	_	P4XXX----------	_	_	_	31	_	Adv	_	_	_	_	_	_
+22	der	der	_	PZYS1----------	_	_	_	23	_	AuxA	_	_	_	_	_	_
+23	Konflikt	konflikt	_	NNYS1----------	_	_	_	31	_	Sb	_	_	_	_	_	_
+24	beiden	beide	_	PZNP3----------	_	_	_	25	_	Atr	_	_	_	_	_	_
+25	Ländern	land	_	NNNP3----------	_	_	_	23	_	Atr	_	_	_	_	_	_
+26	seit	seit	_	RR--X----------	_	_	_	31	_	AuxP	_	_	_	_	_	_
+27	mehr	mehr	_	PZXXX----------	_	_	_	30	_	Atr	_	_	_	_	_	_
+28	als	als	_	J^-------------	_	_	_	29	_	AuxC	_	_	_	_	_	_
+29	60	60	_	Cn-XX----------	_	_	_	27	_	Atr	_	_	_	_	_	_
+30	Jahren	jahr	_	NNNP3----------	_	_	_	26	_	Adv	_	_	_	_	_	_
+31	schadet	schaden	_	VB-S---3P------	_	_	_	16	_	Atr	_	_	_	_	_	_
+32	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Im	in	_	PZNS3----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s33-n780
-2	heutigen	heutig	_	AANS3----1-----	_	_	_	3	_	Atr	_	_	_	_	_	(6	a_tree-de_src-s33-n781
-3	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	1	_	Atr	_	_	_	_	_	6)	a_tree-de_src-s33-n782
-4	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s33-n783
-5	sie	sie	_	PPXP1--3-------	_	_	_	4	_	Sb	_	_	_	_	_	(12)	a_tree-de_src-s33-n784
-6	Gelegenheit	gelegenheit	_	NNFS4----------	_	_	_	4	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n785
-7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s33-n786
-8	jenen	jener	_	PDYS4----------	_	_	_	9	_	Atr	_	_	_	_	_	_	a_tree-de_src-s33-n787
-9	Präzedenzfall	präzedenzfall	_	NNYS4----------	_	_	_	11	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n788
-10	zu	zu	_	TT-------------	_	_	_	11	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s33-n789
-11	verwerfen	verwerfen	_	Vf-------------	_	_	_	6	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n790
-12	und	und	_	J^-------------	_	_	_	11	_	Coord	_	_	_	_	_	_	a_tree-de_src-s33-n791
-13	sich	sich	_	P6-S4--3-------	_	_	_	21	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n792
-14	in	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s33-n793
-15	ihrem	ihr	_	PSNS3-X3-------	_	_	_	17	_	Atr	_	_	_	_	_	(12)	a_tree-de_src-s33-n794
-16	gemeinsamen	gemeinsam	_	AAFS3----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s33-n795
-17	Interesse	interesse	_	NNNS3----------	_	_	_	14	_	Adv	_	_	_	_	_	_	a_tree-de_src-s33-n796
-18	um	um	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s33-n797
-19	Stabilität	stabilität	_	NNFS4----------	_	_	_	18	_	Obj	_	_	_	_	_	_	a_tree-de_src-s33-n798
-20	zu	zu	_	TT-------------	_	_	_	21	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s33-n799
-21	bemühen	bemühen	_	Vf-------------	_	_	_	12	_	NR	_	_	_	_	_	_	a_tree-de_src-s33-n800
-22	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s33-n801
+1	Im	in	_	PZNS3----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+2	heutigen	heutig	_	AANS3----1-----	_	_	_	3	_	Atr	_	_	_	_	_	(6
+3	Afghanistan	afghanistan	_	NNNS3----------	_	_	_	1	_	Atr	_	_	_	_	_	6)
+4	haben	haben	_	VB-P---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+5	sie	sie	_	PPXP1--3-------	_	_	_	4	_	Sb	_	_	_	_	_	(12)
+6	Gelegenheit	gelegenheit	_	NNFS4----------	_	_	_	4	_	Obj	_	_	_	_	_	_
+7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_
+8	jenen	jener	_	PDYS4----------	_	_	_	9	_	Atr	_	_	_	_	_	_
+9	Präzedenzfall	präzedenzfall	_	NNYS4----------	_	_	_	11	_	Obj	_	_	_	_	_	_
+10	zu	zu	_	TT-------------	_	_	_	11	_	AuxV	_	_	_	_	_	_
+11	verwerfen	verwerfen	_	Vf-------------	_	_	_	6	_	Obj	_	_	_	_	_	_
+12	und	und	_	J^-------------	_	_	_	11	_	Coord	_	_	_	_	_	_
+13	sich	sich	_	P6-S4--3-------	_	_	_	21	_	Obj	_	_	_	_	_	_
+14	in	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_
+15	ihrem	ihr	_	PSNS3-X3-------	_	_	_	17	_	Atr	_	_	_	_	_	(12)
+16	gemeinsamen	gemeinsam	_	AAFS3----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_
+17	Interesse	interesse	_	NNNS3----------	_	_	_	14	_	Adv	_	_	_	_	_	_
+18	um	um	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_
+19	Stabilität	stabilität	_	NNFS4----------	_	_	_	18	_	Obj	_	_	_	_	_	_
+20	zu	zu	_	TT-------------	_	_	_	21	_	AuxV	_	_	_	_	_	_
+21	bemühen	bemühen	_	Vf-------------	_	_	_	12	_	NR	_	_	_	_	_	_
+22	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Pakistan	pakistan	_	NNNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	(1)	a_tree-de_src-s34-n802
-2	muss	muss	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s34-n803
-3	in	in	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s34-n804
-4	der	der	_	PZFS3----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s34-n805
-5	Lage	lage	_	NNFS3----------	_	_	_	3	_	Adv	_	_	_	_	_	_	a_tree-de_src-s34-n806
-6	sein	sein	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s34-n807
-7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s34-n808
-8	sich	sich	_	P6-P4--3-------	_	_	_	14	_	Obj	_	_	_	_	_	_	a_tree-de_src-s34-n809
-9	intern	intern	_	ACXX-----1-----	_	_	_	14	_	Adv	_	_	_	_	_	_	a_tree-de_src-s34-n810
-10	auf	auf	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s34-n811
-11	seine	sein	_	PSFS4-X3-------	_	_	_	12	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s34-n812
-12	Zukunft	zukunft	_	NNFS4----------	_	_	_	10	_	Obj	_	_	_	_	_	_	a_tree-de_src-s34-n813
-13	zu	zu	_	TT-------------	_	_	_	14	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s34-n814
-14	konzentrieren	konzentrieren	_	Vf-------------	_	_	_	5	_	Obj	_	_	_	_	_	_	a_tree-de_src-s34-n815
-15	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s34-n816
+1	Pakistan	pakistan	_	NNNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	(1)
+2	muss	muss	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	in	in	_	RR--X----------	_	_	_	6	_	AuxP	_	_	_	_	_	_
+4	der	der	_	PZFS3----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+5	Lage	lage	_	NNFS3----------	_	_	_	3	_	Adv	_	_	_	_	_	_
+6	sein	sein	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_
+7	,	--	_	Z:-------------	_	_	_	6	_	AuxX	_	_	_	_	_	_
+8	sich	sich	_	P6-P4--3-------	_	_	_	14	_	Obj	_	_	_	_	_	_
+9	intern	intern	_	ACXX-----1-----	_	_	_	14	_	Adv	_	_	_	_	_	_
+10	auf	auf	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_
+11	seine	sein	_	PSFS4-X3-------	_	_	_	12	_	Atr	_	_	_	_	_	(1)
+12	Zukunft	zukunft	_	NNFS4----------	_	_	_	10	_	Obj	_	_	_	_	_	_
+13	zu	zu	_	TT-------------	_	_	_	14	_	AuxV	_	_	_	_	_	_
+14	konzentrieren	konzentrieren	_	Vf-------------	_	_	_	5	_	Obj	_	_	_	_	_	_
+15	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Finanziell	finanziell	_	ACXX-----1-----	_	_	_	2	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s35-n817
-2	zahlungsunfähig	zahlungsunfähig	_	ACXX-----1-----	_	_	_	5	_	Adv	_	_	_	_	_	_	a_tree-de_src-s35-n818
-3	und	und	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_	a_tree-de_src-s35-n819
-4	politisch	politisch	_	ACXX-----1-----	_	_	_	3	_	NR	_	_	_	_	_	_	a_tree-de_src-s35-n820
-5	paralysiert	paralysieren	_	VpXX---XX------	_	_	_	7	_	Adv	_	_	_	_	_	_	a_tree-de_src-s35-n821
-6	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s35-n822
-7	braucht	brauchen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s35-n823
-8	es	es	_	PPNS1--3-------	_	_	_	7	_	Sb	_	_	_	_	_	_	a_tree-de_src-s35-n824
-9	internationale	international	_	AAYP4----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s35-n825
-10	Hilfe	hilfe	_	NNFS4----------	_	_	_	7	_	Obj	_	_	_	_	_	_	a_tree-de_src-s35-n826
-11	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s35-n827
-12	um	um	_	J,-------------	_	_	_	7	_	AuxC	_	_	_	_	_	_	a_tree-de_src-s35-n828
-13	seinen	sein	_	PSYS4-X3-------	_	_	_	15	_	Atr	_	_	_	_	_	(1)	a_tree-de_src-s35-n829
-14	befreiten	befreit	_	AAYS4----1-----	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s35-n830
-15	Stammesgebieten	stammesgebiet	_	NNYS4----------	_	_	_	31	_	Obj	_	_	_	_	_	_	a_tree-de_src-s35-n831
-16	Entwicklung	entwicklung	_	NNFS4----------	_	_	_	15	_	Atr	_	_	_	_	_	_	a_tree-de_src-s35-n832
-17	und	und	_	J^-------------	_	_	_	15	_	Coord	_	_	_	_	_	_	a_tree-de_src-s35-n833
-18	den	der	_	PZYS4----------	_	_	_	22	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s35-n834
-19	dort	dort	_	Db-------------	_	_	_	20	_	AuxZ	_	_	_	_	_	_	a_tree-de_src-s35-n835
-20	lebenden	lebend	_	AAYS4----1-----	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s35-n836
-21	jungen	jung	_	AAYS4----1-----	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s35-n837
-22	Menschen	mensch	_	NNYS4----------	_	_	_	17	_	NR	_	_	_	_	_	_	a_tree-de_src-s35-n838
-23	–	–	_	NNXXX----------	_	_	_	24	_	Atr	_	_	_	_	_	_	a_tree-de_src-s35-n839
-24	65%	65%	_	NNXXX----------	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s35-n840
-25	%	%	_	NNNXX----------	_	_	_	22	_	Apposition	_	_	_	_	_	_	a_tree-de_src-s35-n841
-26	der	der	_	PZFS2----------	_	_	_	27	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s35-n842
-27	Bevölkerung	bevölkerung	_	NNFS2----------	_	_	_	25	_	Atr	_	_	_	_	_	_	a_tree-de_src-s35-n843
-28	–	–	_	PZXXX----------	_	_	_	31	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s35-n844
-29	Hoffnung	hoffnung	_	NNFS3----------	_	_	_	28	_	Adv	_	_	_	_	_	_	a_tree-de_src-s35-n845
-30	zu	zu	_	TT-------------	_	_	_	31	_	AuxV	_	_	_	_	_	_	a_tree-de_src-s35-n846
-31	bringen	bringen	_	Vf-------------	_	_	_	12	_	Adv	_	_	_	_	_	_	a_tree-de_src-s35-n847
-32	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s35-n848
+1	Finanziell	finanziell	_	ACXX-----1-----	_	_	_	2	_	AuxZ	_	_	_	_	_	_
+2	zahlungsunfähig	zahlungsunfähig	_	ACXX-----1-----	_	_	_	5	_	Adv	_	_	_	_	_	_
+3	und	und	_	J^-------------	_	_	_	2	_	Coord	_	_	_	_	_	_
+4	politisch	politisch	_	ACXX-----1-----	_	_	_	3	_	NR	_	_	_	_	_	_
+5	paralysiert	paralysieren	_	VpXX---XX------	_	_	_	7	_	Adv	_	_	_	_	_	_
+6	,	--	_	Z:-------------	_	_	_	5	_	AuxX	_	_	_	_	_	_
+7	braucht	brauchen	_	VB-S---3P------	_	_	_	0	_	Pred	_	_	_	_	_	_
+8	es	es	_	PPNS1--3-------	_	_	_	7	_	Sb	_	_	_	_	_	_
+9	internationale	international	_	AAYP4----1-----	_	_	_	10	_	Atr	_	_	_	_	_	_
+10	Hilfe	hilfe	_	NNFS4----------	_	_	_	7	_	Obj	_	_	_	_	_	_
+11	,	--	_	Z:-------------	_	_	_	12	_	AuxX	_	_	_	_	_	_
+12	um	um	_	J,-------------	_	_	_	7	_	AuxC	_	_	_	_	_	_
+13	seinen	sein	_	PSYS4-X3-------	_	_	_	15	_	Atr	_	_	_	_	_	(1)
+14	befreiten	befreit	_	AAYS4----1-----	_	_	_	15	_	Atr	_	_	_	_	_	_
+15	Stammesgebieten	stammesgebiet	_	NNYS4----------	_	_	_	31	_	Obj	_	_	_	_	_	_
+16	Entwicklung	entwicklung	_	NNFS4----------	_	_	_	15	_	Atr	_	_	_	_	_	_
+17	und	und	_	J^-------------	_	_	_	15	_	Coord	_	_	_	_	_	_
+18	den	der	_	PZYS4----------	_	_	_	22	_	AuxA	_	_	_	_	_	_
+19	dort	dort	_	Db-------------	_	_	_	20	_	AuxZ	_	_	_	_	_	_
+20	lebenden	lebend	_	AAYS4----1-----	_	_	_	22	_	Atr	_	_	_	_	_	_
+21	jungen	jung	_	AAYS4----1-----	_	_	_	22	_	Atr	_	_	_	_	_	_
+22	Menschen	mensch	_	NNYS4----------	_	_	_	17	_	NR	_	_	_	_	_	_
+23	–	–	_	NNXXX----------	_	_	_	24	_	Atr	_	_	_	_	_	_
+24	65%	65%	_	NNXXX----------	_	_	_	22	_	Atr	_	_	_	_	_	_
+25	%	%	_	NNNXX----------	_	_	_	22	_	Apposition	_	_	_	_	_	_
+26	der	der	_	PZFS2----------	_	_	_	27	_	AuxA	_	_	_	_	_	_
+27	Bevölkerung	bevölkerung	_	NNFS2----------	_	_	_	25	_	Atr	_	_	_	_	_	_
+28	–	–	_	PZXXX----------	_	_	_	31	_	AuxP	_	_	_	_	_	_
+29	Hoffnung	hoffnung	_	NNFS3----------	_	_	_	28	_	Adv	_	_	_	_	_	_
+30	zu	zu	_	TT-------------	_	_	_	31	_	AuxV	_	_	_	_	_	_
+31	bringen	bringen	_	Vf-------------	_	_	_	12	_	Adv	_	_	_	_	_	_
+32	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Indien	indien	_	NNNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	(10)	a_tree-de_src-s36-n849
-2	würde	werden	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s36-n850
-3	eine	ein	_	PZFS4----------	_	_	_	4	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s36-n851
-4	Stabilisierung	stabilisierung	_	NNFS4----------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s36-n852
-5	Pakistans	pakistan	_	NNNS2----------	_	_	_	4	_	Atr	_	_	_	_	_	_	a_tree-de_src-s36-n853
-6	und	und	_	J^-------------	_	_	_	5	_	Coord	_	_	_	_	_	_	a_tree-de_src-s36-n854
-7	Afghanistans	afghanistan	_	NNNS2----------	_	_	_	6	_	NR	_	_	_	_	_	_	a_tree-de_src-s36-n855
-8	den	der	_	PZYS4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s36-n856
-9	Aufstieg	aufstieg	_	NNYS4----------	_	_	_	13	_	Obj	_	_	_	_	_	_	a_tree-de_src-s36-n857
-10	zur	zu	_	PZFS3----------	_	_	_	9	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s36-n858
-11	globalen	global	_	AAFS3----1-----	_	_	_	12	_	Atr	_	_	_	_	_	_	a_tree-de_src-s36-n859
-12	Wirtschaftsmacht	wirtschaftsmacht	_	NNFS3----------	_	_	_	10	_	Atr	_	_	_	_	_	_	a_tree-de_src-s36-n860
-13	erleichtern	erleichtern	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_	a_tree-de_src-s36-n861
-14	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s36-n862
+1	Indien	indien	_	NNNS1----------	_	_	_	2	_	Sb	_	_	_	_	_	(10)
+2	würde	werden	_	VB-S---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+3	eine	ein	_	PZFS4----------	_	_	_	4	_	AuxA	_	_	_	_	_	_
+4	Stabilisierung	stabilisierung	_	NNFS4----------	_	_	_	13	_	Obj	_	_	_	_	_	_
+5	Pakistans	pakistan	_	NNNS2----------	_	_	_	4	_	Atr	_	_	_	_	_	_
+6	und	und	_	J^-------------	_	_	_	5	_	Coord	_	_	_	_	_	_
+7	Afghanistans	afghanistan	_	NNNS2----------	_	_	_	6	_	NR	_	_	_	_	_	_
+8	den	der	_	PZYS4----------	_	_	_	9	_	AuxA	_	_	_	_	_	_
+9	Aufstieg	aufstieg	_	NNYS4----------	_	_	_	13	_	Obj	_	_	_	_	_	_
+10	zur	zu	_	PZFS3----------	_	_	_	9	_	AuxP	_	_	_	_	_	_
+11	globalen	global	_	AAFS3----1-----	_	_	_	12	_	Atr	_	_	_	_	_	_
+12	Wirtschaftsmacht	wirtschaftsmacht	_	NNFS3----------	_	_	_	10	_	Atr	_	_	_	_	_	_
+13	erleichtern	erleichtern	_	Vf-------------	_	_	_	2	_	Obj	_	_	_	_	_	_
+14	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
-1	Beide	beide	_	PZNP1----------	_	_	_	2	_	Atr	_	_	_	_	_	_	a_tree-de_src-s37-n863
-2	Länder	land	_	NNNP1----------	_	_	_	3	_	Sb	_	_	_	_	_	_	a_tree-de_src-s37-n864
-3	sollten	sollen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_	a_tree-de_src-s37-n865
-4	die	der	_	PZFS4----------	_	_	_	5	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s37-n866
-5	Gelegenheit	gelegenheit	_	NNFS4----------	_	_	_	8	_	Obj	_	_	_	_	_	_	a_tree-de_src-s37-n867
-6	zur	zu	_	PZFS3----------	_	_	_	5	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s37-n868
-7	Zusammenarbeit	zusammenarbeit	_	NNFS3----------	_	_	_	6	_	Atr	_	_	_	_	_	_	a_tree-de_src-s37-n869
-8	nutzen	nutzen	_	Vf-------------	_	_	_	3	_	Obj	_	_	_	_	_	_	a_tree-de_src-s37-n870
-9	,	--	_	Z:-------------	_	_	_	8	_	AuxX	_	_	_	_	_	_	a_tree-de_src-s37-n871
-10	die	der	_	PJFS1----------	_	_	_	24	_	Sb	_	_	_	_	_	_	a_tree-de_src-s37-n872
-11	sich	sich	_	P6-S4--3-------	_	_	_	24	_	Obj	_	_	_	_	_	_	a_tree-de_src-s37-n873
-12	aus	aus	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s37-n874
-13	dem	der	_	PZYS3----------	_	_	_	14	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s37-n875
-14	Feldzug	feldzug	_	NNYS3----------	_	_	_	12	_	Adv	_	_	_	_	_	_	a_tree-de_src-s37-n876
-15	der	der	_	PZFS2----------	_	_	_	17	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s37-n877
-16	pakistanischen	pakistanisch	_	AAFS2----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_	a_tree-de_src-s37-n878
-17	Armee	armee	_	NNFS2----------	_	_	_	14	_	Atr	_	_	_	_	_	_	a_tree-de_src-s37-n879
-18	gegen	gegen	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s37-n880
-19	die	der	_	PZYP4----------	_	_	_	21	_	AuxA	_	_	_	_	_	_	a_tree-de_src-s37-n881
-20	militanten	militant	_	AAYP4----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_	a_tree-de_src-s37-n882
-21	Extremisten	extremist	_	NNYP4----------	_	_	_	18	_	Atr	_	_	_	_	_	_	a_tree-de_src-s37-n883
-22	in	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_	a_tree-de_src-s37-n884
-23	Wasiristan	wasiristan	_	NNNS3----------	_	_	_	22	_	Atr	_	_	_	_	_	_	a_tree-de_src-s37-n885
-24	ergibt	ergeben	_	VB-S---3P------	_	_	_	5	_	Atr	_	_	_	_	_	_	a_tree-de_src-s37-n886
-25	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_	a_tree-de_src-s37-n887
+1	Beide	beide	_	PZNP1----------	_	_	_	2	_	Atr	_	_	_	_	_	_
+2	Länder	land	_	NNNP1----------	_	_	_	3	_	Sb	_	_	_	_	_	_
+3	sollten	sollen	_	VB-P---3R------	_	_	_	0	_	Pred	_	_	_	_	_	_
+4	die	der	_	PZFS4----------	_	_	_	5	_	AuxA	_	_	_	_	_	_
+5	Gelegenheit	gelegenheit	_	NNFS4----------	_	_	_	8	_	Obj	_	_	_	_	_	_
+6	zur	zu	_	PZFS3----------	_	_	_	5	_	AuxP	_	_	_	_	_	_
+7	Zusammenarbeit	zusammenarbeit	_	NNFS3----------	_	_	_	6	_	Atr	_	_	_	_	_	_
+8	nutzen	nutzen	_	Vf-------------	_	_	_	3	_	Obj	_	_	_	_	_	_
+9	,	--	_	Z:-------------	_	_	_	8	_	AuxX	_	_	_	_	_	_
+10	die	der	_	PJFS1----------	_	_	_	24	_	Sb	_	_	_	_	_	_
+11	sich	sich	_	P6-S4--3-------	_	_	_	24	_	Obj	_	_	_	_	_	_
+12	aus	aus	_	RR--X----------	_	_	_	24	_	AuxP	_	_	_	_	_	_
+13	dem	der	_	PZYS3----------	_	_	_	14	_	AuxA	_	_	_	_	_	_
+14	Feldzug	feldzug	_	NNYS3----------	_	_	_	12	_	Adv	_	_	_	_	_	_
+15	der	der	_	PZFS2----------	_	_	_	17	_	AuxA	_	_	_	_	_	_
+16	pakistanischen	pakistanisch	_	AAFS2----1-----	_	_	_	17	_	Atr	_	_	_	_	_	_
+17	Armee	armee	_	NNFS2----------	_	_	_	14	_	Atr	_	_	_	_	_	_
+18	gegen	gegen	_	RR--X----------	_	_	_	14	_	AuxP	_	_	_	_	_	_
+19	die	der	_	PZYP4----------	_	_	_	21	_	AuxA	_	_	_	_	_	_
+20	militanten	militant	_	AAYP4----1-----	_	_	_	21	_	Atr	_	_	_	_	_	_
+21	Extremisten	extremist	_	NNYP4----------	_	_	_	18	_	Atr	_	_	_	_	_	_
+22	in	in	_	RR--X----------	_	_	_	21	_	AuxP	_	_	_	_	_	_
+23	Wasiristan	wasiristan	_	NNNS3----------	_	_	_	22	_	Atr	_	_	_	_	_	_
+24	ergibt	ergeben	_	VB-S---3P------	_	_	_	5	_	Atr	_	_	_	_	_	_
+25	.	--	_	Z:-------------	_	_	_	0	_	AuxK	_	_	_	_	_	_
 
 #end document 002_de
