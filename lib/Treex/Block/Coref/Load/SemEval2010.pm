@@ -9,6 +9,8 @@ use Treex::Block::W2A::DE::Tokenize;
 
 extends 'Treex::Core::Block';
 
+has 'word_col' => ( is => 'ro', isa => 'Int', default => 3 );
+has 'coref_col' => ( is => 'ro', isa => 'Int', default => 11 );
 has 'from_pattern' => ( 
     is => 'ro', 
     isa => 'Str', 
@@ -19,7 +21,7 @@ has 'from_pattern' => (
 
 sub _extract_coref_info {
     my ($coref_info_str) = @_;
-    return ([], []) if ($coref_info_str eq '-');
+    return ([], []) if (!defined $coref_info_str || $coref_info_str =~ /^-?$/);
     my @coref_info = split /\|/, $coref_info_str;
     my @start_idxs = map {$_ =~ /\((\d+)/; $1} grep {$_ =~ /\(\d+/} @coref_info;
     my @end_idxs = map {$_ =~ /(\d+)\)/; $1} grep {$_ =~ /\d+\)/} @coref_info;
@@ -61,9 +63,9 @@ sub _build_annotation {
         else {
             my @cols = split /\t/, $_;
             # store only the form (col 3) and extract start and end from the coref info (col 11)
-            my ($start_l, $end_l) = _extract_coref_info($cols[11]);
+            my ($start_l, $end_l) = _extract_coref_info($cols[$self->coref_col]);
             if (defined $tokenizer) {
-                my $wordstr = $cols[3];
+                my $wordstr = $cols[$self->word_col];
                 $wordstr =~ s/-LRB-/(/g;
                 $wordstr =~ s/-RRB-/)/g;
                 $wordstr =~ s/''/``/g;
@@ -77,7 +79,7 @@ sub _build_annotation {
                 }
             }
             else {
-                push @curr_sent, [$cols[3], $start_l, $end_l];
+                push @curr_sent, [$cols[$self->word_col], $start_l, $end_l];
             }
         }
     }
@@ -89,7 +91,9 @@ sub process_document {
     my ($self, $doc) = @_;
     my @annot = $self->_build_annotation($doc);
 
-    my @atrees = map {$_->get_tree($self->language, 'a', $self->selector)} $doc->get_bundles;
+
+    my @atrees = grep { scalar($_->get_descendants({ordered => 1})) > 0 } map {$_->get_tree($self->language, 'a', $self->selector)} $doc->get_bundles;
+
     foreach my $atree (@atrees) {
         my @annot_sent = @{ shift @annot };
 
