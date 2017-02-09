@@ -3,97 +3,120 @@ use Moose;
 use Treex::Core::Common;
 use Data::Printer;
 
-use Treex::Tool::Coreference::NodeFilter;
-
 extends 'Treex::Core::Block';
 
-sub process_tnode {
-    my ($self, $tnode) = @_;
+sub project_coref_from {
+    my ($self, $tnode, $max_entity_num) = @_;
 
     my ($ante) = $tnode->get_coref_nodes;
-    return if (!defined $ante);
+    return $max_entity_num if (!defined $ante);
+
+    my ($anaph_start, $anaph_end) = $self->get_mention_anodes($tnode);
+    my ($ante_start, $ante_end) = $self->get_mention_anodes($ante, $anaph_start);
+    return $max_entity_num if (!defined $anaph_start || !defined $anaph_end || !defined $ante_start || !defined $ante_end);
+
+    my $anaph_entity_num = get_entity_num($anaph_start, $anaph_end);
+    my $ante_entity_num = get_entity_num($ante_start, $ante_end);
+
+    return $max_entity_num if (defined $anaph_entity_num && defined $ante_entity_num);
+    if (defined $ante_entity_num) {
+        set_entity_to_mention($anaph_start, $anaph_end, $ante_entity_num);
+        my $mention = join " ", map {$_->form} ($anaph_start, $anaph_start->get_nodes_between($anaph_end), ($anaph_start != $anaph_end ? $anaph_end : ()) );
+        log_info "Setting ante number $ante_entity_num to anaph mention: $mention";
+    }
+    elsif (defined $anaph_entity_num) {
+        set_entity_to_mention($ante_start, $ante_end, $anaph_entity_num);
+        my $mention = join " ", map {$_->form} ($ante_start, $ante_start->get_nodes_between($ante_end), ($ante_start != $ante_end ? $ante_end : ()) );
+        log_info "Setting anaph number $anaph_entity_num to ante mention: $mention";
+    }
+    else {
+        $max_entity_num++;
+        set_entity_to_mention($anaph_start, $anaph_end, $max_entity_num);
+        set_entity_to_mention($ante_start, $ante_end, $max_entity_num);
+        my $anaph_mention = join " ", map {$_->form} ($anaph_start, $anaph_start->get_nodes_between($anaph_end), ($anaph_start != $anaph_end ? $anaph_end : ()) );
+        my $ante_mention = join " ", map {$_->form} ($ante_start, $ante_start->get_nodes_between($ante_end), ($ante_start != $ante_end ? $ante_end : ()) );
+        log_info "Setting new number $max_entity_num to anaph mention: $anaph_mention; and ante_mention: $ante_mention";
+    }
+    return $max_entity_num;
+}
+
+sub set_entity_to_mention {
+    my ($start, $end, $entity_num) = @_;
+    my $start_mentions = $start->wild->{coref_mention_start} // [];
+    push @$start_mentions, $entity_num;
+    $start->wild->{coref_mention_start} = $start_mentions;
+    my $end_mentions = $end->wild->{coref_mention_end} // [];
+    push @$end_mentions, $entity_num;
+    $end->wild->{coref_mention_end} = $end_mentions;
+}
+
+sub get_entity_num {
+    my ($start, $end) = @_;
+    my $start_mentions = $start->wild->{coref_mention_start} // [];
+    my $end_mentions = $end->wild->{coref_mention_end} // [];
+    my ($ent_num) = grep { my $start_ent = $_; any {$_ == $start_ent} @$end_mentions } @$start_mentions;
+    return $ent_num;
 }
 
 sub get_mention_anodes {
-    my ($self, $tnode) = @_;
+    my ($self, $tnode, $stop_node) = @_;
 
-    my $ahead = $tnode->get_lex_anode;
-    return if (!defined $ahead);
+    my @mention_nodes = get_desc_no_verbal_subtree($tnode);
 
-    my @allowed_children = grep {$_->tag !~ /^V/} $ahead->get_children;
-    my @whole_mention = sort {$a->ord <=> $b->ord} ($ahead, @allowed_children, map {$_->get_descendants} @allowed_children);
-    return ($whole_mention[0], $whole_mention[-1]);
+    my $head_mention = $mention_nodes[0];
+    my $a_head_mention = $head_mention->get_lex_anode;
+    return if (!defined $a_head_mention);
+    log_info "HEAD: ".$a_head_mention->form;
+
+    my @mention_anodes = grep {defined $_ && ($_ == $a_head_mention || $_->is_descendant_of($a_head_mention))}
+        map { $_->get_anodes } @mention_nodes;
+    @mention_nodes = sort {$a->ord <=> $b->ord} @mention_anodes;
+    if (defined $stop_node && any {$_->get_zone == $stop_node->get_zone} @mention_nodes) {
+        @mention_nodes = grep {$_->ord < $stop_node->ord} @mention_nodes;
+    }
+    return if (!@mention_nodes);
+
+    if ($mention_nodes[-1]->form =~ /^[.,:]$/) {
+        pop @mention_nodes;
+    }
+    return ($mention_nodes[0], $mention_nodes[-1]);
 }
+
+sub get_desc_no_verbal_subtree {
+    my ($tnode) = @_;
+    my @desc = ( $tnode );
+    foreach my $kid ($tnode->get_children) {
+        next if ((defined $kid->formeme && $kid->formeme =~ /^v/) || (defined $kid->gram_sempos && $kid->gram_sempos =~ /^v/));
+        my @subdesc = get_desc_no_verbal_subtree($kid);
+        push @desc, @subdesc;
+    }
+    return @desc;
+}
+
 
 sub process_document {
     my ($self, $doc) = @_;
 
+    my $max_entity_num = 0;
     my @atrees = map {$_->get_tree($self->language, 'a', $self->selector)} $doc->get_bundles;
 
-    my $all_mentions_count = 0;
-    my $projected_mentions_count = 0;
-
-    my %last_ante = ();
     foreach my $atree (@atrees) {
-        my %start_entities = ();
-        my %end_entities = ();
         foreach my $anode ($atree->get_descendants({ordered => 1})) {
-
             my @start_ents = @{$anode->wild->{coref_mention_start} // []};
-            my @end_ents = @{$anode->wild->{coref_mention_end} // []};
-            next if (!@start_ents && !@end_ents);
-            
-            foreach my $start_ent (@start_ents) {
-                my $sq = $start_entities{$start_ent};
-                if (!defined $sq) {
-                    $sq = [];
-                }
-                push @$sq, $anode;
-                $start_entities{$start_ent} = $sq;
-            }
-            foreach my $end_ent (@end_ents) {
-                my $eq = $end_entities{$end_ent};
-                if (!defined $eq) {
-                    $eq = [];
-                }
-                push @$eq, $anode;
-                $end_entities{$end_ent} = $eq;
-            }
-        }
-
-        log_warn "Different entity numbers for openings and closings: ".$atree->get_address
-            if ((join " ", sort keys %start_entities) ne (join " ", sort keys %end_entities));
-        foreach my $ent (keys %start_entities) {
-            my $sq = $start_entities{$ent};
-            my $eq = $end_entities{$ent};
-            log_warn "Different number of openings and closing of entities: ".$atree->get_address if (@$sq != @$eq);
-            for (my $i = 0; $i < @$sq; $i++) {
-                $all_mentions_count++;
-                my $anaph = $self->project_mention_to_tlayer($sq->[$i], $eq->[$i]);
-                next if (!defined $anaph);
-                $projected_mentions_count++;
-                my $ante = $last_ante{$ent};
-                if (defined $ante) {
-                    $anaph->add_coref_text_nodes($ante);
-                }
-                $last_ante{$ent} = $anaph;
+            foreach my $ent_num (@start_ents) {
+                $max_entity_num = $ent_num if ($ent_num > $max_entity_num);
             }
         }
     }
-    print STDERR "Projected mentions: $projected_mentions_count / $all_mentions_count\n";
-}
+    
+    my @ttrees = map {$_->get_tree($self->language, 't', $self->selector)} $doc->get_bundles;
+    foreach my $ttree (@ttrees) {
+        foreach my $tnode ($ttree->get_descendants({ordered => 1})) {
+            $max_entity_num = $self->project_coref_from($tnode, $max_entity_num);
+        }
+    }
 
-sub project_mention_to_tlayer {
-    my ($self, $s_anode, $e_anode) = @_;
-    return if (!defined $s_anode || !defined $e_anode);
-    my @anodes_between = $s_anode->get_nodes_between($e_anode);
-    my @t_head_cands = grep {defined $_} map {$_->get_referencing_nodes('a/lex.rf')} ($s_anode, @anodes_between, $e_anode);
-    my @t_head_nouns = grep {Treex::Tool::Coreference::NodeFilter::matches($_, ['all_anaph_corbon17'])} @t_head_cands;
-    my @t_head_depth_sorted = sort {$a->get_depth <=> $b->get_depth} @t_head_nouns;
-    return if (!@t_head_depth_sorted);
-    return $t_head_depth_sorted[0];
 }
-
 
 1;
 
