@@ -4,11 +4,19 @@
 DEV=1
 # there is no data for (DEV=2 && L2=de)
 
-TEST_DATA=data/official/data/sample_annotation/text0$(L2).conll
+INPUT_PATTERN=text0$(L2)
+DEV=1
 ifeq ($(DEV),0)
-TEST_DATA=data/official/data/test/$(L2)/*.conll
+INPUT_PATTERN=*_$(L2)
 else ifeq ($(DEV),2)
-TEST_DATA=/home/mnovak/projects/gacr2016/News-Commentary11/corbon17-train-data/txt_to_conll/$(L2)/*.conll
+INPUT_PATTERN=0{1,2,3,4,5}
+endif
+
+TEST_DATA=data/official/data/sample_annotation/$(INPUT_PATTERN).conll
+ifeq ($(DEV),0)
+TEST_DATA=data/official/data/test/$(L2)/$(INPUT_PATTERN).conll
+else ifeq ($(DEV),2)
+TEST_DATA=/home/mnovak/projects/gacr2016/News-Commentary11/corbon17-train-data/txt_to_conll/$(L2)/$(INPUT_PATTERN).conll
 endif
 
 TESTCR_DIR=data/test_cr/$(L2)
@@ -64,14 +72,6 @@ NEW_TRY  := $(RUNS_DIR)/$(NEW_NUM)_$(DATE)
 
 UC_L2:=$(shell echo $(L2) | tr a-z A-Z)
 
-INPUT_PATTERN=text0$(L2)
-DEV=1
-ifeq ($(DEV),0)
-INPUT_PATTERN=*_$(L2)
-else ifeq ($(DEV),2)
-INPUT_PATTERN=0{1,2,3,4,5}
-endif
-
 ifeq ($(L2),ru)
 REFL_POSS_PRON_BLOCK=Coref::RU::ReflPossPron::Resolve
 endif
@@ -99,11 +99,16 @@ SCORER=/net/work/people/mnovak/tools/x86_64/coref_scorer/v8.01/scorer.pl
 eval_test :
 	mkdir -p $(NEW_TRY)/eval
 	ls $(TEST_DATA) | sort | xargs cat | sed 's/(__); __/text0$(L2)/' > $(NEW_TRY)/eval/all.key.conll
-	find $(NEW_TRY)/resolve/ -name '*.conll' | sort | xargs cat | cut --complement -f18 > $(NEW_TRY)/eval/all.response.conll
+	ls $(NEW_TRY)/resolve/$(INPUT_PATTERN).conll | sort | xargs cat | cut --complement -f18 > $(NEW_TRY)/eval/all.response.conll
 	$(SCORER) all $(NEW_TRY)/eval/all.key.conll $(NEW_TRY)/eval/all.response.conll > $(NEW_TRY)/eval/score.txt
 	fscore_avg=`cat $(NEW_TRY)/eval/score.txt | grep Coreference | head -n4 | sed '3d' | cut -f3 | cut -f2 -d' ' | cut -f1 -d'%' | awk '{ total += $$1; count++ } END { print total/count }'`; \
 	desc=`cat $(NEW_TRY)/description`; \
 	echo -e "$(DATE)\t$$fscore_avg\t$(NEW_TRY)\t$$desc" >> results.$(L2).txt
+
+eval_test-%:
+	export new_try=`ls -d $(RUNS_DIR)/$*_*` && \
+	make $(@:-$*=) NEW_NUM=$* NEW_TRY=$$new_try DATE=`echo $$new_try | cut -d_ -f2-`
+
 
 ############################################### ANALYSIS #################################################
 ################ MODEL ABLATION - RUN THE EVALUATION EVERYTIME WITH ONE RESOLVER LEFT OUT ################
