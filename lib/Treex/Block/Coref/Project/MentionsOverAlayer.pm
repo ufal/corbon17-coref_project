@@ -6,9 +6,9 @@ use Data::Printer;
 extends 'Treex::Core::Block';
 
 has 'language' => ( is => 'ro', isa => 'Str', required => 1 );
-has 'selector' => ( is => 'ro', isa => 'Str', required => 1 );
+has 'selector' => ( is => 'ro', isa => 'Str', required => 1, default => '' );
 has 'to_language' => ( is => 'ro', isa => 'Str', required => 1 );
-has 'to_selector' => ( is => 'ro', isa => 'Str', required => 1 );
+has 'to_selector' => ( is => 'ro', isa => 'Str', required => 1, default => '' );
 
 sub process_atree {
     my ($self, $atree) = @_;
